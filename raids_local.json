@@ -7,7 +7,8 @@
     "Terrain": [
       "Outdoor",
       "Street"
-    ]
+    ],
+    "ImageSlug": "Binah"
   },
   {
     "Id": "Chesed",
@@ -17,7 +18,8 @@
     "Terrain": [
       "Outdoor",
       "Indoor"
-    ]
+    ],
+    "ImageSlug": "Chesed"
   },
   {
     "Id": "ShiroKuro",
@@ -27,7 +29,8 @@
     "Terrain": [
       "Street",
       "Indoor"
-    ]
+    ],
+    "ImageSlug": "ShiroKuro"
   },
   {
     "Id": "Hieronymus",
@@ -37,7 +40,8 @@
     "Terrain": [
       "Street",
       "Indoor"
-    ]
+    ],
+    "ImageSlug": "Hieronymus"
   },
   {
     "Id": "Kaiten",
@@ -47,7 +51,8 @@
     "Terrain": [
       "Street",
       "Outdoor"
-    ]
+    ],
+    "ImageSlug": "KaitenFxMk0"
   },
   {
     "Id": "Perorodzilla",
@@ -57,7 +62,8 @@
     "Terrain": [
       "Indoor",
       "Outdoor"
-    ]
+    ],
+    "ImageSlug": "Perorodzilla"
   },
   {
     "Id": "Hod",
@@ -67,7 +73,8 @@
     "Terrain": [
       "Street",
       "Indoor"
-    ]
+    ],
+    "ImageSlug": "Hod"
   },
   {
     "Id": "Goz",
@@ -77,7 +84,8 @@
     "Terrain": [
       "Indoor",
       "Street"
-    ]
+    ],
+    "ImageSlug": "Goz"
   },
   {
     "Id": "Gregorius",
@@ -86,7 +94,8 @@
     "ArmorType": "LightArmor",
     "Terrain": [
       "Indoor"
-    ]
+    ],
+    "ImageSlug": "Gregorius"
   },
   {
     "Id": "HoverCraft",
@@ -95,7 +104,8 @@
     "ArmorType": "HeavyArmor",
     "Terrain": [
       "Outdoor"
-    ]
+    ],
+    "ImageSlug": "HoverCraft"
   },
   {
     "Id": "Kurokage",
@@ -104,20 +114,23 @@
     "ArmorType": "ElasticArmor",
     "Terrain": [
       "Indoor"
-    ]
+    ],
+    "ImageSlug": "Kurokage"
   },
   {
     "Id": "Geburah",
     "PathName": "Geburah",
     "Name": "Geburah",
     "ArmorType": "",
-    "Terrain": []
+    "Terrain": [],
+    "ImageSlug": "Geburah"
   },
   {
     "Id": "Yesod",
     "PathName": "Yesod",
     "Name": "Yesod",
     "ArmorType": "",
-    "Terrain": []
+    "Terrain": [],
+    "ImageSlug": "Yesod"
   }
 ]

@@ -118,10 +118,10 @@ img.avatar.broken{opacity:0}
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.4.1 · 253 名全角色本地版</div>
+    <div class="small">V4.4.2 · 圖片修正版</div>
   </div>
-  <div id="status" class="status">V4.4.1 正在載入 253 名本地學生資料…</div>
-  <div class="small">V4.4：253 名學生與 13 個 Boss 直接存在 GitHub Pages；完全離線仍可搜尋與編隊。線上 SchaleDB 僅補充技能、角色類型與翻譯。</div>
+  <div id="status" class="status">V4.4.2 正在載入角色圖片資料…</div>
+  <div class="small">V4.4.2：253 名學生本地化；其中 131 名角色已綁定 SchaleDB 真實圖片 ID。較新的角色會再嘗試現行 SchaleDB 圖片。</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -273,13 +273,17 @@ const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function studentImg(id){
   const s=students.find(x=>String(x.Id)===String(id));
-  if(s?._imageSlug) return `${SITE_IMG}/student/icon/${s._imageSlug}.webp`;
-  return `${SITE_IMG}/student/icon/${id}.webp`;
+  if(s?.ImageId) return `${RAW_IMG}/student/collection/${s.ImageId}.webp`;
+  // Newer characters not present in archived filename map: try current SchaleDB slug.
+  const slug=(s?.PathName||s?.EnglishName||'').toLowerCase()
+    .replace(/\*/g,'_').replace(/\s*\((.*?)\)\s*/g,'_$1')
+    .replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'');
+  return slug ? `${SITE_IMG}/student/icon/${slug}.webp` : '';
 }
 function studentImgFallback(id){
   const s=students.find(x=>String(x.Id)===String(id));
-  if(s?._imageSlug) return `${SITE_IMG}/student/${s._imageSlug}.webp`;
-  return `${RAW_IMG}/student/icon/${id}.webp`;
+  if(s?.ImageId) return `${RAW_IMG}/student/icon/${s.ImageId}.webp`;
+  return '';
 }
 const skillImg=icon=>icon?`${SITE_IMG}/skill/${icon}.webp`:'';
 const skillImgFallback=icon=>icon?`${RAW_IMG}/skill/${icon}.webp`:'';
@@ -404,23 +408,13 @@ function go(view){
 document.querySelectorAll('.bottom-nav button').forEach(b=>b.onclick=()=>go(b.dataset.view));
 
 function bossImageCandidates(r){
-  const vals=[
-    r?.PathName||'',
-    r?.GroupName||'',
-    (r?.PathName||'').replace(/_Colour$/,''),
-    (r?.GroupName||'').replace(/_Colour$/,'')
-  ].filter(Boolean);
-  const exactBG=(r?.IconBG||'').replace(/_LobbyBG$/,'_Lobby');
-  const out=[];
-  if(exactBG){
-    out.push(`${RAW_IMG}/raid/${exactBG}.png`);
-    out.push(`${SITE_IMG}/raid/${exactBG}.png`);
-  }
-  [...new Set(vals)].forEach(x=>{
-    out.push(`${RAW_IMG}/raid/Boss_Portrait_${x}_Lobby.png`);
-    out.push(`${SITE_IMG}/raid/Boss_Portrait_${x}_Lobby.png`);
-  });
-  return [...new Set(out)];
+  const slug=r?.ImageSlug||r?.PathName||'';
+  if(!slug)return [];
+  return [
+    `${RAW_IMG}/raid/Boss_Portrait_${slug}_Lobby.png`,
+    `${SITE_IMG}/raid/Boss_Portrait_${slug}_Lobby.png`,
+    `${RAW_IMG}/raid/icon/Icon_${slug}.png`
+  ];
 }
 function setImageWithFallback(img,cands){
   let i=0;
@@ -645,7 +639,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.1',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.2',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
@@ -694,7 +688,7 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
     renderBosses();renderTeam();renderStudents();renderTl();
 
     const hasSeia=students.some(s=>(s.EnglishName||'').toLowerCase()==='seia'||String(s.Name).includes('聖亞'));
-    setStatus(`V4.4.1 本地資料完成：${students.length} 名學生｜${raids.length} Boss${hasSeia?'｜聖亞 ✓':''}；遠端資料補充中…`,'ok');
+    setStatus(`V4.4.2 本地資料完成：${students.length} 名學生｜${raids.length} Boss｜已綁定圖片 ${students.filter(s=>s.ImageId).length}${hasSeia?'｜聖亞 ✓':''}`,'ok');
 
     // Optional enrichment only. Local 253 catalog remains authoritative fallback.
     const results=await Promise.allSettled([
@@ -714,10 +708,10 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
     if(rr.length){raids=rr;renderBosses();}
 
     const remoteEnriched=students.filter(s=>s._sourceRegion==='tw'||s._sourceRegion==='jp').length;
-    setStatus(`V4.4.1 載入完成：${students.length} 名學生｜${raids.length} Boss｜遠端補充 ${remoteEnriched}${hasSeia?'｜聖亞 ✓':''}`,'ok');
+    setStatus(`V4.4.2 載入完成：${students.length} 名學生｜${raids.length} Boss｜遠端補充 ${remoteEnriched}${hasSeia?'｜聖亞 ✓':''}`,'ok');
   }catch(e){
     console.error(e);
-    setStatus(`V4.4.1 本地資料檔載入失敗：${e?.message||e}。請確認 students_local.json 與 raids_local.json 已上傳。`,'err');
+    setStatus(`V4.4.2 本地資料檔載入失敗：${e?.message||e}。請確認 students_local.json 與 raids_local.json 已上傳。`,'err');
   }
 })();
 
