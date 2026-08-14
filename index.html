@@ -183,15 +183,19 @@ font-weight:800;font-size:20px;color:#9edfff;background:#203241;border-radius:14
   }
 }
 
+
+.student-empty-state{grid-column:1/-1;padding:28px 12px;text-align:center;color:var(--muted);
+border:1px dashed var(--line);border-radius:14px}
+
 </style>
 </head>
 <body>
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.5.2 · 手機學生清單熱修版</div>
+    <div class="small">V4.5.3 · 手機學生資料顯示修正版</div>
   </div>
-  <div id="status" class="status">V4.5.2 正在載入資料…</div>
+  <div id="status" class="status">V4.5.3 正在載入 253 名學生資料…</div>
   <div class="small">V4.5 · Chrome 桌面三欄版 · iPhone 自動切換</div>
 
   <section id="installHelp" class="panel grid">
@@ -288,7 +292,7 @@ font-weight:800;font-size:20px;color:#9edfff;background:#203241;border-radius:14
         </div>
         <div class="row">
           <select id="regionFilter" style="width:auto;margin:0">
-            <option value="">全部角色</option>
+            <option value="" selected>全部角色</option>
             <option value="tw">國際服</option>
             <option value="jp">日服</option>
           </select>
@@ -667,24 +671,61 @@ function addToTeam(s,forcedType=''){
   setStatus(`已加入 ${s.Name} → ${resolved==='Support'?'SPECIAL':'STRIKER'} ${idx+1}`,'ok');
 }
 function renderStudents(){
-  let q=$('studentSearch').value.trim().toLowerCase(),sf=$('squadFilter').value,rf=$('regionFilter').value,tf=$('tacticFilter').value;
-  let list=students.filter(releasedTW);
-  if(rf==='tw')list=list.filter(s=>(s._regions||[]).includes('tw'));
-  if(rf==='jp')list=list.filter(s=>(s._regions||[]).includes('jp'));
-  if(sf)list=list.filter(s=>s.SquadType===sf);
-  if(tf)list=list.filter(s=>s.TacticRole===tf);
-  if(q)list=list.filter(s=>(s.Name||'').toLowerCase().includes(q)||(s.EnglishName||'').toLowerCase().includes(q)||(s.PathName||'').toLowerCase().includes(q)||(s.DevName||'').toLowerCase().includes(q));
+  let q=$('studentSearch').value.trim().toLowerCase(),
+      sf=$('squadFilter').value,
+      rf=$('regionFilter').value,
+      tf=$('tacticFilter').value;
+
+  // V4.5.3: local 253-student catalog is always the base list.
+  let list=students.slice();
+
+  if(rf==='tw'){
+    list=list.filter(s=>{
+      const regions=s._regions||[];
+      return regions.includes('tw') || s.InternationalReleased===true || !!s.InternationalName;
+    });
+  }
+  if(rf==='jp'){
+    list=list.filter(s=>{
+      const regions=s._regions||[];
+      return regions.includes('jp') || (!regions.length && !!s.EnglishName);
+    });
+  }
+  if(sf) list=list.filter(s=>s.SquadType===sf);
+  if(tf) list=list.filter(s=>s.TacticRole===tf);
+  if(q){
+    list=list.filter(s=>
+      (s.Name||'').toLowerCase().includes(q) ||
+      (s.EnglishName||'').toLowerCase().includes(q) ||
+      (s.PathName||'').toLowerCase().includes(q) ||
+      (s.DevName||'').toLowerCase().includes(q) ||
+      (s.SearchAliases||[]).some(x=>String(x).toLowerCase().includes(q))
+    );
+  }
 
   $('studentCount').textContent=`顯示 ${list.length} / ${students.length} 名學生`;
-  const box=$('studentGrid'); if(!box) return;box.innerHTML='';
+
+  const box=$('studentGrid');
+  if(!box) return;
+  box.innerHTML='';
+
+  if(!list.length){
+    const empty=document.createElement('div');
+    empty.className='student-empty-state';
+    empty.textContent=`目前篩選結果為 0；本地學生資料共 ${students.length} 名`;
+    box.appendChild(empty);
+    return;
+  }
 
   list.forEach(s=>{
     const b=document.createElement('button');
     b.type='button';
     b.className='student-pick card'+(teamHas(s.Id)?' in-team':'');
+    b.dataset.studentId=String(s.Id);
     b.innerHTML=`<span class="avatar-wrap"><img class="avatar" src="${studentImg(s.Id)}" alt="${esc(s.Name)}"></span>
       <div class="student-name"><b>${esc(s.Name)}</b></div>
       <div class="student-type">${squadLabel(s.SquadType)} · ${tacticRoleLabel(s.TacticRole)} · ${esc(bulletMap[s.BulletType]||s.BulletType||'')} · ${regionLabel(s)}</div>`;
+
     b.onclick=()=>{
       if(teamHas(s.Id)){
         showStudent(s);
@@ -693,11 +734,13 @@ function renderStudents(){
       }
       addToTeam(s);
     };
+
     const av=b.querySelector('img.avatar');
     if(av) setupStudentImageFallback(av,s.Id);
     box.appendChild(b);
   });
 }
+
 function showStudent(s){
   selectedStudent=s;$('studentDetail').classList.remove('hidden');
   $('detailAvatar').src=studentImg(s.Id);setupStudentImageFallback($('detailAvatar'),s.Id);$('detailName').textContent=s.Name;
@@ -763,7 +806,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.5.2',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.5.3',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
@@ -807,7 +850,7 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
 (async()=>{
   try{
     // 1) Local data MUST load first so UI is never empty.
-    setStatus('V4.5.2 正在載入資料…');
+    setStatus('V4.5.3 正在載入 253 名學生資料…');
 
     const local=await loadLocalCatalog();
     students=mergeStudentCatalog([],[],local.students);
@@ -973,6 +1016,32 @@ function ensureMobileStudentList(){
 
 window.addEventListener('DOMContentLoaded',ensureMobileStudentList);
 window.addEventListener('load',ensureMobileStudentList);
+
+
+function v453ShowAllMobileStudents(){
+  if(window.innerWidth>=980) return;
+
+  const region=document.getElementById('regionFilter');
+  const squad=document.getElementById('squadFilter');
+  const tactic=document.getElementById('tacticFilter');
+
+  if(region) region.value='';
+  if(squad) squad.value='';
+  if(tactic) tactic.value='';
+
+  try{
+    if(typeof renderStudents==='function') renderStudents();
+  }catch(e){
+    console.error('V4.5.3 renderStudents failed',e);
+  }
+}
+
+window.addEventListener('DOMContentLoaded',()=>{
+  setTimeout(v453ShowAllMobileStudents,100);
+  setTimeout(v453ShowAllMobileStudents,600);
+  setTimeout(v453ShowAllMobileStudents,1600);
+});
+window.addEventListener('load',()=>setTimeout(v453ShowAllMobileStudents,100));
 
 </script>
 </body>
