@@ -22,7 +22,8 @@
       }
     ],
     "ImageId": 10000,
-    "LocalChineseName": "亞瑠"
+    "LocalChineseName": "亞瑠",
+    "CurrentSlug": "aru"
   },
   {
     "Id": 300001,
@@ -47,7 +48,8 @@
       }
     ],
     "ImageId": 10001,
-    "LocalChineseName": "艾米"
+    "LocalChineseName": "艾米",
+    "CurrentSlug": "eimi"
   },
   {
     "Id": 300002,
@@ -72,7 +74,8 @@
       }
     ],
     "ImageId": 10002,
-    "LocalChineseName": "晴奈"
+    "LocalChineseName": "晴奈",
+    "CurrentSlug": "haruna"
   },
   {
     "Id": 300003,
@@ -97,7 +100,8 @@
       }
     ],
     "ImageId": 10003,
-    "LocalChineseName": "日步美"
+    "LocalChineseName": "日步美",
+    "CurrentSlug": "hifumi"
   },
   {
     "Id": 300004,
@@ -122,7 +126,8 @@
       }
     ],
     "ImageId": 10004,
-    "LocalChineseName": "陽奈"
+    "LocalChineseName": "陽奈",
+    "CurrentSlug": "hina"
   },
   {
     "Id": 300005,
@@ -147,7 +152,8 @@
       }
     ],
     "ImageId": 10005,
-    "LocalChineseName": "星野"
+    "LocalChineseName": "星野",
+    "CurrentSlug": "hoshino"
   },
   {
     "Id": 300006,
@@ -172,7 +178,8 @@
       }
     ],
     "ImageId": 10006,
-    "LocalChineseName": "伊織"
+    "LocalChineseName": "伊織",
+    "CurrentSlug": "iori"
   },
   {
     "Id": 300007,
@@ -197,7 +204,8 @@
       }
     ],
     "ImageId": 10007,
-    "LocalChineseName": "真紀"
+    "LocalChineseName": "真紀",
+    "CurrentSlug": "maki"
   },
   {
     "Id": 300008,
@@ -222,7 +230,8 @@
       }
     ],
     "ImageId": 10008,
-    "LocalChineseName": "寧瑠"
+    "LocalChineseName": "寧瑠",
+    "CurrentSlug": "neru"
   },
   {
     "Id": 300009,
@@ -247,7 +256,8 @@
       }
     ],
     "ImageId": 10009,
-    "LocalChineseName": "泉"
+    "LocalChineseName": "泉",
+    "CurrentSlug": "izumi"
   },
   {
     "Id": 300010,
@@ -272,7 +282,8 @@
       }
     ],
     "ImageId": 10010,
-    "LocalChineseName": "白子"
+    "LocalChineseName": "白子",
+    "CurrentSlug": "shiroko"
   },
   {
     "Id": 300011,
@@ -297,7 +308,8 @@
       }
     ],
     "ImageId": 10011,
-    "LocalChineseName": "瞬"
+    "LocalChineseName": "瞬",
+    "CurrentSlug": "shun"
   },
   {
     "Id": 300012,
@@ -322,7 +334,8 @@
       }
     ],
     "ImageId": 10012,
-    "LocalChineseName": "菫"
+    "LocalChineseName": "菫",
+    "CurrentSlug": "sumire"
   },
   {
     "Id": 300013,
@@ -347,7 +360,8 @@
       }
     ],
     "ImageId": 10013,
-    "LocalChineseName": "鶴城"
+    "LocalChineseName": "鶴城",
+    "CurrentSlug": "tsurugi"
   },
   {
     "Id": 300014,
@@ -372,7 +386,8 @@
       }
     ],
     "ImageId": 13000,
-    "LocalChineseName": "茜香"
+    "LocalChineseName": "茜香",
+    "CurrentSlug": "akane"
   },
   {
     "Id": 300015,
@@ -397,7 +412,8 @@
       }
     ],
     "ImageId": 13001,
-    "LocalChineseName": "千世"
+    "LocalChineseName": "千世",
+    "CurrentSlug": "chise"
   },
   {
     "Id": 300016,
@@ -422,7 +438,8 @@
       }
     ],
     "ImageId": 13002,
-    "LocalChineseName": "明里"
+    "LocalChineseName": "明里",
+    "CurrentSlug": "akari"
   },
   {
     "Id": 300017,
@@ -447,7 +464,8 @@
       }
     ],
     "ImageId": 13003,
-    "LocalChineseName": "蓮實"
+    "LocalChineseName": "蓮實",
+    "CurrentSlug": "hasumi"
   },
   {
     "Id": 300018,
@@ -472,7 +490,8 @@
       }
     ],
     "ImageId": 13004,
-    "LocalChineseName": "野乃美"
+    "LocalChineseName": "野乃美",
+    "CurrentSlug": "nonomi"
   },
   {
     "Id": 300019,
@@ -497,7 +516,8 @@
       }
     ],
     "ImageId": 13005,
-    "LocalChineseName": "佳世子"
+    "LocalChineseName": "佳世子",
+    "CurrentSlug": "kayoko"
   },
   {
     "Id": 300020,
@@ -522,7 +542,8 @@
       }
     ],
     "ImageId": 13006,
-    "LocalChineseName": "睦月"
+    "LocalChineseName": "睦月",
+    "CurrentSlug": "mutsuki"
   },
   {
     "Id": 300021,
@@ -547,7 +568,8 @@
       }
     ],
     "ImageId": 13007,
-    "LocalChineseName": "淳子"
+    "LocalChineseName": "淳子",
+    "CurrentSlug": "junko"
   },
   {
     "Id": 300022,
@@ -572,7 +594,8 @@
       }
     ],
     "ImageId": 13008,
-    "LocalChineseName": "芹香"
+    "LocalChineseName": "芹香",
+    "CurrentSlug": "serika"
   },
   {
     "Id": 300023,
@@ -597,7 +620,8 @@
       }
     ],
     "ImageId": 13009,
-    "LocalChineseName": "椿"
+    "LocalChineseName": "椿",
+    "CurrentSlug": "tsubaki"
   },
   {
     "Id": 300024,
@@ -622,7 +646,8 @@
       }
     ],
     "ImageId": 13010,
-    "LocalChineseName": "優香"
+    "LocalChineseName": "優香",
+    "CurrentSlug": "yuuka"
   },
   {
     "Id": 300025,
@@ -647,7 +672,8 @@
       }
     ],
     "ImageId": 16000,
-    "LocalChineseName": "遙香"
+    "LocalChineseName": "遙香",
+    "CurrentSlug": "haruka"
   },
   {
     "Id": 300026,
@@ -672,7 +698,8 @@
       }
     ],
     "ImageId": 16001,
-    "LocalChineseName": "明日奈"
+    "LocalChineseName": "明日奈",
+    "CurrentSlug": "asuna"
   },
   {
     "Id": 300027,
@@ -697,7 +724,8 @@
       }
     ],
     "ImageId": 16002,
-    "LocalChineseName": "小鳥"
+    "LocalChineseName": "小鳥",
+    "CurrentSlug": "kotori"
   },
   {
     "Id": 300028,
@@ -722,7 +750,8 @@
       }
     ],
     "ImageId": 16003,
-    "LocalChineseName": "鈴美"
+    "LocalChineseName": "鈴美",
+    "CurrentSlug": "suzumi"
   },
   {
     "Id": 300029,
@@ -747,7 +776,8 @@
       }
     ],
     "ImageId": 16004,
-    "LocalChineseName": "菲娜"
+    "LocalChineseName": "菲娜",
+    "CurrentSlug": "pina"
   },
   {
     "Id": 300030,
@@ -772,7 +802,8 @@
       }
     ],
     "ImageId": 20000,
-    "LocalChineseName": "響"
+    "LocalChineseName": "響",
+    "CurrentSlug": "hibiki"
   },
   {
     "Id": 300031,
@@ -797,7 +828,8 @@
       }
     ],
     "ImageId": 20001,
-    "LocalChineseName": "花凜"
+    "LocalChineseName": "花凜",
+    "CurrentSlug": "karin"
   },
   {
     "Id": 300032,
@@ -822,7 +854,8 @@
       }
     ],
     "ImageId": 20002,
-    "LocalChineseName": "沙耶"
+    "LocalChineseName": "沙耶",
+    "CurrentSlug": "saya"
   },
   {
     "Id": 300033,
@@ -846,7 +879,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "愛莉"
+    "LocalChineseName": "愛莉",
+    "CurrentSlug": "airi"
   },
   {
     "Id": 300034,
@@ -870,7 +904,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "風華"
+    "LocalChineseName": "風華",
+    "CurrentSlug": "fuuka"
   },
   {
     "Id": 300035,
@@ -894,7 +929,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "花江"
+    "LocalChineseName": "花江",
+    "CurrentSlug": "hanae"
   },
   {
     "Id": 300036,
@@ -918,7 +954,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "晴"
+    "LocalChineseName": "晴",
+    "CurrentSlug": "hare"
   },
   {
     "Id": 300037,
@@ -942,7 +979,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "歌原"
+    "LocalChineseName": "歌原",
+    "CurrentSlug": "utaha"
   },
   {
     "Id": 300038,
@@ -966,7 +1004,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "綾音"
+    "LocalChineseName": "綾音",
+    "CurrentSlug": "ayane"
   },
   {
     "Id": 300039,
@@ -990,7 +1029,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "千夏"
+    "LocalChineseName": "千夏",
+    "CurrentSlug": "chinatsu"
   },
   {
     "Id": 300040,
@@ -1014,7 +1054,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "小玉"
+    "LocalChineseName": "小玉",
+    "CurrentSlug": "kotama"
   },
   {
     "Id": 300041,
@@ -1038,7 +1079,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "茱莉"
+    "LocalChineseName": "茱莉",
+    "CurrentSlug": "juri"
   },
   {
     "Id": 300042,
@@ -1062,7 +1104,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "芹奈"
+    "LocalChineseName": "芹奈",
+    "CurrentSlug": "serina"
   },
   {
     "Id": 300043,
@@ -1086,7 +1129,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "志美子"
+    "LocalChineseName": "志美子",
+    "CurrentSlug": "shimiko"
   },
   {
     "Id": 300044,
@@ -1110,7 +1154,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "佳代子"
+    "LocalChineseName": "佳代子",
+    "CurrentSlug": "yoshimi"
   },
   {
     "Id": 300045,
@@ -1135,7 +1180,8 @@
       }
     ],
     "ImageId": 20003,
-    "LocalChineseName": "真白"
+    "LocalChineseName": "真白",
+    "CurrentSlug": "mashiro"
   },
   {
     "Id": 300046,
@@ -1160,7 +1206,8 @@
       }
     ],
     "ImageId": 10014,
-    "LocalChineseName": "伊樹菜"
+    "LocalChineseName": "伊樹菜",
+    "CurrentSlug": "izuna"
   },
   {
     "Id": 300047,
@@ -1184,7 +1231,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "靜子"
+    "LocalChineseName": "靜子",
+    "CurrentSlug": "shizuko"
   },
   {
     "Id": 300048,
@@ -1209,7 +1257,8 @@
       }
     ],
     "ImageId": 10015,
-    "LocalChineseName": "愛麗絲"
+    "LocalChineseName": "愛麗絲",
+    "CurrentSlug": "aris"
   },
   {
     "Id": 300049,
@@ -1234,7 +1283,8 @@
       }
     ],
     "ImageId": 10016,
-    "LocalChineseName": "綠"
+    "LocalChineseName": "綠",
+    "CurrentSlug": "midori"
   },
   {
     "Id": 300050,
@@ -1259,7 +1309,8 @@
       }
     ],
     "ImageId": 13011,
-    "LocalChineseName": "桃井"
+    "LocalChineseName": "桃井",
+    "CurrentSlug": "momoi"
   },
   {
     "Id": 300051,
@@ -1284,7 +1335,8 @@
       }
     ],
     "ImageId": 10017,
-    "LocalChineseName": "切里諾"
+    "LocalChineseName": "切里諾",
+    "CurrentSlug": "cherino"
   },
   {
     "Id": 300052,
@@ -1308,7 +1360,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "和香"
+    "LocalChineseName": "和香",
+    "CurrentSlug": "nodoka"
   },
   {
     "Id": 300053,
@@ -1333,7 +1386,8 @@
       }
     ],
     "ImageId": 10018,
-    "LocalChineseName": "柚子"
+    "LocalChineseName": "柚子",
+    "CurrentSlug": "yuzu"
   },
   {
     "Id": 300054,
@@ -1358,7 +1412,8 @@
       }
     ],
     "ImageId": 10019,
-    "LocalChineseName": "梓"
+    "LocalChineseName": "梓",
+    "CurrentSlug": "azusa"
   },
   {
     "Id": 300055,
@@ -1382,7 +1437,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "花子"
+    "LocalChineseName": "花子",
+    "CurrentSlug": "hanako"
   },
   {
     "Id": 300056,
@@ -1407,7 +1463,8 @@
       }
     ],
     "ImageId": 10020,
-    "LocalChineseName": "小春"
+    "LocalChineseName": "小春",
+    "CurrentSlug": "koharu"
   },
   {
     "Id": 300057,
@@ -1432,7 +1489,8 @@
       }
     ],
     "ImageId": 10021,
-    "LocalChineseName": "梓（泳裝）"
+    "LocalChineseName": "梓（泳裝）",
+    "CurrentSlug": "azusa_swimsuit"
   },
   {
     "Id": 300058,
@@ -1457,7 +1515,8 @@
       }
     ],
     "ImageId": 20004,
-    "LocalChineseName": "真白（泳裝）"
+    "LocalChineseName": "真白（泳裝）",
+    "CurrentSlug": "mashiro_swimsuit"
   },
   {
     "Id": 300059,
@@ -1482,7 +1541,8 @@
       }
     ],
     "ImageId": 16005,
-    "LocalChineseName": "鶴城（泳裝）"
+    "LocalChineseName": "鶴城（泳裝）",
+    "CurrentSlug": "tsurugi_swimsuit"
   },
   {
     "Id": 300060,
@@ -1507,7 +1567,8 @@
       }
     ],
     "ImageId": 20005,
-    "LocalChineseName": "日步美（泳裝）"
+    "LocalChineseName": "日步美（泳裝）",
+    "CurrentSlug": "hifumi_swimsuit"
   },
   {
     "Id": 300061,
@@ -1532,7 +1593,8 @@
       }
     ],
     "ImageId": 10022,
-    "LocalChineseName": "陽奈（泳裝）"
+    "LocalChineseName": "陽奈（泳裝）",
+    "CurrentSlug": "hina_swimsuit"
   },
   {
     "Id": 300062,
@@ -1557,7 +1619,8 @@
       }
     ],
     "ImageId": 10023,
-    "LocalChineseName": "伊織（泳裝）"
+    "LocalChineseName": "伊織（泳裝）",
+    "CurrentSlug": "iori_swimsuit"
   },
   {
     "Id": 300063,
@@ -1582,7 +1645,8 @@
       }
     ],
     "ImageId": 16006,
-    "LocalChineseName": "泉（泳裝）"
+    "LocalChineseName": "泉（泳裝）",
+    "CurrentSlug": "izumi_swimsuit"
   },
   {
     "Id": 300064,
@@ -1607,7 +1671,8 @@
       }
     ],
     "ImageId": 10024,
-    "LocalChineseName": "白子（自行車）"
+    "LocalChineseName": "白子（自行車）",
+    "CurrentSlug": "shiroko_cycling"
   },
   {
     "Id": 300065,
@@ -1632,7 +1697,8 @@
       }
     ],
     "ImageId": 10025,
-    "LocalChineseName": "瞬（幼年）"
+    "LocalChineseName": "瞬（幼年）",
+    "CurrentSlug": "shun_small"
   },
   {
     "Id": 300066,
@@ -1657,7 +1723,8 @@
       }
     ],
     "ImageId": 13012,
-    "LocalChineseName": "桐乃"
+    "LocalChineseName": "桐乃",
+    "CurrentSlug": "kirino"
   },
   {
     "Id": 300067,
@@ -1682,7 +1749,8 @@
       }
     ],
     "ImageId": 20006,
-    "LocalChineseName": "沙耶（私服）"
+    "LocalChineseName": "沙耶（私服）",
+    "CurrentSlug": "saya_casual"
   },
   {
     "Id": 300068,
@@ -1707,7 +1775,8 @@
       }
     ],
     "ImageId": 10026,
-    "LocalChineseName": "寧瑠（兔女郎）"
+    "LocalChineseName": "寧瑠（兔女郎）",
+    "CurrentSlug": "neru_bunny"
   },
   {
     "Id": 300069,
@@ -1732,7 +1801,8 @@
       }
     ],
     "ImageId": 10027,
-    "LocalChineseName": "花凜（兔女郎）"
+    "LocalChineseName": "花凜（兔女郎）",
+    "CurrentSlug": "karin_bunny"
   },
   {
     "Id": 300070,
@@ -1757,7 +1827,8 @@
       }
     ],
     "ImageId": 10028,
-    "LocalChineseName": "明日奈（兔女郎）"
+    "LocalChineseName": "明日奈（兔女郎）",
+    "CurrentSlug": "asuna_bunny"
   },
   {
     "Id": 300071,
@@ -1782,7 +1853,8 @@
       }
     ],
     "ImageId": 10029,
-    "LocalChineseName": "夏"
+    "LocalChineseName": "夏",
+    "CurrentSlug": "natsu"
   },
   {
     "Id": 300072,
@@ -1806,7 +1878,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "瑪麗"
+    "LocalChineseName": "瑪麗",
+    "CurrentSlug": "mari"
   },
   {
     "Id": 300073,
@@ -1831,7 +1904,8 @@
       }
     ],
     "ImageId": 20007,
-    "LocalChineseName": "初音未來"
+    "LocalChineseName": "初音未來",
+    "CurrentSlug": "miku"
   },
   {
     "Id": 300074,
@@ -1856,7 +1930,8 @@
       }
     ],
     "ImageId": 20008,
-    "LocalChineseName": "亞子"
+    "LocalChineseName": "亞子",
+    "CurrentSlug": "ako"
   },
   {
     "Id": 300075,
@@ -1880,7 +1955,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "切里諾（溫泉）"
+    "LocalChineseName": "切里諾（溫泉）",
+    "CurrentSlug": "cherino_onsen"
   },
   {
     "Id": 300076,
@@ -1905,7 +1981,8 @@
       }
     ],
     "ImageId": 10030,
-    "LocalChineseName": "千夏（溫泉）"
+    "LocalChineseName": "千夏（溫泉）",
+    "CurrentSlug": "chinatsu_onsen"
   },
   {
     "Id": 300077,
@@ -1930,7 +2007,8 @@
       }
     ],
     "ImageId": 16007,
-    "LocalChineseName": "巴"
+    "LocalChineseName": "巴",
+    "CurrentSlug": "tomoe"
   },
   {
     "Id": 300078,
@@ -1954,7 +2032,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "和香（溫泉）"
+    "LocalChineseName": "和香（溫泉）",
+    "CurrentSlug": "nodoka_onsen"
   },
   {
     "Id": 300079,
@@ -1979,7 +2058,8 @@
       }
     ],
     "ImageId": 10031,
-    "LocalChineseName": "亞瑠（新年）"
+    "LocalChineseName": "亞瑠（新年）",
+    "CurrentSlug": "aru_newyear"
   },
   {
     "Id": 300080,
@@ -2004,7 +2084,8 @@
       }
     ],
     "ImageId": 10032,
-    "LocalChineseName": "睦月（新年）"
+    "LocalChineseName": "睦月（新年）",
+    "CurrentSlug": "mutsuki_newyear"
   },
   {
     "Id": 300081,
@@ -2028,7 +2109,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "芹香（新年）"
+    "LocalChineseName": "芹香（新年）",
+    "CurrentSlug": "serika_newyear"
   },
   {
     "Id": 300082,
@@ -2053,7 +2135,8 @@
       }
     ],
     "ImageId": 10033,
-    "LocalChineseName": "若藻"
+    "LocalChineseName": "若藻",
+    "CurrentSlug": "wakamo"
   },
   {
     "Id": 300083,
@@ -2078,7 +2161,8 @@
       }
     ],
     "ImageId": 16008,
-    "LocalChineseName": "吹雪"
+    "LocalChineseName": "吹雪",
+    "CurrentSlug": "fubuki"
   },
   {
     "Id": 300084,
@@ -2102,7 +2186,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "瀨名"
+    "LocalChineseName": "瀨名",
+    "CurrentSlug": "sena"
   },
   {
     "Id": 300085,
@@ -2126,7 +2211,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "千尋"
+    "LocalChineseName": "千尋",
+    "CurrentSlug": "chihiro"
   },
   {
     "Id": 300086,
@@ -2151,7 +2237,8 @@
       }
     ],
     "ImageId": 10034,
-    "LocalChineseName": "三森"
+    "LocalChineseName": "三森",
+    "CurrentSlug": "mimori"
   },
   {
     "Id": 300087,
@@ -2176,7 +2263,8 @@
       }
     ],
     "ImageId": 10035,
-    "LocalChineseName": "憂"
+    "LocalChineseName": "憂",
+    "CurrentSlug": "ui"
   },
   {
     "Id": 300088,
@@ -2201,7 +2289,8 @@
       }
     ],
     "ImageId": 10036,
-    "LocalChineseName": "日向"
+    "LocalChineseName": "日向",
+    "CurrentSlug": "hinata"
   },
   {
     "Id": 300089,
@@ -2226,7 +2315,8 @@
       }
     ],
     "ImageId": 10037,
-    "LocalChineseName": "瑪麗娜"
+    "LocalChineseName": "瑪麗娜",
+    "CurrentSlug": "marina"
   },
   {
     "Id": 300090,
@@ -2251,7 +2341,8 @@
       }
     ],
     "ImageId": 10038,
-    "LocalChineseName": "宮子"
+    "LocalChineseName": "宮子",
+    "CurrentSlug": "miyako"
   },
   {
     "Id": 300091,
@@ -2275,7 +2366,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "咲希"
+    "LocalChineseName": "咲希",
+    "CurrentSlug": "saki"
   },
   {
     "Id": 300092,
@@ -2300,7 +2392,8 @@
       }
     ],
     "ImageId": 10039,
-    "LocalChineseName": "美遊"
+    "LocalChineseName": "美遊",
+    "CurrentSlug": "miyu"
   },
   {
     "Id": 300093,
@@ -2324,7 +2417,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "楓"
+    "LocalChineseName": "楓",
+    "CurrentSlug": "kaede"
   },
   {
     "Id": 300094,
@@ -2348,7 +2442,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "伊呂波"
+    "LocalChineseName": "伊呂波",
+    "CurrentSlug": "iroha"
   },
   {
     "Id": 300095,
@@ -2373,7 +2468,8 @@
       }
     ],
     "ImageId": 16009,
-    "LocalChineseName": "美知留"
+    "LocalChineseName": "美知留",
+    "CurrentSlug": "michiru"
   },
   {
     "Id": 300096,
@@ -2398,7 +2494,8 @@
       }
     ],
     "ImageId": 10040,
-    "LocalChineseName": "月詠"
+    "LocalChineseName": "月詠",
+    "CurrentSlug": "tsukuyo"
   },
   {
     "Id": 300097,
@@ -2423,7 +2520,8 @@
       }
     ],
     "ImageId": 10041,
-    "LocalChineseName": "美咲"
+    "LocalChineseName": "美咲",
+    "CurrentSlug": "misaki"
   },
   {
     "Id": 300098,
@@ -2447,7 +2545,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "日和"
+    "LocalChineseName": "日和",
+    "CurrentSlug": "hiyori"
   },
   {
     "Id": 300099,
@@ -2472,7 +2571,8 @@
       }
     ],
     "ImageId": 10042,
-    "LocalChineseName": "敦子"
+    "LocalChineseName": "敦子",
+    "CurrentSlug": "atsuko"
   },
   {
     "Id": 300100,
@@ -2497,7 +2597,8 @@
       }
     ],
     "ImageId": 10043,
-    "LocalChineseName": "若藻（泳裝）"
+    "LocalChineseName": "若藻（泳裝）",
+    "CurrentSlug": "wakamo_swimsuit"
   },
   {
     "Id": 300101,
@@ -2522,7 +2623,8 @@
       }
     ],
     "ImageId": 10044,
-    "LocalChineseName": "野乃美（泳裝）"
+    "LocalChineseName": "野乃美（泳裝）",
+    "CurrentSlug": "nonomi_swimsuit"
   },
   {
     "Id": 300102,
@@ -2546,7 +2648,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "綾音（泳裝）"
+    "LocalChineseName": "綾音（泳裝）",
+    "CurrentSlug": "ayane_swimsuit"
   },
   {
     "Id": 300103,
@@ -2571,7 +2674,8 @@
       }
     ],
     "ImageId": 10045,
-    "LocalChineseName": "星野（泳裝）"
+    "LocalChineseName": "星野（泳裝）",
+    "CurrentSlug": "hoshino_swimsuit"
   },
   {
     "Id": 300104,
@@ -2595,7 +2699,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "靜子（泳裝）"
+    "LocalChineseName": "靜子（泳裝）",
+    "CurrentSlug": "shizuko_swimsuit"
   },
   {
     "Id": 300105,
@@ -2620,7 +2725,8 @@
       }
     ],
     "ImageId": 10046,
-    "LocalChineseName": "伊樹菜（泳裝）"
+    "LocalChineseName": "伊樹菜（泳裝）",
+    "CurrentSlug": "izuna_swimsuit"
   },
   {
     "Id": 300106,
@@ -2645,7 +2751,8 @@
       }
     ],
     "ImageId": 10047,
-    "LocalChineseName": "千世（泳裝）"
+    "LocalChineseName": "千世（泳裝）",
+    "CurrentSlug": "chise_swimsuit"
   },
   {
     "Id": 300107,
@@ -2670,7 +2777,8 @@
       }
     ],
     "ImageId": 10048,
-    "LocalChineseName": "沙織"
+    "LocalChineseName": "沙織",
+    "CurrentSlug": "saori"
   },
   {
     "Id": 300108,
@@ -2694,7 +2802,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "萌繪"
+    "LocalChineseName": "萌繪",
+    "CurrentSlug": "moe"
   },
   {
     "Id": 300109,
@@ -2719,7 +2828,8 @@
       }
     ],
     "ImageId": 10049,
-    "LocalChineseName": "和紗"
+    "LocalChineseName": "和紗",
+    "CurrentSlug": "kazusa"
   },
   {
     "Id": 300110,
@@ -2744,7 +2854,8 @@
       }
     ],
     "ImageId": 10050,
-    "LocalChineseName": "心奈"
+    "LocalChineseName": "心奈",
+    "CurrentSlug": "kokona"
   },
   {
     "Id": 300111,
@@ -2769,7 +2880,8 @@
       }
     ],
     "ImageId": 10051,
-    "LocalChineseName": "歌原（應援團）"
+    "LocalChineseName": "歌原（應援團）",
+    "CurrentSlug": "utaha_cheer"
   },
   {
     "Id": 300112,
@@ -2794,7 +2906,8 @@
       }
     ],
     "ImageId": 10052,
-    "LocalChineseName": "乃愛"
+    "LocalChineseName": "乃愛",
+    "CurrentSlug": "noa"
   },
   {
     "Id": 300113,
@@ -2819,7 +2932,8 @@
       }
     ],
     "ImageId": 16010,
-    "LocalChineseName": "響（應援團）"
+    "LocalChineseName": "響（應援團）",
+    "CurrentSlug": "hibiki_cheer"
   },
   {
     "Id": 300114,
@@ -2843,7 +2957,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "茜香（兔女郎）"
+    "LocalChineseName": "茜香（兔女郎）",
+    "CurrentSlug": "akane_bunny"
   },
   {
     "Id": 300115,
@@ -2868,7 +2983,8 @@
       }
     ],
     "ImageId": 10053,
-    "LocalChineseName": "優香（體育服）"
+    "LocalChineseName": "優香（體育服）",
+    "CurrentSlug": "yuuka_track"
   },
   {
     "Id": 300116,
@@ -2893,7 +3009,8 @@
       }
     ],
     "ImageId": 10054,
-    "LocalChineseName": "瑪麗（體育服）"
+    "LocalChineseName": "瑪麗（體育服）",
+    "CurrentSlug": "mari_track"
   },
   {
     "Id": 300117,
@@ -2918,7 +3035,8 @@
       }
     ],
     "ImageId": 16011,
-    "LocalChineseName": "蓮實（體育服）"
+    "LocalChineseName": "蓮實（體育服）",
+    "CurrentSlug": "hasumi_track"
   },
   {
     "Id": 300118,
@@ -2942,7 +3060,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "日鞠"
+    "LocalChineseName": "日鞠",
+    "CurrentSlug": "himari"
   },
   {
     "Id": 300119,
@@ -2967,7 +3086,8 @@
       }
     ],
     "ImageId": 10055,
-    "LocalChineseName": "時雨"
+    "LocalChineseName": "時雨",
+    "CurrentSlug": "shigure"
   },
   {
     "Id": 300120,
@@ -2992,7 +3112,8 @@
       }
     ],
     "ImageId": 10056,
-    "LocalChineseName": "芹奈（聖誕）"
+    "LocalChineseName": "芹奈（聖誕）",
+    "CurrentSlug": "serina_christmas"
   },
   {
     "Id": 300121,
@@ -3016,7 +3137,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "花江（聖誕）"
+    "LocalChineseName": "花江（聖誕）",
+    "CurrentSlug": "hanae_christmas"
   },
   {
     "Id": 300122,
@@ -3041,7 +3163,8 @@
       }
     ],
     "ImageId": 10057,
-    "LocalChineseName": "晴奈（新年）"
+    "LocalChineseName": "晴奈（新年）",
+    "CurrentSlug": "haruna_newyear"
   },
   {
     "Id": 300123,
@@ -3065,7 +3188,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "風華（新年）"
+    "LocalChineseName": "風華（新年）",
+    "CurrentSlug": "fuuka_newyear"
   },
   {
     "Id": 300124,
@@ -3090,7 +3214,8 @@
       }
     ],
     "ImageId": 16012,
-    "LocalChineseName": "淳子（新年）"
+    "LocalChineseName": "淳子（新年）",
+    "CurrentSlug": "junko_newyear"
   },
   {
     "Id": 300125,
@@ -3115,7 +3240,8 @@
       }
     ],
     "ImageId": 10058,
-    "LocalChineseName": "美禰"
+    "LocalChineseName": "美禰",
+    "CurrentSlug": "mine"
   },
   {
     "Id": 300126,
@@ -3140,7 +3266,8 @@
       }
     ],
     "ImageId": 10059,
-    "LocalChineseName": "彌香"
+    "LocalChineseName": "彌香",
+    "CurrentSlug": "mika"
   },
   {
     "Id": 300127,
@@ -3165,7 +3292,8 @@
       }
     ],
     "ImageId": 10060,
-    "LocalChineseName": "惠"
+    "LocalChineseName": "惠",
+    "CurrentSlug": "megu"
   },
   {
     "Id": 300128,
@@ -3189,7 +3317,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "環奈"
+    "LocalChineseName": "環奈",
+    "CurrentSlug": "kanna"
   },
   {
     "Id": 300129,
@@ -3214,7 +3343,8 @@
       }
     ],
     "ImageId": 10061,
-    "LocalChineseName": "櫻子"
+    "LocalChineseName": "櫻子",
+    "CurrentSlug": "sakurako"
   },
   {
     "Id": 300130,
@@ -3239,7 +3369,8 @@
       }
     ],
     "ImageId": 10062,
-    "LocalChineseName": "時"
+    "LocalChineseName": "時",
+    "CurrentSlug": "toki"
   },
   {
     "Id": 300131,
@@ -3263,7 +3394,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "渚"
+    "LocalChineseName": "渚",
+    "CurrentSlug": "nagisa"
   },
   {
     "Id": 300132,
@@ -3288,7 +3420,8 @@
       }
     ],
     "ImageId": 10063,
-    "LocalChineseName": "小雪"
+    "LocalChineseName": "小雪",
+    "CurrentSlug": "koyuki"
   },
   {
     "Id": 300133,
@@ -3313,7 +3446,8 @@
       }
     ],
     "ImageId": 10064,
-    "LocalChineseName": "佳世子（新年）"
+    "LocalChineseName": "佳世子（新年）",
+    "CurrentSlug": "kayoko_newyear"
   },
   {
     "Id": 300134,
@@ -3337,7 +3471,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "遙香（新年）"
+    "LocalChineseName": "遙香（新年）",
+    "CurrentSlug": "haruka_newyear"
   },
   {
     "Id": 300135,
@@ -3362,7 +3497,8 @@
       }
     ],
     "ImageId": 10065,
-    "LocalChineseName": "果穗"
+    "LocalChineseName": "果穗",
+    "CurrentSlug": "kaho"
   },
   {
     "Id": 300136,
@@ -3387,7 +3523,8 @@
       }
     ],
     "ImageId": 10066,
-    "LocalChineseName": "愛麗絲（女僕）"
+    "LocalChineseName": "愛麗絲（女僕）",
+    "CurrentSlug": "aris_maid"
   },
   {
     "Id": 300137,
@@ -3412,7 +3549,8 @@
       }
     ],
     "ImageId": 10067,
-    "LocalChineseName": "時（兔女郎）"
+    "LocalChineseName": "時（兔女郎）",
+    "CurrentSlug": "toki_bunny"
   },
   {
     "Id": 300138,
@@ -3436,7 +3574,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "柚子（女僕）"
+    "LocalChineseName": "柚子（女僕）",
+    "CurrentSlug": "yuzu_maid"
   },
   {
     "Id": 300139,
@@ -3461,7 +3600,8 @@
       }
     ],
     "ImageId": 10068,
-    "LocalChineseName": "玲紗"
+    "LocalChineseName": "玲紗",
+    "CurrentSlug": "reisa"
   },
   {
     "Id": 300140,
@@ -3486,7 +3626,8 @@
       }
     ],
     "ImageId": 10069,
-    "LocalChineseName": "瑠美"
+    "LocalChineseName": "瑠美",
+    "CurrentSlug": "rumi"
   },
   {
     "Id": 300141,
@@ -3511,7 +3652,8 @@
       }
     ],
     "ImageId": 10070,
-    "LocalChineseName": "美奈"
+    "LocalChineseName": "美奈",
+    "CurrentSlug": "mina"
   },
   {
     "Id": 300142,
@@ -3535,7 +3677,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "實梨"
+    "LocalChineseName": "實梨",
+    "CurrentSlug": "minori"
   },
   {
     "Id": 300143,
@@ -3560,7 +3703,8 @@
       }
     ],
     "ImageId": 10071,
-    "LocalChineseName": "宮子（泳裝）"
+    "LocalChineseName": "宮子（泳裝）",
+    "CurrentSlug": "miyako_swimsuit"
   },
   {
     "Id": 300144,
@@ -3585,7 +3729,8 @@
       }
     ],
     "ImageId": 10072,
-    "LocalChineseName": "咲希（泳裝）"
+    "LocalChineseName": "咲希（泳裝）",
+    "CurrentSlug": "saki_swimsuit"
   },
   {
     "Id": 300145,
@@ -3609,7 +3754,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "美遊（泳裝）"
+    "LocalChineseName": "美遊（泳裝）",
+    "CurrentSlug": "miyu_swimsuit"
   },
   {
     "Id": 300146,
@@ -3633,7 +3779,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "白子（泳裝）"
+    "LocalChineseName": "白子（泳裝）",
+    "CurrentSlug": "shiroko_swimsuit"
   },
   {
     "Id": 300147,
@@ -3658,7 +3805,8 @@
       }
     ],
     "ImageId": 10073,
-    "LocalChineseName": "憂（泳裝）"
+    "LocalChineseName": "憂（泳裝）",
+    "CurrentSlug": "ui_swimsuit"
   },
   {
     "Id": 300148,
@@ -3682,7 +3830,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "日向（泳裝）"
+    "LocalChineseName": "日向（泳裝）",
+    "CurrentSlug": "hinata_swimsuit"
   },
   {
     "Id": 300149,
@@ -3707,7 +3856,8 @@
       }
     ],
     "ImageId": 16013,
-    "LocalChineseName": "小春（泳裝）"
+    "LocalChineseName": "小春（泳裝）",
+    "CurrentSlug": "koharu_swimsuit"
   },
   {
     "Id": 300150,
@@ -3732,7 +3882,8 @@
       }
     ],
     "ImageId": 10074,
-    "LocalChineseName": "花子（泳裝）"
+    "LocalChineseName": "花子（泳裝）",
+    "CurrentSlug": "hanako_swimsuit"
   },
   {
     "Id": 300151,
@@ -3756,7 +3907,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "三森（泳裝）"
+    "LocalChineseName": "三森（泳裝）",
+    "CurrentSlug": "mimori_swimsuit"
   },
   {
     "Id": 300152,
@@ -3781,7 +3933,8 @@
       }
     ],
     "ImageId": 10075,
-    "LocalChineseName": "梅露"
+    "LocalChineseName": "梅露",
+    "CurrentSlug": "meru"
   },
   {
     "Id": 300153,
@@ -3806,7 +3959,8 @@
       }
     ],
     "ImageId": 13013,
-    "LocalChineseName": "紅葉"
+    "LocalChineseName": "紅葉",
+    "CurrentSlug": "momiji"
   },
   {
     "Id": 300154,
@@ -3831,7 +3985,8 @@
       }
     ],
     "ImageId": 10076,
-    "LocalChineseName": "小鳥（應援團）"
+    "LocalChineseName": "小鳥（應援團）",
+    "CurrentSlug": "kotori_cheer"
   },
   {
     "Id": 300155,
@@ -3855,7 +4010,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "晴奈（體育服）"
+    "LocalChineseName": "晴奈（體育服）",
+    "CurrentSlug": "haruna_track"
   },
   {
     "Id": 300156,
@@ -3880,7 +4036,8 @@
       }
     ],
     "ImageId": 10077,
-    "LocalChineseName": "一花"
+    "LocalChineseName": "一花",
+    "CurrentSlug": "ichika"
   },
   {
     "Id": 300157,
@@ -3905,7 +4062,8 @@
       }
     ],
     "ImageId": 10078,
-    "LocalChineseName": "霞"
+    "LocalChineseName": "霞",
+    "CurrentSlug": "kasumi"
   },
   {
     "Id": 300158,
@@ -3929,7 +4087,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "時雨（溫泉）"
+    "LocalChineseName": "時雨（溫泉）",
+    "CurrentSlug": "shigure_onsen"
   },
   {
     "Id": 300159,
@@ -3954,7 +4113,8 @@
       }
     ],
     "ImageId": 10079,
-    "LocalChineseName": "御坂美琴"
+    "LocalChineseName": "御坂美琴",
+    "CurrentSlug": "misaka_mikoto"
   },
   {
     "Id": 300160,
@@ -3979,7 +4139,8 @@
       }
     ],
     "ImageId": 10080,
-    "LocalChineseName": "食蜂操祈"
+    "LocalChineseName": "食蜂操祈",
+    "CurrentSlug": "shokuhou_misaki"
   },
   {
     "Id": 300161,
@@ -4003,7 +4164,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "佐天淚子"
+    "LocalChineseName": "佐天淚子",
+    "CurrentSlug": "saten_ruiko"
   },
   {
     "Id": 300162,
@@ -4028,7 +4190,8 @@
       }
     ],
     "ImageId": 10081,
-    "LocalChineseName": "紫"
+    "LocalChineseName": "紫",
+    "CurrentSlug": "yukari"
   },
   {
     "Id": 300163,
@@ -4053,7 +4216,8 @@
       }
     ],
     "ImageId": 10082,
-    "LocalChineseName": "蓮華"
+    "LocalChineseName": "蓮華",
+    "CurrentSlug": "renge"
   },
   {
     "Id": 300164,
@@ -4078,7 +4242,8 @@
       }
     ],
     "ImageId": 10083,
-    "LocalChineseName": "桔梗"
+    "LocalChineseName": "桔梗",
+    "CurrentSlug": "kikyou"
   },
   {
     "Id": 300165,
@@ -4102,7 +4267,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "艾米（泳裝）"
+    "LocalChineseName": "艾米（泳裝）",
+    "CurrentSlug": "eimi_swimsuit"
   },
   {
     "Id": 300166,
@@ -4126,7 +4292,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "小玉（露營）"
+    "LocalChineseName": "小玉（露營）",
+    "CurrentSlug": "kotama_camp"
   },
   {
     "Id": 300167,
@@ -4151,7 +4318,8 @@
       }
     ],
     "ImageId": 10085,
-    "LocalChineseName": "晴（露營）"
+    "LocalChineseName": "晴（露營）",
+    "CurrentSlug": "hare_camp"
   },
   {
     "Id": 300168,
@@ -4176,7 +4344,8 @@
       }
     ],
     "ImageId": 10087,
-    "LocalChineseName": "亞子（禮服）"
+    "LocalChineseName": "亞子（禮服）",
+    "CurrentSlug": "ako_dress"
   },
   {
     "Id": 300169,
@@ -4201,7 +4370,8 @@
       }
     ],
     "ImageId": 16014,
-    "LocalChineseName": "伊吹"
+    "LocalChineseName": "伊吹",
+    "CurrentSlug": "ibuki"
   },
   {
     "Id": 300170,
@@ -4225,7 +4395,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "真琴"
+    "LocalChineseName": "真琴",
+    "CurrentSlug": "makoto"
   },
   {
     "Id": 300171,
@@ -4250,7 +4421,8 @@
       }
     ],
     "ImageId": 10086,
-    "LocalChineseName": "陽奈（禮服）"
+    "LocalChineseName": "陽奈（禮服）",
+    "CurrentSlug": "hina_dress"
   },
   {
     "Id": 300172,
@@ -4275,7 +4447,8 @@
       }
     ],
     "ImageId": 10088,
-    "LocalChineseName": "佳世子（禮服）"
+    "LocalChineseName": "佳世子（禮服）",
+    "CurrentSlug": "kayoko_dress"
   },
   {
     "Id": 300173,
@@ -4300,7 +4473,8 @@
       }
     ],
     "ImageId": 10089,
-    "LocalChineseName": "亞瑠（禮服）"
+    "LocalChineseName": "亞瑠（禮服）",
+    "CurrentSlug": "aru_dress"
   },
   {
     "Id": 300174,
@@ -4324,7 +4498,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "明里（新年）"
+    "LocalChineseName": "明里（新年）",
+    "CurrentSlug": "akari_newyear"
   },
   {
     "Id": 300175,
@@ -4349,7 +4524,8 @@
       }
     ],
     "ImageId": 10090,
-    "LocalChineseName": "海香"
+    "LocalChineseName": "海香",
+    "CurrentSlug": "umika"
   },
   {
     "Id": 300176,
@@ -4373,7 +4549,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "椿（導覽）"
+    "LocalChineseName": "椿（導覽）",
+    "CurrentSlug": "tsubaki_guide"
   },
   {
     "Id": 300177,
@@ -4398,7 +4575,8 @@
       }
     ],
     "ImageId": 10091,
-    "LocalChineseName": "和紗（樂團）"
+    "LocalChineseName": "和紗（樂團）",
+    "CurrentSlug": "kazusa_band"
   },
   {
     "Id": 300178,
@@ -4423,7 +4601,8 @@
       }
     ],
     "ImageId": 10092,
-    "LocalChineseName": "佳代子（樂團）"
+    "LocalChineseName": "佳代子（樂團）",
+    "CurrentSlug": "yoshimi_band"
   },
   {
     "Id": 300179,
@@ -4448,7 +4627,8 @@
       }
     ],
     "ImageId": 16015,
-    "LocalChineseName": "愛莉（樂團）"
+    "LocalChineseName": "愛莉（樂團）",
+    "CurrentSlug": "airi_band"
   },
   {
     "Id": 300180,
@@ -4472,7 +4652,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "綺羅羅"
+    "LocalChineseName": "綺羅羅",
+    "CurrentSlug": "kirara"
   },
   {
     "Id": 300181,
@@ -4496,7 +4677,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "桃井（女僕）"
+    "LocalChineseName": "桃井（女僕）",
+    "CurrentSlug": "momoi_maid"
   },
   {
     "Id": 300182,
@@ -4520,7 +4702,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "綠（女僕）"
+    "LocalChineseName": "綠（女僕）",
+    "CurrentSlug": "midori_maid"
   },
   {
     "Id": 300183,
@@ -4544,7 +4727,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "芹香（泳裝）"
+    "LocalChineseName": "芹香（泳裝）",
+    "CurrentSlug": "serika_swimsuit"
   },
   {
     "Id": 300184,
@@ -4568,7 +4752,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "環奈（泳裝）"
+    "LocalChineseName": "環奈（泳裝）",
+    "CurrentSlug": "kanna_swimsuit"
   },
   {
     "Id": 300185,
@@ -4592,7 +4777,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "吹雪（泳裝）"
+    "LocalChineseName": "吹雪（泳裝）",
+    "CurrentSlug": "fubuki_swimsuit"
   },
   {
     "Id": 300186,
@@ -4616,7 +4802,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "桐乃（泳裝）"
+    "LocalChineseName": "桐乃（泳裝）",
+    "CurrentSlug": "kirino_swimsuit"
   },
   {
     "Id": 300187,
@@ -4640,7 +4827,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "萌繪（泳裝）"
+    "LocalChineseName": "萌繪（泳裝）",
+    "CurrentSlug": "moe_swimsuit"
   },
   {
     "Id": 300188,
@@ -4664,7 +4852,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "星野（武裝）"
+    "LocalChineseName": "星野（武裝）",
+    "CurrentSlug": "hoshino_armed"
   },
   {
     "Id": 300189,
@@ -4688,7 +4877,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "星野（武裝）"
+    "LocalChineseName": "星野（武裝）",
+    "CurrentSlug": "hoshino_armed"
   },
   {
     "Id": 300190,
@@ -4712,7 +4902,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "白子＊TERROR"
+    "LocalChineseName": "白子＊TERROR",
+    "CurrentSlug": "shiroko_terror"
   },
   {
     "Id": 300191,
@@ -4736,7 +4927,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "敦子（泳裝）"
+    "LocalChineseName": "敦子（泳裝）",
+    "CurrentSlug": "atsuko_swimsuit"
   },
   {
     "Id": 300192,
@@ -4760,7 +4952,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "沙織（泳裝）"
+    "LocalChineseName": "沙織（泳裝）",
+    "CurrentSlug": "saori_swimsuit"
   },
   {
     "Id": 300193,
@@ -4784,7 +4977,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "日和（泳裝）"
+    "LocalChineseName": "日和（泳裝）",
+    "CurrentSlug": "hiyori_swimsuit"
   },
   {
     "Id": 300194,
@@ -4808,7 +5002,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "瑪麗娜（旗袍）"
+    "LocalChineseName": "瑪麗娜（旗袍）",
+    "CurrentSlug": "marina_qipao"
   },
   {
     "Id": 300195,
@@ -4832,7 +5027,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "巴（旗袍）"
+    "LocalChineseName": "巴（旗袍）",
+    "CurrentSlug": "tomoe_qipao"
   },
   {
     "Id": 300196,
@@ -4856,7 +5052,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "麗情"
+    "LocalChineseName": "麗情",
+    "CurrentSlug": "reijo"
   },
   {
     "Id": 300197,
@@ -4880,7 +5077,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "妃咲"
+    "LocalChineseName": "妃咲",
+    "CurrentSlug": "kisaki"
   },
   {
     "Id": 300198,
@@ -4904,7 +5102,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "瑪麗（偶像）"
+    "LocalChineseName": "瑪麗（偶像）",
+    "CurrentSlug": "mari_idol"
   },
   {
     "Id": 300199,
@@ -4928,7 +5127,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "櫻子（偶像）"
+    "LocalChineseName": "櫻子（偶像）",
+    "CurrentSlug": "sakurako_idol"
   },
   {
     "Id": 300200,
@@ -4952,7 +5152,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "美禰（偶像）"
+    "LocalChineseName": "美禰（偶像）",
+    "CurrentSlug": "mine_idol"
   },
   {
     "Id": 300201,
@@ -4976,7 +5177,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "千秋"
+    "LocalChineseName": "千秋",
+    "CurrentSlug": "chiaki"
   },
   {
     "Id": 300202,
@@ -5000,7 +5202,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "皐月"
+    "LocalChineseName": "皐月",
+    "CurrentSlug": "satsuki"
   },
   {
     "Id": 300203,
@@ -5024,7 +5227,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "優香（睡衣）"
+    "LocalChineseName": "優香（睡衣）",
+    "CurrentSlug": "yuuka_pajamas"
   },
   {
     "Id": 300204,
@@ -5048,7 +5252,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "乃愛（睡衣）"
+    "LocalChineseName": "乃愛（睡衣）",
+    "CurrentSlug": "noa_pajamas"
   },
   {
     "Id": 300205,
@@ -5072,7 +5277,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "聖亞"
+    "LocalChineseName": "聖亞",
+    "CurrentSlug": "seia"
   },
   {
     "Id": 300206,
@@ -5096,7 +5302,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "明日奈（校服）"
+    "LocalChineseName": "明日奈（校服）",
+    "CurrentSlug": "asuna_school"
   },
   {
     "Id": 300207,
@@ -5120,7 +5327,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "花凜（校服）"
+    "LocalChineseName": "花凜（校服）",
+    "CurrentSlug": "karin_school"
   },
   {
     "Id": 300208,
@@ -5144,7 +5352,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "寧瑠（校服）"
+    "LocalChineseName": "寧瑠（校服）",
+    "CurrentSlug": "neru_school"
   },
   {
     "Id": 300209,
@@ -5168,7 +5377,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "莉央"
+    "LocalChineseName": "莉央",
+    "CurrentSlug": "rio"
   },
   {
     "Id": 300210,
@@ -5192,7 +5402,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "真紀（露營）"
+    "LocalChineseName": "真紀（露營）",
+    "CurrentSlug": "maki_camp"
   },
   {
     "Id": 300211,
@@ -5216,7 +5427,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "瀨名（私服）"
+    "LocalChineseName": "瀨名（私服）",
+    "CurrentSlug": "sena_casual"
   },
   {
     "Id": 300212,
@@ -5240,7 +5452,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "茱莉（打工）"
+    "LocalChineseName": "茱莉（打工）",
+    "CurrentSlug": "juri_parttime"
   },
   {
     "Id": 300213,
@@ -5264,7 +5477,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "泉（新年）"
+    "LocalChineseName": "泉（新年）",
+    "CurrentSlug": "izumi_newyear"
   },
   {
     "Id": 300214,
@@ -5288,7 +5502,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "玲"
+    "LocalChineseName": "玲",
+    "CurrentSlug": "rei"
   },
   {
     "Id": 300215,
@@ -5312,7 +5527,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "菫（打工）"
+    "LocalChineseName": "菫（打工）",
+    "CurrentSlug": "sumire_parttime"
   },
   {
     "Id": 300216,
@@ -5336,7 +5552,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "沙織（禮服）"
+    "LocalChineseName": "沙織（禮服）",
+    "CurrentSlug": "saori_dress"
   },
   {
     "Id": 300217,
@@ -5360,7 +5577,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "光"
+    "LocalChineseName": "光",
+    "CurrentSlug": "hikari"
   },
   {
     "Id": 300218,
@@ -5384,7 +5602,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "望"
+    "LocalChineseName": "望",
+    "CurrentSlug": "nozomi"
   },
   {
     "Id": 300219,
@@ -5408,7 +5627,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "青葉"
+    "LocalChineseName": "青葉",
+    "CurrentSlug": "aoba"
   },
   {
     "Id": 300220,
@@ -5432,7 +5652,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "菲娜（導覽）"
+    "LocalChineseName": "菲娜（導覽）",
+    "CurrentSlug": "pina_guide"
   },
   {
     "Id": 300221,
@@ -5456,7 +5677,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "名草"
+    "LocalChineseName": "名草",
+    "CurrentSlug": "nagusa"
   },
   {
     "Id": 300222,
@@ -5480,7 +5702,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "妮婭"
+    "LocalChineseName": "妮婭",
+    "CurrentSlug": "niya"
   },
   {
     "Id": 300223,
@@ -5504,7 +5727,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "夏（樂團）"
+    "LocalChineseName": "夏（樂團）",
+    "CurrentSlug": "natsu_band"
   },
   {
     "Id": 300224,
@@ -5528,7 +5752,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "紫（泳裝）"
+    "LocalChineseName": "紫（泳裝）",
+    "CurrentSlug": "yukari_swimsuit"
   },
   {
     "Id": 300225,
@@ -5552,7 +5777,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "蓮華（泳裝）"
+    "LocalChineseName": "蓮華（泳裝）",
+    "CurrentSlug": "renge_swimsuit"
   },
   {
     "Id": 300226,
@@ -5576,7 +5802,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "桔梗（泳裝）"
+    "LocalChineseName": "桔梗（泳裝）",
+    "CurrentSlug": "kikyou_swimsuit"
   },
   {
     "Id": 300227,
@@ -5600,7 +5827,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "聖亞（泳裝）"
+    "LocalChineseName": "聖亞（泳裝）",
+    "CurrentSlug": "seia_swimsuit"
   },
   {
     "Id": 300228,
@@ -5624,7 +5852,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "蓮實（泳裝）"
+    "LocalChineseName": "蓮實（泳裝）",
+    "CurrentSlug": "hasumi_swimsuit"
   },
   {
     "Id": 300229,
@@ -5648,7 +5877,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "一花（泳裝）"
+    "LocalChineseName": "一花（泳裝）",
+    "CurrentSlug": "ichika_swimsuit"
   },
   {
     "Id": 300230,
@@ -5672,7 +5902,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "渚（泳裝）"
+    "LocalChineseName": "渚（泳裝）",
+    "CurrentSlug": "nagisa_swimsuit"
   },
   {
     "Id": 300231,
@@ -5696,7 +5927,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "彌香（泳裝）"
+    "LocalChineseName": "彌香（泳裝）",
+    "CurrentSlug": "mika_swimsuit"
   },
   {
     "Id": 300232,
@@ -5720,7 +5952,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "繪梨"
+    "LocalChineseName": "繪梨",
+    "CurrentSlug": "eri"
   },
   {
     "Id": 300233,
@@ -5744,7 +5977,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "香耶"
+    "LocalChineseName": "香耶",
+    "CurrentSlug": "kanoe"
   },
   {
     "Id": 300234,
@@ -5768,7 +6002,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "美咲（泳裝）"
+    "LocalChineseName": "美咲（泳裝）",
+    "CurrentSlug": "misaki_swimsuit"
   },
   {
     "Id": 300235,
@@ -5792,7 +6027,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "美代"
+    "LocalChineseName": "美代",
+    "CurrentSlug": "miyo"
   },
   {
     "Id": 300236,
@@ -5816,7 +6052,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "冬"
+    "LocalChineseName": "冬",
+    "CurrentSlug": "fuyu"
   },
   {
     "Id": 300237,
@@ -5840,7 +6077,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "律"
+    "LocalChineseName": "律",
+    "CurrentSlug": "ritsu"
   },
   {
     "Id": 300238,
@@ -5864,7 +6102,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "玲紗（魔法少女）"
+    "LocalChineseName": "玲紗（魔法少女）",
+    "CurrentSlug": "reisa_magical"
   },
   {
     "Id": 300239,
@@ -5888,7 +6127,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "鈴美（魔法少女）"
+    "LocalChineseName": "鈴美（魔法少女）",
+    "CurrentSlug": "suzumi_magical"
   },
   {
     "Id": 300240,
@@ -5912,7 +6152,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "拉布"
+    "LocalChineseName": "拉布",
+    "CurrentSlug": "rabu"
   },
   {
     "Id": 300241,
@@ -5936,7 +6177,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "昴"
+    "LocalChineseName": "昴",
+    "CurrentSlug": "subaru"
   },
   {
     "Id": 300242,
@@ -5960,7 +6202,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "高音"
+    "LocalChineseName": "高音",
+    "CurrentSlug": "takane"
   },
   {
     "Id": 300243,
@@ -5984,7 +6227,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "八雲"
+    "LocalChineseName": "八雲",
+    "CurrentSlug": "yakumo"
   },
   {
     "Id": 300244,
@@ -6008,7 +6252,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "月詠（禮服）"
+    "LocalChineseName": "月詠（禮服）",
+    "CurrentSlug": "tsukuyo_dress"
   },
   {
     "Id": 300245,
@@ -6032,7 +6277,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "美知留（禮服）"
+    "LocalChineseName": "美知留（禮服）",
+    "CurrentSlug": "michiru_dress"
   },
   {
     "Id": 300246,
@@ -6056,7 +6302,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "莉央（武裝）"
+    "LocalChineseName": "莉央（武裝）",
+    "CurrentSlug": "rio_armed"
   },
   {
     "Id": 300247,
@@ -6080,7 +6327,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "時（武裝）"
+    "LocalChineseName": "時（武裝）",
+    "CurrentSlug": "toki_armed"
   },
   {
     "Id": 300248,
@@ -6104,7 +6352,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "日鞠（武裝）"
+    "LocalChineseName": "日鞠（武裝）",
+    "CurrentSlug": "himari_armed"
   },
   {
     "Id": 300249,
@@ -6128,7 +6377,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "愛麗絲（武裝）"
+    "LocalChineseName": "愛麗絲（武裝）",
+    "CurrentSlug": "aris_armed"
   },
   {
     "Id": 300250,
@@ -6152,7 +6402,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "凱伊"
+    "LocalChineseName": "凱伊",
+    "CurrentSlug": "kei"
   },
   {
     "Id": 300251,
@@ -6176,7 +6427,8 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "艾米（武裝）"
+    "LocalChineseName": "艾米（武裝）",
+    "CurrentSlug": "eimi_armed"
   },
   {
     "Id": 300252,
@@ -6200,6 +6452,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "昴"
+    "LocalChineseName": "昴",
+    "CurrentSlug": "subaru"
   }
 ]
