@@ -118,10 +118,10 @@ img.avatar.broken{opacity:0}
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.4.6 · 學生資料修正版</div>
+    <div class="small">V4.4.7 · Safari 穩定修正版</div>
   </div>
   <div id="status" class="status">V4.4.6 正在載入學生本地資料…</div>
-  <div class="small">V4.4.6：Boss 圖片維持完全內嵌；253 名學生使用本地 JSON 與繁中名稱。學生圖片若失敗會自動改用備援圖，再失敗則顯示姓名縮寫。</div>
+  <div class="small">V4.4.7：修正 Safari 隊伍空格 appendChild 錯誤；Boss 圖片完全內嵌，253 名學生本地 JSON、繁中名稱與學生圖片備援維持。</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -536,7 +536,8 @@ function renderTeam(){
     }else{
       b.innerHTML=`<div class="small">${type==='Main'?'STRIKER':'SPECIAL'} ${i+1}</div><div style="margin-top:20px">＋</div>`;
     }
-    const av=b.querySelector('img.avatar');if(av&&s)
+    const av=b.querySelector('img.avatar');
+    if(av&&s) setupStudentImageFallback(av,s.Id);
     return b;
   }
 
@@ -604,7 +605,7 @@ function renderStudents(){
       addToTeam(s);
     };
     const av=b.querySelector('img.avatar');
-    if(av)
+    if(av) setupStudentImageFallback(av,s.Id);
     box.appendChild(b);
   });
 }
@@ -657,7 +658,8 @@ function renderTl(){
     d.querySelector('.down').onclick=()=>{if(i<tl.length-1){[tl[i+1],tl[i]]=[tl[i],tl[i+1]];renderTl()}};
     d.querySelector('.del').onclick=()=>{tl.splice(i,1);renderTl()};
     d.querySelector('.edit').onclick=()=>{let x=tl.splice(i,1)[0];$('time').value=formatTime(x.seconds);$('cost').value=x.cost;$('note').value=x.note;if(x.studentId){$('tlStudent').value=String(x.studentId);syncTlSkills();$('tlSkill').value=x.skillType+'|'+x.skillName;applySelectedSkill()}renderTl()};
-    const av=d.querySelector('img.avatar');if(av&&x.studentId)
+    const av=d.querySelector('img.avatar');
+    if(av&&x.studentId) setupStudentImageFallback(av,x.studentId);
     box.appendChild(d);
   });renderText();
 }
@@ -672,7 +674,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.6',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.7',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
@@ -721,7 +723,7 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
     renderBosses();renderTeam();renderStudents();renderTl();
 
     const hasSeia=students.some(s=>(s.EnglishName||'').toLowerCase()==='seia'||String(s.Name).includes('聖亞'));
-    setStatus(`V4.4.6 載入完成：${students.length} 名中文學生｜${raids.length} Boss｜Boss 內嵌圖片 ${Object.keys(BOSS_INLINE_IMAGES).length}${hasSeia?'｜聖亞 ✓':''}`,'ok');
+    setStatus(`V4.4.7 載入完成：${students.length} 名中文學生｜${raids.length} Boss｜Boss 內嵌圖片 ${Object.keys(BOSS_INLINE_IMAGES).length}${hasSeia?'｜聖亞 ✓':''}`,'ok');
 
     // Optional enrichment only. Local 253 catalog remains authoritative fallback.
     const results=await Promise.allSettled([
@@ -741,10 +743,10 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
     if(rr.length){raids=rr;renderBosses();}
 
     const remoteEnriched=students.filter(s=>s._sourceRegion==='tw'||s._sourceRegion==='jp').length;
-    setStatus(`V4.4.6 載入完成：${students.length} 名學生｜${raids.length} Boss｜遠端補充 ${remoteEnriched}${hasSeia?'｜聖亞 ✓':''}`,'ok');
+    setStatus(`V4.4.7 載入完成：${students.length} 名學生｜${raids.length} Boss｜遠端補充 ${remoteEnriched}${hasSeia?'｜聖亞 ✓':''}`,'ok');
   }catch(e){
     console.error(e);
-    setStatus(`V4.4.6 本地資料載入失敗：${e?.message||e}。請確認 students_local.json 與 raids_local.json 已上傳。`,'err');
+    setStatus(`V4.4.7 本地資料載入失敗：${e?.message||e}。請確認 students_local.json 與 raids_local.json 已上傳。`,'err');
   }
 })();
 
