@@ -118,10 +118,10 @@ img.avatar.broken{opacity:0}
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.4.12 · SchaleDB 繁中資料校正版</div>
+    <div class="small">V4.4.13 · STRIKER / SPECIAL 校正版</div>
   </div>
   <div id="status" class="status">V4.4.6 正在載入學生本地資料…</div>
-  <div class="small">V4.4.12：SchaleDB 台港澳繁中資料優先覆蓋名稱、STRIKER/SPECIAL 與戰術類別；鹿江已補正並可搜尋「鹿江／板垣鹿江／Kanoe」。</div>
+  <div class="small">V4.4.13：STRIKER / SPECIAL 改為角色版本級資料；不同服裝版本不再繼承本體分類。SchaleDB TW 資料成功時仍以資料庫 SquadType 為準。</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -320,6 +320,11 @@ const tacticRoleMap={
   Healer:'治療'
 };
 const tacticRoleLabel=x=>tacticRoleMap[x]||x||'';
+function squadIntegrity(){
+  const valid=students.filter(s=>s.SquadType==='Main'||s.SquadType==='Support').length;
+  const bad=students.filter(s=>s.SquadType!=='Main'&&s.SquadType!=='Support');
+  return {valid,bad};
+}
 function dataIntegrity(){
   const total=students.length;
   const named=students.filter(s=>s.Name).length;
@@ -416,7 +421,7 @@ function mergeStudentCatalog(twList,jpList,localList=LOCAL_STUDENTS){
         LocalChineseName:old.LocalChineseName||old.Name,
         CurrentSlug:old.CurrentSlug||raw.PathName||'',
         ImageId:old.ImageId,
-        SquadType:raw.SquadType||old.SquadType,
+        SquadType:(raw.SquadType==='Main'||raw.SquadType==='Support')?raw.SquadType:old.SquadType,
         TacticRole:raw.TacticRole||old.TacticRole,
         SquadTypeSource:raw.SquadType?'schaledb-tw':'local',
         TacticRoleSource:raw.TacticRole?'schaledb-tw':'local',
@@ -448,7 +453,7 @@ function mergeStudentCatalog(twList,jpList,localList=LOCAL_STUDENTS){
         LocalChineseName:old.LocalChineseName||old.Name,
         CurrentSlug:old.CurrentSlug||raw.PathName||'',
         ImageId:old.ImageId,
-        SquadType:raw.SquadType||old.SquadType,
+        SquadType:(raw.SquadType==='Main'||raw.SquadType==='Support')?raw.SquadType:old.SquadType,
         TacticRole:raw.TacticRole||old.TacticRole,
         SquadTypeSource:raw.SquadType?'schaledb-tw':'local',
         TacticRoleSource:raw.TacticRole?'schaledb-tw':'local',
@@ -738,7 +743,7 @@ function renderStudents(){
 function showStudent(s){
   selectedStudent=s;$('studentDetail').classList.remove('hidden');
   $('detailAvatar').src=studentImg(s.Id);setupStudentImageFallback($('detailAvatar'),s.Id);$('detailName').textContent=s.Name;
-  $('detailMeta').innerHTML=`<span class="badge">${squadLabel(s.SquadType)}</span><span class="badge">${tacticRoleLabel(s.TacticRole)}</span><span class="badge">${esc(bulletMap[s.BulletType]||s.BulletType||'')}</span><span class="badge">${esc(armorMap[s.ArmorType]||s.ArmorType||'')}</span><span class="badge">圖片候選 ${studentImageCandidates(s.Id).length}</span>`;
+  $('detailMeta').innerHTML=`<span class="badge">${squadLabel(s.SquadType)}</span><span class="badge">${tacticRoleLabel(s.TacticRole)}</span><span class="badge">${esc(bulletMap[s.BulletType]||s.BulletType||'')}</span><span class="badge">${esc(armorMap[s.ArmorType]||s.ArmorType||'')}</span><span class="badge">分類來源 ${s.SquadTypeSource==='schaledb-tw'?'SchaleDB TW':(s.SquadTypeSource?.startsWith('verified-schaledb')?'SchaleDB 校正':'本地')}</span><span class="badge">圖片候選 ${studentImageCandidates(s.Id).length}</span>`;
   let skills=playableSkills(s);selectedSkill=skills.find(x=>x.SkillType==='ex')||skills[0]||null;
   let box=$('skillList');box.innerHTML='';
   skills.forEach(k=>{
@@ -800,7 +805,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.12',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.13',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);

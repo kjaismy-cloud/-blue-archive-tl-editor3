@@ -1691,7 +1691,7 @@
     "ImageId": 20004,
     "LocalChineseName": "真白（泳裝）",
     "CurrentSlug": "mashiro_swimsuit",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -1749,7 +1749,7 @@
     "ImageId": 20005,
     "LocalChineseName": "日步美（泳裝）",
     "CurrentSlug": "hifumi_swimsuit",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -1952,7 +1952,7 @@
     "ImageId": 20006,
     "LocalChineseName": "沙耶（私服）",
     "CurrentSlug": "saya_casual",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -2956,7 +2956,7 @@
     ],
     "LocalChineseName": "綾音（泳裝）",
     "CurrentSlug": "ayane_swimsuit",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -3013,7 +3013,7 @@
     ],
     "LocalChineseName": "靜子（泳裝）",
     "CurrentSlug": "shizuko_swimsuit",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -3273,7 +3273,7 @@
     "ImageId": 16010,
     "LocalChineseName": "響（應援團）",
     "CurrentSlug": "hibiki_cheer",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -3990,7 +3990,7 @@
     ],
     "LocalChineseName": "柚子（女僕）",
     "CurrentSlug": "yuzu_maid",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -4191,7 +4191,7 @@
     ],
     "LocalChineseName": "美遊（泳裝）",
     "CurrentSlug": "miyu_swimsuit",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -4305,7 +4305,7 @@
     "ImageId": 16013,
     "LocalChineseName": "小春（泳裝）",
     "CurrentSlug": "koharu_swimsuit",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -4792,7 +4792,7 @@
     ],
     "LocalChineseName": "小玉（露營）",
     "CurrentSlug": "kotama_camp",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -4821,7 +4821,7 @@
     "ImageId": 10085,
     "LocalChineseName": "晴（露營）",
     "CurrentSlug": "hare_camp",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -4850,7 +4850,7 @@
     "ImageId": 10087,
     "LocalChineseName": "亞子（禮服）",
     "CurrentSlug": "ako_dress",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -5362,7 +5362,7 @@
     ],
     "LocalChineseName": "桐乃（泳裝）",
     "CurrentSlug": "kirino_swimsuit",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -5502,7 +5502,7 @@
     ],
     "LocalChineseName": "敦子（泳裝）",
     "CurrentSlug": "atsuko_swimsuit",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -5754,7 +5754,7 @@
     ],
     "LocalChineseName": "美禰（偶像）",
     "CurrentSlug": "mine_idol",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -5894,7 +5894,7 @@
     ],
     "LocalChineseName": "聖亞",
     "CurrentSlug": "seia",
-    "SquadTypeSource": "verified-schaledb-v4.4.12",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
     "TacticRoleSource": "verified-schaledb-v4.4.12"
   },
@@ -5950,7 +5950,7 @@
     ],
     "LocalChineseName": "花凜（校服）",
     "CurrentSlug": "karin_school",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -6015,7 +6015,7 @@
     "PathName": "maki_camp",
     "Name": "真紀（露營）",
     "EnglishName": "Maki (Camp)",
-    "SquadType": "Main",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6034,7 +6034,7 @@
     ],
     "LocalChineseName": "真紀（露營）",
     "CurrentSlug": "maki_camp",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -6230,7 +6230,7 @@
     ],
     "LocalChineseName": "光",
     "CurrentSlug": "hikari",
-    "SquadTypeSource": "verified-schaledb-v4.4.12",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
     "TacticRoleSource": "verified-schaledb-v4.4.12"
   },
@@ -6286,7 +6286,7 @@
     ],
     "LocalChineseName": "青葉",
     "CurrentSlug": "aoba",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -6370,7 +6370,7 @@
     ],
     "LocalChineseName": "妮婭",
     "CurrentSlug": "niya",
-    "SquadTypeSource": "verified-schaledb-v4.4.12",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "verified-schaledb-v4.4.12"
   },
@@ -6566,7 +6566,7 @@
     ],
     "LocalChineseName": "一花（泳裝）",
     "CurrentSlug": "ichika_swimsuit",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -6678,7 +6678,7 @@
     ],
     "LocalChineseName": "鹿江",
     "CurrentSlug": "kanoe",
-    "SquadTypeSource": "verified-schaledb-v4.4.12",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Tanker",
     "TacticRoleSource": "verified-schaledb-v4.4.12",
     "SearchAliases": [
@@ -6880,7 +6880,7 @@
     ],
     "LocalChineseName": "拉布",
     "CurrentSlug": "rabu",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
@@ -7076,7 +7076,7 @@
     ],
     "LocalChineseName": "時（武裝）",
     "CurrentSlug": "toki_armed",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11"
   },
