@@ -118,9 +118,9 @@ img.avatar.broken{opacity:0}
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.4 · 253 名全角色本地版</div>
+    <div class="small">V4.4.1 · 253 名全角色本地版</div>
   </div>
-  <div id="status" class="status">V4.4 正在載入 253 名本地學生資料…</div>
+  <div id="status" class="status">V4.4.1 正在載入 253 名本地學生資料…</div>
   <div class="small">V4.4：253 名學生與 13 個 Boss 直接存在 GitHub Pages；完全離線仍可搜尋與編隊。線上 SchaleDB 僅補充技能、角色類型與翻譯。</div>
 
   <section id="installHelp" class="panel grid">
@@ -438,6 +438,32 @@ function setImageWithFallback(img,cands){
   img.onerror=next;
   next();
 }
+
+function attachStudentFallback(img,id){
+  if(!img) return;
+  let tried=false;
+  img.addEventListener('error',()=>{
+    if(!tried){
+      tried=true;
+      const fb=studentImgFallback(id);
+      if(fb && img.src!==fb){
+        img.src=fb;
+        return;
+      }
+    }
+    img.classList.add('broken');
+    const parent=img.parentElement;
+    if(parent && !parent.querySelector('.avatar-fallback')){
+      const s=students.find(x=>String(x.Id)===String(id));
+      const f=document.createElement('span');
+      f.className='avatar-fallback';
+      f.textContent=(s?.Name||s?.EnglishName||'?').slice(0,2);
+      parent.style.position='relative';
+      parent.appendChild(f);
+    }
+  });
+}
+
 function renderBosses(){
   let sel=$('boss');sel.innerHTML='';
   raids.filter(releasedTW).forEach(r=>{let o=document.createElement('option');o.value=r.Id;o.textContent=r.Name||r.PathName;sel.appendChild(o)});
@@ -619,7 +645,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.1',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
@@ -668,7 +694,7 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
     renderBosses();renderTeam();renderStudents();renderTl();
 
     const hasSeia=students.some(s=>(s.EnglishName||'').toLowerCase()==='seia'||String(s.Name).includes('聖亞'));
-    setStatus(`V4.4 本地資料完成：${students.length} 名學生｜${raids.length} Boss${hasSeia?'｜聖亞 ✓':''}；遠端資料補充中…`,'ok');
+    setStatus(`V4.4.1 本地資料完成：${students.length} 名學生｜${raids.length} Boss${hasSeia?'｜聖亞 ✓':''}；遠端資料補充中…`,'ok');
 
     // Optional enrichment only. Local 253 catalog remains authoritative fallback.
     const results=await Promise.allSettled([
@@ -688,10 +714,10 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
     if(rr.length){raids=rr;renderBosses();}
 
     const remoteEnriched=students.filter(s=>s._sourceRegion==='tw'||s._sourceRegion==='jp').length;
-    setStatus(`V4.4 載入完成：${students.length} 名學生｜${raids.length} Boss｜遠端補充 ${remoteEnriched}${hasSeia?'｜聖亞 ✓':''}`,'ok');
+    setStatus(`V4.4.1 載入完成：${students.length} 名學生｜${raids.length} Boss｜遠端補充 ${remoteEnriched}${hasSeia?'｜聖亞 ✓':''}`,'ok');
   }catch(e){
     console.error(e);
-    setStatus(`V4.4 本地資料檔載入失敗：${e?.message||e}。請確認 students_local.json 與 raids_local.json 已上傳。`,'err');
+    setStatus(`V4.4.1 本地資料檔載入失敗：${e?.message||e}。請確認 students_local.json 與 raids_local.json 已上傳。`,'err');
   }
 })();
 
