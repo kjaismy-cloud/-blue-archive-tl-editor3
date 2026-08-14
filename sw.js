@@ -1,28 +1,24 @@
-const CACHE = 'ba-tl-v4-3';
-const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
+const CACHE='ba-tl-v4-3-1';
+const SHELL=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png'];
 
-self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)));
+self.addEventListener('install',e=>{
+  e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)));
   self.skipWaiting();
 });
-self.addEventListener('activate', event => {
-  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))));
+self.addEventListener('activate',e=>{
+  e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))));
   self.clients.claim();
 });
-self.addEventListener('fetch', event => {
-  if(event.request.method!=='GET')return;
-  const url=new URL(event.request.url);
-  const dynamic = event.request.mode==='navigate' || url.pathname.endsWith('.json') ||
-    url.hostname==='schaledb.com' || url.hostname==='raw.githubusercontent.com';
+self.addEventListener('fetch',e=>{
+  if(e.request.method!=='GET')return;
+  const u=new URL(e.request.url);
+  const dynamic=e.request.mode==='navigate'||u.hostname==='schaledb.com'||u.hostname==='raw.githubusercontent.com';
   if(dynamic){
-    event.respondWith(
-      fetch(event.request).then(res=>{
-        const copy=res.clone();
-        caches.open(CACHE).then(c=>c.put(event.request,copy)).catch(()=>{});
-        return res;
-      }).catch(()=>caches.match(event.request).then(r=>r||caches.match('./index.html')))
-    );
+    e.respondWith(fetch(e.request).then(r=>{
+      const copy=r.clone();caches.open(CACHE).then(c=>c.put(e.request,copy)).catch(()=>{});
+      return r;
+    }).catch(()=>caches.match(e.request).then(r=>r||caches.match('./index.html'))));
     return;
   }
-  event.respondWith(caches.match(event.request).then(c=>c||fetch(event.request)));
+  e.respondWith(caches.match(e.request).then(r=>r||fetch(e.request)));
 });
