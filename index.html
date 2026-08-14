@@ -95,9 +95,10 @@ button.danger{color:var(--danger)}
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">iPhone 手機版 · SchaleDB 資料</div>
+    <div class="small">V4.1 · iPhone 手機版 · SchaleDB 繁中資料</div>
   </div>
-  <div id="status" class="status">正在載入 SchaleDB 資料…</div>
+  <div id="status" class="status">V4.1 正在載入 SchaleDB 資料…</div>
+  <div class="small">資料來源優先：SchaleDB GitHub Raw（繁中）；主站作為備援。</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -200,15 +201,16 @@ button.danger{color:var(--danger)}
 
 <script>
 const DATA_BASES=[
-  'https://schaledb.com/data/tw',
-  'https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/data/tw'
+  'https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/data/tw',
+  'https://schaledb.com/data/tw'
 ];
-const IMG='https://schaledb.com/images';
+const RAW_IMG='https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images';
+const SITE_IMG='https://schaledb.com/images';
 let students=[],raids=[],team=Array(6).fill(null),activeSlot=0,selectedStudent=null,selectedSkill=null,tl=[];
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const studentImg=id=>`${IMG}/student/icon/${id}.webp`;
-const skillImg=icon=>icon?`${IMG}/skill/${icon}.webp`:'';
+const studentImg=id=>`${RAW_IMG}/student/icon/${id}.webp`;
+const skillImg=icon=>icon?`${RAW_IMG}/skill/${icon}.webp`:'';
 const squadLabel=x=>x==='Main'?'STRIKER':x==='Support'?'SPECIAL':x||'';
 const bulletMap={Explosion:'爆發',Pierce:'貫通',Mystic:'神秘',Sonic:'振動',Normal:'一般'};
 const armorMap={LightArmor:'輕裝甲',HeavyArmor:'重裝甲',Unarmed:'特殊裝甲',ElasticArmor:'彈力裝甲'};
@@ -218,11 +220,36 @@ function setStatus(msg,type=''){let s=$('status');s.textContent=msg;s.className=
 async function loadJson(name){
   let err;
   for(const b of DATA_BASES){
-    try{const r=await fetch(`${b}/${name}`,{cache:'no-store'});if(!r.ok)throw new Error(r.status);return await r.json()}catch(e){err=e}
+    try{
+      const url=`${b}/${name}`;
+      const r=await fetch(url,{cache:'no-store',mode:'cors'});
+      if(!r.ok)throw new Error(`HTTP ${r.status}`);
+      const data=await r.json();
+      return {data,source:b};
+    }catch(e){
+      err=e;
+      console.warn('SchaleDB load failed',b,name,e);
+    }
   }
   throw err;
 }
-function releasedTW(x){return !Array.isArray(x.IsReleased)||x.IsReleased[1]!==false}
+function extractArray(payload, keys=[]){
+  if(Array.isArray(payload)) return payload;
+  if(!payload || typeof payload!=='object') return [];
+  for(const k of keys){
+    if(Array.isArray(payload[k])) return payload[k];
+  }
+  for(const v of Object.values(payload)){
+    if(Array.isArray(v) && v.length && typeof v[0]==='object') return v;
+  }
+  return [];
+}
+function releasedTW(x){
+  // V4.1: students.json in the TW data package is already localized.
+  // Do not discard the entire roster because release-array indexing may vary
+  // between SchaleDB dataset generations.
+  return !!(x && x.Id && x.Name);
+}
 function parseTime(v){
   let s=String(v||'').trim();
   if(/^\d+(\.\d+)?$/.test(s))return Number(s);
@@ -246,15 +273,39 @@ function go(view){
 document.querySelectorAll('.bottom-nav button').forEach(b=>b.onclick=()=>go(b.dataset.view));
 
 function bossImageCandidates(r){
-  const vals=[r?.PathName||'',r?.GroupName||''].filter(Boolean);
-  return [...new Set(vals)].flatMap(x=>[
-    `${IMG}/raid/icon/Icon_${x}.png`,
-    `${IMG}/raid/icon/Icon_${x}_Colour.png`,
-    `${IMG}/raid/Boss_Portrait_${x}_Lobby.png`
-  ]);
+  const vals=[
+    r?.PathName||'',
+    r?.GroupName||'',
+    (r?.PathName||'').replace(/_Colour$/,''),
+    (r?.GroupName||'').replace(/_Colour$/,'')
+  ].filter(Boolean);
+  const exactBG=(r?.IconBG||'').replace(/_LobbyBG$/,'_Lobby');
+  const out=[];
+  if(exactBG){
+    out.push(`${RAW_IMG}/raid/${exactBG}.png`);
+    out.push(`${SITE_IMG}/raid/${exactBG}.png`);
+  }
+  [...new Set(vals)].forEach(x=>{
+    out.push(`${RAW_IMG}/raid/Boss_Portrait_${x}_Lobby.png`);
+    out.push(`${SITE_IMG}/raid/Boss_Portrait_${x}_Lobby.png`);
+  });
+  return [...new Set(out)];
 }
 function setImageWithFallback(img,cands){
-  let i=0;const next=()=>{if(i>=cands.length){img.removeAttribute('src');return}img.src=cands[i++]};img.onerror=next;next();
+  let i=0;
+  const next=()=>{
+    if(i>=cands.length){
+      img.onerror=null;
+      img.removeAttribute('src');
+      img.alt='Boss 圖片暫無';
+      img.style.opacity='.45';
+      return;
+    }
+    img.style.opacity='1';
+    img.src=cands[i++];
+  };
+  img.onerror=next;
+  next();
 }
 function renderBosses(){
   let sel=$('boss');sel.innerHTML='';
@@ -357,7 +408,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'mobile-1',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,team:team.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.1',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,team:team.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{let d=JSON.parse($('jsonBox').value);if(d.bossId)$('boss').value=String(d.bossId);$('difficulty').value=d.difficulty||'Torment';updateBoss();$('terrain').value=d.terrain||'';$('teamName').value=d.teamName||'';$('headerNote').value=d.headerNote||'';team=(d.team||[]).slice(0,6).map(id=>students.find(s=>s.Id===id)||null);while(team.length<6)team.push(null);tl=Array.isArray(d.tl)?d.tl:[];renderTeam();renderTl();setStatus('JSON 載入完成','ok')}catch(e){setStatus('JSON 格式錯誤','err')}
 }
@@ -372,13 +423,23 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
 
 (async()=>{
   try{
-    let [s,r]=await Promise.all([loadJson('students.json'),loadJson('raids.json')]);
-    students=Array.isArray(s)?s:(s.Student||s.students||[]);raids=Array.isArray(r)?r:(r.Raid||r.raids||[]);
-    students=students.filter(x=>x&&x.Id&&x.Name);raids=raids.filter(x=>x&&x.Id&&x.Name);
-    renderBosses();renderTeam();renderStudents();renderTl();
-    setStatus(`載入完成：${students.filter(releasedTW).length} 名學生、${raids.filter(releasedTW).length} 個 Boss`,'ok');
+    const [sRes,rRes]=await Promise.all([loadJson('students.json'),loadJson('raids.json')]);
+    students=extractArray(sRes.data,['Student','Students','students']).filter(x=>x&&x.Id&&x.Name);
+    raids=extractArray(rRes.data,['Raid','Raids','raids']).filter(x=>x&&x.Id&&x.Name);
+
+    if(!students.length) throw new Error('students.json 解析後為 0 筆');
+    if(!raids.length) throw new Error('raids.json 解析後為 0 筆');
+
+    renderBosses();
+    renderTeam();
+    renderStudents();
+    renderTl();
+
+    const sourceLabel=sRes.source.includes('raw.githubusercontent.com')?'GitHub Raw':'SchaleDB';
+    setStatus(`V4.1 載入完成：${students.length} 名學生、${raids.length} 個 Boss · ${sourceLabel}`,'ok');
   }catch(e){
-    setStatus('無法載入 SchaleDB。若你是從 iPhone「檔案」App 直接開啟，Safari 可能阻擋外部資料；部署成 HTTPS 網頁後會最穩定。','err')
+    console.error(e);
+    setStatus(`V4.1 資料載入失敗：${e?.message||e}。請重新整理頁面；若仍失敗可把這行截圖給我。`,'err');
   }
 })();
 
