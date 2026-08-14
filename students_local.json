@@ -21,12 +21,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10000
+    "ImageId": 10000,
+    "LocalChineseName": "亞瑠"
   },
   {
     "Id": 300001,
     "PathName": "eimi",
-    "Name": "Eimi",
+    "Name": "艾米",
     "EnglishName": "Eimi",
     "SquadType": "Unknown",
     "Position": "",
@@ -45,12 +46,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10001
+    "ImageId": 10001,
+    "LocalChineseName": "艾米"
   },
   {
     "Id": 300002,
     "PathName": "haruna",
-    "Name": "Haruna",
+    "Name": "晴奈",
     "EnglishName": "Haruna",
     "SquadType": "Unknown",
     "Position": "",
@@ -69,12 +71,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10002
+    "ImageId": 10002,
+    "LocalChineseName": "晴奈"
   },
   {
     "Id": 300003,
     "PathName": "hifumi",
-    "Name": "Hifumi",
+    "Name": "日步美",
     "EnglishName": "Hifumi",
     "SquadType": "Unknown",
     "Position": "",
@@ -93,7 +96,8 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10003
+    "ImageId": 10003,
+    "LocalChineseName": "日步美"
   },
   {
     "Id": 300004,
@@ -117,7 +121,8 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10004
+    "ImageId": 10004,
+    "LocalChineseName": "陽奈"
   },
   {
     "Id": 300005,
@@ -141,7 +146,8 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10005
+    "ImageId": 10005,
+    "LocalChineseName": "星野"
   },
   {
     "Id": 300006,
@@ -165,12 +171,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10006
+    "ImageId": 10006,
+    "LocalChineseName": "伊織"
   },
   {
     "Id": 300007,
     "PathName": "maki",
-    "Name": "Maki",
+    "Name": "真紀",
     "EnglishName": "Maki",
     "SquadType": "Unknown",
     "Position": "",
@@ -189,12 +196,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10007
+    "ImageId": 10007,
+    "LocalChineseName": "真紀"
   },
   {
     "Id": 300008,
     "PathName": "neru",
-    "Name": "Neru",
+    "Name": "寧瑠",
     "EnglishName": "Neru",
     "SquadType": "Unknown",
     "Position": "",
@@ -213,12 +221,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10008
+    "ImageId": 10008,
+    "LocalChineseName": "寧瑠"
   },
   {
     "Id": 300009,
     "PathName": "izumi",
-    "Name": "Izumi",
+    "Name": "泉",
     "EnglishName": "Izumi",
     "SquadType": "Unknown",
     "Position": "",
@@ -237,7 +246,8 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10009
+    "ImageId": 10009,
+    "LocalChineseName": "泉"
   },
   {
     "Id": 300010,
@@ -261,12 +271,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10010
+    "ImageId": 10010,
+    "LocalChineseName": "白子"
   },
   {
     "Id": 300011,
     "PathName": "shun",
-    "Name": "Shun",
+    "Name": "瞬",
     "EnglishName": "Shun",
     "SquadType": "Unknown",
     "Position": "",
@@ -285,12 +296,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10011
+    "ImageId": 10011,
+    "LocalChineseName": "瞬"
   },
   {
     "Id": 300012,
     "PathName": "sumire",
-    "Name": "Sumire",
+    "Name": "菫",
     "EnglishName": "Sumire",
     "SquadType": "Unknown",
     "Position": "",
@@ -309,12 +321,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10012
+    "ImageId": 10012,
+    "LocalChineseName": "菫"
   },
   {
     "Id": 300013,
     "PathName": "tsurugi",
-    "Name": "Tsurugi",
+    "Name": "鶴城",
     "EnglishName": "Tsurugi",
     "SquadType": "Unknown",
     "Position": "",
@@ -333,12 +346,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10013
+    "ImageId": 10013,
+    "LocalChineseName": "鶴城"
   },
   {
     "Id": 300014,
     "PathName": "akane",
-    "Name": "Akane",
+    "Name": "茜香",
     "EnglishName": "Akane",
     "SquadType": "Unknown",
     "Position": "",
@@ -357,12 +371,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13000
+    "ImageId": 13000,
+    "LocalChineseName": "茜香"
   },
   {
     "Id": 300015,
     "PathName": "chise",
-    "Name": "Chise",
+    "Name": "千世",
     "EnglishName": "Chise",
     "SquadType": "Unknown",
     "Position": "",
@@ -381,12 +396,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13001
+    "ImageId": 13001,
+    "LocalChineseName": "千世"
   },
   {
     "Id": 300016,
     "PathName": "akari",
-    "Name": "Akari",
+    "Name": "明里",
     "EnglishName": "Akari",
     "SquadType": "Unknown",
     "Position": "",
@@ -405,12 +421,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13002
+    "ImageId": 13002,
+    "LocalChineseName": "明里"
   },
   {
     "Id": 300017,
     "PathName": "hasumi",
-    "Name": "Hasumi",
+    "Name": "蓮實",
     "EnglishName": "Hasumi",
     "SquadType": "Unknown",
     "Position": "",
@@ -429,12 +446,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13003
+    "ImageId": 13003,
+    "LocalChineseName": "蓮實"
   },
   {
     "Id": 300018,
     "PathName": "nonomi",
-    "Name": "Nonomi",
+    "Name": "野乃美",
     "EnglishName": "Nonomi",
     "SquadType": "Unknown",
     "Position": "",
@@ -453,7 +471,8 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13004
+    "ImageId": 13004,
+    "LocalChineseName": "野乃美"
   },
   {
     "Id": 300019,
@@ -477,12 +496,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13005
+    "ImageId": 13005,
+    "LocalChineseName": "佳世子"
   },
   {
     "Id": 300020,
     "PathName": "mutsuki",
-    "Name": "Mutsuki",
+    "Name": "睦月",
     "EnglishName": "Mutsuki",
     "SquadType": "Unknown",
     "Position": "",
@@ -501,12 +521,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13006
+    "ImageId": 13006,
+    "LocalChineseName": "睦月"
   },
   {
     "Id": 300021,
     "PathName": "junko",
-    "Name": "Junko",
+    "Name": "淳子",
     "EnglishName": "Junko",
     "SquadType": "Unknown",
     "Position": "",
@@ -525,12 +546,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13007
+    "ImageId": 13007,
+    "LocalChineseName": "淳子"
   },
   {
     "Id": 300022,
     "PathName": "serika",
-    "Name": "Serika",
+    "Name": "芹香",
     "EnglishName": "Serika",
     "SquadType": "Unknown",
     "Position": "",
@@ -549,12 +571,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13008
+    "ImageId": 13008,
+    "LocalChineseName": "芹香"
   },
   {
     "Id": 300023,
     "PathName": "tsubaki",
-    "Name": "Tsubaki",
+    "Name": "椿",
     "EnglishName": "Tsubaki",
     "SquadType": "Unknown",
     "Position": "",
@@ -573,12 +596,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13009
+    "ImageId": 13009,
+    "LocalChineseName": "椿"
   },
   {
     "Id": 300024,
     "PathName": "yuuka",
-    "Name": "Yuuka",
+    "Name": "優香",
     "EnglishName": "Yuuka",
     "SquadType": "Unknown",
     "Position": "",
@@ -597,12 +621,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13010
+    "ImageId": 13010,
+    "LocalChineseName": "優香"
   },
   {
     "Id": 300025,
     "PathName": "haruka",
-    "Name": "Haruka",
+    "Name": "遙香",
     "EnglishName": "Haruka",
     "SquadType": "Unknown",
     "Position": "",
@@ -621,12 +646,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16000
+    "ImageId": 16000,
+    "LocalChineseName": "遙香"
   },
   {
     "Id": 300026,
     "PathName": "asuna",
-    "Name": "Asuna",
+    "Name": "明日奈",
     "EnglishName": "Asuna",
     "SquadType": "Unknown",
     "Position": "",
@@ -645,12 +671,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16001
+    "ImageId": 16001,
+    "LocalChineseName": "明日奈"
   },
   {
     "Id": 300027,
     "PathName": "kotori",
-    "Name": "Kotori",
+    "Name": "小鳥",
     "EnglishName": "Kotori",
     "SquadType": "Unknown",
     "Position": "",
@@ -669,12 +696,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16002
+    "ImageId": 16002,
+    "LocalChineseName": "小鳥"
   },
   {
     "Id": 300028,
     "PathName": "suzumi",
-    "Name": "Suzumi",
+    "Name": "鈴美",
     "EnglishName": "Suzumi",
     "SquadType": "Unknown",
     "Position": "",
@@ -693,12 +721,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16003
+    "ImageId": 16003,
+    "LocalChineseName": "鈴美"
   },
   {
     "Id": 300029,
     "PathName": "pina",
-    "Name": "Pina",
+    "Name": "菲娜",
     "EnglishName": "Pina",
     "SquadType": "Unknown",
     "Position": "",
@@ -717,12 +746,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16004
+    "ImageId": 16004,
+    "LocalChineseName": "菲娜"
   },
   {
     "Id": 300030,
     "PathName": "hibiki",
-    "Name": "Hibiki",
+    "Name": "響",
     "EnglishName": "Hibiki",
     "SquadType": "Unknown",
     "Position": "",
@@ -741,12 +771,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 20000
+    "ImageId": 20000,
+    "LocalChineseName": "響"
   },
   {
     "Id": 300031,
     "PathName": "karin",
-    "Name": "Karin",
+    "Name": "花凜",
     "EnglishName": "Karin",
     "SquadType": "Unknown",
     "Position": "",
@@ -765,12 +796,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 20001
+    "ImageId": 20001,
+    "LocalChineseName": "花凜"
   },
   {
     "Id": 300032,
     "PathName": "saya",
-    "Name": "Saya",
+    "Name": "沙耶",
     "EnglishName": "Saya",
     "SquadType": "Unknown",
     "Position": "",
@@ -789,12 +821,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 20002
+    "ImageId": 20002,
+    "LocalChineseName": "沙耶"
   },
   {
     "Id": 300033,
     "PathName": "airi",
-    "Name": "Airi",
+    "Name": "愛莉",
     "EnglishName": "Airi",
     "SquadType": "Unknown",
     "Position": "",
@@ -812,12 +845,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "愛莉"
   },
   {
     "Id": 300034,
     "PathName": "fuuka",
-    "Name": "Fuuka",
+    "Name": "風華",
     "EnglishName": "Fuuka",
     "SquadType": "Unknown",
     "Position": "",
@@ -835,12 +869,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "風華"
   },
   {
     "Id": 300035,
     "PathName": "hanae",
-    "Name": "Hanae",
+    "Name": "花江",
     "EnglishName": "Hanae",
     "SquadType": "Unknown",
     "Position": "",
@@ -858,12 +893,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "花江"
   },
   {
     "Id": 300036,
     "PathName": "hare",
-    "Name": "Hare",
+    "Name": "晴",
     "EnglishName": "Hare",
     "SquadType": "Unknown",
     "Position": "",
@@ -881,12 +917,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "晴"
   },
   {
     "Id": 300037,
     "PathName": "utaha",
-    "Name": "Utaha",
+    "Name": "歌原",
     "EnglishName": "Utaha",
     "SquadType": "Unknown",
     "Position": "",
@@ -904,12 +941,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "歌原"
   },
   {
     "Id": 300038,
     "PathName": "ayane",
-    "Name": "Ayane",
+    "Name": "綾音",
     "EnglishName": "Ayane",
     "SquadType": "Unknown",
     "Position": "",
@@ -927,12 +965,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "綾音"
   },
   {
     "Id": 300039,
     "PathName": "chinatsu",
-    "Name": "Chinatsu",
+    "Name": "千夏",
     "EnglishName": "Chinatsu",
     "SquadType": "Unknown",
     "Position": "",
@@ -950,12 +989,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "千夏"
   },
   {
     "Id": 300040,
     "PathName": "kotama",
-    "Name": "Kotama",
+    "Name": "小玉",
     "EnglishName": "Kotama",
     "SquadType": "Unknown",
     "Position": "",
@@ -973,12 +1013,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "小玉"
   },
   {
     "Id": 300041,
     "PathName": "juri",
-    "Name": "Juri",
+    "Name": "茱莉",
     "EnglishName": "Juri",
     "SquadType": "Unknown",
     "Position": "",
@@ -996,12 +1037,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "茱莉"
   },
   {
     "Id": 300042,
     "PathName": "serina",
-    "Name": "Serina",
+    "Name": "芹奈",
     "EnglishName": "Serina",
     "SquadType": "Unknown",
     "Position": "",
@@ -1019,12 +1061,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "芹奈"
   },
   {
     "Id": 300043,
     "PathName": "shimiko",
-    "Name": "Shimiko",
+    "Name": "志美子",
     "EnglishName": "Shimiko",
     "SquadType": "Unknown",
     "Position": "",
@@ -1042,12 +1085,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "志美子"
   },
   {
     "Id": 300044,
     "PathName": "yoshimi",
-    "Name": "Yoshimi",
+    "Name": "佳代子",
     "EnglishName": "Yoshimi",
     "SquadType": "Unknown",
     "Position": "",
@@ -1065,12 +1109,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "佳代子"
   },
   {
     "Id": 300045,
     "PathName": "mashiro",
-    "Name": "Mashiro",
+    "Name": "真白",
     "EnglishName": "Mashiro",
     "SquadType": "Unknown",
     "Position": "",
@@ -1089,12 +1134,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 20003
+    "ImageId": 20003,
+    "LocalChineseName": "真白"
   },
   {
     "Id": 300046,
     "PathName": "izuna",
-    "Name": "Izuna",
+    "Name": "伊樹菜",
     "EnglishName": "Izuna",
     "SquadType": "Unknown",
     "Position": "",
@@ -1113,12 +1159,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10014
+    "ImageId": 10014,
+    "LocalChineseName": "伊樹菜"
   },
   {
     "Id": 300047,
     "PathName": "shizuko",
-    "Name": "Shizuko",
+    "Name": "靜子",
     "EnglishName": "Shizuko",
     "SquadType": "Unknown",
     "Position": "",
@@ -1136,12 +1183,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "靜子"
   },
   {
     "Id": 300048,
     "PathName": "aris",
-    "Name": "Aris",
+    "Name": "愛麗絲",
     "EnglishName": "Aris",
     "SquadType": "Unknown",
     "Position": "",
@@ -1160,12 +1208,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10015
+    "ImageId": 10015,
+    "LocalChineseName": "愛麗絲"
   },
   {
     "Id": 300049,
     "PathName": "midori",
-    "Name": "Midori",
+    "Name": "綠",
     "EnglishName": "Midori",
     "SquadType": "Unknown",
     "Position": "",
@@ -1184,12 +1233,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10016
+    "ImageId": 10016,
+    "LocalChineseName": "綠"
   },
   {
     "Id": 300050,
     "PathName": "momoi",
-    "Name": "Momoi",
+    "Name": "桃井",
     "EnglishName": "Momoi",
     "SquadType": "Unknown",
     "Position": "",
@@ -1208,12 +1258,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13011
+    "ImageId": 13011,
+    "LocalChineseName": "桃井"
   },
   {
     "Id": 300051,
     "PathName": "cherino",
-    "Name": "Cherino",
+    "Name": "切里諾",
     "EnglishName": "Cherino",
     "SquadType": "Unknown",
     "Position": "",
@@ -1232,12 +1283,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10017
+    "ImageId": 10017,
+    "LocalChineseName": "切里諾"
   },
   {
     "Id": 300052,
     "PathName": "nodoka",
-    "Name": "Nodoka",
+    "Name": "和香",
     "EnglishName": "Nodoka",
     "SquadType": "Unknown",
     "Position": "",
@@ -1255,12 +1307,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "和香"
   },
   {
     "Id": 300053,
     "PathName": "yuzu",
-    "Name": "Yuzu",
+    "Name": "柚子",
     "EnglishName": "Yuzu",
     "SquadType": "Unknown",
     "Position": "",
@@ -1279,12 +1332,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10018
+    "ImageId": 10018,
+    "LocalChineseName": "柚子"
   },
   {
     "Id": 300054,
     "PathName": "azusa",
-    "Name": "Azusa",
+    "Name": "梓",
     "EnglishName": "Azusa",
     "SquadType": "Unknown",
     "Position": "",
@@ -1303,12 +1357,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10019
+    "ImageId": 10019,
+    "LocalChineseName": "梓"
   },
   {
     "Id": 300055,
     "PathName": "hanako",
-    "Name": "Hanako",
+    "Name": "花子",
     "EnglishName": "Hanako",
     "SquadType": "Unknown",
     "Position": "",
@@ -1326,12 +1381,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "花子"
   },
   {
     "Id": 300056,
     "PathName": "koharu",
-    "Name": "Koharu",
+    "Name": "小春",
     "EnglishName": "Koharu",
     "SquadType": "Unknown",
     "Position": "",
@@ -1350,12 +1406,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10020
+    "ImageId": 10020,
+    "LocalChineseName": "小春"
   },
   {
     "Id": 300057,
     "PathName": "azusa_swimsuit",
-    "Name": "Azusa (Swimsuit)",
+    "Name": "梓（泳裝）",
     "EnglishName": "Azusa (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1374,12 +1431,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10021
+    "ImageId": 10021,
+    "LocalChineseName": "梓（泳裝）"
   },
   {
     "Id": 300058,
     "PathName": "mashiro_swimsuit",
-    "Name": "Mashiro (Swimsuit)",
+    "Name": "真白（泳裝）",
     "EnglishName": "Mashiro (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1398,12 +1456,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 20004
+    "ImageId": 20004,
+    "LocalChineseName": "真白（泳裝）"
   },
   {
     "Id": 300059,
     "PathName": "tsurugi_swimsuit",
-    "Name": "Tsurugi (Swimsuit)",
+    "Name": "鶴城（泳裝）",
     "EnglishName": "Tsurugi (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1422,12 +1481,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16005
+    "ImageId": 16005,
+    "LocalChineseName": "鶴城（泳裝）"
   },
   {
     "Id": 300060,
     "PathName": "hifumi_swimsuit",
-    "Name": "Hifumi (Swimsuit)",
+    "Name": "日步美（泳裝）",
     "EnglishName": "Hifumi (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1446,12 +1506,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 20005
+    "ImageId": 20005,
+    "LocalChineseName": "日步美（泳裝）"
   },
   {
     "Id": 300061,
     "PathName": "hina_swimsuit",
-    "Name": "Hina (Swimsuit)",
+    "Name": "陽奈（泳裝）",
     "EnglishName": "Hina (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1470,12 +1531,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10022
+    "ImageId": 10022,
+    "LocalChineseName": "陽奈（泳裝）"
   },
   {
     "Id": 300062,
     "PathName": "iori_swimsuit",
-    "Name": "Iori (Swimsuit)",
+    "Name": "伊織（泳裝）",
     "EnglishName": "Iori (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1494,12 +1556,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10023
+    "ImageId": 10023,
+    "LocalChineseName": "伊織（泳裝）"
   },
   {
     "Id": 300063,
     "PathName": "izumi_swimsuit",
-    "Name": "Izumi (Swimsuit)",
+    "Name": "泉（泳裝）",
     "EnglishName": "Izumi (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1518,12 +1581,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16006
+    "ImageId": 16006,
+    "LocalChineseName": "泉（泳裝）"
   },
   {
     "Id": 300064,
     "PathName": "shiroko_cycling",
-    "Name": "Shiroko (Cycling)",
+    "Name": "白子（自行車）",
     "EnglishName": "Shiroko (Cycling)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1542,12 +1606,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10024
+    "ImageId": 10024,
+    "LocalChineseName": "白子（自行車）"
   },
   {
     "Id": 300065,
     "PathName": "shun_small",
-    "Name": "Shun (Small)",
+    "Name": "瞬（幼年）",
     "EnglishName": "Shun (Small)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1566,12 +1631,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10025
+    "ImageId": 10025,
+    "LocalChineseName": "瞬（幼年）"
   },
   {
     "Id": 300066,
     "PathName": "kirino",
-    "Name": "Kirino",
+    "Name": "桐乃",
     "EnglishName": "Kirino",
     "SquadType": "Unknown",
     "Position": "",
@@ -1590,12 +1656,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13012
+    "ImageId": 13012,
+    "LocalChineseName": "桐乃"
   },
   {
     "Id": 300067,
     "PathName": "saya_casual",
-    "Name": "Saya (Casual)",
+    "Name": "沙耶（私服）",
     "EnglishName": "Saya (Casual)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1614,12 +1681,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 20006
+    "ImageId": 20006,
+    "LocalChineseName": "沙耶（私服）"
   },
   {
     "Id": 300068,
     "PathName": "neru_bunny",
-    "Name": "Neru (Bunny)",
+    "Name": "寧瑠（兔女郎）",
     "EnglishName": "Neru (Bunny)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1638,12 +1706,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10026
+    "ImageId": 10026,
+    "LocalChineseName": "寧瑠（兔女郎）"
   },
   {
     "Id": 300069,
     "PathName": "karin_bunny",
-    "Name": "Karin (Bunny)",
+    "Name": "花凜（兔女郎）",
     "EnglishName": "Karin (Bunny)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1662,12 +1731,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10027
+    "ImageId": 10027,
+    "LocalChineseName": "花凜（兔女郎）"
   },
   {
     "Id": 300070,
     "PathName": "asuna_bunny",
-    "Name": "Asuna (Bunny)",
+    "Name": "明日奈（兔女郎）",
     "EnglishName": "Asuna (Bunny)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1686,12 +1756,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10028
+    "ImageId": 10028,
+    "LocalChineseName": "明日奈（兔女郎）"
   },
   {
     "Id": 300071,
     "PathName": "natsu",
-    "Name": "Natsu",
+    "Name": "夏",
     "EnglishName": "Natsu",
     "SquadType": "Unknown",
     "Position": "",
@@ -1710,12 +1781,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10029
+    "ImageId": 10029,
+    "LocalChineseName": "夏"
   },
   {
     "Id": 300072,
     "PathName": "mari",
-    "Name": "Mari",
+    "Name": "瑪麗",
     "EnglishName": "Mari",
     "SquadType": "Unknown",
     "Position": "",
@@ -1733,12 +1805,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "瑪麗"
   },
   {
     "Id": 300073,
     "PathName": "miku",
-    "Name": "Hatsune Miku",
+    "Name": "初音未來",
     "EnglishName": "Hatsune Miku",
     "SquadType": "Unknown",
     "Position": "",
@@ -1757,7 +1830,8 @@
         "Icon": ""
       }
     ],
-    "ImageId": 20007
+    "ImageId": 20007,
+    "LocalChineseName": "初音未來"
   },
   {
     "Id": 300074,
@@ -1781,12 +1855,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 20008
+    "ImageId": 20008,
+    "LocalChineseName": "亞子"
   },
   {
     "Id": 300075,
     "PathName": "cherino_hotspring",
-    "Name": "Cherino (Hot Spring)",
+    "Name": "切里諾（溫泉）",
     "EnglishName": "Cherino (Hot Spring)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1804,12 +1879,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "切里諾（溫泉）"
   },
   {
     "Id": 300076,
     "PathName": "chinatsu_hotspring",
-    "Name": "Chinatsu (Hot Spring)",
+    "Name": "千夏（溫泉）",
     "EnglishName": "Chinatsu (Hot Spring)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1828,12 +1904,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10030
+    "ImageId": 10030,
+    "LocalChineseName": "千夏（溫泉）"
   },
   {
     "Id": 300077,
     "PathName": "tomoe",
-    "Name": "Tomoe",
+    "Name": "巴",
     "EnglishName": "Tomoe",
     "SquadType": "Unknown",
     "Position": "",
@@ -1852,12 +1929,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16007
+    "ImageId": 16007,
+    "LocalChineseName": "巴"
   },
   {
     "Id": 300078,
     "PathName": "nodoka_hotspring",
-    "Name": "Nodoka (Hot Spring)",
+    "Name": "和香（溫泉）",
     "EnglishName": "Nodoka (Hot Spring)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1875,12 +1953,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "和香（溫泉）"
   },
   {
     "Id": 300079,
     "PathName": "aru_newyear",
-    "Name": "Aru (New Year)",
+    "Name": "亞瑠（新年）",
     "EnglishName": "Aru (New Year)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1899,12 +1978,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10031
+    "ImageId": 10031,
+    "LocalChineseName": "亞瑠（新年）"
   },
   {
     "Id": 300080,
     "PathName": "mutsuki_newyear",
-    "Name": "Mutsuki (New Year)",
+    "Name": "睦月（新年）",
     "EnglishName": "Mutsuki (New Year)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1923,12 +2003,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10032
+    "ImageId": 10032,
+    "LocalChineseName": "睦月（新年）"
   },
   {
     "Id": 300081,
     "PathName": "serika_newyear",
-    "Name": "Serika (New Year)",
+    "Name": "芹香（新年）",
     "EnglishName": "Serika (New Year)",
     "SquadType": "Unknown",
     "Position": "",
@@ -1946,12 +2027,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "芹香（新年）"
   },
   {
     "Id": 300082,
     "PathName": "wakamo",
-    "Name": "Wakamo",
+    "Name": "若藻",
     "EnglishName": "Wakamo",
     "SquadType": "Unknown",
     "Position": "",
@@ -1970,12 +2052,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10033
+    "ImageId": 10033,
+    "LocalChineseName": "若藻"
   },
   {
     "Id": 300083,
     "PathName": "fubuki",
-    "Name": "Fubuki",
+    "Name": "吹雪",
     "EnglishName": "Fubuki",
     "SquadType": "Unknown",
     "Position": "",
@@ -1994,12 +2077,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16008
+    "ImageId": 16008,
+    "LocalChineseName": "吹雪"
   },
   {
     "Id": 300084,
     "PathName": "sena",
-    "Name": "Sena",
+    "Name": "瀨名",
     "EnglishName": "Sena",
     "SquadType": "Unknown",
     "Position": "",
@@ -2017,12 +2101,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "瀨名"
   },
   {
     "Id": 300085,
     "PathName": "chihiro",
-    "Name": "Chihiro",
+    "Name": "千尋",
     "EnglishName": "Chihiro",
     "SquadType": "Unknown",
     "Position": "",
@@ -2040,12 +2125,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "千尋"
   },
   {
     "Id": 300086,
     "PathName": "mimori",
-    "Name": "Mimori",
+    "Name": "三森",
     "EnglishName": "Mimori",
     "SquadType": "Unknown",
     "Position": "",
@@ -2064,12 +2150,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10034
+    "ImageId": 10034,
+    "LocalChineseName": "三森"
   },
   {
     "Id": 300087,
     "PathName": "ui",
-    "Name": "Ui",
+    "Name": "憂",
     "EnglishName": "Ui",
     "SquadType": "Unknown",
     "Position": "",
@@ -2088,12 +2175,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10035
+    "ImageId": 10035,
+    "LocalChineseName": "憂"
   },
   {
     "Id": 300088,
     "PathName": "hinata",
-    "Name": "Hinata",
+    "Name": "日向",
     "EnglishName": "Hinata",
     "SquadType": "Unknown",
     "Position": "",
@@ -2112,12 +2200,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10036
+    "ImageId": 10036,
+    "LocalChineseName": "日向"
   },
   {
     "Id": 300089,
     "PathName": "marina",
-    "Name": "Marina",
+    "Name": "瑪麗娜",
     "EnglishName": "Marina",
     "SquadType": "Unknown",
     "Position": "",
@@ -2136,12 +2225,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10037
+    "ImageId": 10037,
+    "LocalChineseName": "瑪麗娜"
   },
   {
     "Id": 300090,
     "PathName": "miyako",
-    "Name": "Miyako",
+    "Name": "宮子",
     "EnglishName": "Miyako",
     "SquadType": "Unknown",
     "Position": "",
@@ -2160,12 +2250,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10038
+    "ImageId": 10038,
+    "LocalChineseName": "宮子"
   },
   {
     "Id": 300091,
     "PathName": "saki",
-    "Name": "Saki",
+    "Name": "咲希",
     "EnglishName": "Saki",
     "SquadType": "Unknown",
     "Position": "",
@@ -2183,12 +2274,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "咲希"
   },
   {
     "Id": 300092,
     "PathName": "miyu",
-    "Name": "Miyu",
+    "Name": "美遊",
     "EnglishName": "Miyu",
     "SquadType": "Unknown",
     "Position": "",
@@ -2207,12 +2299,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10039
+    "ImageId": 10039,
+    "LocalChineseName": "美遊"
   },
   {
     "Id": 300093,
     "PathName": "kaede",
-    "Name": "Kaede",
+    "Name": "楓",
     "EnglishName": "Kaede",
     "SquadType": "Unknown",
     "Position": "",
@@ -2230,7 +2323,8 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "楓"
   },
   {
     "Id": 300094,
@@ -2253,12 +2347,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "伊呂波"
   },
   {
     "Id": 300095,
     "PathName": "michiru",
-    "Name": "Michiru",
+    "Name": "美知留",
     "EnglishName": "Michiru",
     "SquadType": "Unknown",
     "Position": "",
@@ -2277,12 +2372,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16009
+    "ImageId": 16009,
+    "LocalChineseName": "美知留"
   },
   {
     "Id": 300096,
     "PathName": "tsukuyo",
-    "Name": "Tsukuyo",
+    "Name": "月詠",
     "EnglishName": "Tsukuyo",
     "SquadType": "Unknown",
     "Position": "",
@@ -2301,12 +2397,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10040
+    "ImageId": 10040,
+    "LocalChineseName": "月詠"
   },
   {
     "Id": 300097,
     "PathName": "misaki",
-    "Name": "Misaki",
+    "Name": "美咲",
     "EnglishName": "Misaki",
     "SquadType": "Unknown",
     "Position": "",
@@ -2325,12 +2422,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10041
+    "ImageId": 10041,
+    "LocalChineseName": "美咲"
   },
   {
     "Id": 300098,
     "PathName": "hiyori",
-    "Name": "Hiyori",
+    "Name": "日和",
     "EnglishName": "Hiyori",
     "SquadType": "Unknown",
     "Position": "",
@@ -2348,12 +2446,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "日和"
   },
   {
     "Id": 300099,
     "PathName": "atsuko",
-    "Name": "Atsuko",
+    "Name": "敦子",
     "EnglishName": "Atsuko",
     "SquadType": "Unknown",
     "Position": "",
@@ -2372,12 +2471,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10042
+    "ImageId": 10042,
+    "LocalChineseName": "敦子"
   },
   {
     "Id": 300100,
     "PathName": "wakamo_swimsuit",
-    "Name": "Wakamo (Swimsuit)",
+    "Name": "若藻（泳裝）",
     "EnglishName": "Wakamo (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2396,12 +2496,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10043
+    "ImageId": 10043,
+    "LocalChineseName": "若藻（泳裝）"
   },
   {
     "Id": 300101,
     "PathName": "nonomi_swimsuit",
-    "Name": "Nonomi (Swimsuit)",
+    "Name": "野乃美（泳裝）",
     "EnglishName": "Nonomi (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2420,12 +2521,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10044
+    "ImageId": 10044,
+    "LocalChineseName": "野乃美（泳裝）"
   },
   {
     "Id": 300102,
     "PathName": "ayane_swimsuit",
-    "Name": "Ayane (Swimsuit)",
+    "Name": "綾音（泳裝）",
     "EnglishName": "Ayane (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2443,12 +2545,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "綾音（泳裝）"
   },
   {
     "Id": 300103,
     "PathName": "hoshino_swimsuit",
-    "Name": "Hoshino (Swimsuit)",
+    "Name": "星野（泳裝）",
     "EnglishName": "Hoshino (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2467,12 +2570,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10045
+    "ImageId": 10045,
+    "LocalChineseName": "星野（泳裝）"
   },
   {
     "Id": 300104,
     "PathName": "shizuko_swimsuit",
-    "Name": "Shizuko (Swimsuit)",
+    "Name": "靜子（泳裝）",
     "EnglishName": "Shizuko (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2490,12 +2594,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "靜子（泳裝）"
   },
   {
     "Id": 300105,
     "PathName": "izuna_swimsuit",
-    "Name": "Izuna (Swimsuit)",
+    "Name": "伊樹菜（泳裝）",
     "EnglishName": "Izuna (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2514,12 +2619,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10046
+    "ImageId": 10046,
+    "LocalChineseName": "伊樹菜（泳裝）"
   },
   {
     "Id": 300106,
     "PathName": "chise_swimsuit",
-    "Name": "Chise (Swimsuit)",
+    "Name": "千世（泳裝）",
     "EnglishName": "Chise (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2538,12 +2644,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10047
+    "ImageId": 10047,
+    "LocalChineseName": "千世（泳裝）"
   },
   {
     "Id": 300107,
     "PathName": "saori",
-    "Name": "Saori",
+    "Name": "沙織",
     "EnglishName": "Saori",
     "SquadType": "Unknown",
     "Position": "",
@@ -2562,12 +2669,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10048
+    "ImageId": 10048,
+    "LocalChineseName": "沙織"
   },
   {
     "Id": 300108,
     "PathName": "moe",
-    "Name": "Moe",
+    "Name": "萌繪",
     "EnglishName": "Moe",
     "SquadType": "Unknown",
     "Position": "",
@@ -2585,12 +2693,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "萌繪"
   },
   {
     "Id": 300109,
     "PathName": "kazusa",
-    "Name": "Kazusa",
+    "Name": "和紗",
     "EnglishName": "Kazusa",
     "SquadType": "Unknown",
     "Position": "",
@@ -2609,12 +2718,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10049
+    "ImageId": 10049,
+    "LocalChineseName": "和紗"
   },
   {
     "Id": 300110,
     "PathName": "kokona",
-    "Name": "Kokona",
+    "Name": "心奈",
     "EnglishName": "Kokona",
     "SquadType": "Unknown",
     "Position": "",
@@ -2633,12 +2743,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10050
+    "ImageId": 10050,
+    "LocalChineseName": "心奈"
   },
   {
     "Id": 300111,
     "PathName": "utaha_cheer",
-    "Name": "Utaha (Cheer Squad)",
+    "Name": "歌原（應援團）",
     "EnglishName": "Utaha (Cheer Squad)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2657,12 +2768,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10051
+    "ImageId": 10051,
+    "LocalChineseName": "歌原（應援團）"
   },
   {
     "Id": 300112,
     "PathName": "noa",
-    "Name": "Noa",
+    "Name": "乃愛",
     "EnglishName": "Noa",
     "SquadType": "Unknown",
     "Position": "",
@@ -2681,12 +2793,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10052
+    "ImageId": 10052,
+    "LocalChineseName": "乃愛"
   },
   {
     "Id": 300113,
     "PathName": "hibiki_cheer",
-    "Name": "Hibiki (Cheer Squad)",
+    "Name": "響（應援團）",
     "EnglishName": "Hibiki (Cheer Squad)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2705,12 +2818,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16010
+    "ImageId": 16010,
+    "LocalChineseName": "響（應援團）"
   },
   {
     "Id": 300114,
     "PathName": "akane_bunny",
-    "Name": "Akane (Bunny)",
+    "Name": "茜香（兔女郎）",
     "EnglishName": "Akane (Bunny)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2728,12 +2842,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "茜香（兔女郎）"
   },
   {
     "Id": 300115,
     "PathName": "yuuka_track",
-    "Name": "Yuuka (Track)",
+    "Name": "優香（體育服）",
     "EnglishName": "Yuuka (Track)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2752,12 +2867,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10053
+    "ImageId": 10053,
+    "LocalChineseName": "優香（體育服）"
   },
   {
     "Id": 300116,
     "PathName": "mari_track",
-    "Name": "Mari (Track)",
+    "Name": "瑪麗（體育服）",
     "EnglishName": "Mari (Track)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2776,12 +2892,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10054
+    "ImageId": 10054,
+    "LocalChineseName": "瑪麗（體育服）"
   },
   {
     "Id": 300117,
     "PathName": "hasumi_track",
-    "Name": "Hasumi (Track)",
+    "Name": "蓮實（體育服）",
     "EnglishName": "Hasumi (Track)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2800,12 +2917,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16011
+    "ImageId": 16011,
+    "LocalChineseName": "蓮實（體育服）"
   },
   {
     "Id": 300118,
     "PathName": "himari",
-    "Name": "Himari",
+    "Name": "日鞠",
     "EnglishName": "Himari",
     "SquadType": "Unknown",
     "Position": "",
@@ -2823,12 +2941,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "日鞠"
   },
   {
     "Id": 300119,
     "PathName": "shigure",
-    "Name": "Shigure",
+    "Name": "時雨",
     "EnglishName": "Shigure",
     "SquadType": "Unknown",
     "Position": "",
@@ -2847,12 +2966,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10055
+    "ImageId": 10055,
+    "LocalChineseName": "時雨"
   },
   {
     "Id": 300120,
     "PathName": "serina_christmas",
-    "Name": "Serina (Christmas)",
+    "Name": "芹奈（聖誕）",
     "EnglishName": "Serina (Christmas)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2871,12 +2991,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10056
+    "ImageId": 10056,
+    "LocalChineseName": "芹奈（聖誕）"
   },
   {
     "Id": 300121,
     "PathName": "hanae_christmas",
-    "Name": "Hanae (Christmas)",
+    "Name": "花江（聖誕）",
     "EnglishName": "Hanae (Christmas)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2894,12 +3015,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "花江（聖誕）"
   },
   {
     "Id": 300122,
     "PathName": "haruna_newyear",
-    "Name": "Haruna (New Year)",
+    "Name": "晴奈（新年）",
     "EnglishName": "Haruna (New Year)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2918,12 +3040,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10057
+    "ImageId": 10057,
+    "LocalChineseName": "晴奈（新年）"
   },
   {
     "Id": 300123,
     "PathName": "fuuka_newyear",
-    "Name": "Fuuka (New Year)",
+    "Name": "風華（新年）",
     "EnglishName": "Fuuka (New Year)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2941,12 +3064,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "風華（新年）"
   },
   {
     "Id": 300124,
     "PathName": "junko_newyear",
-    "Name": "Junko (New Year)",
+    "Name": "淳子（新年）",
     "EnglishName": "Junko (New Year)",
     "SquadType": "Unknown",
     "Position": "",
@@ -2965,12 +3089,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16012
+    "ImageId": 16012,
+    "LocalChineseName": "淳子（新年）"
   },
   {
     "Id": 300125,
     "PathName": "mine",
-    "Name": "Mine",
+    "Name": "美禰",
     "EnglishName": "Mine",
     "SquadType": "Unknown",
     "Position": "",
@@ -2989,12 +3114,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10058
+    "ImageId": 10058,
+    "LocalChineseName": "美禰"
   },
   {
     "Id": 300126,
     "PathName": "mika",
-    "Name": "Mika",
+    "Name": "彌香",
     "EnglishName": "Mika",
     "SquadType": "Unknown",
     "Position": "",
@@ -3013,12 +3139,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10059
+    "ImageId": 10059,
+    "LocalChineseName": "彌香"
   },
   {
     "Id": 300127,
     "PathName": "megu",
-    "Name": "Megu",
+    "Name": "惠",
     "EnglishName": "Megu",
     "SquadType": "Unknown",
     "Position": "",
@@ -3037,12 +3164,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10060
+    "ImageId": 10060,
+    "LocalChineseName": "惠"
   },
   {
     "Id": 300128,
     "PathName": "kanna",
-    "Name": "Kanna",
+    "Name": "環奈",
     "EnglishName": "Kanna",
     "SquadType": "Unknown",
     "Position": "",
@@ -3060,12 +3188,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "環奈"
   },
   {
     "Id": 300129,
     "PathName": "sakurako",
-    "Name": "Sakurako",
+    "Name": "櫻子",
     "EnglishName": "Sakurako",
     "SquadType": "Unknown",
     "Position": "",
@@ -3084,12 +3213,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10061
+    "ImageId": 10061,
+    "LocalChineseName": "櫻子"
   },
   {
     "Id": 300130,
     "PathName": "toki",
-    "Name": "Toki",
+    "Name": "時",
     "EnglishName": "Toki",
     "SquadType": "Unknown",
     "Position": "",
@@ -3108,12 +3238,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10062
+    "ImageId": 10062,
+    "LocalChineseName": "時"
   },
   {
     "Id": 300131,
     "PathName": "nagisa",
-    "Name": "Nagisa",
+    "Name": "渚",
     "EnglishName": "Nagisa",
     "SquadType": "Unknown",
     "Position": "",
@@ -3131,12 +3262,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "渚"
   },
   {
     "Id": 300132,
     "PathName": "koyuki",
-    "Name": "Koyuki",
+    "Name": "小雪",
     "EnglishName": "Koyuki",
     "SquadType": "Unknown",
     "Position": "",
@@ -3155,12 +3287,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10063
+    "ImageId": 10063,
+    "LocalChineseName": "小雪"
   },
   {
     "Id": 300133,
     "PathName": "kayoko_newyear",
-    "Name": "Kayoko (New Year)",
+    "Name": "佳世子（新年）",
     "EnglishName": "Kayoko (New Year)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3179,12 +3312,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10064
+    "ImageId": 10064,
+    "LocalChineseName": "佳世子（新年）"
   },
   {
     "Id": 300134,
     "PathName": "haruka_newyear",
-    "Name": "Haruka (New Year)",
+    "Name": "遙香（新年）",
     "EnglishName": "Haruka (New Year)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3202,12 +3336,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "遙香（新年）"
   },
   {
     "Id": 300135,
     "PathName": "kaho",
-    "Name": "Kaho",
+    "Name": "果穗",
     "EnglishName": "Kaho",
     "SquadType": "Unknown",
     "Position": "",
@@ -3226,12 +3361,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10065
+    "ImageId": 10065,
+    "LocalChineseName": "果穗"
   },
   {
     "Id": 300136,
     "PathName": "aris_maid",
-    "Name": "Aris (Maid)",
+    "Name": "愛麗絲（女僕）",
     "EnglishName": "Aris (Maid)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3250,12 +3386,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10066
+    "ImageId": 10066,
+    "LocalChineseName": "愛麗絲（女僕）"
   },
   {
     "Id": 300137,
     "PathName": "toki_bunny",
-    "Name": "Toki (Bunny)",
+    "Name": "時（兔女郎）",
     "EnglishName": "Toki (Bunny)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3274,12 +3411,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10067
+    "ImageId": 10067,
+    "LocalChineseName": "時（兔女郎）"
   },
   {
     "Id": 300138,
     "PathName": "yuzu_maid",
-    "Name": "Yuzu (Maid)",
+    "Name": "柚子（女僕）",
     "EnglishName": "Yuzu (Maid)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3297,12 +3435,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "柚子（女僕）"
   },
   {
     "Id": 300139,
     "PathName": "reisa",
-    "Name": "Reisa",
+    "Name": "玲紗",
     "EnglishName": "Reisa",
     "SquadType": "Unknown",
     "Position": "",
@@ -3321,12 +3460,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10068
+    "ImageId": 10068,
+    "LocalChineseName": "玲紗"
   },
   {
     "Id": 300140,
     "PathName": "rumi",
-    "Name": "Rumi",
+    "Name": "瑠美",
     "EnglishName": "Rumi",
     "SquadType": "Unknown",
     "Position": "",
@@ -3345,12 +3485,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10069
+    "ImageId": 10069,
+    "LocalChineseName": "瑠美"
   },
   {
     "Id": 300141,
     "PathName": "mina",
-    "Name": "Mina",
+    "Name": "美奈",
     "EnglishName": "Mina",
     "SquadType": "Unknown",
     "Position": "",
@@ -3369,12 +3510,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10070
+    "ImageId": 10070,
+    "LocalChineseName": "美奈"
   },
   {
     "Id": 300142,
     "PathName": "minori",
-    "Name": "Minori",
+    "Name": "實梨",
     "EnglishName": "Minori",
     "SquadType": "Unknown",
     "Position": "",
@@ -3392,12 +3534,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "實梨"
   },
   {
     "Id": 300143,
     "PathName": "miyako_swimsuit",
-    "Name": "Miyako (Swimsuit)",
+    "Name": "宮子（泳裝）",
     "EnglishName": "Miyako (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3416,12 +3559,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10071
+    "ImageId": 10071,
+    "LocalChineseName": "宮子（泳裝）"
   },
   {
     "Id": 300144,
     "PathName": "saki_swimsuit",
-    "Name": "Saki (Swimsuit)",
+    "Name": "咲希（泳裝）",
     "EnglishName": "Saki (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3440,12 +3584,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10072
+    "ImageId": 10072,
+    "LocalChineseName": "咲希（泳裝）"
   },
   {
     "Id": 300145,
     "PathName": "miyu_swimsuit",
-    "Name": "Miyu (Swimsuit)",
+    "Name": "美遊（泳裝）",
     "EnglishName": "Miyu (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3463,12 +3608,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "美遊（泳裝）"
   },
   {
     "Id": 300146,
     "PathName": "shiroko_swimsuit",
-    "Name": "Shiroko (Swimsuit)",
+    "Name": "白子（泳裝）",
     "EnglishName": "Shiroko (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3486,12 +3632,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "白子（泳裝）"
   },
   {
     "Id": 300147,
     "PathName": "ui_swimsuit",
-    "Name": "Ui (Swimsuit)",
+    "Name": "憂（泳裝）",
     "EnglishName": "Ui (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3510,12 +3657,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10073
+    "ImageId": 10073,
+    "LocalChineseName": "憂（泳裝）"
   },
   {
     "Id": 300148,
     "PathName": "hinata_swimsuit",
-    "Name": "Hinata (Swimsuit)",
+    "Name": "日向（泳裝）",
     "EnglishName": "Hinata (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3533,12 +3681,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "日向（泳裝）"
   },
   {
     "Id": 300149,
     "PathName": "koharu_swimsuit",
-    "Name": "Koharu (Swimsuit)",
+    "Name": "小春（泳裝）",
     "EnglishName": "Koharu (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3557,12 +3706,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16013
+    "ImageId": 16013,
+    "LocalChineseName": "小春（泳裝）"
   },
   {
     "Id": 300150,
     "PathName": "hanako_swimsuit",
-    "Name": "Hanako (Swimsuit)",
+    "Name": "花子（泳裝）",
     "EnglishName": "Hanako (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3581,12 +3731,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10074
+    "ImageId": 10074,
+    "LocalChineseName": "花子（泳裝）"
   },
   {
     "Id": 300151,
     "PathName": "mimori_swimsuit",
-    "Name": "Mimori (Swimsuit)",
+    "Name": "三森（泳裝）",
     "EnglishName": "Mimori (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3604,12 +3755,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "三森（泳裝）"
   },
   {
     "Id": 300152,
     "PathName": "meru",
-    "Name": "Meru",
+    "Name": "梅露",
     "EnglishName": "Meru",
     "SquadType": "Unknown",
     "Position": "",
@@ -3628,12 +3780,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10075
+    "ImageId": 10075,
+    "LocalChineseName": "梅露"
   },
   {
     "Id": 300153,
     "PathName": "momiji",
-    "Name": "Momiji",
+    "Name": "紅葉",
     "EnglishName": "Momiji",
     "SquadType": "Unknown",
     "Position": "",
@@ -3652,12 +3805,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 13013
+    "ImageId": 13013,
+    "LocalChineseName": "紅葉"
   },
   {
     "Id": 300154,
     "PathName": "kotori_cheer",
-    "Name": "Kotori (Cheer Squad)",
+    "Name": "小鳥（應援團）",
     "EnglishName": "Kotori (Cheer Squad)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3676,12 +3830,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10076
+    "ImageId": 10076,
+    "LocalChineseName": "小鳥（應援團）"
   },
   {
     "Id": 300155,
     "PathName": "haruna_track",
-    "Name": "Haruna (Track)",
+    "Name": "晴奈（體育服）",
     "EnglishName": "Haruna (Track)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3699,12 +3854,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "晴奈（體育服）"
   },
   {
     "Id": 300156,
     "PathName": "ichika",
-    "Name": "Ichika",
+    "Name": "一花",
     "EnglishName": "Ichika",
     "SquadType": "Unknown",
     "Position": "",
@@ -3723,12 +3879,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10077
+    "ImageId": 10077,
+    "LocalChineseName": "一花"
   },
   {
     "Id": 300157,
     "PathName": "kasumi",
-    "Name": "Kasumi",
+    "Name": "霞",
     "EnglishName": "Kasumi",
     "SquadType": "Unknown",
     "Position": "",
@@ -3747,12 +3904,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10078
+    "ImageId": 10078,
+    "LocalChineseName": "霞"
   },
   {
     "Id": 300158,
     "PathName": "shigure_hotspring",
-    "Name": "Shigure (Hot Spring)",
+    "Name": "時雨（溫泉）",
     "EnglishName": "Shigure (Hot Spring)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3770,12 +3928,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "時雨（溫泉）"
   },
   {
     "Id": 300159,
     "PathName": "misaka_mikoto",
-    "Name": "Misaka Mikoto",
+    "Name": "御坂美琴",
     "EnglishName": "Misaka Mikoto",
     "SquadType": "Unknown",
     "Position": "",
@@ -3794,12 +3953,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10079
+    "ImageId": 10079,
+    "LocalChineseName": "御坂美琴"
   },
   {
     "Id": 300160,
     "PathName": "shokuhou_misaki",
-    "Name": "Shokuhou Misaki",
+    "Name": "食蜂操祈",
     "EnglishName": "Shokuhou Misaki",
     "SquadType": "Unknown",
     "Position": "",
@@ -3818,12 +3978,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10080
+    "ImageId": 10080,
+    "LocalChineseName": "食蜂操祈"
   },
   {
     "Id": 300161,
     "PathName": "saten_ruiko",
-    "Name": "Saten Ruiko",
+    "Name": "佐天淚子",
     "EnglishName": "Saten Ruiko",
     "SquadType": "Unknown",
     "Position": "",
@@ -3841,12 +4002,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "佐天淚子"
   },
   {
     "Id": 300162,
     "PathName": "yukari",
-    "Name": "Yukari",
+    "Name": "紫",
     "EnglishName": "Yukari",
     "SquadType": "Unknown",
     "Position": "",
@@ -3865,12 +4027,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10081
+    "ImageId": 10081,
+    "LocalChineseName": "紫"
   },
   {
     "Id": 300163,
     "PathName": "renge",
-    "Name": "Renge",
+    "Name": "蓮華",
     "EnglishName": "Renge",
     "SquadType": "Unknown",
     "Position": "",
@@ -3889,12 +4052,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10082
+    "ImageId": 10082,
+    "LocalChineseName": "蓮華"
   },
   {
     "Id": 300164,
     "PathName": "kikyou",
-    "Name": "Kikyou",
+    "Name": "桔梗",
     "EnglishName": "Kikyou",
     "SquadType": "Unknown",
     "Position": "",
@@ -3913,12 +4077,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10083
+    "ImageId": 10083,
+    "LocalChineseName": "桔梗"
   },
   {
     "Id": 300165,
     "PathName": "eimi_swimsuit",
-    "Name": "Eimi (Swimsuit)",
+    "Name": "艾米（泳裝）",
     "EnglishName": "Eimi (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3936,12 +4101,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "艾米（泳裝）"
   },
   {
     "Id": 300166,
     "PathName": "kotama_camp",
-    "Name": "Kotama (Camp)",
+    "Name": "小玉（露營）",
     "EnglishName": "Kotama (Camp)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3959,12 +4125,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "小玉（露營）"
   },
   {
     "Id": 300167,
     "PathName": "hare_camp",
-    "Name": "Hare (Camp)",
+    "Name": "晴（露營）",
     "EnglishName": "Hare (Camp)",
     "SquadType": "Unknown",
     "Position": "",
@@ -3983,12 +4150,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10085
+    "ImageId": 10085,
+    "LocalChineseName": "晴（露營）"
   },
   {
     "Id": 300168,
     "PathName": "ako_dress",
-    "Name": "Ako (Dress)",
+    "Name": "亞子（禮服）",
     "EnglishName": "Ako (Dress)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4007,12 +4175,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10087
+    "ImageId": 10087,
+    "LocalChineseName": "亞子（禮服）"
   },
   {
     "Id": 300169,
     "PathName": "ibuki",
-    "Name": "Ibuki",
+    "Name": "伊吹",
     "EnglishName": "Ibuki",
     "SquadType": "Unknown",
     "Position": "",
@@ -4031,12 +4200,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16014
+    "ImageId": 16014,
+    "LocalChineseName": "伊吹"
   },
   {
     "Id": 300170,
     "PathName": "makoto",
-    "Name": "Makoto",
+    "Name": "真琴",
     "EnglishName": "Makoto",
     "SquadType": "Unknown",
     "Position": "",
@@ -4054,12 +4224,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "真琴"
   },
   {
     "Id": 300171,
     "PathName": "hina_dress",
-    "Name": "Hina (Dress)",
+    "Name": "陽奈（禮服）",
     "EnglishName": "Hina (Dress)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4078,12 +4249,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10086
+    "ImageId": 10086,
+    "LocalChineseName": "陽奈（禮服）"
   },
   {
     "Id": 300172,
     "PathName": "kayoko_dress",
-    "Name": "Kayoko (Dress)",
+    "Name": "佳世子（禮服）",
     "EnglishName": "Kayoko (Dress)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4102,12 +4274,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10088
+    "ImageId": 10088,
+    "LocalChineseName": "佳世子（禮服）"
   },
   {
     "Id": 300173,
     "PathName": "aru_dress",
-    "Name": "Aru (Dress)",
+    "Name": "亞瑠（禮服）",
     "EnglishName": "Aru (Dress)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4126,12 +4299,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10089
+    "ImageId": 10089,
+    "LocalChineseName": "亞瑠（禮服）"
   },
   {
     "Id": 300174,
     "PathName": "akari_newyear",
-    "Name": "Akari (New Year)",
+    "Name": "明里（新年）",
     "EnglishName": "Akari (New Year)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4149,12 +4323,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "明里（新年）"
   },
   {
     "Id": 300175,
     "PathName": "umika",
-    "Name": "Umika",
+    "Name": "海香",
     "EnglishName": "Umika",
     "SquadType": "Unknown",
     "Position": "",
@@ -4173,12 +4348,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10090
+    "ImageId": 10090,
+    "LocalChineseName": "海香"
   },
   {
     "Id": 300176,
     "PathName": "tsubaki_guide",
-    "Name": "Tsubaki (Guide)",
+    "Name": "椿（導覽）",
     "EnglishName": "Tsubaki (Guide)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4196,12 +4372,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "椿（導覽）"
   },
   {
     "Id": 300177,
     "PathName": "kazusa_band",
-    "Name": "Kazusa (Band)",
+    "Name": "和紗（樂團）",
     "EnglishName": "Kazusa (Band)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4220,12 +4397,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10091
+    "ImageId": 10091,
+    "LocalChineseName": "和紗（樂團）"
   },
   {
     "Id": 300178,
     "PathName": "yoshimi_band",
-    "Name": "Yoshimi (Band)",
+    "Name": "佳代子（樂團）",
     "EnglishName": "Yoshimi (Band)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4244,12 +4422,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 10092
+    "ImageId": 10092,
+    "LocalChineseName": "佳代子（樂團）"
   },
   {
     "Id": 300179,
     "PathName": "airi_band",
-    "Name": "Airi (Band)",
+    "Name": "愛莉（樂團）",
     "EnglishName": "Airi (Band)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4268,12 +4447,13 @@
         "Icon": ""
       }
     ],
-    "ImageId": 16015
+    "ImageId": 16015,
+    "LocalChineseName": "愛莉（樂團）"
   },
   {
     "Id": 300180,
     "PathName": "kirara",
-    "Name": "Kirara",
+    "Name": "綺羅羅",
     "EnglishName": "Kirara",
     "SquadType": "Unknown",
     "Position": "",
@@ -4291,12 +4471,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "綺羅羅"
   },
   {
     "Id": 300181,
     "PathName": "momoi_maid",
-    "Name": "Momoi (Maid)",
+    "Name": "桃井（女僕）",
     "EnglishName": "Momoi (Maid)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4314,12 +4495,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "桃井（女僕）"
   },
   {
     "Id": 300182,
     "PathName": "midori_maid",
-    "Name": "Midori (Maid)",
+    "Name": "綠（女僕）",
     "EnglishName": "Midori (Maid)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4337,12 +4519,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "綠（女僕）"
   },
   {
     "Id": 300183,
     "PathName": "serika_swimsuit",
-    "Name": "Serika (Swimsuit)",
+    "Name": "芹香（泳裝）",
     "EnglishName": "Serika (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4360,12 +4543,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "芹香（泳裝）"
   },
   {
     "Id": 300184,
     "PathName": "kanna_swimsuit",
-    "Name": "Kanna (Swimsuit)",
+    "Name": "環奈（泳裝）",
     "EnglishName": "Kanna (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4383,12 +4567,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "環奈（泳裝）"
   },
   {
     "Id": 300185,
     "PathName": "fubuki_swimsuit",
-    "Name": "Fubuki (Swimsuit)",
+    "Name": "吹雪（泳裝）",
     "EnglishName": "Fubuki (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4406,12 +4591,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "吹雪（泳裝）"
   },
   {
     "Id": 300186,
     "PathName": "kirino_swimsuit",
-    "Name": "Kirino (Swimsuit)",
+    "Name": "桐乃（泳裝）",
     "EnglishName": "Kirino (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4429,12 +4615,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "桐乃（泳裝）"
   },
   {
     "Id": 300187,
     "PathName": "moe_swimsuit",
-    "Name": "Moe (Swimsuit)",
+    "Name": "萌繪（泳裝）",
     "EnglishName": "Moe (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4452,12 +4639,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "萌繪（泳裝）"
   },
   {
     "Id": 300188,
     "PathName": "hoshino_armed",
-    "Name": "Hoshino (Armed)",
+    "Name": "星野（武裝）",
     "EnglishName": "Hoshino (Armed)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4475,12 +4663,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "星野（武裝）"
   },
   {
     "Id": 300189,
     "PathName": "hoshino_armed_2",
-    "Name": "Hoshino (Armed)",
+    "Name": "星野（武裝）",
     "EnglishName": "Hoshino (Armed)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4498,12 +4687,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "星野（武裝）"
   },
   {
     "Id": 300190,
     "PathName": "shiroko_terror",
-    "Name": "Shiroko*Terror",
+    "Name": "白子＊TERROR",
     "EnglishName": "Shiroko*Terror",
     "SquadType": "Unknown",
     "Position": "",
@@ -4521,12 +4711,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "白子＊TERROR"
   },
   {
     "Id": 300191,
     "PathName": "atsuko_swimsuit",
-    "Name": "Atsuko (Swimsuit)",
+    "Name": "敦子（泳裝）",
     "EnglishName": "Atsuko (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4544,12 +4735,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "敦子（泳裝）"
   },
   {
     "Id": 300192,
     "PathName": "saori_swimsuit",
-    "Name": "Saori (Swimsuit)",
+    "Name": "沙織（泳裝）",
     "EnglishName": "Saori (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4567,12 +4759,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "沙織（泳裝）"
   },
   {
     "Id": 300193,
     "PathName": "hiyori_swimsuit",
-    "Name": "Hiyori (Swimsuit)",
+    "Name": "日和（泳裝）",
     "EnglishName": "Hiyori (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4590,12 +4783,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "日和（泳裝）"
   },
   {
     "Id": 300194,
     "PathName": "marina_qipao",
-    "Name": "Marina (Qipao)",
+    "Name": "瑪麗娜（旗袍）",
     "EnglishName": "Marina (Qipao)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4613,12 +4807,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "瑪麗娜（旗袍）"
   },
   {
     "Id": 300195,
     "PathName": "tomoe_qipao",
-    "Name": "Tomoe (Qipao)",
+    "Name": "巴（旗袍）",
     "EnglishName": "Tomoe (Qipao)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4636,12 +4831,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "巴（旗袍）"
   },
   {
     "Id": 300196,
     "PathName": "reijo",
-    "Name": "Reijo",
+    "Name": "麗情",
     "EnglishName": "Reijo",
     "SquadType": "Unknown",
     "Position": "",
@@ -4659,12 +4855,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "麗情"
   },
   {
     "Id": 300197,
     "PathName": "kisaki",
-    "Name": "Kisaki",
+    "Name": "妃咲",
     "EnglishName": "Kisaki",
     "SquadType": "Unknown",
     "Position": "",
@@ -4682,12 +4879,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "妃咲"
   },
   {
     "Id": 300198,
     "PathName": "mari_idol",
-    "Name": "Mari (Pop Idol)",
+    "Name": "瑪麗（偶像）",
     "EnglishName": "Mari (Pop Idol)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4705,12 +4903,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "瑪麗（偶像）"
   },
   {
     "Id": 300199,
     "PathName": "sakurako_idol",
-    "Name": "Sakurako (Pop Idol)",
+    "Name": "櫻子（偶像）",
     "EnglishName": "Sakurako (Pop Idol)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4728,12 +4927,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "櫻子（偶像）"
   },
   {
     "Id": 300200,
     "PathName": "mine_idol",
-    "Name": "Mine (Pop Idol)",
+    "Name": "美禰（偶像）",
     "EnglishName": "Mine (Pop Idol)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4751,12 +4951,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "美禰（偶像）"
   },
   {
     "Id": 300201,
     "PathName": "chiaki",
-    "Name": "Chiaki",
+    "Name": "千秋",
     "EnglishName": "Chiaki",
     "SquadType": "Unknown",
     "Position": "",
@@ -4774,12 +4975,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "千秋"
   },
   {
     "Id": 300202,
     "PathName": "satsuki",
-    "Name": "Satsuki",
+    "Name": "皐月",
     "EnglishName": "Satsuki",
     "SquadType": "Unknown",
     "Position": "",
@@ -4797,12 +4999,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "皐月"
   },
   {
     "Id": 300203,
     "PathName": "yuuka_pajamas",
-    "Name": "Yuuka (Pajamas)",
+    "Name": "優香（睡衣）",
     "EnglishName": "Yuuka (Pajamas)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4820,12 +5023,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "優香（睡衣）"
   },
   {
     "Id": 300204,
     "PathName": "noa_pajamas",
-    "Name": "Noa (Pajamas)",
+    "Name": "乃愛（睡衣）",
     "EnglishName": "Noa (Pajamas)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4843,7 +5047,8 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "乃愛（睡衣）"
   },
   {
     "Id": 300205,
@@ -4866,12 +5071,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "聖亞"
   },
   {
     "Id": 300206,
     "PathName": "asuna_school",
-    "Name": "Asuna (School)",
+    "Name": "明日奈（校服）",
     "EnglishName": "Asuna (School)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4889,12 +5095,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "明日奈（校服）"
   },
   {
     "Id": 300207,
     "PathName": "karin_school",
-    "Name": "Karin (School)",
+    "Name": "花凜（校服）",
     "EnglishName": "Karin (School)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4912,12 +5119,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "花凜（校服）"
   },
   {
     "Id": 300208,
     "PathName": "neru_school",
-    "Name": "Neru (School)",
+    "Name": "寧瑠（校服）",
     "EnglishName": "Neru (School)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4935,12 +5143,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "寧瑠（校服）"
   },
   {
     "Id": 300209,
     "PathName": "rio",
-    "Name": "Rio",
+    "Name": "莉央",
     "EnglishName": "Rio",
     "SquadType": "Unknown",
     "Position": "",
@@ -4958,12 +5167,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "莉央"
   },
   {
     "Id": 300210,
     "PathName": "maki_camp",
-    "Name": "Maki (Camp)",
+    "Name": "真紀（露營）",
     "EnglishName": "Maki (Camp)",
     "SquadType": "Unknown",
     "Position": "",
@@ -4981,12 +5191,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "真紀（露營）"
   },
   {
     "Id": 300211,
     "PathName": "sena_casual",
-    "Name": "Sena (Casual)",
+    "Name": "瀨名（私服）",
     "EnglishName": "Sena (Casual)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5004,12 +5215,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "瀨名（私服）"
   },
   {
     "Id": 300212,
     "PathName": "juri_parttime",
-    "Name": "Juri (Part-Timer)",
+    "Name": "茱莉（打工）",
     "EnglishName": "Juri (Part-Timer)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5027,12 +5239,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "茱莉（打工）"
   },
   {
     "Id": 300213,
     "PathName": "izumi_newyear",
-    "Name": "Izumi (New Year)",
+    "Name": "泉（新年）",
     "EnglishName": "Izumi (New Year)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5050,12 +5263,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "泉（新年）"
   },
   {
     "Id": 300214,
     "PathName": "rei",
-    "Name": "Rei",
+    "Name": "玲",
     "EnglishName": "Rei",
     "SquadType": "Unknown",
     "Position": "",
@@ -5073,12 +5287,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "玲"
   },
   {
     "Id": 300215,
     "PathName": "sumire_parttime",
-    "Name": "Sumire (Part-Timer)",
+    "Name": "菫（打工）",
     "EnglishName": "Sumire (Part-Timer)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5096,12 +5311,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "菫（打工）"
   },
   {
     "Id": 300216,
     "PathName": "saori_dress",
-    "Name": "Saori (Dress)",
+    "Name": "沙織（禮服）",
     "EnglishName": "Saori (Dress)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5119,12 +5335,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "沙織（禮服）"
   },
   {
     "Id": 300217,
     "PathName": "hikari",
-    "Name": "Hikari",
+    "Name": "光",
     "EnglishName": "Hikari",
     "SquadType": "Unknown",
     "Position": "",
@@ -5142,12 +5359,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "光"
   },
   {
     "Id": 300218,
     "PathName": "nozomi",
-    "Name": "Nozomi",
+    "Name": "望",
     "EnglishName": "Nozomi",
     "SquadType": "Unknown",
     "Position": "",
@@ -5165,12 +5383,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "望"
   },
   {
     "Id": 300219,
     "PathName": "aoba",
-    "Name": "Aoba",
+    "Name": "青葉",
     "EnglishName": "Aoba",
     "SquadType": "Unknown",
     "Position": "",
@@ -5188,12 +5407,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "青葉"
   },
   {
     "Id": 300220,
     "PathName": "pina_guide",
-    "Name": "Pina (Guide)",
+    "Name": "菲娜（導覽）",
     "EnglishName": "Pina (Guide)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5211,12 +5431,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "菲娜（導覽）"
   },
   {
     "Id": 300221,
     "PathName": "nagusa",
-    "Name": "Nagusa",
+    "Name": "名草",
     "EnglishName": "Nagusa",
     "SquadType": "Unknown",
     "Position": "",
@@ -5234,12 +5455,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "名草"
   },
   {
     "Id": 300222,
     "PathName": "niya",
-    "Name": "Niya",
+    "Name": "妮婭",
     "EnglishName": "Niya",
     "SquadType": "Unknown",
     "Position": "",
@@ -5257,12 +5479,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "妮婭"
   },
   {
     "Id": 300223,
     "PathName": "natsu_band",
-    "Name": "Natsu (Band)",
+    "Name": "夏（樂團）",
     "EnglishName": "Natsu (Band)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5280,12 +5503,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "夏（樂團）"
   },
   {
     "Id": 300224,
     "PathName": "yukari_swimsuit",
-    "Name": "Yukari (Swimsuit)",
+    "Name": "紫（泳裝）",
     "EnglishName": "Yukari (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5303,12 +5527,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "紫（泳裝）"
   },
   {
     "Id": 300225,
     "PathName": "renge_swimsuit",
-    "Name": "Renge (Swimsuit)",
+    "Name": "蓮華（泳裝）",
     "EnglishName": "Renge (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5326,12 +5551,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "蓮華（泳裝）"
   },
   {
     "Id": 300226,
     "PathName": "kikyou_swimsuit",
-    "Name": "Kikyou (Swimsuit)",
+    "Name": "桔梗（泳裝）",
     "EnglishName": "Kikyou (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5349,7 +5575,8 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "桔梗（泳裝）"
   },
   {
     "Id": 300227,
@@ -5372,12 +5599,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "聖亞（泳裝）"
   },
   {
     "Id": 300228,
     "PathName": "hasumi_swimsuit",
-    "Name": "Hasumi (Swimsuit)",
+    "Name": "蓮實（泳裝）",
     "EnglishName": "Hasumi (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5395,12 +5623,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "蓮實（泳裝）"
   },
   {
     "Id": 300229,
     "PathName": "ichika_swimsuit",
-    "Name": "Ichika (Swimsuit)",
+    "Name": "一花（泳裝）",
     "EnglishName": "Ichika (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5418,12 +5647,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "一花（泳裝）"
   },
   {
     "Id": 300230,
     "PathName": "nagisa_swimsuit",
-    "Name": "Nagisa (Swimsuit)",
+    "Name": "渚（泳裝）",
     "EnglishName": "Nagisa (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5441,12 +5671,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "渚（泳裝）"
   },
   {
     "Id": 300231,
     "PathName": "mika_swimsuit",
-    "Name": "Mika (Swimsuit)",
+    "Name": "彌香（泳裝）",
     "EnglishName": "Mika (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5464,12 +5695,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "彌香（泳裝）"
   },
   {
     "Id": 300232,
     "PathName": "eri",
-    "Name": "Eri",
+    "Name": "繪梨",
     "EnglishName": "Eri",
     "SquadType": "Unknown",
     "Position": "",
@@ -5487,12 +5719,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "繪梨"
   },
   {
     "Id": 300233,
     "PathName": "kanoe",
-    "Name": "Kanoe",
+    "Name": "香耶",
     "EnglishName": "Kanoe",
     "SquadType": "Unknown",
     "Position": "",
@@ -5510,12 +5743,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "香耶"
   },
   {
     "Id": 300234,
     "PathName": "misaki_swimsuit",
-    "Name": "Misaki (Swimsuit)",
+    "Name": "美咲（泳裝）",
     "EnglishName": "Misaki (Swimsuit)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5533,12 +5767,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "美咲（泳裝）"
   },
   {
     "Id": 300235,
     "PathName": "miyo",
-    "Name": "Miyo",
+    "Name": "美代",
     "EnglishName": "Miyo",
     "SquadType": "Unknown",
     "Position": "",
@@ -5556,12 +5791,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "美代"
   },
   {
     "Id": 300236,
     "PathName": "fuyu",
-    "Name": "Fuyu",
+    "Name": "冬",
     "EnglishName": "Fuyu",
     "SquadType": "Unknown",
     "Position": "",
@@ -5579,12 +5815,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "冬"
   },
   {
     "Id": 300237,
     "PathName": "ritsu",
-    "Name": "Ritsu",
+    "Name": "律",
     "EnglishName": "Ritsu",
     "SquadType": "Unknown",
     "Position": "",
@@ -5602,12 +5839,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "律"
   },
   {
     "Id": 300238,
     "PathName": "reisa_magical",
-    "Name": "Reisa (Magical)",
+    "Name": "玲紗（魔法少女）",
     "EnglishName": "Reisa (Magical)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5625,12 +5863,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "玲紗（魔法少女）"
   },
   {
     "Id": 300239,
     "PathName": "suzumi_magical",
-    "Name": "Suzumi (Magical)",
+    "Name": "鈴美（魔法少女）",
     "EnglishName": "Suzumi (Magical)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5648,12 +5887,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "鈴美（魔法少女）"
   },
   {
     "Id": 300240,
     "PathName": "rabu",
-    "Name": "Rabu",
+    "Name": "拉布",
     "EnglishName": "Rabu",
     "SquadType": "Unknown",
     "Position": "",
@@ -5671,12 +5911,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "拉布"
   },
   {
     "Id": 300241,
     "PathName": "subaru",
-    "Name": "Subaru",
+    "Name": "昴",
     "EnglishName": "Subaru",
     "SquadType": "Unknown",
     "Position": "",
@@ -5694,12 +5935,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "昴"
   },
   {
     "Id": 300242,
     "PathName": "takane",
-    "Name": "Takane",
+    "Name": "高音",
     "EnglishName": "Takane",
     "SquadType": "Unknown",
     "Position": "",
@@ -5717,12 +5959,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "高音"
   },
   {
     "Id": 300243,
     "PathName": "yakumo",
-    "Name": "Yakumo",
+    "Name": "八雲",
     "EnglishName": "Yakumo",
     "SquadType": "Unknown",
     "Position": "",
@@ -5740,12 +5983,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "八雲"
   },
   {
     "Id": 300244,
     "PathName": "tsukuyo_dress",
-    "Name": "Tsukuyo (Dress)",
+    "Name": "月詠（禮服）",
     "EnglishName": "Tsukuyo (Dress)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5763,12 +6007,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "月詠（禮服）"
   },
   {
     "Id": 300245,
     "PathName": "michiru_dress",
-    "Name": "Michiru (Dress)",
+    "Name": "美知留（禮服）",
     "EnglishName": "Michiru (Dress)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5786,12 +6031,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "美知留（禮服）"
   },
   {
     "Id": 300246,
     "PathName": "rio_armed",
-    "Name": "Rio (Armed)",
+    "Name": "莉央（武裝）",
     "EnglishName": "Rio (Armed)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5809,12 +6055,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "莉央（武裝）"
   },
   {
     "Id": 300247,
     "PathName": "toki_armed",
-    "Name": "Toki (Armed)",
+    "Name": "時（武裝）",
     "EnglishName": "Toki (Armed)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5832,12 +6079,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "時（武裝）"
   },
   {
     "Id": 300248,
     "PathName": "himari_armed",
-    "Name": "Himari (Armed)",
+    "Name": "日鞠（武裝）",
     "EnglishName": "Himari (Armed)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5855,12 +6103,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "日鞠（武裝）"
   },
   {
     "Id": 300249,
     "PathName": "aris_armed",
-    "Name": "Aris (Armed)",
+    "Name": "愛麗絲（武裝）",
     "EnglishName": "Aris (Armed)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5878,12 +6127,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "愛麗絲（武裝）"
   },
   {
     "Id": 300250,
     "PathName": "kei",
-    "Name": "Kei",
+    "Name": "凱伊",
     "EnglishName": "Kei",
     "SquadType": "Unknown",
     "Position": "",
@@ -5901,12 +6151,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "凱伊"
   },
   {
     "Id": 300251,
     "PathName": "eimi_armed",
-    "Name": "Eimi (Armed)",
+    "Name": "艾米（武裝）",
     "EnglishName": "Eimi (Armed)",
     "SquadType": "Unknown",
     "Position": "",
@@ -5924,12 +6175,13 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "艾米（武裝）"
   },
   {
     "Id": 300252,
     "PathName": "subaru_2",
-    "Name": "Subaru",
+    "Name": "昴",
     "EnglishName": "Subaru",
     "SquadType": "Unknown",
     "Position": "",
@@ -5947,6 +6199,7 @@
         "Cost": [],
         "Icon": ""
       }
-    ]
+    ],
+    "LocalChineseName": "昴"
   }
 ]

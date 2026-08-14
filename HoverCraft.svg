@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="20" fill="#0b1117"/>
+  <rect x="5" y="5" width="118" height="118" rx="17" fill="none" stroke="#32404c" stroke-width="3"/>
+  <path d="M20 72h88L94 92H34Z" fill="none" stroke="#86b7ca" stroke-width="8"/><path d="M42 72l10-28h30l12 28" fill="none" stroke="#86b7ca" stroke-width="7"/><path d="M64 44V25" stroke="#86b7ca" stroke-width="7"/>
+  <rect x="6" y="101" width="116" height="21" rx="9" fill="#111a22" opacity=".96"/>
+  <text x="64" y="115" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="8.5" font-weight="700" fill="#eef6ff">HOVERCRAFT</text>
+</svg>

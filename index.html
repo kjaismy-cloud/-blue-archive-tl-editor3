@@ -118,10 +118,10 @@ img.avatar.broken{opacity:0}
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.4.3 · Boss 圖片修正版</div>
+    <div class="small">V4.4.4 · 全中文修正版</div>
   </div>
-  <div id="status" class="status">V4.4.3 正在載入本地 Boss 圖片…</div>
-  <div class="small">V4.4.3：Boss 圖片採「SchaleDB 官方圖優先、本地圖示保底」，即使外部圖片被 Safari 擋住也不會再顯示黑框。</div>
+  <div id="status" class="status">V4.4.4 正在載入 253 名中文學生資料…</div>
+  <div class="small">V4.4.4：253 名學生顯示名稱全部改為繁中；英文名稱保留，可同時用中文或英文搜尋。學生與 Boss 圖片都有失敗備援。</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -202,7 +202,7 @@ img.avatar.broken{opacity:0}
           </select>
         </div>
       </div>
-      <input id="studentSearch" placeholder="搜尋學生，例如：伊織、Iori">
+      <input id="studentSearch" placeholder="搜尋學生，例如：伊織、Iori（中英文皆可）">
       <div id="studentGrid" class="student-picker-grid"></div>
     </div>
 
@@ -350,31 +350,51 @@ function normalizeStudent(s,region){
 function mergeStudentCatalog(twList,jpList,localList=LOCAL_STUDENTS){
   const map=new Map();
 
-  // Local fallback first.
-  for(const raw of localList){
+  for(const raw of localList||[]){
     if(!raw||!raw.Name)continue;
-    const key=(raw.PathName||raw.DevName||raw.Name).toLowerCase();
+    const key=(raw.EnglishName||raw.PathName||raw.DevName||raw.Name).toLowerCase();
     map.set(key,{...raw});
   }
 
-  // JP can enrich/replace matching fallback entries.
   for(const raw of jpList||[]){
     if(!raw||!raw.Name)continue;
-    const key=(raw.PathName||raw.DevName||raw.Name).toLowerCase();
+    const candidates=[raw.PathName,raw.DevName,raw.Name].filter(Boolean).map(x=>String(x).toLowerCase());
+    let key=candidates.find(k=>map.has(k)) || candidates[0];
     const old=map.get(key);
-    map.set(key,{...(old||{}),...raw,_regions:[...new Set([...(old?._regions||[]),'jp'])],_sourceRegion:'jp'});
+    if(old){
+      map.set(key,{...old,...raw,
+        Name:old.LocalChineseName||old.Name,
+        EnglishName:old.EnglishName||raw.Name,
+        LocalChineseName:old.LocalChineseName||old.Name,
+        _regions:[...new Set([...(old._regions||[]),'jp'])],
+        _sourceRegion:'jp'
+      });
+    }else{
+      map.set(key,{...raw,EnglishName:raw.Name,_regions:['jp'],_sourceRegion:'jp'});
+    }
   }
 
-  // TW has highest priority for localization.
   for(const raw of twList||[]){
     if(!raw||!raw.Name)continue;
-    const key=(raw.PathName||raw.DevName||raw.Name).toLowerCase();
+    const candidates=[raw.PathName,raw.DevName,raw.Name].filter(Boolean).map(x=>String(x).toLowerCase());
+    let key=candidates.find(k=>map.has(k)) || candidates[0];
     const old=map.get(key);
-    map.set(key,{...(old||{}),...raw,_regions:[...new Set([...(old?._regions||[]),'tw'])],_sourceRegion:'tw'});
+    if(old){
+      map.set(key,{...old,...raw,
+        Name:old.LocalChineseName||raw.Name||old.Name,
+        EnglishName:old.EnglishName||raw.Name,
+        LocalChineseName:old.LocalChineseName||raw.Name,
+        _regions:[...new Set([...(old._regions||[]),'tw'])],
+        _sourceRegion:'tw'
+      });
+    }else{
+      map.set(key,{...raw,EnglishName:raw.Name,_regions:['tw'],_sourceRegion:'tw'});
+    }
   }
 
   return [...map.values()].filter(x=>x&&x.Name).sort((a,b)=>{
-    const ai=Number(a.Id)||999999,bi=Number(b.Id)||999999;
+    const ai=Number(a._catalogIndex)||Number(a.Id)||999999;
+    const bi=Number(b._catalogIndex)||Number(b.Id)||999999;
     return ai-bi||String(a.Name).localeCompare(String(b.Name),'zh-Hant');
   });
 }
@@ -434,6 +454,32 @@ function setImageWithFallback(img,cands){
   img.onerror=next;
   next();
 }
+
+function attachStudentFallback(img,id){
+  if(!img) return;
+  let attemptedFallback=false;
+  img.addEventListener('error',()=>{
+    if(!attemptedFallback){
+      attemptedFallback=true;
+      const fb=studentImgFallback(id);
+      if(fb && img.src!==fb){
+        img.src=fb;
+        return;
+      }
+    }
+    img.classList.add('broken');
+    const parent=img.parentElement;
+    if(parent && !parent.querySelector('.avatar-fallback')){
+      const s=students.find(x=>String(x.Id)===String(id));
+      const f=document.createElement('span');
+      f.className='avatar-fallback';
+      f.textContent=(s?.Name||s?.EnglishName||'?').slice(0,2);
+      parent.style.position='relative';
+      parent.appendChild(f);
+    }
+  });
+}
+
 function renderBosses(){
   let sel=$('boss');sel.innerHTML='';
   raids.filter(releasedTW).forEach(r=>{let o=document.createElement('option');o.value=r.Id;o.textContent=r.Name||r.PathName;sel.appendChild(o)});
@@ -615,7 +661,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.3',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.4',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
@@ -664,7 +710,7 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
     renderBosses();renderTeam();renderStudents();renderTl();
 
     const hasSeia=students.some(s=>(s.EnglishName||'').toLowerCase()==='seia'||String(s.Name).includes('聖亞'));
-    setStatus(`V4.4.3 本地資料完成：${students.length} 名學生｜${raids.length} Boss｜已綁定圖片 ${students.filter(s=>s.ImageId).length}${hasSeia?'｜聖亞 ✓':''}`,'ok');
+    setStatus(`V4.4.4 載入完成：${students.length} 名中文學生｜${raids.length} Boss｜圖片綁定 ${students.filter(s=>s.ImageId).length}${hasSeia?'｜聖亞 ✓':''}`,'ok');
 
     // Optional enrichment only. Local 253 catalog remains authoritative fallback.
     const results=await Promise.allSettled([
@@ -684,10 +730,10 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
     if(rr.length){raids=rr;renderBosses();}
 
     const remoteEnriched=students.filter(s=>s._sourceRegion==='tw'||s._sourceRegion==='jp').length;
-    setStatus(`V4.4.3 載入完成：${students.length} 名學生｜${raids.length} Boss｜遠端補充 ${remoteEnriched}${hasSeia?'｜聖亞 ✓':''}`,'ok');
+    setStatus(`V4.4.4 載入完成：${students.length} 名學生｜${raids.length} Boss｜遠端補充 ${remoteEnriched}${hasSeia?'｜聖亞 ✓':''}`,'ok');
   }catch(e){
     console.error(e);
-    setStatus(`V4.4.2 本地資料檔載入失敗：${e?.message||e}。請確認 students_local.json 與 raids_local.json 已上傳。`,'err');
+    setStatus(`V4.4.4 本地資料載入失敗：${e?.message||e}。請確認 students_local.json 與 raids_local.json 已上傳。`,'err');
   }
 })();
 
