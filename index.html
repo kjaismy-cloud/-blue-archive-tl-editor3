@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="BA TL">
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+<meta name="theme-color" content="#0f1720">
+<title>蔚藍檔案總力戰 TL 編輯器 Mobile</title>
+<style>
+:root{
+  --bg:#0f1720;--panel:#17212b;--card:#1d2a36;--line:#32404c;
+  --text:#eef6ff;--muted:#9fb1c3;--accent:#66c7ff;--accent2:#a7e3ff;
+  --danger:#ff7d8c;--ok:#72d39d;--nav:#111a22;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC",sans-serif}
+body{padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+button,input,select,textarea{font:inherit}
+button{cursor:pointer;touch-action:manipulation}
+.app{max-width:760px;margin:auto;padding:14px 14px 24px}
+h1{font-size:21px;margin:0 0 4px}
+h2{font-size:17px;margin:0}
+.small{font-size:13px;color:var(--muted)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:13px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:11px}
+.grid{display:grid;gap:10px}
+.row{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+.space{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+label{display:block;font-size:14px}
+input,select,textarea{
+  width:100%;margin-top:5px;background:#111a22;color:var(--text);border:1px solid var(--line);
+  border-radius:12px;padding:12px 12px;font-size:16px
+}
+textarea{resize:vertical}
+button{
+  border:1px solid var(--line);background:#16212b;color:var(--text);
+  border-radius:12px;padding:11px 13px;min-height:44px
+}
+button.primary{background:var(--accent);color:#05202e;border-color:transparent;font-weight:700}
+button.danger{color:var(--danger)}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;background:#233443;color:var(--accent2);font-size:12px}
+.status{padding:10px 12px;border-radius:12px;background:#10202a;color:var(--muted)}
+.status.ok{color:var(--ok)} .status.err{color:var(--danger)}
+.hidden{display:none!important}
+.avatar{width:54px;height:54px;border-radius:12px;object-fit:cover;background:#0b1117;border:1px solid var(--line)}
+.skill-icon{width:46px;height:46px;border-radius:10px;object-fit:cover;background:#0b1117}
+.bossimg{width:86px;height:86px;object-fit:contain;background:#0b1117;border:1px solid var(--line);border-radius:14px}
+.bossbox{display:grid;grid-template-columns:86px 1fr;gap:12px;align-items:center}
+.team-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.team-slot{min-height:100px;text-align:center;padding:9px}
+.team-slot.active{outline:2px solid var(--accent)}
+.team-slot .avatar{width:56px;height:56px}
+.student-grid{display:grid;grid-template-columns:1fr;gap:8px}
+.student-card{display:grid;grid-template-columns:58px 1fr auto;gap:10px;align-items:center}
+.student-actions{display:flex;gap:6px;flex-direction:column}
+.student-actions button{padding:8px 10px;min-height:38px}
+.skill-list{display:grid;gap:8px}
+.skill-btn{display:grid;grid-template-columns:48px 1fr;gap:10px;align-items:center;text-align:left}
+.skill-btn.selected{outline:2px solid var(--accent)}
+.form2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.tl{display:grid;grid-template-columns:72px 46px 1fr;gap:9px;align-items:center}
+.tl-time{font-variant-numeric:tabular-nums;color:var(--accent);font-weight:700}
+.tl .avatar{width:44px;height:44px}
+.tl-actions{grid-column:1/-1;display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.toolbar{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.toolbar .primary{grid-column:1/-1}
+.bottom-nav{
+  position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--nav);
+  border-top:1px solid var(--line);padding:7px 10px calc(7px + env(safe-area-inset-bottom));
+  display:grid;grid-template-columns:repeat(4,1fr);gap:6px
+}
+.bottom-nav button{min-height:50px;padding:7px 5px;border:none;background:transparent;color:var(--muted);font-size:12px}
+.bottom-nav button.active{color:var(--accent);background:#1a2732}
+.nav-ico{font-size:18px;display:block;margin-bottom:2px}
+.view{display:none}.view.active{display:grid;gap:12px}
+.sticky-add{
+  position:sticky;bottom:82px;z-index:20;
+  background:linear-gradient(to top,var(--bg) 70%,transparent);padding-top:8px
+}
+@media(min-width:700px){
+  .team-grid{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .student-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .skill-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .bottom-nav{max-width:760px;left:50%;transform:translateX(-50%);border:1px solid var(--line);border-bottom:none;border-radius:16px 16px 0 0}
+}
+</style>
+</head>
+<body>
+<div class="app grid">
+  <div>
+    <h1>蔚藍檔案總力戰 TL 編輯器</h1>
+    <div class="small">iPhone 手機版 · SchaleDB 資料</div>
+  </div>
+  <div id="status" class="status">正在載入 SchaleDB 資料…</div>
+
+  <section id="installHelp" class="panel grid">
+    <div class="space">
+      <div>
+        <h2>iPhone 使用方式</h2>
+        <div class="small">Safari 開啟後，可使用「分享 → 加入主畫面」，之後會像 App 一樣啟動。</div>
+      </div>
+      <span class="badge">GitHub Pages</span>
+    </div>
+  </section>
+
+  <section id="viewBoss" class="view active">
+    <div class="panel grid">
+      <div class="bossbox">
+        <img id="bossImg" class="bossimg" alt="Boss">
+        <div class="grid">
+          <label>Boss<select id="boss"></select></label>
+          <div id="bossMeta" class="small"></div>
+        </div>
+      </div>
+      <div class="form2">
+        <label>難度
+          <select id="difficulty">
+            <option>Torment</option><option>Insane</option><option>Extreme</option>
+            <option>Hardcore</option><option>Very Hard</option><option>Hard</option><option>Normal</option>
+          </select>
+        </label>
+        <label>地形<select id="terrain"><option value="">自動</option></select></label>
+      </div>
+      <label>隊伍名稱<input id="teamName" placeholder="例如：第一刀 黑子隊"></label>
+      <label>開場備註<input id="headerNote" placeholder="例如：開局凹下面出車"></label>
+    </div>
+  </section>
+
+  <section id="viewTeam" class="view">
+    <div class="panel grid">
+      <div class="space"><div><h2>6 人隊伍</h2><div class="small">點位置，再到學生頁加入。</div></div><button id="clearTeam">清空</button></div>
+      <div id="team" class="team-grid"></div>
+    </div>
+    <div id="studentDetail" class="panel grid hidden">
+      <div class="row">
+        <img id="detailAvatar" class="avatar" alt="">
+        <div><h2 id="detailName"></h2><div id="detailMeta"></div></div>
+      </div>
+      <div id="skillList" class="skill-list"></div>
+    </div>
+  </section>
+
+  <section id="viewStudents" class="view">
+    <div class="panel grid">
+      <div class="space"><div><h2>學生資料庫</h2><div id="studentCount" class="small"></div></div>
+        <select id="squadFilter" style="width:auto;margin:0">
+          <option value="">全部</option><option value="Main">STRIKER</option><option value="Support">SPECIAL</option>
+        </select>
+      </div>
+      <input id="studentSearch" placeholder="搜尋學生，例如：伊織、Iori">
+      <div id="studentGrid" class="student-grid"></div>
+    </div>
+  </section>
+
+  <section id="viewTl" class="view">
+    <div class="panel grid">
+      <div class="space"><h2>新增 TL</h2><span id="selectedSkillText" class="badge">尚未選技能</span></div>
+      <div class="form2">
+        <label>剩餘時間<input id="time" placeholder="3:42.500"></label>
+        <label>COST<input id="cost" type="number" min="0" max="10" step="0.1"></label>
+      </div>
+      <label>學生<select id="tlStudent"></select></label>
+      <label>技能<select id="tlSkill"></select></label>
+      <label>操作說明<input id="note" placeholder="例如：往左拉，躲車後黑子 EX"></label>
+      <div class="toolbar sticky-add">
+        <button id="addTl" class="primary">＋ 加入 TL</button>
+        <button id="addWait">＋ 等費 / 備註</button>
+        <button id="sortTl">依時間排序</button>
+        <button id="clearTl" class="danger">清空 TL</button>
+      </div>
+    </div>
+    <div class="panel grid">
+      <div class="space"><h2>時間軸</h2><span id="tlCount" class="small"></span></div>
+      <div id="timeline" class="grid"></div>
+    </div>
+    <div class="panel grid">
+      <div class="space"><h2>文字版 TL</h2><button id="refreshText">更新</button></div>
+      <textarea id="textOutput" rows="14" readonly></textarea>
+    </div>
+    <div class="panel grid">
+      <div class="space"><h2>JSON 備份</h2></div>
+      <div class="form2"><button id="exportJson">產生 JSON</button><button id="importJson">載入 JSON</button></div>
+      <textarea id="jsonBox" rows="10" placeholder="可把整個隊伍與時間軸保存到這裡"></textarea>
+    </div>
+  </section>
+</div>
+
+<nav class="bottom-nav">
+  <button data-view="Boss" class="active"><span class="nav-ico">👹</span>Boss</button>
+  <button data-view="Team"><span class="nav-ico">👥</span>隊伍</button>
+  <button data-view="Students"><span class="nav-ico">🔎</span>學生</button>
+  <button data-view="Tl"><span class="nav-ico">⏱️</span>TL</button>
+</nav>
+
+<script>
+const DATA_BASES=[
+  'https://schaledb.com/data/tw',
+  'https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/data/tw'
+];
+const IMG='https://schaledb.com/images';
+let students=[],raids=[],team=Array(6).fill(null),activeSlot=0,selectedStudent=null,selectedSkill=null,tl=[];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const studentImg=id=>`${IMG}/student/icon/${id}.webp`;
+const skillImg=icon=>icon?`${IMG}/skill/${icon}.webp`:'';
+const squadLabel=x=>x==='Main'?'STRIKER':x==='Support'?'SPECIAL':x||'';
+const bulletMap={Explosion:'爆發',Pierce:'貫通',Mystic:'神秘',Sonic:'振動',Normal:'一般'};
+const armorMap={LightArmor:'輕裝甲',HeavyArmor:'重裝甲',Unarmed:'特殊裝甲',ElasticArmor:'彈力裝甲'};
+const terrainMap={Street:'市街地',Outdoor:'野外',Indoor:'室內'};
+
+function setStatus(msg,type=''){let s=$('status');s.textContent=msg;s.className='status '+type}
+async function loadJson(name){
+  let err;
+  for(const b of DATA_BASES){
+    try{const r=await fetch(`${b}/${name}`,{cache:'no-store'});if(!r.ok)throw new Error(r.status);return await r.json()}catch(e){err=e}
+  }
+  throw err;
+}
+function releasedTW(x){return !Array.isArray(x.IsReleased)||x.IsReleased[1]!==false}
+function parseTime(v){
+  let s=String(v||'').trim();
+  if(/^\d+(\.\d+)?$/.test(s))return Number(s);
+  let m=s.match(/^(\d+):(\d{1,2})(?:\.(\d{1,3}))?$/);
+  if(!m||+m[2]>=60)return null;
+  return +m[1]*60 + +m[2] + (m[3]?Number('0.'+m[3]):0);
+}
+function formatTime(n){
+  n=Math.max(0,Number(n)||0);let m=Math.floor(n/60),s=n-m*60,w=Math.floor(s),ms=Math.round((s-w)*1000);
+  return `${m}:${String(w).padStart(2,'0')}${ms?'.'+String(ms).padStart(3,'0').replace(/0+$/,''):''}`;
+}
+function playableSkills(s){return (s?.Skills||[]).filter(k=>['ex','normal','passive','sub','gearnormal','weaponpassive'].includes(k.SkillType)&&k.Name)}
+function skillTypeLabel(t){return ({ex:'EX',normal:'NS',passive:'PS',sub:'SS',gearnormal:'NS+',weaponpassive:'PS+'})[t]||t}
+function go(view){
+  document.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));
+  document.querySelectorAll('.bottom-nav button').forEach(x=>x.classList.remove('active'));
+  $('view'+view).classList.add('active');
+  document.querySelector(`.bottom-nav button[data-view="${view}"]`).classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+document.querySelectorAll('.bottom-nav button').forEach(b=>b.onclick=()=>go(b.dataset.view));
+
+function bossImageCandidates(r){
+  const vals=[r?.PathName||'',r?.GroupName||''].filter(Boolean);
+  return [...new Set(vals)].flatMap(x=>[
+    `${IMG}/raid/icon/Icon_${x}.png`,
+    `${IMG}/raid/icon/Icon_${x}_Colour.png`,
+    `${IMG}/raid/Boss_Portrait_${x}_Lobby.png`
+  ]);
+}
+function setImageWithFallback(img,cands){
+  let i=0;const next=()=>{if(i>=cands.length){img.removeAttribute('src');return}img.src=cands[i++]};img.onerror=next;next();
+}
+function renderBosses(){
+  let sel=$('boss');sel.innerHTML='';
+  raids.filter(releasedTW).forEach(r=>{let o=document.createElement('option');o.value=r.Id;o.textContent=r.Name||r.PathName;sel.appendChild(o)});
+  updateBoss();
+}
+function updateBoss(){
+  let r=raids.find(x=>String(x.Id)===$('boss').value);if(!r)return;
+  setImageWithFallback($('bossImg'),bossImageCandidates(r));
+  $('bossMeta').innerHTML=`<span class="badge">${esc(armorMap[r.ArmorType]||r.ArmorType||'')}</span>`+(r.Terrain||[]).map(x=>`<span class="badge">${esc(terrainMap[x]||x)}</span>`).join('');
+  let t=$('terrain');t.innerHTML='<option value="">自動</option>';
+  (r.Terrain||[]).forEach(x=>{let o=document.createElement('option');o.value=x;o.textContent=terrainMap[x]||x;t.appendChild(o)});
+  renderText();
+}
+function renderTeam(){
+  let box=$('team');box.innerHTML='';
+  team.forEach((s,i)=>{
+    let b=document.createElement('button');b.type='button';b.className='team-slot card'+(i===activeSlot?' active':'');
+    b.innerHTML=s?`<img class="avatar" src="${studentImg(s.Id)}" alt="${esc(s.Name)}"><div><b>${esc(s.Name)}</b></div><div class="small">${squadLabel(s.SquadType)}</div>`:`<div class="small">位置 ${i+1}</div><div style="margin-top:20px">＋ 選擇</div>`;
+    b.onclick=()=>{activeSlot=i;renderTeam();go('Students')};box.appendChild(b);
+  });syncTlStudents();
+}
+function addToTeam(s){
+  team[activeSlot]=s;selectedStudent=s;activeSlot=Math.min(5,activeSlot+1);renderTeam();showStudent(s);setStatus(`已加入 ${s.Name}`,'ok')
+}
+function renderStudents(){
+  let q=$('studentSearch').value.trim().toLowerCase(),sf=$('squadFilter').value;
+  let list=students.filter(releasedTW);
+  if(sf)list=list.filter(s=>s.SquadType===sf);
+  if(q)list=list.filter(s=>(s.Name||'').toLowerCase().includes(q)||(s.PathName||'').toLowerCase().includes(q)||(s.DevName||'').toLowerCase().includes(q));
+  $('studentCount').textContent=`${list.length} / ${students.filter(releasedTW).length}`;
+  let box=$('studentGrid');box.innerHTML='';
+  list.forEach(s=>{
+    let c=document.createElement('div');c.className='card student-card';
+    c.innerHTML=`<img class="avatar" src="${studentImg(s.Id)}" alt="${esc(s.Name)}"><div><b>${esc(s.Name)}</b><div class="small">${squadLabel(s.SquadType)} · ${esc(bulletMap[s.BulletType]||s.BulletType||'')} · ${esc(s.Position||'')}</div></div><div class="student-actions"><button class="open">技能</button><button class="join primary">加入</button></div>`;
+    c.querySelector('.open').onclick=()=>{showStudent(s);go('Team')};
+    c.querySelector('.join').onclick=()=>addToTeam(s);
+    box.appendChild(c);
+  });
+}
+function showStudent(s){
+  selectedStudent=s;$('studentDetail').classList.remove('hidden');
+  $('detailAvatar').src=studentImg(s.Id);$('detailName').textContent=s.Name;
+  $('detailMeta').innerHTML=`<span class="badge">${squadLabel(s.SquadType)}</span><span class="badge">${esc(bulletMap[s.BulletType]||s.BulletType||'')}</span><span class="badge">${esc(armorMap[s.ArmorType]||s.ArmorType||'')}</span>`;
+  let skills=playableSkills(s);selectedSkill=skills.find(x=>x.SkillType==='ex')||skills[0]||null;
+  let box=$('skillList');box.innerHTML='';
+  skills.forEach(k=>{
+    let b=document.createElement('button');b.type='button';b.className='skill-btn card'+(k===selectedSkill?' selected':'');
+    let cost=Array.isArray(k.Cost)?k.Cost[0]:k.Cost;
+    b.innerHTML=`${k.Icon?`<img class="skill-icon" src="${skillImg(k.Icon)}" alt="">`:''}<span><b>${skillTypeLabel(k.SkillType)} · ${esc(k.Name)}</b><br><span class="small">${cost!==undefined&&cost!==null?cost+' COST':'自動技能'}</span></span>`;
+    b.onclick=()=>{selectedSkill=k;syncTlStudents();$('tlStudent').value=String(s.Id);syncTlSkills();$('tlSkill').value=k.SkillType+'|'+k.Name;applySelectedSkill();go('Tl')};box.appendChild(b);
+  });
+}
+function syncTlStudents(){
+  let sel=$('tlStudent'),cur=sel.value;sel.innerHTML='';
+  let list=team.filter(Boolean).length?team.filter(Boolean):students.filter(releasedTW),seen=new Set();
+  list.forEach(s=>{if(seen.has(s.Id))return;seen.add(s.Id);let o=document.createElement('option');o.value=s.Id;o.textContent=s.Name;sel.appendChild(o)});
+  if([...sel.options].some(o=>o.value===cur))sel.value=cur;syncTlSkills();
+}
+function syncTlSkills(){
+  let s=students.find(x=>String(x.Id)===$('tlStudent').value),sel=$('tlSkill'),cur=sel.value;sel.innerHTML='';
+  playableSkills(s).forEach(k=>{let o=document.createElement('option');o.value=k.SkillType+'|'+k.Name;o.textContent=`${skillTypeLabel(k.SkillType)} · ${k.Name}`;sel.appendChild(o)});
+  if([...sel.options].some(o=>o.value===cur))sel.value=cur;applySelectedSkill();
+}
+function currentSkill(){
+  let s=students.find(x=>String(x.Id)===$('tlStudent').value),[t,...rest]=$('tlSkill').value.split('|'),name=rest.join('|');
+  return playableSkills(s).find(k=>k.SkillType===t&&k.Name===name);
+}
+function applySelectedSkill(){
+  let s=students.find(x=>String(x.Id)===$('tlStudent').value),k=currentSkill();
+  if(k){let c=Array.isArray(k.Cost)?k.Cost[0]:k.Cost;if(c!==undefined&&c!==null)$('cost').value=c;$('selectedSkillText').textContent=`${s?.Name||''} · ${skillTypeLabel(k.SkillType)}`}
+}
+function addTl(wait=false){
+  let sec=parseTime($('time').value);if(sec===null){setStatus('時間格式錯誤，例如 3:42.500','err');return}
+  let s=students.find(x=>String(x.Id)===$('tlStudent').value),k=currentSkill();
+  tl.push({seconds:sec,studentId:wait?null:s?.Id,studentName:wait?'':s?.Name||'',skillType:wait?'wait':k?.SkillType||'',skillName:wait?'等費 / 備註':k?.Name||'',cost:$('cost').value,note:$('note').value.trim(),wait});
+  tl.sort((a,b)=>b.seconds-a.seconds);$('time').value='';$('note').value='';renderTl();setStatus('已加入 TL','ok')
+}
+function renderTl(){
+  $('tlCount').textContent=`${tl.length} 個操作`;let box=$('timeline');box.innerHTML='';
+  if(!tl.length)box.innerHTML='<div class="small">目前還沒有時間軸。</div>';
+  tl.forEach((x,i)=>{
+    let d=document.createElement('div');d.className='card tl';
+    d.innerHTML=`<div class="tl-time">${formatTime(x.seconds)}<div class="small">${x.cost?x.cost+'C':''}</div></div><div>${x.wait?'':`<img class="avatar" src="${studentImg(x.studentId)}" alt="">`}</div><div><b>${x.wait?'等待 / 備註':esc(x.studentName)+' · '+skillTypeLabel(x.skillType)}</b><div class="small">${x.wait?'':esc(x.skillName)}${x.note?' · '+esc(x.note):''}</div></div><div class="tl-actions"><button class="up">↑</button><button class="down">↓</button><button class="edit">編輯</button><button class="del danger">刪除</button></div>`;
+    d.querySelector('.up').onclick=()=>{if(i){[tl[i-1],tl[i]]=[tl[i],tl[i-1]];renderTl()}};
+    d.querySelector('.down').onclick=()=>{if(i<tl.length-1){[tl[i+1],tl[i]]=[tl[i],tl[i+1]];renderTl()}};
+    d.querySelector('.del').onclick=()=>{tl.splice(i,1);renderTl()};
+    d.querySelector('.edit').onclick=()=>{let x=tl.splice(i,1)[0];$('time').value=formatTime(x.seconds);$('cost').value=x.cost;$('note').value=x.note;if(x.studentId){$('tlStudent').value=String(x.studentId);syncTlSkills();$('tlSkill').value=x.skillType+'|'+x.skillName;applySelectedSkill()}renderTl()};
+    box.appendChild(d);
+  });renderText();
+}
+function renderText(){
+  let r=raids.find(x=>String(x.Id)===$('boss').value);
+  $('textOutput').value=[
+    `Boss：${r?.Name||''}｜難度：${$('difficulty').value}${$('terrain').value?'｜地形：'+(terrainMap[$('terrain').value]||$('terrain').value):''}`,
+    $('teamName').value?`隊伍：${$('teamName').value}`:'',
+    team.filter(Boolean).length?'成員：'+team.filter(Boolean).map((s,i)=>`${i+1}.${s.Name}`).join(' / '):'',
+    $('headerNote').value?`備註：${$('headerNote').value}`:'',
+    '',
+    ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
+  ].join('\n').trim();
+}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'mobile-1',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,team:team.map(x=>x?.Id||null),tl},null,2)}
+function importJson(){
+  try{let d=JSON.parse($('jsonBox').value);if(d.bossId)$('boss').value=String(d.bossId);$('difficulty').value=d.difficulty||'Torment';updateBoss();$('terrain').value=d.terrain||'';$('teamName').value=d.teamName||'';$('headerNote').value=d.headerNote||'';team=(d.team||[]).slice(0,6).map(id=>students.find(s=>s.Id===id)||null);while(team.length<6)team.push(null);tl=Array.isArray(d.tl)?d.tl:[];renderTeam();renderTl();setStatus('JSON 載入完成','ok')}catch(e){setStatus('JSON 格式錯誤','err')}
+}
+
+$('boss').onchange=updateBoss;$('studentSearch').oninput=renderStudents;$('squadFilter').onchange=renderStudents;
+$('clearTeam').onclick=()=>{team=Array(6).fill(null);activeSlot=0;renderTeam()};
+$('tlStudent').onchange=syncTlSkills;$('tlSkill').onchange=applySelectedSkill;
+$('addTl').onclick=()=>addTl(false);$('addWait').onclick=()=>addTl(true);
+$('sortTl').onclick=()=>{tl.sort((a,b)=>b.seconds-a.seconds);renderTl()};$('clearTl').onclick=()=>{tl=[];renderTl()};
+$('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('importJson').onclick=importJson;
+['difficulty','terrain','teamName','headerNote'].forEach(id=>$(id).addEventListener('input',renderText));
+
+(async()=>{
+  try{
+    let [s,r]=await Promise.all([loadJson('students.json'),loadJson('raids.json')]);
+    students=Array.isArray(s)?s:(s.Student||s.students||[]);raids=Array.isArray(r)?r:(r.Raid||r.raids||[]);
+    students=students.filter(x=>x&&x.Id&&x.Name);raids=raids.filter(x=>x&&x.Id&&x.Name);
+    renderBosses();renderTeam();renderStudents();renderTl();
+    setStatus(`載入完成：${students.filter(releasedTW).length} 名學生、${raids.filter(releasedTW).length} 個 Boss`,'ok');
+  }catch(e){
+    setStatus('無法載入 SchaleDB。若你是從 iPhone「檔案」App 直接開啟，Safari 可能阻擋外部資料；部署成 HTTPS 網頁後會最穩定。','err')
+  }
+})();
+
+if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  });
+}
+
+</script>
+</body>
+</html>
