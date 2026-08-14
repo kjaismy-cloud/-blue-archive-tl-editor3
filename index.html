@@ -115,16 +115,51 @@ img.avatar.broken{opacity:0}
 
 .student-image-fallback{display:flex;align-items:center;justify-content:center;width:100%;height:100%;min-height:72px;
 font-weight:800;font-size:20px;color:#9edfff;background:#203241;border-radius:14px}
+
+/* V4.5 desktop */
+.desktop-layout{display:grid;grid-template-columns:minmax(280px,340px) minmax(420px,1fr) minmax(360px,440px);gap:14px;padding:14px;max-width:1800px;margin:0 auto;align-items:start}
+.desktop-left,.desktop-center,.desktop-right{display:grid;gap:14px;min-width:0}
+.desktop-card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:14px;box-shadow:0 8px 30px rgba(0,0,0,.16)}
+.desktop-section-title{font-size:15px;font-weight:800;margin-bottom:10px;color:var(--accent2)}
+.desktop-students-card{min-height:calc(100vh - 120px)}
+.desktop-tl-card{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto}
+.desktop-left{position:sticky;top:12px;max-height:calc(100vh - 24px);overflow:auto}
+.desktop-layout .panel{margin:0 0 12px 0;box-shadow:none}
+.desktop-layout #studentGrid{grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:10px}
+.desktop-layout .student-pick{min-height:118px}
+.desktop-layout .student-pick .avatar{width:64px;height:64px}
+.desktop-layout .striker-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.desktop-layout .special-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:none}
+.desktop-layout textarea{min-height:150px}
+.desktop-layout #textOutput{min-height:220px}
+.desktop-only{display:none}
+@media (min-width: 980px){
+  body{padding-bottom:0}
+  .bottom-nav{display:none!important}
+  .desktop-only{display:block}
+  .desktop-layout.hidden{display:grid!important}
+  .desktop-shell{display:none!important}
+  header{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px)}
+}
+@media (max-width: 979px){
+  .desktop-layout{display:none!important}
+  .desktop-shell{display:block}
+}
+@media (min-width: 1400px){
+  .desktop-layout{grid-template-columns:340px minmax(520px,1fr) 460px}
+  .desktop-layout #studentGrid{grid-template-columns:repeat(auto-fill,minmax(120px,1fr))}
+}
+
 </style>
 </head>
 <body>
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.4.16 · 學生圖片本地補全版</div>
+    <div class="small">V4.5 · Chrome 桌面版</div>
   </div>
-  <div id="status" class="status">V4.4.16 正在載入學生本地資料與圖片索引…</div>
-  <div class="small">V4.4.15：已核對的日服 STRIKER/SPECIAL 與戰術類別直接寫入本地 JSON；其餘資料保留來源標記，不再把 fallback 當成 JP 已驗證。</div>
+  <div id="status" class="status">V4.5 正在載入桌面版資料…</div>
+  <div class="small">V4.5 · Chrome 桌面三欄版 · iPhone 自動切換</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -669,7 +704,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.16',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.5',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
@@ -713,7 +748,7 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
 (async()=>{
   try{
     // 1) Local data MUST load first so UI is never empty.
-    setStatus('V4.4.16 正在載入學生本地資料與圖片索引…');
+    setStatus('V4.5 正在載入桌面版資料…');
 
     const local=await loadLocalCatalog();
     students=mergeStudentCatalog([],[],local.students);
@@ -785,6 +820,58 @@ if(__oldRenderStudents){
     return r;
   };
 }
+
+function initDesktopLayout(){
+  if(window.innerWidth<980) return;
+
+  const bossView=document.getElementById('viewBoss');
+  const teamView=document.getElementById('viewTeam');
+  const tlView=document.getElementById('viewTl');
+
+  const bossMount=document.getElementById('desktopBossMount');
+  const teamMount=document.getElementById('desktopTeamMount');
+  const studentsMount=document.getElementById('desktopStudentsMount');
+  const tlMount=document.getElementById('desktopTlMount');
+
+  if(!bossView||!teamView||!tlView||!bossMount||!teamMount||!studentsMount||!tlMount) return;
+  if(document.body.dataset.desktopMounted==='1') return;
+
+  // Move live DOM nodes so all existing event listeners and IDs stay valid.
+  while(bossView.firstChild) bossMount.appendChild(bossView.firstChild);
+
+  // Split team view: first panel = team, second/third panels = student picker/detail.
+  const teamPanels=[...teamView.children];
+  if(teamPanels[0]) teamMount.appendChild(teamPanels[0]);
+  for(let i=1;i<teamPanels.length;i++) studentsMount.appendChild(teamPanels[i]);
+
+  while(tlView.firstChild) tlMount.appendChild(tlView.firstChild);
+
+  document.body.dataset.desktopMounted='1';
+  document.getElementById('desktopLayout')?.classList.remove('hidden');
+
+  // Make desktop views visible regardless of mobile tab state.
+  bossView.classList.remove('active');
+  teamView.classList.remove('active');
+  tlView.classList.remove('active');
+}
+
+function restoreMobileLayout(){
+  // Desktop mount is intentionally one-way for a session; reload when crossing breakpoint.
+  // Avoids duplicate IDs / listeners.
+}
+
+window.addEventListener('load',()=>{
+  initDesktopLayout();
+});
+
+let __lastDesktop=window.innerWidth>=980;
+window.addEventListener('resize',()=>{
+  const now=window.innerWidth>=980;
+  if(now!==__lastDesktop){
+    location.reload();
+  }
+});
+
 </script>
 </body>
 </html>
