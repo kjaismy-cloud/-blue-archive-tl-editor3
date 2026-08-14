@@ -37,7 +37,7 @@
   {
     "Id": 300001,
     "PathName": "eimi",
-    "Name": "艾米",
+    "Name": "英美",
     "EnglishName": "Eimi",
     "SquadType": "Main",
     "Position": "",
@@ -57,7 +57,7 @@
       }
     ],
     "ImageId": 10001,
-    "LocalChineseName": "艾米",
+    "LocalChineseName": "英美",
     "CurrentSlug": "eimi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
@@ -67,12 +67,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "eimi",
-    "SchaleDBPage": "https://schaledb.com/student/eimi"
+    "SchaleDBPage": "https://schaledb.com/student/eimi",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "艾米",
+      "英美",
+      "Eimi",
+      "eimi"
+    ]
   },
   {
     "Id": 300002,
     "PathName": "haruna",
-    "Name": "晴奈",
+    "Name": "羽瑠奈",
     "EnglishName": "Haruna",
     "SquadType": "Main",
     "Position": "",
@@ -92,7 +99,7 @@
       }
     ],
     "ImageId": 10002,
-    "LocalChineseName": "晴奈",
+    "LocalChineseName": "羽瑠奈",
     "CurrentSlug": "haruna",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -102,7 +109,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "haruna",
-    "SchaleDBPage": "https://schaledb.com/student/haruna"
+    "SchaleDBPage": "https://schaledb.com/student/haruna",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "晴奈",
+      "羽瑠奈",
+      "Haruna",
+      "haruna"
+    ]
   },
   {
     "Id": 300003,
@@ -457,7 +471,7 @@
   {
     "Id": 300013,
     "PathName": "tsurugi",
-    "Name": "鶴城",
+    "Name": "弦生",
     "EnglishName": "Tsurugi",
     "SquadType": "Main",
     "Position": "",
@@ -477,7 +491,7 @@
       }
     ],
     "ImageId": 10013,
-    "LocalChineseName": "鶴城",
+    "LocalChineseName": "弦生",
     "CurrentSlug": "tsurugi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -487,12 +501,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "tsurugi",
-    "SchaleDBPage": "https://schaledb.com/student/tsurugi"
+    "SchaleDBPage": "https://schaledb.com/student/tsurugi",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "鶴城",
+      "弦生",
+      "Tsurugi",
+      "tsurugi"
+    ]
   },
   {
     "Id": 300014,
     "PathName": "akane",
-    "Name": "茜香",
+    "Name": "朱音",
     "EnglishName": "Akane",
     "SquadType": "Main",
     "Position": "",
@@ -512,7 +533,7 @@
       }
     ],
     "ImageId": 13000,
-    "LocalChineseName": "茜香",
+    "LocalChineseName": "朱音",
     "CurrentSlug": "akane",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -522,12 +543,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "akane",
-    "SchaleDBPage": "https://schaledb.com/student/akane"
+    "SchaleDBPage": "https://schaledb.com/student/akane",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "茜香",
+      "朱音",
+      "Akane",
+      "akane"
+    ]
   },
   {
     "Id": 300015,
     "PathName": "chise",
-    "Name": "千世",
+    "Name": "知世",
     "EnglishName": "Chise",
     "SquadType": "Main",
     "Position": "",
@@ -547,7 +575,7 @@
       }
     ],
     "ImageId": 13001,
-    "LocalChineseName": "千世",
+    "LocalChineseName": "知世",
     "CurrentSlug": "chise",
     "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "DamageDealer",
@@ -557,12 +585,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "chise",
-    "SchaleDBPage": "https://schaledb.com/student/chise"
+    "SchaleDBPage": "https://schaledb.com/student/chise",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "千世",
+      "知世",
+      "Chise",
+      "chise"
+    ]
   },
   {
     "Id": 300016,
     "PathName": "akari",
-    "Name": "明里",
+    "Name": "亞伽里",
     "EnglishName": "Akari",
     "SquadType": "Main",
     "Position": "",
@@ -582,7 +617,7 @@
       }
     ],
     "ImageId": 13002,
-    "LocalChineseName": "明里",
+    "LocalChineseName": "亞伽里",
     "CurrentSlug": "akari",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -592,7 +627,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "akari",
-    "SchaleDBPage": "https://schaledb.com/student/akari"
+    "SchaleDBPage": "https://schaledb.com/student/akari",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "明里",
+      "亞伽里",
+      "Akari",
+      "akari"
+    ]
   },
   {
     "Id": 300017,
@@ -703,7 +745,7 @@
   {
     "Id": 300020,
     "PathName": "mutsuki",
-    "Name": "睦月",
+    "Name": "無月",
     "EnglishName": "Mutsuki",
     "SquadType": "Main",
     "Position": "",
@@ -723,7 +765,7 @@
       }
     ],
     "ImageId": 13006,
-    "LocalChineseName": "睦月",
+    "LocalChineseName": "無月",
     "CurrentSlug": "mutsuki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -733,7 +775,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "mutsuki",
-    "SchaleDBPage": "https://schaledb.com/student/mutsuki"
+    "SchaleDBPage": "https://schaledb.com/student/mutsuki",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "睦月",
+      "無月",
+      "Mutsuki",
+      "mutsuki"
+    ]
   },
   {
     "Id": 300021,
@@ -773,7 +822,7 @@
   {
     "Id": 300022,
     "PathName": "serika",
-    "Name": "芹香",
+    "Name": "茜香",
     "EnglishName": "Serika",
     "SquadType": "Main",
     "Position": "",
@@ -793,7 +842,7 @@
       }
     ],
     "ImageId": 13008,
-    "LocalChineseName": "芹香",
+    "LocalChineseName": "茜香",
     "CurrentSlug": "serika",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -803,7 +852,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "serika",
-    "SchaleDBPage": "https://schaledb.com/student/serika"
+    "SchaleDBPage": "https://schaledb.com/student/serika",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "芹香",
+      "茜香",
+      "Serika",
+      "serika"
+    ]
   },
   {
     "Id": 300023,
@@ -948,7 +1004,7 @@
   {
     "Id": 300027,
     "PathName": "kotori",
-    "Name": "小鳥",
+    "Name": "亞都梨",
     "EnglishName": "Kotori",
     "SquadType": "Main",
     "Position": "",
@@ -968,7 +1024,7 @@
       }
     ],
     "ImageId": 16002,
-    "LocalChineseName": "小鳥",
+    "LocalChineseName": "亞都梨",
     "CurrentSlug": "kotori",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -978,7 +1034,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "kotori",
-    "SchaleDBPage": "https://schaledb.com/student/kotori"
+    "SchaleDBPage": "https://schaledb.com/student/kotori",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "小鳥",
+      "亞都梨",
+      "Kotori",
+      "kotori"
+    ]
   },
   {
     "Id": 300028,
@@ -1226,7 +1289,7 @@
   {
     "Id": 300035,
     "PathName": "hanae",
-    "Name": "花江",
+    "Name": "花繪",
     "EnglishName": "Hanae",
     "SquadType": "Support",
     "Position": "",
@@ -1245,7 +1308,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "花江",
+    "LocalChineseName": "花繪",
     "CurrentSlug": "hanae",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
@@ -1255,7 +1318,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "hanae",
-    "SchaleDBPage": "https://schaledb.com/student/hanae"
+    "SchaleDBPage": "https://schaledb.com/student/hanae",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "花江",
+      "花繪",
+      "Hanae",
+      "hanae"
+    ]
   },
   {
     "Id": 300036,
@@ -1294,7 +1364,7 @@
   {
     "Id": 300037,
     "PathName": "utaha",
-    "Name": "歌原",
+    "Name": "詠葉",
     "EnglishName": "Utaha",
     "SquadType": "Support",
     "Position": "",
@@ -1313,7 +1383,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "歌原",
+    "LocalChineseName": "詠葉",
     "CurrentSlug": "utaha",
     "SquadTypeSource": "schaledb-jp-verified",
     "TacticRole": "DamageDealer",
@@ -1324,7 +1394,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "utaha",
-    "SchaleDBPage": "https://schaledb.com/student/utaha"
+    "SchaleDBPage": "https://schaledb.com/student/utaha",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "歌原",
+      "詠葉",
+      "Utaha",
+      "utaha"
+    ]
   },
   {
     "Id": 300038,
@@ -1533,7 +1610,7 @@
   {
     "Id": 300044,
     "PathName": "yoshimi",
-    "Name": "佳代子",
+    "Name": "喜美",
     "EnglishName": "Yoshimi",
     "SquadType": "Support",
     "Position": "",
@@ -1552,7 +1629,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "佳代子",
+    "LocalChineseName": "喜美",
     "CurrentSlug": "yoshimi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -1562,7 +1639,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "yoshimi",
-    "SchaleDBPage": "https://schaledb.com/student/yoshimi"
+    "SchaleDBPage": "https://schaledb.com/student/yoshimi",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "佳代子",
+      "喜美",
+      "Yoshimi",
+      "yoshimi"
+    ]
   },
   {
     "Id": 300045,
@@ -1776,7 +1860,7 @@
   {
     "Id": 300051,
     "PathName": "cherino",
-    "Name": "切里諾",
+    "Name": "潔莉諾",
     "EnglishName": "Cherino",
     "SquadType": "Main",
     "Position": "",
@@ -1796,7 +1880,7 @@
       }
     ],
     "ImageId": 10017,
-    "LocalChineseName": "切里諾",
+    "LocalChineseName": "潔莉諾",
     "CurrentSlug": "cherino",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -1806,7 +1890,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "cherino",
-    "SchaleDBPage": "https://schaledb.com/student/cherino"
+    "SchaleDBPage": "https://schaledb.com/student/cherino",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "切里諾",
+      "潔莉諾",
+      "Cherino",
+      "cherino"
+    ]
   },
   {
     "Id": 300052,
@@ -2055,7 +2146,7 @@
   {
     "Id": 300059,
     "PathName": "tsurugi_swimsuit",
-    "Name": "鶴城（泳裝）",
+    "Name": "弦生（泳裝）",
     "EnglishName": "Tsurugi (Swimsuit)",
     "SquadType": "Main",
     "Position": "",
@@ -2075,7 +2166,7 @@
       }
     ],
     "ImageId": 16005,
-    "LocalChineseName": "鶴城（泳裝）",
+    "LocalChineseName": "弦生（泳裝）",
     "CurrentSlug": "tsurugi_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -2085,7 +2176,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "tsurugi_swimsuit",
-    "SchaleDBPage": "https://schaledb.com/student/tsurugi_swimsuit"
+    "SchaleDBPage": "https://schaledb.com/student/tsurugi_swimsuit",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "鶴城（泳裝）",
+      "弦生（泳裝）",
+      "Tsurugi (Swimsuit)",
+      "tsurugi_swimsuit"
+    ]
   },
   {
     "Id": 300060,
@@ -2301,7 +2399,7 @@
   {
     "Id": 300066,
     "PathName": "kirino",
-    "Name": "桐乃",
+    "Name": "瞬（幼女）",
     "EnglishName": "Kirino",
     "SquadType": "Main",
     "Position": "",
@@ -2321,7 +2419,7 @@
       }
     ],
     "ImageId": 13012,
-    "LocalChineseName": "桐乃",
+    "LocalChineseName": "瞬（幼女）",
     "CurrentSlug": "kirino",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -2331,7 +2429,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "kirino",
-    "SchaleDBPage": "https://schaledb.com/student/kirino"
+    "SchaleDBPage": "https://schaledb.com/student/kirino",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "桐乃",
+      "瞬（幼女）",
+      "Kirino",
+      "kirino"
+    ]
   },
   {
     "Id": 300067,
@@ -2615,7 +2720,7 @@
   {
     "Id": 300075,
     "PathName": "cherino_hotspring",
-    "Name": "切里諾（溫泉）",
+    "Name": "潔莉諾（溫泉）",
     "EnglishName": "Cherino (Hot Spring)",
     "SquadType": "Main",
     "Position": "",
@@ -2634,7 +2739,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "切里諾（溫泉）",
+    "LocalChineseName": "潔莉諾（溫泉）",
     "CurrentSlug": "cherino_onsen",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -2644,7 +2749,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "cherino_onsen",
-    "SchaleDBPage": "https://schaledb.com/student/cherino_onsen"
+    "SchaleDBPage": "https://schaledb.com/student/cherino_onsen",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "切里諾（溫泉）",
+      "潔莉諾（溫泉）",
+      "Cherino (Hot Spring)",
+      "cherino_hotspring"
+    ]
   },
   {
     "Id": 300076,
@@ -2684,7 +2796,7 @@
   {
     "Id": 300077,
     "PathName": "tomoe",
-    "Name": "巴",
+    "Name": "智惠",
     "EnglishName": "Tomoe",
     "SquadType": "Main",
     "Position": "",
@@ -2704,7 +2816,7 @@
       }
     ],
     "ImageId": 16007,
-    "LocalChineseName": "巴",
+    "LocalChineseName": "智惠",
     "CurrentSlug": "tomoe",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -2714,7 +2826,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "tomoe",
-    "SchaleDBPage": "https://schaledb.com/student/tomoe"
+    "SchaleDBPage": "https://schaledb.com/student/tomoe",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "巴",
+      "智惠",
+      "Tomoe",
+      "tomoe"
+    ]
   },
   {
     "Id": 300078,
@@ -2788,7 +2907,7 @@
   {
     "Id": 300080,
     "PathName": "mutsuki_newyear",
-    "Name": "睦月（新年）",
+    "Name": "無月（新年）",
     "EnglishName": "Mutsuki (New Year)",
     "SquadType": "Main",
     "Position": "",
@@ -2808,7 +2927,7 @@
       }
     ],
     "ImageId": 10032,
-    "LocalChineseName": "睦月（新年）",
+    "LocalChineseName": "無月（新年）",
     "CurrentSlug": "mutsuki_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -2818,12 +2937,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "mutsuki_newyear",
-    "SchaleDBPage": "https://schaledb.com/student/mutsuki_newyear"
+    "SchaleDBPage": "https://schaledb.com/student/mutsuki_newyear",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "睦月（新年）",
+      "無月（新年）",
+      "Mutsuki (New Year)",
+      "mutsuki_newyear"
+    ]
   },
   {
     "Id": 300081,
     "PathName": "serika_newyear",
-    "Name": "芹香（新年）",
+    "Name": "茜香（新年）",
     "EnglishName": "Serika (New Year)",
     "SquadType": "Main",
     "Position": "",
@@ -2842,7 +2968,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "芹香（新年）",
+    "LocalChineseName": "茜香（新年）",
     "CurrentSlug": "serika_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -2852,7 +2978,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "serika_newyear",
-    "SchaleDBPage": "https://schaledb.com/student/serika_newyear"
+    "SchaleDBPage": "https://schaledb.com/student/serika_newyear",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "芹香（新年）",
+      "茜香（新年）",
+      "Serika (New Year)",
+      "serika_newyear"
+    ]
   },
   {
     "Id": 300082,
@@ -2927,7 +3060,7 @@
   {
     "Id": 300084,
     "PathName": "sena",
-    "Name": "瀨名",
+    "Name": "瀨奈",
     "EnglishName": "Sena",
     "SquadType": "Support",
     "Position": "",
@@ -2946,7 +3079,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "瀨名",
+    "LocalChineseName": "瀨奈",
     "CurrentSlug": "sena",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
@@ -2956,7 +3089,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "sena",
-    "SchaleDBPage": "https://schaledb.com/student/sena"
+    "SchaleDBPage": "https://schaledb.com/student/sena",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "瀨名",
+      "瀨奈",
+      "Sena",
+      "sena"
+    ]
   },
   {
     "Id": 300085,
@@ -3136,7 +3276,7 @@
   {
     "Id": 300090,
     "PathName": "miyako",
-    "Name": "宮子",
+    "Name": "都子",
     "EnglishName": "Miyako",
     "SquadType": "Main",
     "Position": "",
@@ -3156,7 +3296,7 @@
       }
     ],
     "ImageId": 10038,
-    "LocalChineseName": "宮子",
+    "LocalChineseName": "都子",
     "CurrentSlug": "miyako",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
@@ -3166,7 +3306,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "miyako",
-    "SchaleDBPage": "https://schaledb.com/student/miyako"
+    "SchaleDBPage": "https://schaledb.com/student/miyako",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "宮子",
+      "都子",
+      "Miyako",
+      "miyako"
+    ]
   },
   {
     "Id": 300091,
@@ -3309,7 +3456,7 @@
   {
     "Id": 300095,
     "PathName": "michiru",
-    "Name": "美知留",
+    "Name": "三千留",
     "EnglishName": "Michiru",
     "SquadType": "Main",
     "Position": "",
@@ -3329,7 +3476,7 @@
       }
     ],
     "ImageId": 16009,
-    "LocalChineseName": "美知留",
+    "LocalChineseName": "三千留",
     "CurrentSlug": "michiru",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -3339,12 +3486,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "michiru",
-    "SchaleDBPage": "https://schaledb.com/student/michiru"
+    "SchaleDBPage": "https://schaledb.com/student/michiru",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "美知留",
+      "三千留",
+      "Michiru",
+      "michiru"
+    ]
   },
   {
     "Id": 300096,
     "PathName": "tsukuyo",
-    "Name": "月詠",
+    "Name": "月夜",
     "EnglishName": "Tsukuyo",
     "SquadType": "Main",
     "Position": "",
@@ -3364,7 +3518,7 @@
       }
     ],
     "ImageId": 10040,
-    "LocalChineseName": "月詠",
+    "LocalChineseName": "月夜",
     "CurrentSlug": "tsukuyo",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
@@ -3374,7 +3528,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "tsukuyo",
-    "SchaleDBPage": "https://schaledb.com/student/tsukuyo"
+    "SchaleDBPage": "https://schaledb.com/student/tsukuyo",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "月詠",
+      "月夜",
+      "Tsukuyo",
+      "tsukuyo"
+    ]
   },
   {
     "Id": 300097,
@@ -3692,7 +3853,7 @@
   {
     "Id": 300106,
     "PathName": "chise_swimsuit",
-    "Name": "千世（泳裝）",
+    "Name": "知世（泳裝）",
     "EnglishName": "Chise (Swimsuit)",
     "SquadType": "Main",
     "Position": "",
@@ -3712,7 +3873,7 @@
       }
     ],
     "ImageId": 10047,
-    "LocalChineseName": "千世（泳裝）",
+    "LocalChineseName": "知世（泳裝）",
     "CurrentSlug": "chise_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -3722,7 +3883,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "chise_swimsuit",
-    "SchaleDBPage": "https://schaledb.com/student/chise_swimsuit"
+    "SchaleDBPage": "https://schaledb.com/student/chise_swimsuit",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "千世（泳裝）",
+      "知世（泳裝）",
+      "Chise (Swimsuit)",
+      "chise_swimsuit"
+    ]
   },
   {
     "Id": 300107,
@@ -3762,7 +3930,7 @@
   {
     "Id": 300108,
     "PathName": "moe",
-    "Name": "萌繪",
+    "Name": "萌",
     "EnglishName": "Moe",
     "SquadType": "Support",
     "Position": "",
@@ -3781,7 +3949,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "萌繪",
+    "LocalChineseName": "萌",
     "CurrentSlug": "moe",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -3791,12 +3959,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "moe",
-    "SchaleDBPage": "https://schaledb.com/student/moe"
+    "SchaleDBPage": "https://schaledb.com/student/moe",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "萌繪",
+      "萌",
+      "Moe",
+      "moe"
+    ]
   },
   {
     "Id": 300109,
     "PathName": "kazusa",
-    "Name": "和紗",
+    "Name": "千紗",
     "EnglishName": "Kazusa",
     "SquadType": "Main",
     "Position": "",
@@ -3816,7 +3991,7 @@
       }
     ],
     "ImageId": 10049,
-    "LocalChineseName": "和紗",
+    "LocalChineseName": "千紗",
     "CurrentSlug": "kazusa",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -3826,12 +4001,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "kazusa",
-    "SchaleDBPage": "https://schaledb.com/student/kazusa"
+    "SchaleDBPage": "https://schaledb.com/student/kazusa",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "和紗",
+      "千紗",
+      "Kazusa",
+      "kazusa"
+    ]
   },
   {
     "Id": 300110,
     "PathName": "kokona",
-    "Name": "心奈",
+    "Name": "心菜",
     "EnglishName": "Kokona",
     "SquadType": "Main",
     "Position": "",
@@ -3851,7 +4033,7 @@
       }
     ],
     "ImageId": 10050,
-    "LocalChineseName": "心奈",
+    "LocalChineseName": "心菜",
     "CurrentSlug": "kokona",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
@@ -3861,12 +4043,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "kokona",
-    "SchaleDBPage": "https://schaledb.com/student/kokona"
+    "SchaleDBPage": "https://schaledb.com/student/kokona",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "心奈",
+      "心菜",
+      "Kokona",
+      "kokona"
+    ]
   },
   {
     "Id": 300111,
     "PathName": "utaha_cheer",
-    "Name": "歌原（應援團）",
+    "Name": "詠葉（應援團）",
     "EnglishName": "Utaha (Cheer Squad)",
     "SquadType": "Main",
     "Position": "",
@@ -3886,7 +4075,7 @@
       }
     ],
     "ImageId": 10051,
-    "LocalChineseName": "歌原（應援團）",
+    "LocalChineseName": "詠葉（應援團）",
     "CurrentSlug": "utaha_cheer",
     "SquadTypeSource": "schaledb-jp-verified",
     "TacticRole": "DamageDealer",
@@ -3897,7 +4086,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "utaha_cheer",
-    "SchaleDBPage": "https://schaledb.com/student/utaha_cheer"
+    "SchaleDBPage": "https://schaledb.com/student/utaha_cheer",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "歌原（應援團）",
+      "詠葉（應援團）",
+      "Utaha (Cheer Squad)",
+      "utaha_cheer"
+    ]
   },
   {
     "Id": 300112,
@@ -3972,7 +4168,7 @@
   {
     "Id": 300114,
     "PathName": "akane_bunny",
-    "Name": "茜香（兔女郎）",
+    "Name": "朱音（兔女郎）",
     "EnglishName": "Akane (Bunny)",
     "SquadType": "Main",
     "Position": "",
@@ -3991,7 +4187,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "茜香（兔女郎）",
+    "LocalChineseName": "朱音（兔女郎）",
     "CurrentSlug": "akane_bunny",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -4001,7 +4197,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "akane_bunny",
-    "SchaleDBPage": "https://schaledb.com/student/akane_bunny"
+    "SchaleDBPage": "https://schaledb.com/student/akane_bunny",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "茜香（兔女郎）",
+      "朱音（兔女郎）",
+      "Akane (Bunny)",
+      "akane_bunny"
+    ]
   },
   {
     "Id": 300115,
@@ -4111,7 +4314,7 @@
   {
     "Id": 300118,
     "PathName": "himari",
-    "Name": "日鞠",
+    "Name": "陽葵",
     "EnglishName": "Himari",
     "SquadType": "Support",
     "Position": "",
@@ -4130,7 +4333,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "日鞠",
+    "LocalChineseName": "陽葵",
     "CurrentSlug": "himari",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
@@ -4140,7 +4343,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "himari",
-    "SchaleDBPage": "https://schaledb.com/student/himari"
+    "SchaleDBPage": "https://schaledb.com/student/himari",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "日鞠",
+      "陽葵",
+      "Himari",
+      "himari"
+    ]
   },
   {
     "Id": 300119,
@@ -4215,7 +4425,7 @@
   {
     "Id": 300121,
     "PathName": "hanae_christmas",
-    "Name": "花江（聖誕）",
+    "Name": "花繪（聖誕）",
     "EnglishName": "Hanae (Christmas)",
     "SquadType": "Support",
     "Position": "",
@@ -4234,7 +4444,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "花江（聖誕）",
+    "LocalChineseName": "花繪（聖誕）",
     "CurrentSlug": "hanae_christmas",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
@@ -4244,12 +4454,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "hanae_christmas",
-    "SchaleDBPage": "https://schaledb.com/student/hanae_christmas"
+    "SchaleDBPage": "https://schaledb.com/student/hanae_christmas",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "花江（聖誕）",
+      "花繪（聖誕）",
+      "Hanae (Christmas)",
+      "hanae_christmas"
+    ]
   },
   {
     "Id": 300122,
     "PathName": "haruna_newyear",
-    "Name": "晴奈（新年）",
+    "Name": "羽瑠奈奈（新年）",
     "EnglishName": "Haruna (New Year)",
     "SquadType": "Main",
     "Position": "",
@@ -4269,7 +4486,7 @@
       }
     ],
     "ImageId": 10057,
-    "LocalChineseName": "晴奈（新年）",
+    "LocalChineseName": "羽瑠奈奈（新年）",
     "CurrentSlug": "haruna_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -4279,7 +4496,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "haruna_newyear",
-    "SchaleDBPage": "https://schaledb.com/student/haruna_newyear"
+    "SchaleDBPage": "https://schaledb.com/student/haruna_newyear",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "晴奈（新年）",
+      "羽瑠奈奈（新年）",
+      "Haruna (New Year)",
+      "haruna_newyear"
+    ]
   },
   {
     "Id": 300123,
@@ -4528,7 +4752,7 @@
   {
     "Id": 300130,
     "PathName": "toki",
-    "Name": "時",
+    "Name": "季",
     "EnglishName": "Toki",
     "SquadType": "Main",
     "Position": "",
@@ -4548,7 +4772,7 @@
       }
     ],
     "ImageId": 10062,
-    "LocalChineseName": "時",
+    "LocalChineseName": "季",
     "CurrentSlug": "toki",
     "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "DamageDealer",
@@ -4558,7 +4782,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "toki",
-    "SchaleDBPage": "https://schaledb.com/student/toki"
+    "SchaleDBPage": "https://schaledb.com/student/toki",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "時",
+      "季",
+      "Toki",
+      "toki"
+    ]
   },
   {
     "Id": 300131,
@@ -4701,7 +4932,7 @@
   {
     "Id": 300135,
     "PathName": "kaho",
-    "Name": "果穗",
+    "Name": "佳穗",
     "EnglishName": "Kaho",
     "SquadType": "Main",
     "Position": "",
@@ -4721,7 +4952,7 @@
       }
     ],
     "ImageId": 10065,
-    "LocalChineseName": "果穗",
+    "LocalChineseName": "佳穗",
     "CurrentSlug": "kaho",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -4731,7 +4962,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "kaho",
-    "SchaleDBPage": "https://schaledb.com/student/kaho"
+    "SchaleDBPage": "https://schaledb.com/student/kaho",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "果穗",
+      "佳穗",
+      "Kaho",
+      "kaho"
+    ]
   },
   {
     "Id": 300136,
@@ -4771,7 +5009,7 @@
   {
     "Id": 300137,
     "PathName": "toki_bunny",
-    "Name": "時（兔女郎）",
+    "Name": "季（兔女郎）",
     "EnglishName": "Toki (Bunny)",
     "SquadType": "Main",
     "Position": "",
@@ -4791,7 +5029,7 @@
       }
     ],
     "ImageId": 10067,
-    "LocalChineseName": "時（兔女郎）",
+    "LocalChineseName": "季（兔女郎）",
     "CurrentSlug": "toki_bunny",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -4801,7 +5039,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "toki_bunny",
-    "SchaleDBPage": "https://schaledb.com/student/toki_bunny"
+    "SchaleDBPage": "https://schaledb.com/student/toki_bunny",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "時（兔女郎）",
+      "季（兔女郎）",
+      "Toki (Bunny)",
+      "toki_bunny"
+    ]
   },
   {
     "Id": 300138,
@@ -4840,7 +5085,7 @@
   {
     "Id": 300139,
     "PathName": "reisa",
-    "Name": "玲紗",
+    "Name": "澪紗",
     "EnglishName": "Reisa",
     "SquadType": "Main",
     "Position": "",
@@ -4860,7 +5105,7 @@
       }
     ],
     "ImageId": 10068,
-    "LocalChineseName": "玲紗",
+    "LocalChineseName": "澪紗",
     "CurrentSlug": "reisa",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
@@ -4870,7 +5115,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "reisa",
-    "SchaleDBPage": "https://schaledb.com/student/reisa"
+    "SchaleDBPage": "https://schaledb.com/student/reisa",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "玲紗",
+      "澪紗",
+      "Reisa",
+      "reisa"
+    ]
   },
   {
     "Id": 300140,
@@ -4945,7 +5197,7 @@
   {
     "Id": 300142,
     "PathName": "minori",
-    "Name": "實梨",
+    "Name": "實里",
     "EnglishName": "Minori",
     "SquadType": "Support",
     "Position": "",
@@ -4964,7 +5216,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "實梨",
+    "LocalChineseName": "實里",
     "CurrentSlug": "minori",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -4974,12 +5226,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "minori",
-    "SchaleDBPage": "https://schaledb.com/student/minori"
+    "SchaleDBPage": "https://schaledb.com/student/minori",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "實梨",
+      "實里",
+      "Minori",
+      "minori"
+    ]
   },
   {
     "Id": 300143,
     "PathName": "miyako_swimsuit",
-    "Name": "宮子（泳裝）",
+    "Name": "都子（泳裝）",
     "EnglishName": "Miyako (Swimsuit)",
     "SquadType": "Main",
     "Position": "",
@@ -4999,7 +5258,7 @@
       }
     ],
     "ImageId": 10071,
-    "LocalChineseName": "宮子（泳裝）",
+    "LocalChineseName": "都子（泳裝）",
     "CurrentSlug": "miyako_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
@@ -5009,7 +5268,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "miyako_swimsuit",
-    "SchaleDBPage": "https://schaledb.com/student/miyako_swimsuit"
+    "SchaleDBPage": "https://schaledb.com/student/miyako_swimsuit",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "宮子（泳裝）",
+      "都子（泳裝）",
+      "Miyako (Swimsuit)",
+      "miyako_swimsuit"
+    ]
   },
   {
     "Id": 300144,
@@ -5363,7 +5629,7 @@
   {
     "Id": 300154,
     "PathName": "kotori_cheer",
-    "Name": "小鳥（應援團）",
+    "Name": "亞都梨（應援團）",
     "EnglishName": "Kotori (Cheer Squad)",
     "SquadType": "Main",
     "Position": "",
@@ -5383,7 +5649,7 @@
       }
     ],
     "ImageId": 10076,
-    "LocalChineseName": "小鳥（應援團）",
+    "LocalChineseName": "亞都梨（應援團）",
     "CurrentSlug": "kotori_cheer",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -5393,12 +5659,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "kotori_cheer",
-    "SchaleDBPage": "https://schaledb.com/student/kotori_cheer"
+    "SchaleDBPage": "https://schaledb.com/student/kotori_cheer",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "小鳥（應援團）",
+      "亞都梨（應援團）",
+      "Kotori (Cheer Squad)",
+      "kotori_cheer"
+    ]
   },
   {
     "Id": 300155,
     "PathName": "haruna_track",
-    "Name": "晴奈（體育服）",
+    "Name": "羽瑠奈（體育服）",
     "EnglishName": "Haruna (Track)",
     "SquadType": "Main",
     "Position": "",
@@ -5417,7 +5690,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "晴奈（體育服）",
+    "LocalChineseName": "羽瑠奈（體育服）",
     "CurrentSlug": "haruna_track",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -5427,7 +5700,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "haruna_track",
-    "SchaleDBPage": "https://schaledb.com/student/haruna_track"
+    "SchaleDBPage": "https://schaledb.com/student/haruna_track",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "晴奈（體育服）",
+      "羽瑠奈（體育服）",
+      "Haruna (Track)",
+      "haruna_track"
+    ]
   },
   {
     "Id": 300156,
@@ -5746,7 +6026,7 @@
   {
     "Id": 300165,
     "PathName": "eimi_swimsuit",
-    "Name": "艾米（泳裝）",
+    "Name": "英美（泳裝）",
     "EnglishName": "Eimi (Swimsuit)",
     "SquadType": "Main",
     "Position": "",
@@ -5765,7 +6045,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "艾米（泳裝）",
+    "LocalChineseName": "英美（泳裝）",
     "CurrentSlug": "eimi_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
@@ -5775,7 +6055,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "eimi_swimsuit",
-    "SchaleDBPage": "https://schaledb.com/student/eimi_swimsuit"
+    "SchaleDBPage": "https://schaledb.com/student/eimi_swimsuit",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "艾米（泳裝）",
+      "英美（泳裝）",
+      "Eimi (Swimsuit)",
+      "eimi_swimsuit"
+    ]
   },
   {
     "Id": 300166,
@@ -6059,7 +6346,7 @@
   {
     "Id": 300174,
     "PathName": "akari_newyear",
-    "Name": "明里（新年）",
+    "Name": "亞伽里(正月)",
     "EnglishName": "Akari (New Year)",
     "SquadType": "Main",
     "Position": "",
@@ -6078,7 +6365,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "明里（新年）",
+    "LocalChineseName": "亞伽里(正月)",
     "CurrentSlug": "akari_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -6088,12 +6375,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "akari_newyear",
-    "SchaleDBPage": "https://schaledb.com/student/akari_newyear"
+    "SchaleDBPage": "https://schaledb.com/student/akari_newyear",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "明里（新年）",
+      "亞伽里(正月)",
+      "Akari (New Year)",
+      "akari_newyear"
+    ]
   },
   {
     "Id": 300175,
     "PathName": "umika",
-    "Name": "海香",
+    "Name": "海花",
     "EnglishName": "Umika",
     "SquadType": "Main",
     "Position": "",
@@ -6113,7 +6407,7 @@
       }
     ],
     "ImageId": 10090,
-    "LocalChineseName": "海香",
+    "LocalChineseName": "海花",
     "CurrentSlug": "umika",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -6123,7 +6417,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "umika",
-    "SchaleDBPage": "https://schaledb.com/student/umika"
+    "SchaleDBPage": "https://schaledb.com/student/umika",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "海香",
+      "海花",
+      "Umika",
+      "umika"
+    ]
   },
   {
     "Id": 300176,
@@ -6162,7 +6463,7 @@
   {
     "Id": 300177,
     "PathName": "kazusa_band",
-    "Name": "和紗（樂團）",
+    "Name": "千紗（樂團）",
     "EnglishName": "Kazusa (Band)",
     "SquadType": "Main",
     "Position": "",
@@ -6182,7 +6483,7 @@
       }
     ],
     "ImageId": 10091,
-    "LocalChineseName": "和紗（樂團）",
+    "LocalChineseName": "千紗（樂團）",
     "CurrentSlug": "kazusa_band",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -6192,12 +6493,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "kazusa_band",
-    "SchaleDBPage": "https://schaledb.com/student/kazusa_band"
+    "SchaleDBPage": "https://schaledb.com/student/kazusa_band",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "和紗（樂團）",
+      "千紗（樂團）",
+      "Kazusa (Band)",
+      "kazusa_band"
+    ]
   },
   {
     "Id": 300178,
     "PathName": "yoshimi_band",
-    "Name": "佳代子（樂團）",
+    "Name": "喜美（樂團）",
     "EnglishName": "Yoshimi (Band)",
     "SquadType": "Main",
     "Position": "",
@@ -6217,7 +6525,7 @@
       }
     ],
     "ImageId": 10092,
-    "LocalChineseName": "佳代子（樂團）",
+    "LocalChineseName": "喜美（樂團）",
     "CurrentSlug": "yoshimi_band",
     "SquadTypeSource": "schaledb-jp-verified",
     "TacticRole": "DamageDealer",
@@ -6228,7 +6536,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "yoshimi_band",
-    "SchaleDBPage": "https://schaledb.com/student/yoshimi_band"
+    "SchaleDBPage": "https://schaledb.com/student/yoshimi_band",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "佳代子（樂團）",
+      "喜美（樂團）",
+      "Yoshimi (Band)",
+      "yoshimi_band"
+    ]
   },
   {
     "Id": 300179,
@@ -6370,7 +6685,7 @@
   {
     "Id": 300183,
     "PathName": "serika_swimsuit",
-    "Name": "芹香（泳裝）",
+    "Name": "茜香（泳裝）",
     "EnglishName": "Serika (Swimsuit)",
     "SquadType": "Main",
     "Position": "",
@@ -6389,7 +6704,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "芹香（泳裝）",
+    "LocalChineseName": "茜香（泳裝）",
     "CurrentSlug": "serika_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -6399,7 +6714,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "serika_swimsuit",
-    "SchaleDBPage": "https://schaledb.com/student/serika_swimsuit"
+    "SchaleDBPage": "https://schaledb.com/student/serika_swimsuit",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "芹香（泳裝）",
+      "茜香（泳裝）",
+      "Serika (Swimsuit)",
+      "serika_swimsuit"
+    ]
   },
   {
     "Id": 300184,
@@ -6506,7 +6828,7 @@
   {
     "Id": 300187,
     "PathName": "moe_swimsuit",
-    "Name": "萌繪（泳裝）",
+    "Name": "萌（泳裝）",
     "EnglishName": "Moe (Swimsuit)",
     "SquadType": "Support",
     "Position": "",
@@ -6525,7 +6847,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "萌繪（泳裝）",
+    "LocalChineseName": "萌（泳裝）",
     "CurrentSlug": "moe_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -6535,7 +6857,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "moe_swimsuit",
-    "SchaleDBPage": "https://schaledb.com/student/moe_swimsuit"
+    "SchaleDBPage": "https://schaledb.com/student/moe_swimsuit",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "萌繪（泳裝）",
+      "萌（泳裝）",
+      "Moe (Swimsuit)",
+      "moe_swimsuit"
+    ]
   },
   {
     "Id": 300188,
@@ -6778,7 +7107,7 @@
   {
     "Id": 300195,
     "PathName": "tomoe_qipao",
-    "Name": "巴（旗袍）",
+    "Name": "智惠（旗袍）",
     "EnglishName": "Tomoe (Qipao)",
     "SquadType": "Main",
     "Position": "",
@@ -6797,7 +7126,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "巴（旗袍）",
+    "LocalChineseName": "智惠（旗袍）",
     "CurrentSlug": "tomoe_qipao",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -6807,12 +7136,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "tomoe_qipao",
-    "SchaleDBPage": "https://schaledb.com/student/tomoe_qipao"
+    "SchaleDBPage": "https://schaledb.com/student/tomoe_qipao",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "巴（旗袍）",
+      "智惠（旗袍）",
+      "Tomoe (Qipao)",
+      "tomoe_qipao"
+    ]
   },
   {
     "Id": 300196,
     "PathName": "reijo",
-    "Name": "麗情",
+    "Name": "麗女",
     "EnglishName": "Reijo",
     "SquadType": "Main",
     "Position": "",
@@ -6831,7 +7167,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "麗情",
+    "LocalChineseName": "麗女",
     "CurrentSlug": "reijo",
     "SquadTypeSource": "schaledb-jp-verified",
     "TacticRole": "Supporter",
@@ -6842,7 +7178,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "reijo",
-    "SchaleDBPage": "https://schaledb.com/student/reijo"
+    "SchaleDBPage": "https://schaledb.com/student/reijo",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "麗情",
+      "麗女",
+      "Reijo",
+      "reijo"
+    ]
   },
   {
     "Id": 300197,
@@ -7326,7 +7669,7 @@
   {
     "Id": 300211,
     "PathName": "sena_casual",
-    "Name": "瀨名（私服）",
+    "Name": "瀨奈（私服）",
     "EnglishName": "Sena (Casual)",
     "SquadType": "Support",
     "Position": "",
@@ -7345,7 +7688,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "瀨名（私服）",
+    "LocalChineseName": "瀨奈（私服）",
     "CurrentSlug": "sena_casual",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
@@ -7355,7 +7698,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "sena_casual",
-    "SchaleDBPage": "https://schaledb.com/student/sena_casual"
+    "SchaleDBPage": "https://schaledb.com/student/sena_casual",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "瀨名（私服）",
+      "瀨奈（私服）",
+      "Sena (Casual)",
+      "sena_casual"
+    ]
   },
   {
     "Id": 300212,
@@ -7428,7 +7778,7 @@
   {
     "Id": 300214,
     "PathName": "rei",
-    "Name": "玲",
+    "Name": "莉",
     "EnglishName": "Rei",
     "SquadType": "Main",
     "Position": "",
@@ -7447,7 +7797,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "玲",
+    "LocalChineseName": "莉",
     "CurrentSlug": "rei",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -7457,7 +7807,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "rei",
-    "SchaleDBPage": "https://schaledb.com/student/rei"
+    "SchaleDBPage": "https://schaledb.com/student/rei",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "玲",
+      "莉",
+      "Rei",
+      "rei"
+    ]
   },
   {
     "Id": 300215,
@@ -7701,7 +8058,7 @@
   {
     "Id": 300222,
     "PathName": "niya",
-    "Name": "妮婭",
+    "Name": "仁耶",
     "EnglishName": "Niya",
     "SquadType": "Support",
     "Position": "",
@@ -7720,7 +8077,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "妮婭",
+    "LocalChineseName": "仁耶",
     "CurrentSlug": "niya",
     "SquadTypeSource": "schaledb-jp-verified",
     "TacticRole": "DamageDealer",
@@ -7731,7 +8088,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "niya",
-    "SchaleDBPage": "https://schaledb.com/student/niya"
+    "SchaleDBPage": "https://schaledb.com/student/niya",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "妮婭",
+      "仁耶",
+      "Niya",
+      "niya"
+    ]
   },
   {
     "Id": 300223,
@@ -8258,7 +8622,7 @@
   {
     "Id": 300238,
     "PathName": "reisa_magical",
-    "Name": "玲紗（魔法少女）",
+    "Name": "澪紗(魔法少女)",
     "EnglishName": "Reisa (Magical)",
     "SquadType": "Main",
     "Position": "",
@@ -8277,7 +8641,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "玲紗（魔法少女）",
+    "LocalChineseName": "澪紗(魔法少女)",
     "CurrentSlug": "reisa_magical",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
@@ -8287,7 +8651,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "reisa_magical",
-    "SchaleDBPage": "https://schaledb.com/student/reisa_magical"
+    "SchaleDBPage": "https://schaledb.com/student/reisa_magical",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "玲紗（魔法少女）",
+      "澪紗(魔法少女)",
+      "Reisa (Magical)",
+      "reisa_magical"
+    ]
   },
   {
     "Id": 300239,
@@ -8326,7 +8697,7 @@
   {
     "Id": 300240,
     "PathName": "rabu",
-    "Name": "拉布",
+    "Name": "良舞",
     "EnglishName": "Rabu",
     "SquadType": "Main",
     "Position": "",
@@ -8345,7 +8716,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "拉布",
+    "LocalChineseName": "良舞",
     "CurrentSlug": "rabu",
     "SquadTypeSource": "schaledb-jp-verified",
     "TacticRole": "DamageDealer",
@@ -8356,7 +8727,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "rabu",
-    "SchaleDBPage": "https://schaledb.com/student/rabu"
+    "SchaleDBPage": "https://schaledb.com/student/rabu",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "拉布",
+      "良舞",
+      "Rabu",
+      "rabu"
+    ]
   },
   {
     "Id": 300241,
@@ -8395,7 +8773,7 @@
   {
     "Id": 300242,
     "PathName": "takane",
-    "Name": "高音",
+    "Name": "貴音",
     "EnglishName": "Takane",
     "SquadType": "Main",
     "Position": "",
@@ -8414,7 +8792,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "高音",
+    "LocalChineseName": "貴音",
     "CurrentSlug": "takane",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -8424,7 +8802,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "takane",
-    "SchaleDBPage": "https://schaledb.com/student/takane"
+    "SchaleDBPage": "https://schaledb.com/student/takane",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "高音",
+      "貴音",
+      "Takane",
+      "takane"
+    ]
   },
   {
     "Id": 300243,
@@ -8463,7 +8848,7 @@
   {
     "Id": 300244,
     "PathName": "tsukuyo_dress",
-    "Name": "月詠（禮服）",
+    "Name": "月夜（禮服）",
     "EnglishName": "Tsukuyo (Dress)",
     "SquadType": "Main",
     "Position": "",
@@ -8482,7 +8867,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "月詠（禮服）",
+    "LocalChineseName": "月夜（禮服）",
     "CurrentSlug": "tsukuyo_dress",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
@@ -8492,12 +8877,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "tsukuyo_dress",
-    "SchaleDBPage": "https://schaledb.com/student/tsukuyo_dress"
+    "SchaleDBPage": "https://schaledb.com/student/tsukuyo_dress",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "月詠（禮服）",
+      "月夜（禮服）",
+      "Tsukuyo (Dress)",
+      "tsukuyo_dress"
+    ]
   },
   {
     "Id": 300245,
     "PathName": "michiru_dress",
-    "Name": "美知留（禮服）",
+    "Name": "三千留（禮服）",
     "EnglishName": "Michiru (Dress)",
     "SquadType": "Main",
     "Position": "",
@@ -8516,7 +8908,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "美知留（禮服）",
+    "LocalChineseName": "三千留（禮服）",
     "CurrentSlug": "michiru_dress",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -8526,7 +8918,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "michiru_dress",
-    "SchaleDBPage": "https://schaledb.com/student/michiru_dress"
+    "SchaleDBPage": "https://schaledb.com/student/michiru_dress",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "美知留（禮服）",
+      "三千留（禮服）",
+      "Michiru (Dress)",
+      "michiru_dress"
+    ]
   },
   {
     "Id": 300246,
@@ -8565,7 +8964,7 @@
   {
     "Id": 300247,
     "PathName": "toki_armed",
-    "Name": "時（武裝）",
+    "Name": "季（武裝）",
     "EnglishName": "Toki (Armed)",
     "SquadType": "Main",
     "Position": "",
@@ -8584,7 +8983,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "時（武裝）",
+    "LocalChineseName": "季（武裝）",
     "CurrentSlug": "toki_armed",
     "SquadTypeSource": "schaledb-jp-verified",
     "TacticRole": "Supporter",
@@ -8595,12 +8994,19 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "toki_armed",
-    "SchaleDBPage": "https://schaledb.com/student/toki_armed"
+    "SchaleDBPage": "https://schaledb.com/student/toki_armed",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "時（武裝）",
+      "季（武裝）",
+      "Toki (Armed)",
+      "toki_armed"
+    ]
   },
   {
     "Id": 300248,
     "PathName": "himari_armed",
-    "Name": "日鞠（武裝）",
+    "Name": "陽葵（武裝）",
     "EnglishName": "Himari (Armed)",
     "SquadType": "Support",
     "Position": "",
@@ -8619,7 +9025,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "日鞠（武裝）",
+    "LocalChineseName": "陽葵（武裝）",
     "CurrentSlug": "himari_armed",
     "SquadTypeSource": "schaledb-jp-verified",
     "TacticRole": "Supporter",
@@ -8630,7 +9036,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "himari_armed",
-    "SchaleDBPage": "https://schaledb.com/student/himari_armed"
+    "SchaleDBPage": "https://schaledb.com/student/himari_armed",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "日鞠（武裝）",
+      "陽葵（武裝）",
+      "Himari (Armed)",
+      "himari_armed"
+    ]
   },
   {
     "Id": 300249,
@@ -8669,7 +9082,7 @@
   {
     "Id": 300250,
     "PathName": "kei",
-    "Name": "凱伊",
+    "Name": "Kei",
     "EnglishName": "Kei",
     "SquadType": "Main",
     "Position": "",
@@ -8688,7 +9101,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "凱伊",
+    "LocalChineseName": "Kei",
     "CurrentSlug": "kei",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
@@ -8698,12 +9111,18 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "kei",
-    "SchaleDBPage": "https://schaledb.com/student/kei"
+    "SchaleDBPage": "https://schaledb.com/student/kei",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "凱伊",
+      "Kei",
+      "kei"
+    ]
   },
   {
     "Id": 300251,
     "PathName": "eimi_armed",
-    "Name": "艾米（武裝）",
+    "Name": "英美（武裝）",
     "EnglishName": "Eimi (Armed)",
     "SquadType": "Main",
     "Position": "",
@@ -8722,7 +9141,7 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "艾米（武裝）",
+    "LocalChineseName": "英美（武裝）",
     "CurrentSlug": "eimi_armed",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
@@ -8732,7 +9151,14 @@
     "Server": "jp",
     "Locale": "zh-TW",
     "SchaleDBSlug": "eimi_armed",
-    "SchaleDBPage": "https://schaledb.com/student/eimi_armed"
+    "SchaleDBPage": "https://schaledb.com/student/eimi_armed",
+    "NameSource": "user-corrected-v4.5.9",
+    "SearchAliases": [
+      "艾米（武裝）",
+      "英美（武裝）",
+      "Eimi (Armed)",
+      "eimi_armed"
+    ]
   },
   {
     "Id": 300252,
