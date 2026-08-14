@@ -24,7 +24,9 @@
     "ImageId": 10000,
     "LocalChineseName": "亞瑠",
     "CurrentSlug": "aru",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300001,
@@ -51,7 +53,9 @@
     "ImageId": 10001,
     "LocalChineseName": "艾米",
     "CurrentSlug": "eimi",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300002,
@@ -78,7 +82,9 @@
     "ImageId": 10002,
     "LocalChineseName": "晴奈",
     "CurrentSlug": "haruna",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300003,
@@ -105,7 +111,9 @@
     "ImageId": 10003,
     "LocalChineseName": "日步美",
     "CurrentSlug": "hifumi",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300004,
@@ -132,7 +140,9 @@
     "ImageId": 10004,
     "LocalChineseName": "陽奈",
     "CurrentSlug": "hina",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300005,
@@ -159,7 +169,9 @@
     "ImageId": 10005,
     "LocalChineseName": "星野",
     "CurrentSlug": "hoshino",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300006,
@@ -186,7 +198,9 @@
     "ImageId": 10006,
     "LocalChineseName": "伊織",
     "CurrentSlug": "iori",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300007,
@@ -213,7 +227,9 @@
     "ImageId": 10007,
     "LocalChineseName": "真紀",
     "CurrentSlug": "maki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300008,
@@ -240,7 +256,9 @@
     "ImageId": 10008,
     "LocalChineseName": "寧瑠",
     "CurrentSlug": "neru",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300009,
@@ -267,7 +285,9 @@
     "ImageId": 10009,
     "LocalChineseName": "泉",
     "CurrentSlug": "izumi",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300010,
@@ -294,7 +314,9 @@
     "ImageId": 10010,
     "LocalChineseName": "白子",
     "CurrentSlug": "shiroko",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300011,
@@ -321,7 +343,9 @@
     "ImageId": 10011,
     "LocalChineseName": "瞬",
     "CurrentSlug": "shun",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300012,
@@ -348,7 +372,9 @@
     "ImageId": 10012,
     "LocalChineseName": "菫",
     "CurrentSlug": "sumire",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300013,
@@ -375,7 +401,9 @@
     "ImageId": 10013,
     "LocalChineseName": "鶴城",
     "CurrentSlug": "tsurugi",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300014,
@@ -402,7 +430,9 @@
     "ImageId": 13000,
     "LocalChineseName": "茜香",
     "CurrentSlug": "akane",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300015,
@@ -429,7 +459,9 @@
     "ImageId": 13001,
     "LocalChineseName": "千世",
     "CurrentSlug": "chise",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300016,
@@ -456,7 +488,9 @@
     "ImageId": 13002,
     "LocalChineseName": "明里",
     "CurrentSlug": "akari",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300017,
@@ -483,7 +517,9 @@
     "ImageId": 13003,
     "LocalChineseName": "蓮實",
     "CurrentSlug": "hasumi",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300018,
@@ -510,7 +546,9 @@
     "ImageId": 13004,
     "LocalChineseName": "野乃美",
     "CurrentSlug": "nonomi",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300019,
@@ -537,7 +575,9 @@
     "ImageId": 13005,
     "LocalChineseName": "佳世子",
     "CurrentSlug": "kayoko",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300020,
@@ -564,7 +604,9 @@
     "ImageId": 13006,
     "LocalChineseName": "睦月",
     "CurrentSlug": "mutsuki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300021,
@@ -591,7 +633,9 @@
     "ImageId": 13007,
     "LocalChineseName": "淳子",
     "CurrentSlug": "junko",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300022,
@@ -618,7 +662,9 @@
     "ImageId": 13008,
     "LocalChineseName": "芹香",
     "CurrentSlug": "serika",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300023,
@@ -645,7 +691,9 @@
     "ImageId": 13009,
     "LocalChineseName": "椿",
     "CurrentSlug": "tsubaki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300024,
@@ -672,7 +720,9 @@
     "ImageId": 13010,
     "LocalChineseName": "優香",
     "CurrentSlug": "yuuka",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300025,
@@ -699,7 +749,9 @@
     "ImageId": 16000,
     "LocalChineseName": "遙香",
     "CurrentSlug": "haruka",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300026,
@@ -726,7 +778,9 @@
     "ImageId": 16001,
     "LocalChineseName": "明日奈",
     "CurrentSlug": "asuna",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300027,
@@ -753,7 +807,9 @@
     "ImageId": 16002,
     "LocalChineseName": "小鳥",
     "CurrentSlug": "kotori",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300028,
@@ -780,7 +836,9 @@
     "ImageId": 16003,
     "LocalChineseName": "鈴美",
     "CurrentSlug": "suzumi",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300029,
@@ -807,7 +865,9 @@
     "ImageId": 16004,
     "LocalChineseName": "菲娜",
     "CurrentSlug": "pina",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300030,
@@ -834,7 +894,9 @@
     "ImageId": 20000,
     "LocalChineseName": "響",
     "CurrentSlug": "hibiki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300031,
@@ -861,7 +923,9 @@
     "ImageId": 20001,
     "LocalChineseName": "花凜",
     "CurrentSlug": "karin",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300032,
@@ -888,7 +952,9 @@
     "ImageId": 20002,
     "LocalChineseName": "沙耶",
     "CurrentSlug": "saya",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300033,
@@ -914,7 +980,9 @@
     ],
     "LocalChineseName": "愛莉",
     "CurrentSlug": "airi",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300034,
@@ -940,7 +1008,9 @@
     ],
     "LocalChineseName": "風華",
     "CurrentSlug": "fuuka",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300035,
@@ -966,7 +1036,9 @@
     ],
     "LocalChineseName": "花江",
     "CurrentSlug": "hanae",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300036,
@@ -992,7 +1064,9 @@
     ],
     "LocalChineseName": "晴",
     "CurrentSlug": "hare",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300037,
@@ -1018,7 +1092,9 @@
     ],
     "LocalChineseName": "歌原",
     "CurrentSlug": "utaha",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300038,
@@ -1044,7 +1120,9 @@
     ],
     "LocalChineseName": "綾音",
     "CurrentSlug": "ayane",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300039,
@@ -1070,7 +1148,9 @@
     ],
     "LocalChineseName": "千夏",
     "CurrentSlug": "chinatsu",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300040,
@@ -1096,7 +1176,9 @@
     ],
     "LocalChineseName": "小玉",
     "CurrentSlug": "kotama",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300041,
@@ -1122,7 +1204,9 @@
     ],
     "LocalChineseName": "茱莉",
     "CurrentSlug": "juri",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300042,
@@ -1148,7 +1232,9 @@
     ],
     "LocalChineseName": "芹奈",
     "CurrentSlug": "serina",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300043,
@@ -1174,7 +1260,9 @@
     ],
     "LocalChineseName": "志美子",
     "CurrentSlug": "shimiko",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300044,
@@ -1200,7 +1288,9 @@
     ],
     "LocalChineseName": "佳代子",
     "CurrentSlug": "yoshimi",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300045,
@@ -1227,7 +1317,9 @@
     "ImageId": 20003,
     "LocalChineseName": "真白",
     "CurrentSlug": "mashiro",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300046,
@@ -1254,7 +1346,9 @@
     "ImageId": 10014,
     "LocalChineseName": "伊樹菜",
     "CurrentSlug": "izuna",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300047,
@@ -1280,7 +1374,9 @@
     ],
     "LocalChineseName": "靜子",
     "CurrentSlug": "shizuko",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300048,
@@ -1307,7 +1403,9 @@
     "ImageId": 10015,
     "LocalChineseName": "愛麗絲",
     "CurrentSlug": "aris",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300049,
@@ -1334,7 +1432,9 @@
     "ImageId": 10016,
     "LocalChineseName": "綠",
     "CurrentSlug": "midori",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300050,
@@ -1361,7 +1461,9 @@
     "ImageId": 13011,
     "LocalChineseName": "桃井",
     "CurrentSlug": "momoi",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300051,
@@ -1388,7 +1490,9 @@
     "ImageId": 10017,
     "LocalChineseName": "切里諾",
     "CurrentSlug": "cherino",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300052,
@@ -1414,7 +1518,9 @@
     ],
     "LocalChineseName": "和香",
     "CurrentSlug": "nodoka",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300053,
@@ -1441,7 +1547,9 @@
     "ImageId": 10018,
     "LocalChineseName": "柚子",
     "CurrentSlug": "yuzu",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300054,
@@ -1468,7 +1576,9 @@
     "ImageId": 10019,
     "LocalChineseName": "梓",
     "CurrentSlug": "azusa",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300055,
@@ -1494,7 +1604,9 @@
     ],
     "LocalChineseName": "花子",
     "CurrentSlug": "hanako",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300056,
@@ -1521,7 +1633,9 @@
     "ImageId": 10020,
     "LocalChineseName": "小春",
     "CurrentSlug": "koharu",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300057,
@@ -1548,7 +1662,9 @@
     "ImageId": 10021,
     "LocalChineseName": "梓（泳裝）",
     "CurrentSlug": "azusa_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300058,
@@ -1575,7 +1691,9 @@
     "ImageId": 20004,
     "LocalChineseName": "真白（泳裝）",
     "CurrentSlug": "mashiro_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300059,
@@ -1602,7 +1720,9 @@
     "ImageId": 16005,
     "LocalChineseName": "鶴城（泳裝）",
     "CurrentSlug": "tsurugi_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300060,
@@ -1629,7 +1749,9 @@
     "ImageId": 20005,
     "LocalChineseName": "日步美（泳裝）",
     "CurrentSlug": "hifumi_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300061,
@@ -1656,7 +1778,9 @@
     "ImageId": 10022,
     "LocalChineseName": "陽奈（泳裝）",
     "CurrentSlug": "hina_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300062,
@@ -1683,7 +1807,9 @@
     "ImageId": 10023,
     "LocalChineseName": "伊織（泳裝）",
     "CurrentSlug": "iori_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300063,
@@ -1710,7 +1836,9 @@
     "ImageId": 16006,
     "LocalChineseName": "泉（泳裝）",
     "CurrentSlug": "izumi_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300064,
@@ -1737,7 +1865,9 @@
     "ImageId": 10024,
     "LocalChineseName": "白子（自行車）",
     "CurrentSlug": "shiroko_cycling",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300065,
@@ -1764,7 +1894,9 @@
     "ImageId": 10025,
     "LocalChineseName": "瞬（幼年）",
     "CurrentSlug": "shun_small",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300066,
@@ -1791,7 +1923,9 @@
     "ImageId": 13012,
     "LocalChineseName": "桐乃",
     "CurrentSlug": "kirino",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300067,
@@ -1818,7 +1952,9 @@
     "ImageId": 20006,
     "LocalChineseName": "沙耶（私服）",
     "CurrentSlug": "saya_casual",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300068,
@@ -1845,7 +1981,9 @@
     "ImageId": 10026,
     "LocalChineseName": "寧瑠（兔女郎）",
     "CurrentSlug": "neru_bunny",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300069,
@@ -1872,7 +2010,9 @@
     "ImageId": 10027,
     "LocalChineseName": "花凜（兔女郎）",
     "CurrentSlug": "karin_bunny",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300070,
@@ -1899,7 +2039,9 @@
     "ImageId": 10028,
     "LocalChineseName": "明日奈（兔女郎）",
     "CurrentSlug": "asuna_bunny",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300071,
@@ -1926,7 +2068,9 @@
     "ImageId": 10029,
     "LocalChineseName": "夏",
     "CurrentSlug": "natsu",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300072,
@@ -1952,7 +2096,9 @@
     ],
     "LocalChineseName": "瑪麗",
     "CurrentSlug": "mari",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300073,
@@ -1979,7 +2125,9 @@
     "ImageId": 20007,
     "LocalChineseName": "初音未來",
     "CurrentSlug": "miku",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300074,
@@ -2006,7 +2154,9 @@
     "ImageId": 20008,
     "LocalChineseName": "亞子",
     "CurrentSlug": "ako",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300075,
@@ -2032,7 +2182,9 @@
     ],
     "LocalChineseName": "切里諾（溫泉）",
     "CurrentSlug": "cherino_onsen",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300076,
@@ -2059,7 +2211,9 @@
     "ImageId": 10030,
     "LocalChineseName": "千夏（溫泉）",
     "CurrentSlug": "chinatsu_onsen",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300077,
@@ -2086,7 +2240,9 @@
     "ImageId": 16007,
     "LocalChineseName": "巴",
     "CurrentSlug": "tomoe",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300078,
@@ -2112,7 +2268,9 @@
     ],
     "LocalChineseName": "和香（溫泉）",
     "CurrentSlug": "nodoka_onsen",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300079,
@@ -2139,7 +2297,9 @@
     "ImageId": 10031,
     "LocalChineseName": "亞瑠（新年）",
     "CurrentSlug": "aru_newyear",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300080,
@@ -2166,7 +2326,9 @@
     "ImageId": 10032,
     "LocalChineseName": "睦月（新年）",
     "CurrentSlug": "mutsuki_newyear",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300081,
@@ -2192,7 +2354,9 @@
     ],
     "LocalChineseName": "芹香（新年）",
     "CurrentSlug": "serika_newyear",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300082,
@@ -2219,7 +2383,9 @@
     "ImageId": 10033,
     "LocalChineseName": "若藻",
     "CurrentSlug": "wakamo",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300083,
@@ -2246,7 +2412,9 @@
     "ImageId": 16008,
     "LocalChineseName": "吹雪",
     "CurrentSlug": "fubuki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300084,
@@ -2272,7 +2440,9 @@
     ],
     "LocalChineseName": "瀨名",
     "CurrentSlug": "sena",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300085,
@@ -2298,7 +2468,9 @@
     ],
     "LocalChineseName": "千尋",
     "CurrentSlug": "chihiro",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300086,
@@ -2325,7 +2497,9 @@
     "ImageId": 10034,
     "LocalChineseName": "三森",
     "CurrentSlug": "mimori",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300087,
@@ -2352,7 +2526,9 @@
     "ImageId": 10035,
     "LocalChineseName": "憂",
     "CurrentSlug": "ui",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300088,
@@ -2379,7 +2555,9 @@
     "ImageId": 10036,
     "LocalChineseName": "日向",
     "CurrentSlug": "hinata",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300089,
@@ -2406,7 +2584,9 @@
     "ImageId": 10037,
     "LocalChineseName": "瑪麗娜",
     "CurrentSlug": "marina",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300090,
@@ -2433,7 +2613,9 @@
     "ImageId": 10038,
     "LocalChineseName": "宮子",
     "CurrentSlug": "miyako",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300091,
@@ -2459,7 +2641,9 @@
     ],
     "LocalChineseName": "咲希",
     "CurrentSlug": "saki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300092,
@@ -2486,7 +2670,9 @@
     "ImageId": 10039,
     "LocalChineseName": "美遊",
     "CurrentSlug": "miyu",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300093,
@@ -2512,7 +2698,9 @@
     ],
     "LocalChineseName": "楓",
     "CurrentSlug": "kaede",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300094,
@@ -2538,7 +2726,9 @@
     ],
     "LocalChineseName": "伊呂波",
     "CurrentSlug": "iroha",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300095,
@@ -2565,7 +2755,9 @@
     "ImageId": 16009,
     "LocalChineseName": "美知留",
     "CurrentSlug": "michiru",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300096,
@@ -2592,7 +2784,9 @@
     "ImageId": 10040,
     "LocalChineseName": "月詠",
     "CurrentSlug": "tsukuyo",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300097,
@@ -2619,7 +2813,9 @@
     "ImageId": 10041,
     "LocalChineseName": "美咲",
     "CurrentSlug": "misaki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300098,
@@ -2645,7 +2841,9 @@
     ],
     "LocalChineseName": "日和",
     "CurrentSlug": "hiyori",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300099,
@@ -2672,7 +2870,9 @@
     "ImageId": 10042,
     "LocalChineseName": "敦子",
     "CurrentSlug": "atsuko",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300100,
@@ -2699,7 +2899,9 @@
     "ImageId": 10043,
     "LocalChineseName": "若藻（泳裝）",
     "CurrentSlug": "wakamo_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300101,
@@ -2726,7 +2928,9 @@
     "ImageId": 10044,
     "LocalChineseName": "野乃美（泳裝）",
     "CurrentSlug": "nonomi_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300102,
@@ -2752,7 +2956,9 @@
     ],
     "LocalChineseName": "綾音（泳裝）",
     "CurrentSlug": "ayane_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300103,
@@ -2779,7 +2985,9 @@
     "ImageId": 10045,
     "LocalChineseName": "星野（泳裝）",
     "CurrentSlug": "hoshino_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300104,
@@ -2805,7 +3013,9 @@
     ],
     "LocalChineseName": "靜子（泳裝）",
     "CurrentSlug": "shizuko_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300105,
@@ -2832,7 +3042,9 @@
     "ImageId": 10046,
     "LocalChineseName": "伊樹菜（泳裝）",
     "CurrentSlug": "izuna_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300106,
@@ -2859,7 +3071,9 @@
     "ImageId": 10047,
     "LocalChineseName": "千世（泳裝）",
     "CurrentSlug": "chise_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300107,
@@ -2886,7 +3100,9 @@
     "ImageId": 10048,
     "LocalChineseName": "沙織",
     "CurrentSlug": "saori",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300108,
@@ -2912,7 +3128,9 @@
     ],
     "LocalChineseName": "萌繪",
     "CurrentSlug": "moe",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300109,
@@ -2939,7 +3157,9 @@
     "ImageId": 10049,
     "LocalChineseName": "和紗",
     "CurrentSlug": "kazusa",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300110,
@@ -2966,7 +3186,9 @@
     "ImageId": 10050,
     "LocalChineseName": "心奈",
     "CurrentSlug": "kokona",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300111,
@@ -2993,7 +3215,9 @@
     "ImageId": 10051,
     "LocalChineseName": "歌原（應援團）",
     "CurrentSlug": "utaha_cheer",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300112,
@@ -3020,7 +3244,9 @@
     "ImageId": 10052,
     "LocalChineseName": "乃愛",
     "CurrentSlug": "noa",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300113,
@@ -3047,7 +3273,9 @@
     "ImageId": 16010,
     "LocalChineseName": "響（應援團）",
     "CurrentSlug": "hibiki_cheer",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300114,
@@ -3073,7 +3301,9 @@
     ],
     "LocalChineseName": "茜香（兔女郎）",
     "CurrentSlug": "akane_bunny",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300115,
@@ -3100,7 +3330,9 @@
     "ImageId": 10053,
     "LocalChineseName": "優香（體育服）",
     "CurrentSlug": "yuuka_track",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300116,
@@ -3127,7 +3359,9 @@
     "ImageId": 10054,
     "LocalChineseName": "瑪麗（體育服）",
     "CurrentSlug": "mari_track",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300117,
@@ -3154,7 +3388,9 @@
     "ImageId": 16011,
     "LocalChineseName": "蓮實（體育服）",
     "CurrentSlug": "hasumi_track",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300118,
@@ -3180,7 +3416,9 @@
     ],
     "LocalChineseName": "日鞠",
     "CurrentSlug": "himari",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300119,
@@ -3207,7 +3445,9 @@
     "ImageId": 10055,
     "LocalChineseName": "時雨",
     "CurrentSlug": "shigure",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300120,
@@ -3234,7 +3474,9 @@
     "ImageId": 10056,
     "LocalChineseName": "芹奈（聖誕）",
     "CurrentSlug": "serina_christmas",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300121,
@@ -3260,7 +3502,9 @@
     ],
     "LocalChineseName": "花江（聖誕）",
     "CurrentSlug": "hanae_christmas",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300122,
@@ -3287,7 +3531,9 @@
     "ImageId": 10057,
     "LocalChineseName": "晴奈（新年）",
     "CurrentSlug": "haruna_newyear",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300123,
@@ -3313,7 +3559,9 @@
     ],
     "LocalChineseName": "風華（新年）",
     "CurrentSlug": "fuuka_newyear",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300124,
@@ -3340,7 +3588,9 @@
     "ImageId": 16012,
     "LocalChineseName": "淳子（新年）",
     "CurrentSlug": "junko_newyear",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300125,
@@ -3367,7 +3617,9 @@
     "ImageId": 10058,
     "LocalChineseName": "美禰",
     "CurrentSlug": "mine",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300126,
@@ -3394,7 +3646,9 @@
     "ImageId": 10059,
     "LocalChineseName": "彌香",
     "CurrentSlug": "mika",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300127,
@@ -3421,7 +3675,9 @@
     "ImageId": 10060,
     "LocalChineseName": "惠",
     "CurrentSlug": "megu",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300128,
@@ -3447,7 +3703,9 @@
     ],
     "LocalChineseName": "環奈",
     "CurrentSlug": "kanna",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300129,
@@ -3474,7 +3732,9 @@
     "ImageId": 10061,
     "LocalChineseName": "櫻子",
     "CurrentSlug": "sakurako",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300130,
@@ -3501,7 +3761,9 @@
     "ImageId": 10062,
     "LocalChineseName": "時",
     "CurrentSlug": "toki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300131,
@@ -3527,7 +3789,9 @@
     ],
     "LocalChineseName": "渚",
     "CurrentSlug": "nagisa",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300132,
@@ -3554,7 +3818,9 @@
     "ImageId": 10063,
     "LocalChineseName": "小雪",
     "CurrentSlug": "koyuki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300133,
@@ -3581,7 +3847,9 @@
     "ImageId": 10064,
     "LocalChineseName": "佳世子（新年）",
     "CurrentSlug": "kayoko_newyear",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300134,
@@ -3607,7 +3875,9 @@
     ],
     "LocalChineseName": "遙香（新年）",
     "CurrentSlug": "haruka_newyear",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300135,
@@ -3634,7 +3904,9 @@
     "ImageId": 10065,
     "LocalChineseName": "果穗",
     "CurrentSlug": "kaho",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300136,
@@ -3661,7 +3933,9 @@
     "ImageId": 10066,
     "LocalChineseName": "愛麗絲（女僕）",
     "CurrentSlug": "aris_maid",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300137,
@@ -3688,7 +3962,9 @@
     "ImageId": 10067,
     "LocalChineseName": "時（兔女郎）",
     "CurrentSlug": "toki_bunny",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300138,
@@ -3714,7 +3990,9 @@
     ],
     "LocalChineseName": "柚子（女僕）",
     "CurrentSlug": "yuzu_maid",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300139,
@@ -3741,7 +4019,9 @@
     "ImageId": 10068,
     "LocalChineseName": "玲紗",
     "CurrentSlug": "reisa",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300140,
@@ -3768,7 +4048,9 @@
     "ImageId": 10069,
     "LocalChineseName": "瑠美",
     "CurrentSlug": "rumi",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300141,
@@ -3795,7 +4077,9 @@
     "ImageId": 10070,
     "LocalChineseName": "美奈",
     "CurrentSlug": "mina",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300142,
@@ -3821,7 +4105,9 @@
     ],
     "LocalChineseName": "實梨",
     "CurrentSlug": "minori",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300143,
@@ -3848,7 +4134,9 @@
     "ImageId": 10071,
     "LocalChineseName": "宮子（泳裝）",
     "CurrentSlug": "miyako_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300144,
@@ -3875,7 +4163,9 @@
     "ImageId": 10072,
     "LocalChineseName": "咲希（泳裝）",
     "CurrentSlug": "saki_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300145,
@@ -3901,7 +4191,9 @@
     ],
     "LocalChineseName": "美遊（泳裝）",
     "CurrentSlug": "miyu_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300146,
@@ -3927,7 +4219,9 @@
     ],
     "LocalChineseName": "白子（泳裝）",
     "CurrentSlug": "shiroko_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300147,
@@ -3954,7 +4248,9 @@
     "ImageId": 10073,
     "LocalChineseName": "憂（泳裝）",
     "CurrentSlug": "ui_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300148,
@@ -3980,7 +4276,9 @@
     ],
     "LocalChineseName": "日向（泳裝）",
     "CurrentSlug": "hinata_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300149,
@@ -4007,7 +4305,9 @@
     "ImageId": 16013,
     "LocalChineseName": "小春（泳裝）",
     "CurrentSlug": "koharu_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300150,
@@ -4034,7 +4334,9 @@
     "ImageId": 10074,
     "LocalChineseName": "花子（泳裝）",
     "CurrentSlug": "hanako_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300151,
@@ -4060,7 +4362,9 @@
     ],
     "LocalChineseName": "三森（泳裝）",
     "CurrentSlug": "mimori_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300152,
@@ -4087,7 +4391,9 @@
     "ImageId": 10075,
     "LocalChineseName": "梅露",
     "CurrentSlug": "meru",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300153,
@@ -4114,7 +4420,9 @@
     "ImageId": 13013,
     "LocalChineseName": "紅葉",
     "CurrentSlug": "momiji",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300154,
@@ -4141,7 +4449,9 @@
     "ImageId": 10076,
     "LocalChineseName": "小鳥（應援團）",
     "CurrentSlug": "kotori_cheer",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300155,
@@ -4167,7 +4477,9 @@
     ],
     "LocalChineseName": "晴奈（體育服）",
     "CurrentSlug": "haruna_track",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300156,
@@ -4194,7 +4506,9 @@
     "ImageId": 10077,
     "LocalChineseName": "一花",
     "CurrentSlug": "ichika",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300157,
@@ -4221,7 +4535,9 @@
     "ImageId": 10078,
     "LocalChineseName": "霞",
     "CurrentSlug": "kasumi",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300158,
@@ -4247,7 +4563,9 @@
     ],
     "LocalChineseName": "時雨（溫泉）",
     "CurrentSlug": "shigure_onsen",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300159,
@@ -4274,7 +4592,9 @@
     "ImageId": 10079,
     "LocalChineseName": "御坂美琴",
     "CurrentSlug": "misaka_mikoto",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300160,
@@ -4301,7 +4621,9 @@
     "ImageId": 10080,
     "LocalChineseName": "食蜂操祈",
     "CurrentSlug": "shokuhou_misaki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300161,
@@ -4327,7 +4649,9 @@
     ],
     "LocalChineseName": "佐天淚子",
     "CurrentSlug": "saten_ruiko",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300162,
@@ -4354,7 +4678,9 @@
     "ImageId": 10081,
     "LocalChineseName": "紫",
     "CurrentSlug": "yukari",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300163,
@@ -4381,7 +4707,9 @@
     "ImageId": 10082,
     "LocalChineseName": "蓮華",
     "CurrentSlug": "renge",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300164,
@@ -4408,7 +4736,9 @@
     "ImageId": 10083,
     "LocalChineseName": "桔梗",
     "CurrentSlug": "kikyou",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300165,
@@ -4434,7 +4764,9 @@
     ],
     "LocalChineseName": "艾米（泳裝）",
     "CurrentSlug": "eimi_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300166,
@@ -4460,7 +4792,9 @@
     ],
     "LocalChineseName": "小玉（露營）",
     "CurrentSlug": "kotama_camp",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300167,
@@ -4487,7 +4821,9 @@
     "ImageId": 10085,
     "LocalChineseName": "晴（露營）",
     "CurrentSlug": "hare_camp",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300168,
@@ -4514,7 +4850,9 @@
     "ImageId": 10087,
     "LocalChineseName": "亞子（禮服）",
     "CurrentSlug": "ako_dress",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300169,
@@ -4541,7 +4879,9 @@
     "ImageId": 16014,
     "LocalChineseName": "伊吹",
     "CurrentSlug": "ibuki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300170,
@@ -4567,7 +4907,9 @@
     ],
     "LocalChineseName": "真琴",
     "CurrentSlug": "makoto",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300171,
@@ -4594,7 +4936,9 @@
     "ImageId": 10086,
     "LocalChineseName": "陽奈（禮服）",
     "CurrentSlug": "hina_dress",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300172,
@@ -4621,7 +4965,9 @@
     "ImageId": 10088,
     "LocalChineseName": "佳世子（禮服）",
     "CurrentSlug": "kayoko_dress",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300173,
@@ -4648,7 +4994,9 @@
     "ImageId": 10089,
     "LocalChineseName": "亞瑠（禮服）",
     "CurrentSlug": "aru_dress",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300174,
@@ -4674,7 +5022,9 @@
     ],
     "LocalChineseName": "明里（新年）",
     "CurrentSlug": "akari_newyear",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300175,
@@ -4701,7 +5051,9 @@
     "ImageId": 10090,
     "LocalChineseName": "海香",
     "CurrentSlug": "umika",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300176,
@@ -4727,7 +5079,9 @@
     ],
     "LocalChineseName": "椿（導覽）",
     "CurrentSlug": "tsubaki_guide",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300177,
@@ -4754,7 +5108,9 @@
     "ImageId": 10091,
     "LocalChineseName": "和紗（樂團）",
     "CurrentSlug": "kazusa_band",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300178,
@@ -4781,7 +5137,9 @@
     "ImageId": 10092,
     "LocalChineseName": "佳代子（樂團）",
     "CurrentSlug": "yoshimi_band",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300179,
@@ -4808,7 +5166,9 @@
     "ImageId": 16015,
     "LocalChineseName": "愛莉（樂團）",
     "CurrentSlug": "airi_band",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300180,
@@ -4834,7 +5194,9 @@
     ],
     "LocalChineseName": "綺羅羅",
     "CurrentSlug": "kirara",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300181,
@@ -4860,7 +5222,9 @@
     ],
     "LocalChineseName": "桃井（女僕）",
     "CurrentSlug": "momoi_maid",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300182,
@@ -4886,7 +5250,9 @@
     ],
     "LocalChineseName": "綠（女僕）",
     "CurrentSlug": "midori_maid",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300183,
@@ -4912,7 +5278,9 @@
     ],
     "LocalChineseName": "芹香（泳裝）",
     "CurrentSlug": "serika_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300184,
@@ -4938,7 +5306,9 @@
     ],
     "LocalChineseName": "環奈（泳裝）",
     "CurrentSlug": "kanna_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300185,
@@ -4964,7 +5334,9 @@
     ],
     "LocalChineseName": "吹雪（泳裝）",
     "CurrentSlug": "fubuki_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300186,
@@ -4990,7 +5362,9 @@
     ],
     "LocalChineseName": "桐乃（泳裝）",
     "CurrentSlug": "kirino_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300187,
@@ -5016,7 +5390,9 @@
     ],
     "LocalChineseName": "萌繪（泳裝）",
     "CurrentSlug": "moe_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300188,
@@ -5042,7 +5418,9 @@
     ],
     "LocalChineseName": "星野（武裝）",
     "CurrentSlug": "hoshino_armed",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300189,
@@ -5068,7 +5446,9 @@
     ],
     "LocalChineseName": "星野（武裝）",
     "CurrentSlug": "hoshino_armed",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300190,
@@ -5094,7 +5474,9 @@
     ],
     "LocalChineseName": "白子＊TERROR",
     "CurrentSlug": "shiroko_terror",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300191,
@@ -5120,7 +5502,9 @@
     ],
     "LocalChineseName": "敦子（泳裝）",
     "CurrentSlug": "atsuko_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300192,
@@ -5146,7 +5530,9 @@
     ],
     "LocalChineseName": "沙織（泳裝）",
     "CurrentSlug": "saori_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300193,
@@ -5172,7 +5558,9 @@
     ],
     "LocalChineseName": "日和（泳裝）",
     "CurrentSlug": "hiyori_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300194,
@@ -5198,7 +5586,9 @@
     ],
     "LocalChineseName": "瑪麗娜（旗袍）",
     "CurrentSlug": "marina_qipao",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300195,
@@ -5224,7 +5614,9 @@
     ],
     "LocalChineseName": "巴（旗袍）",
     "CurrentSlug": "tomoe_qipao",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300196,
@@ -5250,7 +5642,9 @@
     ],
     "LocalChineseName": "麗情",
     "CurrentSlug": "reijo",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300197,
@@ -5276,7 +5670,9 @@
     ],
     "LocalChineseName": "妃咲",
     "CurrentSlug": "kisaki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300198,
@@ -5302,7 +5698,9 @@
     ],
     "LocalChineseName": "瑪麗（偶像）",
     "CurrentSlug": "mari_idol",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Healer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300199,
@@ -5328,7 +5726,9 @@
     ],
     "LocalChineseName": "櫻子（偶像）",
     "CurrentSlug": "sakurako_idol",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300200,
@@ -5354,7 +5754,9 @@
     ],
     "LocalChineseName": "美禰（偶像）",
     "CurrentSlug": "mine_idol",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300201,
@@ -5380,7 +5782,9 @@
     ],
     "LocalChineseName": "千秋",
     "CurrentSlug": "chiaki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300202,
@@ -5406,7 +5810,9 @@
     ],
     "LocalChineseName": "皐月",
     "CurrentSlug": "satsuki",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300203,
@@ -5432,7 +5838,9 @@
     ],
     "LocalChineseName": "優香（睡衣）",
     "CurrentSlug": "yuuka_pajamas",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300204,
@@ -5458,7 +5866,9 @@
     ],
     "LocalChineseName": "乃愛（睡衣）",
     "CurrentSlug": "noa_pajamas",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300205,
@@ -5484,7 +5894,9 @@
     ],
     "LocalChineseName": "聖亞",
     "CurrentSlug": "seia",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300206,
@@ -5510,7 +5922,9 @@
     ],
     "LocalChineseName": "明日奈（校服）",
     "CurrentSlug": "asuna_school",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300207,
@@ -5536,7 +5950,9 @@
     ],
     "LocalChineseName": "花凜（校服）",
     "CurrentSlug": "karin_school",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300208,
@@ -5562,7 +5978,9 @@
     ],
     "LocalChineseName": "寧瑠（校服）",
     "CurrentSlug": "neru_school",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300209,
@@ -5588,7 +6006,9 @@
     ],
     "LocalChineseName": "莉央",
     "CurrentSlug": "rio",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300210,
@@ -5614,7 +6034,9 @@
     ],
     "LocalChineseName": "真紀（露營）",
     "CurrentSlug": "maki_camp",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300211,
@@ -5640,7 +6062,9 @@
     ],
     "LocalChineseName": "瀨名（私服）",
     "CurrentSlug": "sena_casual",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300212,
@@ -5666,7 +6090,9 @@
     ],
     "LocalChineseName": "茱莉（打工）",
     "CurrentSlug": "juri_parttime",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300213,
@@ -5692,7 +6118,9 @@
     ],
     "LocalChineseName": "泉（新年）",
     "CurrentSlug": "izumi_newyear",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300214,
@@ -5718,7 +6146,9 @@
     ],
     "LocalChineseName": "玲",
     "CurrentSlug": "rei",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300215,
@@ -5744,7 +6174,9 @@
     ],
     "LocalChineseName": "菫（打工）",
     "CurrentSlug": "sumire_parttime",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300216,
@@ -5770,7 +6202,9 @@
     ],
     "LocalChineseName": "沙織（禮服）",
     "CurrentSlug": "saori_dress",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300217,
@@ -5796,7 +6230,9 @@
     ],
     "LocalChineseName": "光",
     "CurrentSlug": "hikari",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300218,
@@ -5822,7 +6258,9 @@
     ],
     "LocalChineseName": "望",
     "CurrentSlug": "nozomi",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300219,
@@ -5848,7 +6286,9 @@
     ],
     "LocalChineseName": "青葉",
     "CurrentSlug": "aoba",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300220,
@@ -5874,7 +6314,9 @@
     ],
     "LocalChineseName": "菲娜（導覽）",
     "CurrentSlug": "pina_guide",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300221,
@@ -5900,7 +6342,9 @@
     ],
     "LocalChineseName": "名草",
     "CurrentSlug": "nagusa",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300222,
@@ -5926,7 +6370,9 @@
     ],
     "LocalChineseName": "妮婭",
     "CurrentSlug": "niya",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300223,
@@ -5952,7 +6398,9 @@
     ],
     "LocalChineseName": "夏（樂團）",
     "CurrentSlug": "natsu_band",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300224,
@@ -5978,7 +6426,9 @@
     ],
     "LocalChineseName": "紫（泳裝）",
     "CurrentSlug": "yukari_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300225,
@@ -6004,7 +6454,9 @@
     ],
     "LocalChineseName": "蓮華（泳裝）",
     "CurrentSlug": "renge_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300226,
@@ -6030,7 +6482,9 @@
     ],
     "LocalChineseName": "桔梗（泳裝）",
     "CurrentSlug": "kikyou_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300227,
@@ -6056,7 +6510,9 @@
     ],
     "LocalChineseName": "聖亞（泳裝）",
     "CurrentSlug": "seia_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300228,
@@ -6082,7 +6538,9 @@
     ],
     "LocalChineseName": "蓮實（泳裝）",
     "CurrentSlug": "hasumi_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300229,
@@ -6108,7 +6566,9 @@
     ],
     "LocalChineseName": "一花（泳裝）",
     "CurrentSlug": "ichika_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300230,
@@ -6134,7 +6594,9 @@
     ],
     "LocalChineseName": "渚（泳裝）",
     "CurrentSlug": "nagisa_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300231,
@@ -6160,7 +6622,9 @@
     ],
     "LocalChineseName": "彌香（泳裝）",
     "CurrentSlug": "mika_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300232,
@@ -6186,7 +6650,9 @@
     ],
     "LocalChineseName": "繪梨",
     "CurrentSlug": "eri",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300233,
@@ -6212,7 +6678,9 @@
     ],
     "LocalChineseName": "香耶",
     "CurrentSlug": "kanoe",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300234,
@@ -6238,7 +6706,9 @@
     ],
     "LocalChineseName": "美咲（泳裝）",
     "CurrentSlug": "misaki_swimsuit",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300235,
@@ -6264,7 +6734,9 @@
     ],
     "LocalChineseName": "美代",
     "CurrentSlug": "miyo",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300236,
@@ -6290,7 +6762,9 @@
     ],
     "LocalChineseName": "冬",
     "CurrentSlug": "fuyu",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300237,
@@ -6316,7 +6790,9 @@
     ],
     "LocalChineseName": "律",
     "CurrentSlug": "ritsu",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300238,
@@ -6342,7 +6818,9 @@
     ],
     "LocalChineseName": "玲紗（魔法少女）",
     "CurrentSlug": "reisa_magical",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300239,
@@ -6368,7 +6846,9 @@
     ],
     "LocalChineseName": "鈴美（魔法少女）",
     "CurrentSlug": "suzumi_magical",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300240,
@@ -6394,7 +6874,9 @@
     ],
     "LocalChineseName": "拉布",
     "CurrentSlug": "rabu",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300241,
@@ -6420,7 +6902,9 @@
     ],
     "LocalChineseName": "昴",
     "CurrentSlug": "subaru",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300242,
@@ -6446,7 +6930,9 @@
     ],
     "LocalChineseName": "高音",
     "CurrentSlug": "takane",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300243,
@@ -6472,7 +6958,9 @@
     ],
     "LocalChineseName": "八雲",
     "CurrentSlug": "yakumo",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300244,
@@ -6498,7 +6986,9 @@
     ],
     "LocalChineseName": "月詠（禮服）",
     "CurrentSlug": "tsukuyo_dress",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300245,
@@ -6524,7 +7014,9 @@
     ],
     "LocalChineseName": "美知留（禮服）",
     "CurrentSlug": "michiru_dress",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300246,
@@ -6550,7 +7042,9 @@
     ],
     "LocalChineseName": "莉央（武裝）",
     "CurrentSlug": "rio_armed",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300247,
@@ -6576,7 +7070,9 @@
     ],
     "LocalChineseName": "時（武裝）",
     "CurrentSlug": "toki_armed",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300248,
@@ -6602,7 +7098,9 @@
     ],
     "LocalChineseName": "日鞠（武裝）",
     "CurrentSlug": "himari_armed",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300249,
@@ -6628,7 +7126,9 @@
     ],
     "LocalChineseName": "愛麗絲（武裝）",
     "CurrentSlug": "aris_armed",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300250,
@@ -6654,7 +7154,9 @@
     ],
     "LocalChineseName": "凱伊",
     "CurrentSlug": "kei",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300251,
@@ -6680,7 +7182,9 @@
     ],
     "LocalChineseName": "艾米（武裝）",
     "CurrentSlug": "eimi_armed",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   },
   {
     "Id": 300252,
@@ -6706,6 +7210,8 @@
     ],
     "LocalChineseName": "昴",
     "CurrentSlug": "subaru",
-    "SquadTypeSource": "local-v4.4.10"
+    "SquadTypeSource": "local-v4.4.10",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "local-fallback-v4.4.11"
   }
 ]
