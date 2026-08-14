@@ -11,7 +11,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 0,
     "Skills": [
       {
@@ -28,7 +28,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300000.webp"
+    "LocalImage": "student-icons/300000.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "aru",
+    "SchaleDBPage": "https://schaledb.com/student/aru"
   },
   {
     "Id": 300001,
@@ -42,7 +46,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 1,
     "Skills": [
       {
@@ -59,7 +63,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300001.webp"
+    "LocalImage": "student-icons/300001.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "eimi",
+    "SchaleDBPage": "https://schaledb.com/student/eimi"
   },
   {
     "Id": 300002,
@@ -73,7 +81,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 2,
     "Skills": [
       {
@@ -90,7 +98,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300002.webp"
+    "LocalImage": "student-icons/300002.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "haruna",
+    "SchaleDBPage": "https://schaledb.com/student/haruna"
   },
   {
     "Id": 300003,
@@ -104,7 +116,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 3,
     "Skills": [
       {
@@ -121,7 +133,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300003.webp"
+    "LocalImage": "student-icons/300003.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hifumi",
+    "SchaleDBPage": "https://schaledb.com/student/hifumi"
   },
   {
     "Id": 300004,
@@ -135,7 +151,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 4,
     "Skills": [
       {
@@ -152,7 +168,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300004.webp"
+    "LocalImage": "student-icons/300004.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hina",
+    "SchaleDBPage": "https://schaledb.com/student/hina"
   },
   {
     "Id": 300005,
@@ -166,7 +186,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 5,
     "Skills": [
       {
@@ -183,7 +203,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300005.webp"
+    "LocalImage": "student-icons/300005.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hoshino",
+    "SchaleDBPage": "https://schaledb.com/student/hoshino"
   },
   {
     "Id": 300006,
@@ -197,7 +221,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 6,
     "Skills": [
       {
@@ -214,7 +238,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300006.webp"
+    "LocalImage": "student-icons/300006.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "iori",
+    "SchaleDBPage": "https://schaledb.com/student/iori"
   },
   {
     "Id": 300007,
@@ -228,7 +256,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 7,
     "Skills": [
       {
@@ -245,7 +273,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300007.webp"
+    "LocalImage": "student-icons/300007.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "maki",
+    "SchaleDBPage": "https://schaledb.com/student/maki"
   },
   {
     "Id": 300008,
@@ -259,7 +291,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 8,
     "Skills": [
       {
@@ -276,7 +308,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300008.webp"
+    "LocalImage": "student-icons/300008.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "neru",
+    "SchaleDBPage": "https://schaledb.com/student/neru"
   },
   {
     "Id": 300009,
@@ -290,7 +326,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 9,
     "Skills": [
       {
@@ -307,7 +343,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300009.webp"
+    "LocalImage": "student-icons/300009.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "izumi",
+    "SchaleDBPage": "https://schaledb.com/student/izumi"
   },
   {
     "Id": 300010,
@@ -321,7 +361,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 10,
     "Skills": [
       {
@@ -338,7 +378,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300010.webp"
+    "LocalImage": "student-icons/300010.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shiroko",
+    "SchaleDBPage": "https://schaledb.com/student/shiroko"
   },
   {
     "Id": 300011,
@@ -352,7 +396,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 11,
     "Skills": [
       {
@@ -369,7 +413,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300011.webp"
+    "LocalImage": "student-icons/300011.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shun",
+    "SchaleDBPage": "https://schaledb.com/student/shun"
   },
   {
     "Id": 300012,
@@ -383,7 +431,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 12,
     "Skills": [
       {
@@ -400,7 +448,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300012.webp"
+    "LocalImage": "student-icons/300012.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "sumire",
+    "SchaleDBPage": "https://schaledb.com/student/sumire"
   },
   {
     "Id": 300013,
@@ -414,7 +466,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 13,
     "Skills": [
       {
@@ -431,7 +483,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300013.webp"
+    "LocalImage": "student-icons/300013.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "tsurugi",
+    "SchaleDBPage": "https://schaledb.com/student/tsurugi"
   },
   {
     "Id": 300014,
@@ -445,7 +501,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 14,
     "Skills": [
       {
@@ -462,7 +518,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300014.webp"
+    "LocalImage": "student-icons/300014.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "akane",
+    "SchaleDBPage": "https://schaledb.com/student/akane"
   },
   {
     "Id": 300015,
@@ -476,7 +536,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 15,
     "Skills": [
       {
@@ -493,7 +553,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "verified-schaledb-v4.4.12",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300015.webp"
+    "LocalImage": "student-icons/300015.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "chise",
+    "SchaleDBPage": "https://schaledb.com/student/chise"
   },
   {
     "Id": 300016,
@@ -507,7 +571,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 16,
     "Skills": [
       {
@@ -524,7 +588,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300016.webp"
+    "LocalImage": "student-icons/300016.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "akari",
+    "SchaleDBPage": "https://schaledb.com/student/akari"
   },
   {
     "Id": 300017,
@@ -538,7 +606,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 17,
     "Skills": [
       {
@@ -555,7 +623,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300017.webp"
+    "LocalImage": "student-icons/300017.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hasumi",
+    "SchaleDBPage": "https://schaledb.com/student/hasumi"
   },
   {
     "Id": 300018,
@@ -569,7 +641,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 18,
     "Skills": [
       {
@@ -586,7 +658,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300018.webp"
+    "LocalImage": "student-icons/300018.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "nonomi",
+    "SchaleDBPage": "https://schaledb.com/student/nonomi"
   },
   {
     "Id": 300019,
@@ -600,7 +676,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 19,
     "Skills": [
       {
@@ -618,7 +694,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300019.webp"
+    "LocalImage": "student-icons/300019.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kayoko",
+    "SchaleDBPage": "https://schaledb.com/student/kayoko"
   },
   {
     "Id": 300020,
@@ -632,7 +712,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 20,
     "Skills": [
       {
@@ -649,7 +729,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300020.webp"
+    "LocalImage": "student-icons/300020.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mutsuki",
+    "SchaleDBPage": "https://schaledb.com/student/mutsuki"
   },
   {
     "Id": 300021,
@@ -663,7 +747,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 21,
     "Skills": [
       {
@@ -680,7 +764,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300021.webp"
+    "LocalImage": "student-icons/300021.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "junko",
+    "SchaleDBPage": "https://schaledb.com/student/junko"
   },
   {
     "Id": 300022,
@@ -694,7 +782,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 22,
     "Skills": [
       {
@@ -711,7 +799,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300022.webp"
+    "LocalImage": "student-icons/300022.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "serika",
+    "SchaleDBPage": "https://schaledb.com/student/serika"
   },
   {
     "Id": 300023,
@@ -725,7 +817,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 23,
     "Skills": [
       {
@@ -742,7 +834,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300023.webp"
+    "LocalImage": "student-icons/300023.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "tsubaki",
+    "SchaleDBPage": "https://schaledb.com/student/tsubaki"
   },
   {
     "Id": 300024,
@@ -756,7 +852,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 24,
     "Skills": [
       {
@@ -773,7 +869,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300024.webp"
+    "LocalImage": "student-icons/300024.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "yuuka",
+    "SchaleDBPage": "https://schaledb.com/student/yuuka"
   },
   {
     "Id": 300025,
@@ -787,7 +887,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 25,
     "Skills": [
       {
@@ -804,7 +904,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300025.webp"
+    "LocalImage": "student-icons/300025.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "haruka",
+    "SchaleDBPage": "https://schaledb.com/student/haruka"
   },
   {
     "Id": 300026,
@@ -818,7 +922,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 26,
     "Skills": [
       {
@@ -835,7 +939,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300026.webp"
+    "LocalImage": "student-icons/300026.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "asuna",
+    "SchaleDBPage": "https://schaledb.com/student/asuna"
   },
   {
     "Id": 300027,
@@ -849,7 +957,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 27,
     "Skills": [
       {
@@ -866,7 +974,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300027.webp"
+    "LocalImage": "student-icons/300027.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kotori",
+    "SchaleDBPage": "https://schaledb.com/student/kotori"
   },
   {
     "Id": 300028,
@@ -880,7 +992,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 28,
     "Skills": [
       {
@@ -897,7 +1009,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300028.webp"
+    "LocalImage": "student-icons/300028.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "suzumi",
+    "SchaleDBPage": "https://schaledb.com/student/suzumi"
   },
   {
     "Id": 300029,
@@ -911,7 +1027,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 29,
     "Skills": [
       {
@@ -928,7 +1044,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300029.webp"
+    "LocalImage": "student-icons/300029.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "pina",
+    "SchaleDBPage": "https://schaledb.com/student/pina"
   },
   {
     "Id": 300030,
@@ -942,7 +1062,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 30,
     "Skills": [
       {
@@ -959,7 +1079,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300030.webp"
+    "LocalImage": "student-icons/300030.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hibiki",
+    "SchaleDBPage": "https://schaledb.com/student/hibiki"
   },
   {
     "Id": 300031,
@@ -973,7 +1097,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 31,
     "Skills": [
       {
@@ -990,7 +1114,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300031.webp"
+    "LocalImage": "student-icons/300031.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "karin",
+    "SchaleDBPage": "https://schaledb.com/student/karin"
   },
   {
     "Id": 300032,
@@ -1004,7 +1132,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 32,
     "Skills": [
       {
@@ -1021,7 +1149,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300032.webp"
+    "LocalImage": "student-icons/300032.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "saya",
+    "SchaleDBPage": "https://schaledb.com/student/saya"
   },
   {
     "Id": 300033,
@@ -1035,7 +1167,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 33,
     "Skills": [
       {
@@ -1051,7 +1183,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300033.webp"
+    "LocalImage": "student-icons/300033.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "airi",
+    "SchaleDBPage": "https://schaledb.com/student/airi"
   },
   {
     "Id": 300034,
@@ -1065,7 +1201,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 34,
     "Skills": [
       {
@@ -1081,7 +1217,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300034.webp"
+    "LocalImage": "student-icons/300034.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "fuuka",
+    "SchaleDBPage": "https://schaledb.com/student/fuuka"
   },
   {
     "Id": 300035,
@@ -1095,7 +1235,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 35,
     "Skills": [
       {
@@ -1111,7 +1251,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300035.webp"
+    "LocalImage": "student-icons/300035.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hanae",
+    "SchaleDBPage": "https://schaledb.com/student/hanae"
   },
   {
     "Id": 300036,
@@ -1125,7 +1269,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 36,
     "Skills": [
       {
@@ -1141,7 +1285,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300036.webp"
+    "LocalImage": "student-icons/300036.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hare",
+    "SchaleDBPage": "https://schaledb.com/student/hare"
   },
   {
     "Id": 300037,
@@ -1155,7 +1303,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 37,
     "Skills": [
       {
@@ -1172,7 +1320,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300037.webp"
+    "LocalImage": "student-icons/300037.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "utaha",
+    "SchaleDBPage": "https://schaledb.com/student/utaha"
   },
   {
     "Id": 300038,
@@ -1186,7 +1338,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 38,
     "Skills": [
       {
@@ -1202,7 +1354,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300038.webp"
+    "LocalImage": "student-icons/300038.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "ayane",
+    "SchaleDBPage": "https://schaledb.com/student/ayane"
   },
   {
     "Id": 300039,
@@ -1216,7 +1372,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 39,
     "Skills": [
       {
@@ -1232,7 +1388,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "verified-schaledb-v4.4.12",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300039.webp"
+    "LocalImage": "student-icons/300039.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "chinatsu",
+    "SchaleDBPage": "https://schaledb.com/student/chinatsu"
   },
   {
     "Id": 300040,
@@ -1246,7 +1406,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 40,
     "Skills": [
       {
@@ -1262,7 +1422,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300040.webp"
+    "LocalImage": "student-icons/300040.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kotama",
+    "SchaleDBPage": "https://schaledb.com/student/kotama"
   },
   {
     "Id": 300041,
@@ -1276,7 +1440,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 41,
     "Skills": [
       {
@@ -1292,7 +1456,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300041.webp"
+    "LocalImage": "student-icons/300041.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "juri",
+    "SchaleDBPage": "https://schaledb.com/student/juri"
   },
   {
     "Id": 300042,
@@ -1306,7 +1474,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 42,
     "Skills": [
       {
@@ -1322,7 +1490,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300042.webp"
+    "LocalImage": "student-icons/300042.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "serina",
+    "SchaleDBPage": "https://schaledb.com/student/serina"
   },
   {
     "Id": 300043,
@@ -1336,7 +1508,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 43,
     "Skills": [
       {
@@ -1352,7 +1524,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300043.webp"
+    "LocalImage": "student-icons/300043.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shimiko",
+    "SchaleDBPage": "https://schaledb.com/student/shimiko"
   },
   {
     "Id": 300044,
@@ -1366,7 +1542,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 44,
     "Skills": [
       {
@@ -1382,7 +1558,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300044.webp"
+    "LocalImage": "student-icons/300044.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "yoshimi",
+    "SchaleDBPage": "https://schaledb.com/student/yoshimi"
   },
   {
     "Id": 300045,
@@ -1396,7 +1576,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 45,
     "Skills": [
       {
@@ -1413,7 +1593,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300045.webp"
+    "LocalImage": "student-icons/300045.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mashiro",
+    "SchaleDBPage": "https://schaledb.com/student/mashiro"
   },
   {
     "Id": 300046,
@@ -1427,7 +1611,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 46,
     "Skills": [
       {
@@ -1444,7 +1628,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300046.webp"
+    "LocalImage": "student-icons/300046.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "izuna",
+    "SchaleDBPage": "https://schaledb.com/student/izuna"
   },
   {
     "Id": 300047,
@@ -1458,7 +1646,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 47,
     "Skills": [
       {
@@ -1474,7 +1662,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300047.webp"
+    "LocalImage": "student-icons/300047.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shizuko",
+    "SchaleDBPage": "https://schaledb.com/student/shizuko"
   },
   {
     "Id": 300048,
@@ -1488,7 +1680,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 48,
     "Skills": [
       {
@@ -1505,7 +1697,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300048.webp"
+    "LocalImage": "student-icons/300048.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "aris",
+    "SchaleDBPage": "https://schaledb.com/student/aris"
   },
   {
     "Id": 300049,
@@ -1519,7 +1715,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 49,
     "Skills": [
       {
@@ -1536,7 +1732,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300049.webp"
+    "LocalImage": "student-icons/300049.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "midori",
+    "SchaleDBPage": "https://schaledb.com/student/midori"
   },
   {
     "Id": 300050,
@@ -1550,7 +1750,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 50,
     "Skills": [
       {
@@ -1567,7 +1767,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300050.webp"
+    "LocalImage": "student-icons/300050.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "momoi",
+    "SchaleDBPage": "https://schaledb.com/student/momoi"
   },
   {
     "Id": 300051,
@@ -1581,7 +1785,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 51,
     "Skills": [
       {
@@ -1598,7 +1802,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300051.webp"
+    "LocalImage": "student-icons/300051.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "cherino",
+    "SchaleDBPage": "https://schaledb.com/student/cherino"
   },
   {
     "Id": 300052,
@@ -1612,7 +1820,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 52,
     "Skills": [
       {
@@ -1628,7 +1836,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300052.webp"
+    "LocalImage": "student-icons/300052.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "nodoka",
+    "SchaleDBPage": "https://schaledb.com/student/nodoka"
   },
   {
     "Id": 300053,
@@ -1642,7 +1854,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 53,
     "Skills": [
       {
@@ -1659,7 +1871,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300053.webp"
+    "LocalImage": "student-icons/300053.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "yuzu",
+    "SchaleDBPage": "https://schaledb.com/student/yuzu"
   },
   {
     "Id": 300054,
@@ -1673,7 +1889,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 54,
     "Skills": [
       {
@@ -1690,7 +1906,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300054.webp"
+    "LocalImage": "student-icons/300054.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "azusa",
+    "SchaleDBPage": "https://schaledb.com/student/azusa"
   },
   {
     "Id": 300055,
@@ -1704,7 +1924,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 55,
     "Skills": [
       {
@@ -1720,7 +1940,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300055.webp"
+    "LocalImage": "student-icons/300055.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hanako",
+    "SchaleDBPage": "https://schaledb.com/student/hanako"
   },
   {
     "Id": 300056,
@@ -1734,7 +1958,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 56,
     "Skills": [
       {
@@ -1751,7 +1975,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300056.webp"
+    "LocalImage": "student-icons/300056.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "koharu",
+    "SchaleDBPage": "https://schaledb.com/student/koharu"
   },
   {
     "Id": 300057,
@@ -1765,7 +1993,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 57,
     "Skills": [
       {
@@ -1783,7 +2011,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300057.webp"
+    "LocalImage": "student-icons/300057.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "azusa_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/azusa_swimsuit"
   },
   {
     "Id": 300058,
@@ -1797,7 +2029,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 58,
     "Skills": [
       {
@@ -1814,7 +2046,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300058.webp"
+    "LocalImage": "student-icons/300058.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mashiro_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/mashiro_swimsuit"
   },
   {
     "Id": 300059,
@@ -1828,7 +2064,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 59,
     "Skills": [
       {
@@ -1845,7 +2081,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300059.webp"
+    "LocalImage": "student-icons/300059.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "tsurugi_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/tsurugi_swimsuit"
   },
   {
     "Id": 300060,
@@ -1859,7 +2099,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 60,
     "Skills": [
       {
@@ -1876,7 +2116,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300060.webp"
+    "LocalImage": "student-icons/300060.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hifumi_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/hifumi_swimsuit"
   },
   {
     "Id": 300061,
@@ -1890,7 +2134,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 61,
     "Skills": [
       {
@@ -1907,7 +2151,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300061.webp"
+    "LocalImage": "student-icons/300061.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hina_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/hina_swimsuit"
   },
   {
     "Id": 300062,
@@ -1921,7 +2169,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 62,
     "Skills": [
       {
@@ -1938,7 +2186,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300062.webp"
+    "LocalImage": "student-icons/300062.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "iori_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/iori_swimsuit"
   },
   {
     "Id": 300063,
@@ -1952,7 +2204,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 63,
     "Skills": [
       {
@@ -1970,7 +2222,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300063.webp"
+    "LocalImage": "student-icons/300063.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "izumi_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/izumi_swimsuit"
   },
   {
     "Id": 300064,
@@ -1984,7 +2240,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 64,
     "Skills": [
       {
@@ -2001,7 +2257,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300064.webp"
+    "LocalImage": "student-icons/300064.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shiroko_cycling",
+    "SchaleDBPage": "https://schaledb.com/student/shiroko_cycling"
   },
   {
     "Id": 300065,
@@ -2015,7 +2275,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 65,
     "Skills": [
       {
@@ -2032,7 +2292,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300065.webp"
+    "LocalImage": "student-icons/300065.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shun_small",
+    "SchaleDBPage": "https://schaledb.com/student/shun_small"
   },
   {
     "Id": 300066,
@@ -2046,7 +2310,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 66,
     "Skills": [
       {
@@ -2063,7 +2327,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300066.webp"
+    "LocalImage": "student-icons/300066.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kirino",
+    "SchaleDBPage": "https://schaledb.com/student/kirino"
   },
   {
     "Id": 300067,
@@ -2077,7 +2345,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 67,
     "Skills": [
       {
@@ -2094,7 +2362,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300067.webp"
+    "LocalImage": "student-icons/300067.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "saya_casual",
+    "SchaleDBPage": "https://schaledb.com/student/saya_casual"
   },
   {
     "Id": 300068,
@@ -2108,7 +2380,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 68,
     "Skills": [
       {
@@ -2125,7 +2397,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300068.webp"
+    "LocalImage": "student-icons/300068.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "neru_bunny",
+    "SchaleDBPage": "https://schaledb.com/student/neru_bunny"
   },
   {
     "Id": 300069,
@@ -2139,7 +2415,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 69,
     "Skills": [
       {
@@ -2156,7 +2432,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300069.webp"
+    "LocalImage": "student-icons/300069.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "karin_bunny",
+    "SchaleDBPage": "https://schaledb.com/student/karin_bunny"
   },
   {
     "Id": 300070,
@@ -2170,7 +2450,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 70,
     "Skills": [
       {
@@ -2187,7 +2467,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300070.webp"
+    "LocalImage": "student-icons/300070.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "asuna_bunny",
+    "SchaleDBPage": "https://schaledb.com/student/asuna_bunny"
   },
   {
     "Id": 300071,
@@ -2201,7 +2485,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 71,
     "Skills": [
       {
@@ -2218,7 +2502,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300071.webp"
+    "LocalImage": "student-icons/300071.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "natsu",
+    "SchaleDBPage": "https://schaledb.com/student/natsu"
   },
   {
     "Id": 300072,
@@ -2232,7 +2520,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 72,
     "Skills": [
       {
@@ -2248,7 +2536,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300072.webp"
+    "LocalImage": "student-icons/300072.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mari",
+    "SchaleDBPage": "https://schaledb.com/student/mari"
   },
   {
     "Id": 300073,
@@ -2262,7 +2554,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 73,
     "Skills": [
       {
@@ -2279,7 +2571,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300073.webp"
+    "LocalImage": "student-icons/300073.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "miku",
+    "SchaleDBPage": "https://schaledb.com/student/miku"
   },
   {
     "Id": 300074,
@@ -2293,7 +2589,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 74,
     "Skills": [
       {
@@ -2310,7 +2606,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "verified-schaledb-v4.4.12",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300074.webp"
+    "LocalImage": "student-icons/300074.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "ako",
+    "SchaleDBPage": "https://schaledb.com/student/ako"
   },
   {
     "Id": 300075,
@@ -2324,7 +2624,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 75,
     "Skills": [
       {
@@ -2340,7 +2640,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300075.webp"
+    "LocalImage": "student-icons/300075.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "cherino_onsen",
+    "SchaleDBPage": "https://schaledb.com/student/cherino_onsen"
   },
   {
     "Id": 300076,
@@ -2354,7 +2658,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 76,
     "Skills": [
       {
@@ -2371,7 +2675,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300076.webp"
+    "LocalImage": "student-icons/300076.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "chinatsu_onsen",
+    "SchaleDBPage": "https://schaledb.com/student/chinatsu_onsen"
   },
   {
     "Id": 300077,
@@ -2385,7 +2693,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 77,
     "Skills": [
       {
@@ -2402,7 +2710,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300077.webp"
+    "LocalImage": "student-icons/300077.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "tomoe",
+    "SchaleDBPage": "https://schaledb.com/student/tomoe"
   },
   {
     "Id": 300078,
@@ -2416,7 +2728,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 78,
     "Skills": [
       {
@@ -2432,7 +2744,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300078.webp"
+    "LocalImage": "student-icons/300078.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "nodoka_onsen",
+    "SchaleDBPage": "https://schaledb.com/student/nodoka_onsen"
   },
   {
     "Id": 300079,
@@ -2446,7 +2762,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 79,
     "Skills": [
       {
@@ -2463,7 +2779,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300079.webp"
+    "LocalImage": "student-icons/300079.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "aru_newyear",
+    "SchaleDBPage": "https://schaledb.com/student/aru_newyear"
   },
   {
     "Id": 300080,
@@ -2477,7 +2797,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 80,
     "Skills": [
       {
@@ -2494,7 +2814,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300080.webp"
+    "LocalImage": "student-icons/300080.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mutsuki_newyear",
+    "SchaleDBPage": "https://schaledb.com/student/mutsuki_newyear"
   },
   {
     "Id": 300081,
@@ -2508,7 +2832,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 81,
     "Skills": [
       {
@@ -2524,7 +2848,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300081.webp"
+    "LocalImage": "student-icons/300081.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "serika_newyear",
+    "SchaleDBPage": "https://schaledb.com/student/serika_newyear"
   },
   {
     "Id": 300082,
@@ -2538,7 +2866,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 82,
     "Skills": [
       {
@@ -2555,7 +2883,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300082.webp"
+    "LocalImage": "student-icons/300082.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "wakamo",
+    "SchaleDBPage": "https://schaledb.com/student/wakamo"
   },
   {
     "Id": 300083,
@@ -2569,7 +2901,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 83,
     "Skills": [
       {
@@ -2586,7 +2918,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300083.webp"
+    "LocalImage": "student-icons/300083.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "fubuki",
+    "SchaleDBPage": "https://schaledb.com/student/fubuki"
   },
   {
     "Id": 300084,
@@ -2600,7 +2936,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 84,
     "Skills": [
       {
@@ -2616,7 +2952,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300084.webp"
+    "LocalImage": "student-icons/300084.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "sena",
+    "SchaleDBPage": "https://schaledb.com/student/sena"
   },
   {
     "Id": 300085,
@@ -2630,7 +2970,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 85,
     "Skills": [
       {
@@ -2646,7 +2986,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300085.webp"
+    "LocalImage": "student-icons/300085.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "chihiro",
+    "SchaleDBPage": "https://schaledb.com/student/chihiro"
   },
   {
     "Id": 300086,
@@ -2660,7 +3004,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 86,
     "Skills": [
       {
@@ -2677,7 +3021,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300086.webp"
+    "LocalImage": "student-icons/300086.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mimori",
+    "SchaleDBPage": "https://schaledb.com/student/mimori"
   },
   {
     "Id": 300087,
@@ -2691,7 +3039,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 87,
     "Skills": [
       {
@@ -2709,7 +3057,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300087.webp"
+    "LocalImage": "student-icons/300087.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "ui",
+    "SchaleDBPage": "https://schaledb.com/student/ui"
   },
   {
     "Id": 300088,
@@ -2723,7 +3075,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 88,
     "Skills": [
       {
@@ -2740,7 +3092,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300088.webp"
+    "LocalImage": "student-icons/300088.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hinata",
+    "SchaleDBPage": "https://schaledb.com/student/hinata"
   },
   {
     "Id": 300089,
@@ -2754,7 +3110,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 89,
     "Skills": [
       {
@@ -2771,7 +3127,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300089.webp"
+    "LocalImage": "student-icons/300089.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "marina",
+    "SchaleDBPage": "https://schaledb.com/student/marina"
   },
   {
     "Id": 300090,
@@ -2785,7 +3145,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 90,
     "Skills": [
       {
@@ -2802,7 +3162,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300090.webp"
+    "LocalImage": "student-icons/300090.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "miyako",
+    "SchaleDBPage": "https://schaledb.com/student/miyako"
   },
   {
     "Id": 300091,
@@ -2816,7 +3180,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 91,
     "Skills": [
       {
@@ -2833,7 +3197,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300091.webp"
+    "LocalImage": "student-icons/300091.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "saki",
+    "SchaleDBPage": "https://schaledb.com/student/saki"
   },
   {
     "Id": 300092,
@@ -2847,7 +3215,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 92,
     "Skills": [
       {
@@ -2864,7 +3232,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300092.webp"
+    "LocalImage": "student-icons/300092.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "miyu",
+    "SchaleDBPage": "https://schaledb.com/student/miyu"
   },
   {
     "Id": 300093,
@@ -2878,7 +3250,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 93,
     "Skills": [
       {
@@ -2894,7 +3266,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300093.webp"
+    "LocalImage": "student-icons/300093.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kaede",
+    "SchaleDBPage": "https://schaledb.com/student/kaede"
   },
   {
     "Id": 300094,
@@ -2908,7 +3284,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 94,
     "Skills": [
       {
@@ -2924,7 +3300,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300094.webp"
+    "LocalImage": "student-icons/300094.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "iroha",
+    "SchaleDBPage": "https://schaledb.com/student/iroha"
   },
   {
     "Id": 300095,
@@ -2938,7 +3318,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 95,
     "Skills": [
       {
@@ -2955,7 +3335,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300095.webp"
+    "LocalImage": "student-icons/300095.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "michiru",
+    "SchaleDBPage": "https://schaledb.com/student/michiru"
   },
   {
     "Id": 300096,
@@ -2969,7 +3353,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 96,
     "Skills": [
       {
@@ -2986,7 +3370,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300096.webp"
+    "LocalImage": "student-icons/300096.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "tsukuyo",
+    "SchaleDBPage": "https://schaledb.com/student/tsukuyo"
   },
   {
     "Id": 300097,
@@ -3000,7 +3388,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 97,
     "Skills": [
       {
@@ -3018,7 +3406,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300097.webp"
+    "LocalImage": "student-icons/300097.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "misaki",
+    "SchaleDBPage": "https://schaledb.com/student/misaki"
   },
   {
     "Id": 300098,
@@ -3032,7 +3424,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 98,
     "Skills": [
       {
@@ -3048,7 +3440,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300098.webp"
+    "LocalImage": "student-icons/300098.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hiyori",
+    "SchaleDBPage": "https://schaledb.com/student/hiyori"
   },
   {
     "Id": 300099,
@@ -3062,7 +3458,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 99,
     "Skills": [
       {
@@ -3079,7 +3475,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300099.webp"
+    "LocalImage": "student-icons/300099.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "atsuko",
+    "SchaleDBPage": "https://schaledb.com/student/atsuko"
   },
   {
     "Id": 300100,
@@ -3093,7 +3493,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 100,
     "Skills": [
       {
@@ -3110,7 +3510,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300100.webp"
+    "LocalImage": "student-icons/300100.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "wakamo_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/wakamo_swimsuit"
   },
   {
     "Id": 300101,
@@ -3124,7 +3528,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 101,
     "Skills": [
       {
@@ -3141,7 +3545,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300101.webp"
+    "LocalImage": "student-icons/300101.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "nonomi_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/nonomi_swimsuit"
   },
   {
     "Id": 300102,
@@ -3155,7 +3563,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 102,
     "Skills": [
       {
@@ -3171,7 +3579,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300102.webp"
+    "LocalImage": "student-icons/300102.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "ayane_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/ayane_swimsuit"
   },
   {
     "Id": 300103,
@@ -3185,7 +3597,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 103,
     "Skills": [
       {
@@ -3202,7 +3614,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300103.webp"
+    "LocalImage": "student-icons/300103.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hoshino_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/hoshino_swimsuit"
   },
   {
     "Id": 300104,
@@ -3216,7 +3632,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 104,
     "Skills": [
       {
@@ -3232,7 +3648,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300104.webp"
+    "LocalImage": "student-icons/300104.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shizuko_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/shizuko_swimsuit"
   },
   {
     "Id": 300105,
@@ -3246,7 +3666,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 105,
     "Skills": [
       {
@@ -3263,7 +3683,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300105.webp"
+    "LocalImage": "student-icons/300105.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "izuna_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/izuna_swimsuit"
   },
   {
     "Id": 300106,
@@ -3277,7 +3701,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 106,
     "Skills": [
       {
@@ -3294,7 +3718,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300106.webp"
+    "LocalImage": "student-icons/300106.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "chise_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/chise_swimsuit"
   },
   {
     "Id": 300107,
@@ -3308,7 +3736,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 107,
     "Skills": [
       {
@@ -3325,7 +3753,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300107.webp"
+    "LocalImage": "student-icons/300107.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "saori",
+    "SchaleDBPage": "https://schaledb.com/student/saori"
   },
   {
     "Id": 300108,
@@ -3339,7 +3771,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 108,
     "Skills": [
       {
@@ -3355,7 +3787,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300108.webp"
+    "LocalImage": "student-icons/300108.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "moe",
+    "SchaleDBPage": "https://schaledb.com/student/moe"
   },
   {
     "Id": 300109,
@@ -3369,7 +3805,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 109,
     "Skills": [
       {
@@ -3386,7 +3822,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300109.webp"
+    "LocalImage": "student-icons/300109.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kazusa",
+    "SchaleDBPage": "https://schaledb.com/student/kazusa"
   },
   {
     "Id": 300110,
@@ -3400,7 +3840,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 110,
     "Skills": [
       {
@@ -3417,7 +3857,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300110.webp"
+    "LocalImage": "student-icons/300110.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kokona",
+    "SchaleDBPage": "https://schaledb.com/student/kokona"
   },
   {
     "Id": 300111,
@@ -3431,7 +3875,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 111,
     "Skills": [
       {
@@ -3449,7 +3893,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300111.webp"
+    "LocalImage": "student-icons/300111.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "utaha_cheer",
+    "SchaleDBPage": "https://schaledb.com/student/utaha_cheer"
   },
   {
     "Id": 300112,
@@ -3463,7 +3911,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 112,
     "Skills": [
       {
@@ -3480,7 +3928,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300112.webp"
+    "LocalImage": "student-icons/300112.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "noa",
+    "SchaleDBPage": "https://schaledb.com/student/noa"
   },
   {
     "Id": 300113,
@@ -3494,7 +3946,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 113,
     "Skills": [
       {
@@ -3511,7 +3963,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300113.webp"
+    "LocalImage": "student-icons/300113.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hibiki_cheer",
+    "SchaleDBPage": "https://schaledb.com/student/hibiki_cheer"
   },
   {
     "Id": 300114,
@@ -3525,7 +3981,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 114,
     "Skills": [
       {
@@ -3541,7 +3997,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300114.webp"
+    "LocalImage": "student-icons/300114.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "akane_bunny",
+    "SchaleDBPage": "https://schaledb.com/student/akane_bunny"
   },
   {
     "Id": 300115,
@@ -3555,7 +4015,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 115,
     "Skills": [
       {
@@ -3572,7 +4032,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300115.webp"
+    "LocalImage": "student-icons/300115.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "yuuka_track",
+    "SchaleDBPage": "https://schaledb.com/student/yuuka_track"
   },
   {
     "Id": 300116,
@@ -3586,7 +4050,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 116,
     "Skills": [
       {
@@ -3603,7 +4067,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300116.webp"
+    "LocalImage": "student-icons/300116.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mari_track",
+    "SchaleDBPage": "https://schaledb.com/student/mari_track"
   },
   {
     "Id": 300117,
@@ -3617,7 +4085,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 117,
     "Skills": [
       {
@@ -3634,7 +4102,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300117.webp"
+    "LocalImage": "student-icons/300117.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hasumi_track",
+    "SchaleDBPage": "https://schaledb.com/student/hasumi_track"
   },
   {
     "Id": 300118,
@@ -3648,7 +4120,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 118,
     "Skills": [
       {
@@ -3664,7 +4136,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300118.webp"
+    "LocalImage": "student-icons/300118.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "himari",
+    "SchaleDBPage": "https://schaledb.com/student/himari"
   },
   {
     "Id": 300119,
@@ -3678,7 +4154,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 119,
     "Skills": [
       {
@@ -3695,7 +4171,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300119.webp"
+    "LocalImage": "student-icons/300119.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shigure",
+    "SchaleDBPage": "https://schaledb.com/student/shigure"
   },
   {
     "Id": 300120,
@@ -3709,7 +4189,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 120,
     "Skills": [
       {
@@ -3726,7 +4206,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300120.webp"
+    "LocalImage": "student-icons/300120.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "serina_christmas",
+    "SchaleDBPage": "https://schaledb.com/student/serina_christmas"
   },
   {
     "Id": 300121,
@@ -3740,7 +4224,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 121,
     "Skills": [
       {
@@ -3756,7 +4240,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300121.webp"
+    "LocalImage": "student-icons/300121.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hanae_christmas",
+    "SchaleDBPage": "https://schaledb.com/student/hanae_christmas"
   },
   {
     "Id": 300122,
@@ -3770,7 +4258,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 122,
     "Skills": [
       {
@@ -3787,7 +4275,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300122.webp"
+    "LocalImage": "student-icons/300122.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "haruna_newyear",
+    "SchaleDBPage": "https://schaledb.com/student/haruna_newyear"
   },
   {
     "Id": 300123,
@@ -3801,7 +4293,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 123,
     "Skills": [
       {
@@ -3817,7 +4309,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300123.webp"
+    "LocalImage": "student-icons/300123.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "fuuka_newyear",
+    "SchaleDBPage": "https://schaledb.com/student/fuuka_newyear"
   },
   {
     "Id": 300124,
@@ -3831,7 +4327,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 124,
     "Skills": [
       {
@@ -3848,7 +4344,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300124.webp"
+    "LocalImage": "student-icons/300124.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "junko_newyear",
+    "SchaleDBPage": "https://schaledb.com/student/junko_newyear"
   },
   {
     "Id": 300125,
@@ -3862,7 +4362,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 125,
     "Skills": [
       {
@@ -3879,7 +4379,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300125.webp"
+    "LocalImage": "student-icons/300125.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mine",
+    "SchaleDBPage": "https://schaledb.com/student/mine"
   },
   {
     "Id": 300126,
@@ -3893,7 +4397,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 126,
     "Skills": [
       {
@@ -3910,7 +4414,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300126.webp"
+    "LocalImage": "student-icons/300126.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mika",
+    "SchaleDBPage": "https://schaledb.com/student/mika"
   },
   {
     "Id": 300127,
@@ -3924,7 +4432,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 127,
     "Skills": [
       {
@@ -3941,7 +4449,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300127.webp"
+    "LocalImage": "student-icons/300127.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "megu",
+    "SchaleDBPage": "https://schaledb.com/student/megu"
   },
   {
     "Id": 300128,
@@ -3955,7 +4467,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 128,
     "Skills": [
       {
@@ -3972,7 +4484,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300128.webp"
+    "LocalImage": "student-icons/300128.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kanna",
+    "SchaleDBPage": "https://schaledb.com/student/kanna"
   },
   {
     "Id": 300129,
@@ -3986,7 +4502,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 129,
     "Skills": [
       {
@@ -4003,7 +4519,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300129.webp"
+    "LocalImage": "student-icons/300129.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "sakurako",
+    "SchaleDBPage": "https://schaledb.com/student/sakurako"
   },
   {
     "Id": 300130,
@@ -4017,7 +4537,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 130,
     "Skills": [
       {
@@ -4034,7 +4554,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "verified-schaledb-v4.4.12",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300130.webp"
+    "LocalImage": "student-icons/300130.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "toki",
+    "SchaleDBPage": "https://schaledb.com/student/toki"
   },
   {
     "Id": 300131,
@@ -4048,7 +4572,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 131,
     "Skills": [
       {
@@ -4064,7 +4588,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300131.webp"
+    "LocalImage": "student-icons/300131.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "nagisa",
+    "SchaleDBPage": "https://schaledb.com/student/nagisa"
   },
   {
     "Id": 300132,
@@ -4078,7 +4606,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 132,
     "Skills": [
       {
@@ -4095,7 +4623,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300132.webp"
+    "LocalImage": "student-icons/300132.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "koyuki",
+    "SchaleDBPage": "https://schaledb.com/student/koyuki"
   },
   {
     "Id": 300133,
@@ -4109,7 +4641,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 133,
     "Skills": [
       {
@@ -4126,7 +4658,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300133.webp"
+    "LocalImage": "student-icons/300133.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kayoko_newyear",
+    "SchaleDBPage": "https://schaledb.com/student/kayoko_newyear"
   },
   {
     "Id": 300134,
@@ -4140,7 +4676,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 134,
     "Skills": [
       {
@@ -4156,7 +4692,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300134.webp"
+    "LocalImage": "student-icons/300134.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "haruka_newyear",
+    "SchaleDBPage": "https://schaledb.com/student/haruka_newyear"
   },
   {
     "Id": 300135,
@@ -4170,7 +4710,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 135,
     "Skills": [
       {
@@ -4187,7 +4727,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300135.webp"
+    "LocalImage": "student-icons/300135.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kaho",
+    "SchaleDBPage": "https://schaledb.com/student/kaho"
   },
   {
     "Id": 300136,
@@ -4201,7 +4745,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 136,
     "Skills": [
       {
@@ -4218,7 +4762,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300136.webp"
+    "LocalImage": "student-icons/300136.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "aris_maid",
+    "SchaleDBPage": "https://schaledb.com/student/aris_maid"
   },
   {
     "Id": 300137,
@@ -4232,7 +4780,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 137,
     "Skills": [
       {
@@ -4249,7 +4797,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300137.webp"
+    "LocalImage": "student-icons/300137.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "toki_bunny",
+    "SchaleDBPage": "https://schaledb.com/student/toki_bunny"
   },
   {
     "Id": 300138,
@@ -4263,7 +4815,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 138,
     "Skills": [
       {
@@ -4279,7 +4831,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300138.webp"
+    "LocalImage": "student-icons/300138.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "yuzu_maid",
+    "SchaleDBPage": "https://schaledb.com/student/yuzu_maid"
   },
   {
     "Id": 300139,
@@ -4293,7 +4849,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 139,
     "Skills": [
       {
@@ -4310,7 +4866,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300139.webp"
+    "LocalImage": "student-icons/300139.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "reisa",
+    "SchaleDBPage": "https://schaledb.com/student/reisa"
   },
   {
     "Id": 300140,
@@ -4324,7 +4884,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 140,
     "Skills": [
       {
@@ -4341,7 +4901,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300140.webp"
+    "LocalImage": "student-icons/300140.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "rumi",
+    "SchaleDBPage": "https://schaledb.com/student/rumi"
   },
   {
     "Id": 300141,
@@ -4355,7 +4919,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 141,
     "Skills": [
       {
@@ -4372,7 +4936,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300141.webp"
+    "LocalImage": "student-icons/300141.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mina",
+    "SchaleDBPage": "https://schaledb.com/student/mina"
   },
   {
     "Id": 300142,
@@ -4386,7 +4954,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 142,
     "Skills": [
       {
@@ -4402,7 +4970,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300142.webp"
+    "LocalImage": "student-icons/300142.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "minori",
+    "SchaleDBPage": "https://schaledb.com/student/minori"
   },
   {
     "Id": 300143,
@@ -4416,7 +4988,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 143,
     "Skills": [
       {
@@ -4433,7 +5005,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300143.webp"
+    "LocalImage": "student-icons/300143.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "miyako_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/miyako_swimsuit"
   },
   {
     "Id": 300144,
@@ -4447,7 +5023,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 144,
     "Skills": [
       {
@@ -4465,7 +5041,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300144.webp"
+    "LocalImage": "student-icons/300144.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "saki_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/saki_swimsuit"
   },
   {
     "Id": 300145,
@@ -4479,7 +5059,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 145,
     "Skills": [
       {
@@ -4495,7 +5075,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300145.webp"
+    "LocalImage": "student-icons/300145.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "miyu_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/miyu_swimsuit"
   },
   {
     "Id": 300146,
@@ -4509,7 +5093,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 146,
     "Skills": [
       {
@@ -4526,7 +5110,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300146.webp"
+    "LocalImage": "student-icons/300146.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shiroko_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/shiroko_swimsuit"
   },
   {
     "Id": 300147,
@@ -4540,7 +5128,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 147,
     "Skills": [
       {
@@ -4557,7 +5145,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300147.webp"
+    "LocalImage": "student-icons/300147.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "ui_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/ui_swimsuit"
   },
   {
     "Id": 300148,
@@ -4571,7 +5163,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 148,
     "Skills": [
       {
@@ -4587,7 +5179,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300148.webp"
+    "LocalImage": "student-icons/300148.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hinata_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/hinata_swimsuit"
   },
   {
     "Id": 300149,
@@ -4601,7 +5197,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 149,
     "Skills": [
       {
@@ -4618,7 +5214,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300149.webp"
+    "LocalImage": "student-icons/300149.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "koharu_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/koharu_swimsuit"
   },
   {
     "Id": 300150,
@@ -4632,7 +5232,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 150,
     "Skills": [
       {
@@ -4650,7 +5250,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300150.webp"
+    "LocalImage": "student-icons/300150.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hanako_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/hanako_swimsuit"
   },
   {
     "Id": 300151,
@@ -4664,7 +5268,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 151,
     "Skills": [
       {
@@ -4680,7 +5284,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300151.webp"
+    "LocalImage": "student-icons/300151.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mimori_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/mimori_swimsuit"
   },
   {
     "Id": 300152,
@@ -4694,7 +5302,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 152,
     "Skills": [
       {
@@ -4711,7 +5319,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300152.webp"
+    "LocalImage": "student-icons/300152.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "meru",
+    "SchaleDBPage": "https://schaledb.com/student/meru"
   },
   {
     "Id": 300153,
@@ -4725,7 +5337,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 153,
     "Skills": [
       {
@@ -4742,7 +5354,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300153.webp"
+    "LocalImage": "student-icons/300153.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "momiji",
+    "SchaleDBPage": "https://schaledb.com/student/momiji"
   },
   {
     "Id": 300154,
@@ -4756,7 +5372,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 154,
     "Skills": [
       {
@@ -4773,7 +5389,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300154.webp"
+    "LocalImage": "student-icons/300154.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kotori_cheer",
+    "SchaleDBPage": "https://schaledb.com/student/kotori_cheer"
   },
   {
     "Id": 300155,
@@ -4787,7 +5407,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 155,
     "Skills": [
       {
@@ -4803,7 +5423,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300155.webp"
+    "LocalImage": "student-icons/300155.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "haruna_track",
+    "SchaleDBPage": "https://schaledb.com/student/haruna_track"
   },
   {
     "Id": 300156,
@@ -4817,7 +5441,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 156,
     "Skills": [
       {
@@ -4834,7 +5458,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300156.webp"
+    "LocalImage": "student-icons/300156.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "ichika",
+    "SchaleDBPage": "https://schaledb.com/student/ichika"
   },
   {
     "Id": 300157,
@@ -4848,7 +5476,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 157,
     "Skills": [
       {
@@ -4865,7 +5493,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300157.webp"
+    "LocalImage": "student-icons/300157.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kasumi",
+    "SchaleDBPage": "https://schaledb.com/student/kasumi"
   },
   {
     "Id": 300158,
@@ -4879,7 +5511,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 158,
     "Skills": [
       {
@@ -4895,7 +5527,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300158.webp"
+    "LocalImage": "student-icons/300158.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shigure_onsen",
+    "SchaleDBPage": "https://schaledb.com/student/shigure_onsen"
   },
   {
     "Id": 300159,
@@ -4909,7 +5545,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 159,
     "Skills": [
       {
@@ -4926,7 +5562,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300159.webp"
+    "LocalImage": "student-icons/300159.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "misaka_mikoto",
+    "SchaleDBPage": "https://schaledb.com/student/misaka_mikoto"
   },
   {
     "Id": 300160,
@@ -4940,7 +5580,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 160,
     "Skills": [
       {
@@ -4957,7 +5597,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300160.webp"
+    "LocalImage": "student-icons/300160.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shokuhou_misaki",
+    "SchaleDBPage": "https://schaledb.com/student/shokuhou_misaki"
   },
   {
     "Id": 300161,
@@ -4971,7 +5615,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 161,
     "Skills": [
       {
@@ -4987,7 +5631,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300161.webp"
+    "LocalImage": "student-icons/300161.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "saten_ruiko",
+    "SchaleDBPage": "https://schaledb.com/student/saten_ruiko"
   },
   {
     "Id": 300162,
@@ -5001,7 +5649,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 162,
     "Skills": [
       {
@@ -5018,7 +5666,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300162.webp"
+    "LocalImage": "student-icons/300162.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "yukari",
+    "SchaleDBPage": "https://schaledb.com/student/yukari"
   },
   {
     "Id": 300163,
@@ -5032,7 +5684,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 163,
     "Skills": [
       {
@@ -5049,7 +5701,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300163.webp"
+    "LocalImage": "student-icons/300163.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "renge",
+    "SchaleDBPage": "https://schaledb.com/student/renge"
   },
   {
     "Id": 300164,
@@ -5063,7 +5719,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 164,
     "Skills": [
       {
@@ -5081,7 +5737,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300164.webp"
+    "LocalImage": "student-icons/300164.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kikyou",
+    "SchaleDBPage": "https://schaledb.com/student/kikyou"
   },
   {
     "Id": 300165,
@@ -5095,7 +5755,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 165,
     "Skills": [
       {
@@ -5111,7 +5771,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300165.webp"
+    "LocalImage": "student-icons/300165.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "eimi_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/eimi_swimsuit"
   },
   {
     "Id": 300166,
@@ -5125,7 +5789,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 166,
     "Skills": [
       {
@@ -5141,7 +5805,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300166.webp"
+    "LocalImage": "student-icons/300166.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kotama_camp",
+    "SchaleDBPage": "https://schaledb.com/student/kotama_camp"
   },
   {
     "Id": 300167,
@@ -5155,7 +5823,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 167,
     "Skills": [
       {
@@ -5172,7 +5840,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300167.webp"
+    "LocalImage": "student-icons/300167.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hare_camp",
+    "SchaleDBPage": "https://schaledb.com/student/hare_camp"
   },
   {
     "Id": 300168,
@@ -5186,7 +5858,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 168,
     "Skills": [
       {
@@ -5203,7 +5875,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300168.webp"
+    "LocalImage": "student-icons/300168.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "ako_dress",
+    "SchaleDBPage": "https://schaledb.com/student/ako_dress"
   },
   {
     "Id": 300169,
@@ -5217,7 +5893,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 169,
     "Skills": [
       {
@@ -5234,7 +5910,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300169.webp"
+    "LocalImage": "student-icons/300169.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "ibuki",
+    "SchaleDBPage": "https://schaledb.com/student/ibuki"
   },
   {
     "Id": 300170,
@@ -5248,7 +5928,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 170,
     "Skills": [
       {
@@ -5265,7 +5945,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300170.webp"
+    "LocalImage": "student-icons/300170.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "makoto",
+    "SchaleDBPage": "https://schaledb.com/student/makoto"
   },
   {
     "Id": 300171,
@@ -5279,7 +5963,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 171,
     "Skills": [
       {
@@ -5296,7 +5980,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300171.webp"
+    "LocalImage": "student-icons/300171.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hina_dress",
+    "SchaleDBPage": "https://schaledb.com/student/hina_dress"
   },
   {
     "Id": 300172,
@@ -5310,7 +5998,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 172,
     "Skills": [
       {
@@ -5327,7 +6015,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300172.webp"
+    "LocalImage": "student-icons/300172.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kayoko_dress",
+    "SchaleDBPage": "https://schaledb.com/student/kayoko_dress"
   },
   {
     "Id": 300173,
@@ -5341,7 +6033,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 173,
     "Skills": [
       {
@@ -5358,7 +6050,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300173.webp"
+    "LocalImage": "student-icons/300173.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "aru_dress",
+    "SchaleDBPage": "https://schaledb.com/student/aru_dress"
   },
   {
     "Id": 300174,
@@ -5372,7 +6068,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 174,
     "Skills": [
       {
@@ -5388,7 +6084,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300174.webp"
+    "LocalImage": "student-icons/300174.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "akari_newyear",
+    "SchaleDBPage": "https://schaledb.com/student/akari_newyear"
   },
   {
     "Id": 300175,
@@ -5402,7 +6102,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 175,
     "Skills": [
       {
@@ -5419,7 +6119,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300175.webp"
+    "LocalImage": "student-icons/300175.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "umika",
+    "SchaleDBPage": "https://schaledb.com/student/umika"
   },
   {
     "Id": 300176,
@@ -5433,7 +6137,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 176,
     "Skills": [
       {
@@ -5449,7 +6153,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300176.webp"
+    "LocalImage": "student-icons/300176.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "tsubaki_guide",
+    "SchaleDBPage": "https://schaledb.com/student/tsubaki_guide"
   },
   {
     "Id": 300177,
@@ -5463,7 +6171,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 177,
     "Skills": [
       {
@@ -5480,7 +6188,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300177.webp"
+    "LocalImage": "student-icons/300177.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kazusa_band",
+    "SchaleDBPage": "https://schaledb.com/student/kazusa_band"
   },
   {
     "Id": 300178,
@@ -5494,7 +6206,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 178,
     "Skills": [
       {
@@ -5512,7 +6224,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300178.webp"
+    "LocalImage": "student-icons/300178.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "yoshimi_band",
+    "SchaleDBPage": "https://schaledb.com/student/yoshimi_band"
   },
   {
     "Id": 300179,
@@ -5526,7 +6242,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 179,
     "Skills": [
       {
@@ -5543,7 +6259,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300179.webp"
+    "LocalImage": "student-icons/300179.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "airi_band",
+    "SchaleDBPage": "https://schaledb.com/student/airi_band"
   },
   {
     "Id": 300180,
@@ -5557,7 +6277,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 180,
     "Skills": [
       {
@@ -5573,7 +6293,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300180.webp"
+    "LocalImage": "student-icons/300180.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kirara",
+    "SchaleDBPage": "https://schaledb.com/student/kirara"
   },
   {
     "Id": 300181,
@@ -5587,7 +6311,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 181,
     "Skills": [
       {
@@ -5603,7 +6327,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300181.webp"
+    "LocalImage": "student-icons/300181.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "momoi_maid",
+    "SchaleDBPage": "https://schaledb.com/student/momoi_maid"
   },
   {
     "Id": 300182,
@@ -5617,7 +6345,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 182,
     "Skills": [
       {
@@ -5633,7 +6361,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300182.webp"
+    "LocalImage": "student-icons/300182.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "midori_maid",
+    "SchaleDBPage": "https://schaledb.com/student/midori_maid"
   },
   {
     "Id": 300183,
@@ -5647,7 +6379,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 183,
     "Skills": [
       {
@@ -5663,7 +6395,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300183.webp"
+    "LocalImage": "student-icons/300183.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "serika_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/serika_swimsuit"
   },
   {
     "Id": 300184,
@@ -5677,7 +6413,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 184,
     "Skills": [
       {
@@ -5693,7 +6429,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300184.webp"
+    "LocalImage": "student-icons/300184.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kanna_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/kanna_swimsuit"
   },
   {
     "Id": 300185,
@@ -5707,7 +6447,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 185,
     "Skills": [
       {
@@ -5723,7 +6463,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300185.webp"
+    "LocalImage": "student-icons/300185.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "fubuki_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/fubuki_swimsuit"
   },
   {
     "Id": 300186,
@@ -5737,7 +6481,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 186,
     "Skills": [
       {
@@ -5753,7 +6497,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300186.webp"
+    "LocalImage": "student-icons/300186.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kirino_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/kirino_swimsuit"
   },
   {
     "Id": 300187,
@@ -5767,7 +6515,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 187,
     "Skills": [
       {
@@ -5783,7 +6531,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300187.webp"
+    "LocalImage": "student-icons/300187.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "moe_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/moe_swimsuit"
   },
   {
     "Id": 300188,
@@ -5797,7 +6549,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 188,
     "Skills": [
       {
@@ -5813,7 +6565,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300188.webp"
+    "LocalImage": "student-icons/300188.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hoshino_armed",
+    "SchaleDBPage": "https://schaledb.com/student/hoshino_armed"
   },
   {
     "Id": 300189,
@@ -5827,7 +6583,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 189,
     "Skills": [
       {
@@ -5843,7 +6599,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300189.webp"
+    "LocalImage": "student-icons/300189.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hoshino_armed",
+    "SchaleDBPage": "https://schaledb.com/student/hoshino_armed"
   },
   {
     "Id": 300190,
@@ -5857,7 +6617,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 190,
     "Skills": [
       {
@@ -5873,7 +6633,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300190.webp"
+    "LocalImage": "student-icons/300190.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shiroko_terror",
+    "SchaleDBPage": "https://schaledb.com/student/shiroko_terror"
   },
   {
     "Id": 300191,
@@ -5887,7 +6651,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 191,
     "Skills": [
       {
@@ -5903,7 +6667,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300191.webp"
+    "LocalImage": "student-icons/300191.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "atsuko_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/atsuko_swimsuit"
   },
   {
     "Id": 300192,
@@ -5917,7 +6685,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 192,
     "Skills": [
       {
@@ -5933,7 +6701,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300192.webp"
+    "LocalImage": "student-icons/300192.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "saori_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/saori_swimsuit"
   },
   {
     "Id": 300193,
@@ -5947,7 +6719,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 193,
     "Skills": [
       {
@@ -5963,7 +6735,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300193.webp"
+    "LocalImage": "student-icons/300193.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hiyori_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/hiyori_swimsuit"
   },
   {
     "Id": 300194,
@@ -5977,7 +6753,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 194,
     "Skills": [
       {
@@ -5993,7 +6769,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300194.webp"
+    "LocalImage": "student-icons/300194.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "marina_qipao",
+    "SchaleDBPage": "https://schaledb.com/student/marina_qipao"
   },
   {
     "Id": 300195,
@@ -6007,7 +6787,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 195,
     "Skills": [
       {
@@ -6023,7 +6803,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300195.webp"
+    "LocalImage": "student-icons/300195.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "tomoe_qipao",
+    "SchaleDBPage": "https://schaledb.com/student/tomoe_qipao"
   },
   {
     "Id": 300196,
@@ -6037,7 +6821,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 196,
     "Skills": [
       {
@@ -6054,7 +6838,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300196.webp"
+    "LocalImage": "student-icons/300196.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "reijo",
+    "SchaleDBPage": "https://schaledb.com/student/reijo"
   },
   {
     "Id": 300197,
@@ -6068,7 +6856,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 197,
     "Skills": [
       {
@@ -6085,7 +6873,11 @@
     "TacticRoleSource": "jp-current-verified-v4.5.7",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "LocalImage": "student-icons/300197.webp",
-    "JPVerified": true
+    "JPVerified": true,
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kisaki",
+    "SchaleDBPage": "https://schaledb.com/student/kisaki"
   },
   {
     "Id": 300198,
@@ -6099,7 +6891,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 198,
     "Skills": [
       {
@@ -6115,7 +6907,11 @@
     "TacticRole": "Healer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300198.webp"
+    "LocalImage": "student-icons/300198.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mari_idol",
+    "SchaleDBPage": "https://schaledb.com/student/mari_idol"
   },
   {
     "Id": 300199,
@@ -6129,7 +6925,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 199,
     "Skills": [
       {
@@ -6145,7 +6941,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300199.webp"
+    "LocalImage": "student-icons/300199.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "sakurako_idol",
+    "SchaleDBPage": "https://schaledb.com/student/sakurako_idol"
   },
   {
     "Id": 300200,
@@ -6159,7 +6959,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 200,
     "Skills": [
       {
@@ -6175,7 +6975,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300200.webp"
+    "LocalImage": "student-icons/300200.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mine_idol",
+    "SchaleDBPage": "https://schaledb.com/student/mine_idol"
   },
   {
     "Id": 300201,
@@ -6189,7 +6993,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 201,
     "Skills": [
       {
@@ -6205,7 +7009,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300201.webp"
+    "LocalImage": "student-icons/300201.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "chiaki",
+    "SchaleDBPage": "https://schaledb.com/student/chiaki"
   },
   {
     "Id": 300202,
@@ -6219,7 +7027,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 202,
     "Skills": [
       {
@@ -6235,7 +7043,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300202.webp"
+    "LocalImage": "student-icons/300202.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "satsuki",
+    "SchaleDBPage": "https://schaledb.com/student/satsuki"
   },
   {
     "Id": 300203,
@@ -6249,7 +7061,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 203,
     "Skills": [
       {
@@ -6265,7 +7077,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300203.webp"
+    "LocalImage": "student-icons/300203.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "yuuka_pajamas",
+    "SchaleDBPage": "https://schaledb.com/student/yuuka_pajamas"
   },
   {
     "Id": 300204,
@@ -6279,7 +7095,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 204,
     "Skills": [
       {
@@ -6295,7 +7111,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300204.webp"
+    "LocalImage": "student-icons/300204.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "noa_pajamas",
+    "SchaleDBPage": "https://schaledb.com/student/noa_pajamas"
   },
   {
     "Id": 300205,
@@ -6309,7 +7129,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 205,
     "Skills": [
       {
@@ -6326,7 +7146,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300205.webp"
+    "LocalImage": "student-icons/300205.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "seia",
+    "SchaleDBPage": "https://schaledb.com/student/seia"
   },
   {
     "Id": 300206,
@@ -6340,7 +7164,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 206,
     "Skills": [
       {
@@ -6356,7 +7180,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300206.webp"
+    "LocalImage": "student-icons/300206.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "asuna_school",
+    "SchaleDBPage": "https://schaledb.com/student/asuna_school"
   },
   {
     "Id": 300207,
@@ -6370,7 +7198,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 207,
     "Skills": [
       {
@@ -6386,7 +7214,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300207.webp"
+    "LocalImage": "student-icons/300207.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "karin_school",
+    "SchaleDBPage": "https://schaledb.com/student/karin_school"
   },
   {
     "Id": 300208,
@@ -6400,7 +7232,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 208,
     "Skills": [
       {
@@ -6416,7 +7248,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300208.webp"
+    "LocalImage": "student-icons/300208.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "neru_school",
+    "SchaleDBPage": "https://schaledb.com/student/neru_school"
   },
   {
     "Id": 300209,
@@ -6430,7 +7266,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 209,
     "Skills": [
       {
@@ -6446,7 +7282,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300209.webp"
+    "LocalImage": "student-icons/300209.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "rio",
+    "SchaleDBPage": "https://schaledb.com/student/rio"
   },
   {
     "Id": 300210,
@@ -6460,7 +7300,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 210,
     "Skills": [
       {
@@ -6477,7 +7317,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300210.webp"
+    "LocalImage": "student-icons/300210.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "maki_camp",
+    "SchaleDBPage": "https://schaledb.com/student/maki_camp"
   },
   {
     "Id": 300211,
@@ -6491,7 +7335,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 211,
     "Skills": [
       {
@@ -6507,7 +7351,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300211.webp"
+    "LocalImage": "student-icons/300211.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "sena_casual",
+    "SchaleDBPage": "https://schaledb.com/student/sena_casual"
   },
   {
     "Id": 300212,
@@ -6521,7 +7369,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 212,
     "Skills": [
       {
@@ -6537,7 +7385,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300212.webp"
+    "LocalImage": "student-icons/300212.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "juri_parttime",
+    "SchaleDBPage": "https://schaledb.com/student/juri_parttime"
   },
   {
     "Id": 300213,
@@ -6551,7 +7403,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 213,
     "Skills": [
       {
@@ -6567,7 +7419,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300213.webp"
+    "LocalImage": "student-icons/300213.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "izumi_newyear",
+    "SchaleDBPage": "https://schaledb.com/student/izumi_newyear"
   },
   {
     "Id": 300214,
@@ -6581,7 +7437,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 214,
     "Skills": [
       {
@@ -6597,7 +7453,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300214.webp"
+    "LocalImage": "student-icons/300214.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "rei",
+    "SchaleDBPage": "https://schaledb.com/student/rei"
   },
   {
     "Id": 300215,
@@ -6611,7 +7471,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 215,
     "Skills": [
       {
@@ -6627,7 +7487,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300215.webp"
+    "LocalImage": "student-icons/300215.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "sumire_parttime",
+    "SchaleDBPage": "https://schaledb.com/student/sumire_parttime"
   },
   {
     "Id": 300216,
@@ -6641,7 +7505,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 216,
     "Skills": [
       {
@@ -6657,7 +7521,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300216.webp"
+    "LocalImage": "student-icons/300216.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "saori_dress",
+    "SchaleDBPage": "https://schaledb.com/student/saori_dress"
   },
   {
     "Id": 300217,
@@ -6671,7 +7539,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 217,
     "Skills": [
       {
@@ -6688,7 +7556,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300217.webp"
+    "LocalImage": "student-icons/300217.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hikari",
+    "SchaleDBPage": "https://schaledb.com/student/hikari"
   },
   {
     "Id": 300218,
@@ -6702,7 +7574,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 218,
     "Skills": [
       {
@@ -6718,7 +7590,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300218.webp"
+    "LocalImage": "student-icons/300218.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "nozomi",
+    "SchaleDBPage": "https://schaledb.com/student/nozomi"
   },
   {
     "Id": 300219,
@@ -6732,7 +7608,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 219,
     "Skills": [
       {
@@ -6748,7 +7624,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300219.webp"
+    "LocalImage": "student-icons/300219.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "aoba",
+    "SchaleDBPage": "https://schaledb.com/student/aoba"
   },
   {
     "Id": 300220,
@@ -6762,7 +7642,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 220,
     "Skills": [
       {
@@ -6778,7 +7658,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300220.webp"
+    "LocalImage": "student-icons/300220.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "pina_guide",
+    "SchaleDBPage": "https://schaledb.com/student/pina_guide"
   },
   {
     "Id": 300221,
@@ -6792,7 +7676,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 221,
     "Skills": [
       {
@@ -6808,7 +7692,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300221.webp"
+    "LocalImage": "student-icons/300221.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "nagusa",
+    "SchaleDBPage": "https://schaledb.com/student/nagusa"
   },
   {
     "Id": 300222,
@@ -6822,7 +7710,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 222,
     "Skills": [
       {
@@ -6839,7 +7727,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300222.webp"
+    "LocalImage": "student-icons/300222.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "niya",
+    "SchaleDBPage": "https://schaledb.com/student/niya"
   },
   {
     "Id": 300223,
@@ -6853,7 +7745,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 223,
     "Skills": [
       {
@@ -6869,7 +7761,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300223.webp"
+    "LocalImage": "student-icons/300223.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "natsu_band",
+    "SchaleDBPage": "https://schaledb.com/student/natsu_band"
   },
   {
     "Id": 300224,
@@ -6883,7 +7779,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 224,
     "Skills": [
       {
@@ -6899,7 +7795,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300224.webp"
+    "LocalImage": "student-icons/300224.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "yukari_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/yukari_swimsuit"
   },
   {
     "Id": 300225,
@@ -6913,7 +7813,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 225,
     "Skills": [
       {
@@ -6929,7 +7829,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300225.webp"
+    "LocalImage": "student-icons/300225.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "renge_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/renge_swimsuit"
   },
   {
     "Id": 300226,
@@ -6943,7 +7847,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 226,
     "Skills": [
       {
@@ -6959,7 +7863,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300226.webp"
+    "LocalImage": "student-icons/300226.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kikyou_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/kikyou_swimsuit"
   },
   {
     "Id": 300227,
@@ -6973,7 +7881,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 227,
     "Skills": [
       {
@@ -6989,7 +7897,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300227.webp"
+    "LocalImage": "student-icons/300227.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "seia_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/seia_swimsuit"
   },
   {
     "Id": 300228,
@@ -7003,7 +7915,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 228,
     "Skills": [
       {
@@ -7019,7 +7931,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300228.webp"
+    "LocalImage": "student-icons/300228.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hasumi_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/hasumi_swimsuit"
   },
   {
     "Id": 300229,
@@ -7033,7 +7949,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 229,
     "Skills": [
       {
@@ -7049,7 +7965,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-corrected-v4.4.15",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300229.webp"
+    "LocalImage": "student-icons/300229.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "ichika_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/ichika_swimsuit"
   },
   {
     "Id": 300230,
@@ -7063,7 +7983,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 230,
     "Skills": [
       {
@@ -7080,7 +8000,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300230.webp"
+    "LocalImage": "student-icons/300230.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "nagisa_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/nagisa_swimsuit"
   },
   {
     "Id": 300231,
@@ -7094,7 +8018,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 231,
     "Skills": [
       {
@@ -7111,7 +8035,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300231.webp"
+    "LocalImage": "student-icons/300231.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mika_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/mika_swimsuit"
   },
   {
     "Id": 300232,
@@ -7125,7 +8053,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 232,
     "Skills": [
       {
@@ -7142,7 +8070,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300232.webp"
+    "LocalImage": "student-icons/300232.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "eri",
+    "SchaleDBPage": "https://schaledb.com/student/eri"
   },
   {
     "Id": 300233,
@@ -7156,7 +8088,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 233,
     "Skills": [
       {
@@ -7178,7 +8110,11 @@
       "Itagaki Kanoe"
     ],
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300233.webp"
+    "LocalImage": "student-icons/300233.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kanoe",
+    "SchaleDBPage": "https://schaledb.com/student/kanoe"
   },
   {
     "Id": 300234,
@@ -7192,7 +8128,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 234,
     "Skills": [
       {
@@ -7209,7 +8145,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300234.webp"
+    "LocalImage": "student-icons/300234.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "misaki_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/misaki_swimsuit"
   },
   {
     "Id": 300235,
@@ -7223,7 +8163,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 235,
     "Skills": [
       {
@@ -7240,7 +8180,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300235.webp"
+    "LocalImage": "student-icons/300235.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "miyo",
+    "SchaleDBPage": "https://schaledb.com/student/miyo"
   },
   {
     "Id": 300236,
@@ -7254,7 +8198,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 236,
     "Skills": [
       {
@@ -7271,7 +8215,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300236.webp"
+    "LocalImage": "student-icons/300236.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "fuyu",
+    "SchaleDBPage": "https://schaledb.com/student/fuyu"
   },
   {
     "Id": 300237,
@@ -7285,7 +8233,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 237,
     "Skills": [
       {
@@ -7301,7 +8249,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300237.webp"
+    "LocalImage": "student-icons/300237.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "ritsu",
+    "SchaleDBPage": "https://schaledb.com/student/ritsu"
   },
   {
     "Id": 300238,
@@ -7315,7 +8267,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 238,
     "Skills": [
       {
@@ -7331,7 +8283,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300238.webp"
+    "LocalImage": "student-icons/300238.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "reisa_magical",
+    "SchaleDBPage": "https://schaledb.com/student/reisa_magical"
   },
   {
     "Id": 300239,
@@ -7345,7 +8301,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 239,
     "Skills": [
       {
@@ -7361,7 +8317,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300239.webp"
+    "LocalImage": "student-icons/300239.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "suzumi_magical",
+    "SchaleDBPage": "https://schaledb.com/student/suzumi_magical"
   },
   {
     "Id": 300240,
@@ -7375,7 +8335,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 240,
     "Skills": [
       {
@@ -7392,7 +8352,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300240.webp"
+    "LocalImage": "student-icons/300240.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "rabu",
+    "SchaleDBPage": "https://schaledb.com/student/rabu"
   },
   {
     "Id": 300241,
@@ -7406,7 +8370,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 241,
     "Skills": [
       {
@@ -7422,7 +8386,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300241.webp"
+    "LocalImage": "student-icons/300241.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "subaru",
+    "SchaleDBPage": "https://schaledb.com/student/subaru"
   },
   {
     "Id": 300242,
@@ -7436,7 +8404,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 242,
     "Skills": [
       {
@@ -7452,7 +8420,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300242.webp"
+    "LocalImage": "student-icons/300242.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "takane",
+    "SchaleDBPage": "https://schaledb.com/student/takane"
   },
   {
     "Id": 300243,
@@ -7466,7 +8438,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 243,
     "Skills": [
       {
@@ -7482,7 +8454,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300243.webp"
+    "LocalImage": "student-icons/300243.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "yakumo",
+    "SchaleDBPage": "https://schaledb.com/student/yakumo"
   },
   {
     "Id": 300244,
@@ -7496,7 +8472,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 244,
     "Skills": [
       {
@@ -7512,7 +8488,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300244.webp"
+    "LocalImage": "student-icons/300244.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "tsukuyo_dress",
+    "SchaleDBPage": "https://schaledb.com/student/tsukuyo_dress"
   },
   {
     "Id": 300245,
@@ -7526,7 +8506,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 245,
     "Skills": [
       {
@@ -7542,7 +8522,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300245.webp"
+    "LocalImage": "student-icons/300245.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "michiru_dress",
+    "SchaleDBPage": "https://schaledb.com/student/michiru_dress"
   },
   {
     "Id": 300246,
@@ -7556,7 +8540,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 246,
     "Skills": [
       {
@@ -7572,7 +8556,11 @@
     "TacticRole": "Supporter",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300246.webp"
+    "LocalImage": "student-icons/300246.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "rio_armed",
+    "SchaleDBPage": "https://schaledb.com/student/rio_armed"
   },
   {
     "Id": 300247,
@@ -7586,7 +8574,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 247,
     "Skills": [
       {
@@ -7603,7 +8591,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300247.webp"
+    "LocalImage": "student-icons/300247.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "toki_armed",
+    "SchaleDBPage": "https://schaledb.com/student/toki_armed"
   },
   {
     "Id": 300248,
@@ -7617,7 +8609,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 248,
     "Skills": [
       {
@@ -7634,7 +8626,11 @@
     "TacticRoleSource": "schaledb-jp-verified",
     "DataPolicy": "local fallback; runtime JP authoritative",
     "JPVerified": true,
-    "LocalImage": "student-icons/300248.webp"
+    "LocalImage": "student-icons/300248.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "himari_armed",
+    "SchaleDBPage": "https://schaledb.com/student/himari_armed"
   },
   {
     "Id": 300249,
@@ -7648,7 +8644,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 249,
     "Skills": [
       {
@@ -7664,7 +8660,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300249.webp"
+    "LocalImage": "student-icons/300249.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "aris_armed",
+    "SchaleDBPage": "https://schaledb.com/student/aris_armed"
   },
   {
     "Id": 300250,
@@ -7678,7 +8678,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 250,
     "Skills": [
       {
@@ -7694,7 +8694,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300250.webp"
+    "LocalImage": "student-icons/300250.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kei",
+    "SchaleDBPage": "https://schaledb.com/student/kei"
   },
   {
     "Id": 300251,
@@ -7708,7 +8712,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 251,
     "Skills": [
       {
@@ -7724,7 +8728,11 @@
     "TacticRole": "Tanker",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300251.webp"
+    "LocalImage": "student-icons/300251.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "eimi_armed",
+    "SchaleDBPage": "https://schaledb.com/student/eimi_armed"
   },
   {
     "Id": 300252,
@@ -7738,7 +8746,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "local-v4.4",
+    "_sourceRegion": "jp-localized-zh-TW",
     "_catalogIndex": 252,
     "Skills": [
       {
@@ -7754,7 +8762,11 @@
     "TacticRole": "DamageDealer",
     "TacticRoleSource": "local-fallback-v4.4.11",
     "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300252.webp"
+    "LocalImage": "student-icons/300252.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "subaru",
+    "SchaleDBPage": "https://schaledb.com/student/subaru"
   },
   {
     "Id": 390001,
@@ -7769,7 +8781,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "jp-current",
+    "_sourceRegion": "jp-localized-zh-TW",
     "LocalChineseName": "名草（泳裝）",
     "Skills": [
       {
@@ -7789,7 +8801,11 @@
     ],
     "LocalImage": "student-icons/390001.webp",
     "DataPolicy": "JP current local verified",
-    "_catalogIndex": 253
+    "_catalogIndex": 253,
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "nagusa_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/nagusa_swimsuit"
   },
   {
     "Id": 390002,
@@ -7804,7 +8820,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "jp-current",
+    "_sourceRegion": "jp-localized-zh-TW",
     "LocalChineseName": "妃咲（泳裝）",
     "Skills": [
       {
@@ -7824,7 +8840,11 @@
     ],
     "LocalImage": "student-icons/390002.webp",
     "DataPolicy": "JP current local verified",
-    "_catalogIndex": 254
+    "_catalogIndex": 254,
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kisaki_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/kisaki_swimsuit"
   },
   {
     "Id": 390003,
@@ -7839,7 +8859,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "jp-current",
+    "_sourceRegion": "jp-localized-zh-TW",
     "LocalChineseName": "旬（泳裝）",
     "Skills": [
       {
@@ -7859,7 +8879,11 @@
     ],
     "LocalImage": "student-icons/390003.webp",
     "DataPolicy": "JP current local verified",
-    "_catalogIndex": 255
+    "_catalogIndex": 255,
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shun_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/shun_swimsuit"
   },
   {
     "Id": 390004,
@@ -7874,7 +8898,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "jp-current",
+    "_sourceRegion": "jp-localized-zh-TW",
     "LocalChineseName": "真琴（泳裝）",
     "Skills": [
       {
@@ -7894,7 +8918,11 @@
     ],
     "LocalImage": "student-icons/390004.webp",
     "DataPolicy": "JP current local verified",
-    "_catalogIndex": 256
+    "_catalogIndex": 256,
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "makoto_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/makoto_swimsuit"
   },
   {
     "Id": 390005,
@@ -7909,7 +8937,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "jp-current",
+    "_sourceRegion": "jp-localized-zh-TW",
     "LocalChineseName": "皋月（泳裝）",
     "Skills": [
       {
@@ -7929,7 +8957,11 @@
     ],
     "LocalImage": "student-icons/390005.webp",
     "DataPolicy": "JP current local verified",
-    "_catalogIndex": 257
+    "_catalogIndex": 257,
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "satsuki_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/satsuki_swimsuit"
   },
   {
     "Id": 390006,
@@ -7944,7 +8976,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "jp-current",
+    "_sourceRegion": "jp-localized-zh-TW",
     "LocalChineseName": "伊吹（泳裝）",
     "Skills": [
       {
@@ -7964,7 +8996,11 @@
     ],
     "LocalImage": "student-icons/390006.webp",
     "DataPolicy": "JP current local verified",
-    "_catalogIndex": 258
+    "_catalogIndex": 258,
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "ibuki_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/ibuki_swimsuit"
   },
   {
     "Id": 390007,
@@ -7979,7 +9015,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "jp-current",
+    "_sourceRegion": "jp-localized-zh-TW",
     "LocalChineseName": "伊呂波（泳裝）",
     "Skills": [
       {
@@ -7999,7 +9035,11 @@
     ],
     "LocalImage": "student-icons/390007.webp",
     "DataPolicy": "JP current local verified",
-    "_catalogIndex": 259
+    "_catalogIndex": 259,
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "iroha_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/iroha_swimsuit"
   },
   {
     "Id": 390008,
@@ -8014,7 +9054,7 @@
     "_regions": [
       "jp"
     ],
-    "_sourceRegion": "jp-current",
+    "_sourceRegion": "jp-localized-zh-TW",
     "LocalChineseName": "千秋（泳裝）",
     "Skills": [
       {
@@ -8034,6 +9074,10 @@
     ],
     "LocalImage": "student-icons/390008.webp",
     "DataPolicy": "JP current local verified",
-    "_catalogIndex": 260
+    "_catalogIndex": 260,
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "chiaki_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/chiaki_swimsuit"
   }
 ]
