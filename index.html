@@ -67,13 +67,13 @@ button.danger{color:var(--danger)}
 .tl{display:grid;grid-template-columns:72px 46px 1fr;gap:9px;align-items:center}
 .tl-time{font-variant-numeric:tabular-nums;color:var(--accent);font-weight:700}
 .tl .avatar{width:44px;height:44px}
-.tl-actions{grid-column:1/-1;display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.tl-actions{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
 .toolbar{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .toolbar .primary{grid-column:1/-1}
 .bottom-nav{
   position:fixed;left:0;right:0;bottom:0;z-index:50;background:var(--nav);
   border-top:1px solid var(--line);padding:7px 10px calc(7px + env(safe-area-inset-bottom));
-  display:grid;grid-template-columns:repeat(4,1fr);gap:6px
+  display:grid;grid-template-columns:repeat(3,1fr);gap:6px
 }
 .bottom-nav button{min-height:50px;padding:7px 5px;border:none;background:transparent;color:var(--muted);font-size:12px}
 .bottom-nav button.active{color:var(--accent);background:#1a2732}
@@ -89,15 +89,34 @@ button.danger{color:var(--danger)}
   .skill-list{grid-template-columns:repeat(2,minmax(0,1fr))}
   .bottom-nav{max-width:760px;left:50%;transform:translateX(-50%);border:1px solid var(--line);border-bottom:none;border-radius:16px 16px 0 0}
 }
+
+.student-picker-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.student-pick{position:relative;text-align:center;padding:8px 4px;min-height:104px}
+.student-pick .avatar{width:58px;height:58px;margin:auto}
+.student-pick .student-name{font-size:12px;margin-top:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.student-pick .student-type{font-size:10px;color:var(--muted)}
+.student-pick.in-team{outline:2px solid var(--accent)}
+.student-pick.in-team::after{content:"已編成";position:absolute;top:4px;right:4px;background:var(--accent);color:#05202e;border-radius:999px;padding:2px 5px;font-size:9px;font-weight:700}
+.striker-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.special-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:50%}
+.team-slot{position:relative}
+.team-slot .remove-mini{position:absolute;top:4px;right:4px;min-height:28px;padding:2px 7px;border-radius:999px;color:var(--danger);background:#111a22}
+@media(max-width:430px){
+  .student-picker-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .special-grid{max-width:68%}
+  .team-slot{min-height:94px}
+  .team-slot .avatar{width:50px;height:50px}
+}
+
 </style>
 </head>
 <body>
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.1 · iPhone 手機版 · SchaleDB 繁中資料</div>
+    <div class="small">V4.2 · iPhone 手機版 · SchaleDB 繁中資料</div>
   </div>
-  <div id="status" class="status">V4.1 正在載入 SchaleDB 資料…</div>
+  <div id="status" class="status">V4.2 正在載入 SchaleDB 資料…</div>
   <div class="small">資料來源優先：SchaleDB GitHub Raw（繁中）；主站作為備援。</div>
 
   <section id="installHelp" class="panel grid">
@@ -135,27 +154,53 @@ button.danger{color:var(--danger)}
 
   <section id="viewTeam" class="view">
     <div class="panel grid">
-      <div class="space"><div><h2>6 人隊伍</h2><div class="small">點位置，再到學生頁加入。</div></div><button id="clearTeam">清空</button></div>
-      <div id="team" class="team-grid"></div>
+      <div class="space">
+        <div>
+          <h2>隊伍編成</h2>
+          <div class="small">STRIKER 4 人 + SPECIAL 2 人。點學生頭像即可自動加入對應區域。</div>
+        </div>
+        <button id="clearTeam">清空</button>
+      </div>
+
+      <div class="grid">
+        <div class="space">
+          <div><b>STRIKER（前衛）</b></div>
+          <span id="strikerCount" class="badge">0 / 4</span>
+        </div>
+        <div id="strikerTeam" class="team-grid striker-grid"></div>
+      </div>
+
+      <div class="grid">
+        <div class="space">
+          <div><b>SPECIAL（後衛）</b></div>
+          <span id="specialCount" class="badge">0 / 2</span>
+        </div>
+        <div id="specialTeam" class="team-grid special-grid"></div>
+      </div>
     </div>
+
+    <div class="panel grid">
+      <div class="space">
+        <div>
+          <h2>選擇學生</h2>
+          <div id="studentCount" class="small"></div>
+        </div>
+        <select id="squadFilter" style="width:auto;margin:0">
+          <option value="">全部</option>
+          <option value="Main">STRIKER</option>
+          <option value="Support">SPECIAL</option>
+        </select>
+      </div>
+      <input id="studentSearch" placeholder="搜尋學生，例如：伊織、Iori">
+      <div id="studentGrid" class="student-picker-grid"></div>
+    </div>
+
     <div id="studentDetail" class="panel grid hidden">
       <div class="row">
         <img id="detailAvatar" class="avatar" alt="">
         <div><h2 id="detailName"></h2><div id="detailMeta"></div></div>
       </div>
       <div id="skillList" class="skill-list"></div>
-    </div>
-  </section>
-
-  <section id="viewStudents" class="view">
-    <div class="panel grid">
-      <div class="space"><div><h2>學生資料庫</h2><div id="studentCount" class="small"></div></div>
-        <select id="squadFilter" style="width:auto;margin:0">
-          <option value="">全部</option><option value="Main">STRIKER</option><option value="Support">SPECIAL</option>
-        </select>
-      </div>
-      <input id="studentSearch" placeholder="搜尋學生，例如：伊織、Iori">
-      <div id="studentGrid" class="student-grid"></div>
     </div>
   </section>
 
@@ -195,7 +240,6 @@ button.danger{color:var(--danger)}
 <nav class="bottom-nav">
   <button data-view="Boss" class="active"><span class="nav-ico">👹</span>Boss</button>
   <button data-view="Team"><span class="nav-ico">👥</span>隊伍</button>
-  <button data-view="Students"><span class="nav-ico">🔎</span>學生</button>
   <button data-view="Tl"><span class="nav-ico">⏱️</span>TL</button>
 </nav>
 
@@ -206,7 +250,7 @@ const DATA_BASES=[
 ];
 const RAW_IMG='https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images';
 const SITE_IMG='https://schaledb.com/images';
-let students=[],raids=[],team=Array(6).fill(null),activeSlot=0,selectedStudent=null,selectedSkill=null,tl=[];
+let students=[],raids=[],strikers=Array(4).fill(null),specials=Array(2).fill(null),selectedStudent=null,selectedSkill=null,tl=[];
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const studentImg=id=>`${RAW_IMG}/student/icon/${id}.webp`;
@@ -320,30 +364,91 @@ function updateBoss(){
   (r.Terrain||[]).forEach(x=>{let o=document.createElement('option');o.value=x;o.textContent=terrainMap[x]||x;t.appendChild(o)});
   renderText();
 }
+function fullTeam(){
+  return [...strikers.filter(Boolean), ...specials.filter(Boolean)];
+}
+function teamHas(id){
+  return fullTeam().some(s=>String(s.Id)===String(id));
+}
+function firstEmptySlot(arr){
+  return arr.findIndex(x=>!x);
+}
 function renderTeam(){
-  let box=$('team');box.innerHTML='';
-  team.forEach((s,i)=>{
-    let b=document.createElement('button');b.type='button';b.className='team-slot card'+(i===activeSlot?' active':'');
-    b.innerHTML=s?`<img class="avatar" src="${studentImg(s.Id)}" alt="${esc(s.Name)}"><div><b>${esc(s.Name)}</b></div><div class="small">${squadLabel(s.SquadType)}</div>`:`<div class="small">位置 ${i+1}</div><div style="margin-top:20px">＋ 選擇</div>`;
-    b.onclick=()=>{activeSlot=i;renderTeam();go('Students')};box.appendChild(b);
-  });syncTlStudents();
+  const strikerBox=$('strikerTeam'), specialBox=$('specialTeam');
+  strikerBox.innerHTML=''; specialBox.innerHTML='';
+
+  function buildSlot(s,i,type){
+    const b=document.createElement('div');
+    b.className='team-slot card';
+    if(s){
+      b.innerHTML=`<button type="button" class="remove-mini" aria-label="移除">×</button>
+        <img class="avatar" src="${studentImg(s.Id)}" alt="${esc(s.Name)}">
+        <div><b>${esc(s.Name)}</b></div>
+        <div class="small">${type==='Main'?'STRIKER':'SPECIAL'}</div>`;
+      b.querySelector('.remove-mini').onclick=()=>{
+        if(type==='Main')strikers[i]=null;else specials[i]=null;
+        renderTeam();renderStudents();renderText();
+      };
+      b.onclick=e=>{
+        if(e.target.classList.contains('remove-mini'))return;
+        showStudent(s);
+      };
+    }else{
+      b.innerHTML=`<div class="small">${type==='Main'?'STRIKER':'SPECIAL'} ${i+1}</div><div style="margin-top:20px">＋</div>`;
+    }
+    return b;
+  }
+
+  strikers.forEach((s,i)=>strikerBox.appendChild(buildSlot(s,i,'Main')));
+  specials.forEach((s,i)=>specialBox.appendChild(buildSlot(s,i,'Support')));
+
+  $('strikerCount').textContent=`${strikers.filter(Boolean).length} / 4`;
+  $('specialCount').textContent=`${specials.filter(Boolean).length} / 2`;
+
+  syncTlStudents();
 }
 function addToTeam(s){
-  team[activeSlot]=s;selectedStudent=s;activeSlot=Math.min(5,activeSlot+1);renderTeam();showStudent(s);setStatus(`已加入 ${s.Name}`,'ok')
+  const target=s.SquadType==='Support'?specials:strikers;
+  if(teamHas(s.Id)){
+    setStatus(`${s.Name} 已在隊伍中`,'ok');
+    return;
+  }
+  const idx=firstEmptySlot(target);
+  if(idx===-1){
+    setStatus(`${s.SquadType==='Support'?'SPECIAL':'STRIKER'} 已滿，請先移除一名學生`,'err');
+    return;
+  }
+  target[idx]=s;
+  selectedStudent=s;
+  renderTeam();
+  renderStudents();
+  showStudent(s);
+  setStatus(`已加入 ${s.Name}`,'ok');
 }
 function renderStudents(){
   let q=$('studentSearch').value.trim().toLowerCase(),sf=$('squadFilter').value;
   let list=students.filter(releasedTW);
   if(sf)list=list.filter(s=>s.SquadType===sf);
   if(q)list=list.filter(s=>(s.Name||'').toLowerCase().includes(q)||(s.PathName||'').toLowerCase().includes(q)||(s.DevName||'').toLowerCase().includes(q));
-  $('studentCount').textContent=`${list.length} / ${students.filter(releasedTW).length}`;
-  let box=$('studentGrid');box.innerHTML='';
+
+  $('studentCount').textContent=`顯示 ${list.length} / ${students.length} 名學生`;
+  const box=$('studentGrid');box.innerHTML='';
+
   list.forEach(s=>{
-    let c=document.createElement('div');c.className='card student-card';
-    c.innerHTML=`<img class="avatar" src="${studentImg(s.Id)}" alt="${esc(s.Name)}"><div><b>${esc(s.Name)}</b><div class="small">${squadLabel(s.SquadType)} · ${esc(bulletMap[s.BulletType]||s.BulletType||'')} · ${esc(s.Position||'')}</div></div><div class="student-actions"><button class="open">技能</button><button class="join primary">加入</button></div>`;
-    c.querySelector('.open').onclick=()=>{showStudent(s);go('Team')};
-    c.querySelector('.join').onclick=()=>addToTeam(s);
-    box.appendChild(c);
+    const b=document.createElement('button');
+    b.type='button';
+    b.className='student-pick card'+(teamHas(s.Id)?' in-team':'');
+    b.innerHTML=`<img class="avatar" src="${studentImg(s.Id)}" alt="${esc(s.Name)}">
+      <div class="student-name"><b>${esc(s.Name)}</b></div>
+      <div class="student-type">${squadLabel(s.SquadType)} · ${esc(bulletMap[s.BulletType]||s.BulletType||'')}</div>`;
+    b.onclick=()=>{
+      if(teamHas(s.Id)){
+        showStudent(s);
+        return;
+      }
+      addToTeam(s);
+    };
+    box.appendChild(b);
   });
 }
 function showStudent(s){
@@ -361,7 +466,7 @@ function showStudent(s){
 }
 function syncTlStudents(){
   let sel=$('tlStudent'),cur=sel.value;sel.innerHTML='';
-  let list=team.filter(Boolean).length?team.filter(Boolean):students.filter(releasedTW),seen=new Set();
+  let ft=fullTeam();let list=ft.length?ft:students.filter(releasedTW),seen=new Set();
   list.forEach(s=>{if(seen.has(s.Id))return;seen.add(s.Id);let o=document.createElement('option');o.value=s.Id;o.textContent=s.Name;sel.appendChild(o)});
   if([...sel.options].some(o=>o.value===cur))sel.value=cur;syncTlSkills();
 }
@@ -402,19 +507,47 @@ function renderText(){
   $('textOutput').value=[
     `Boss：${r?.Name||''}｜難度：${$('difficulty').value}${$('terrain').value?'｜地形：'+(terrainMap[$('terrain').value]||$('terrain').value):''}`,
     $('teamName').value?`隊伍：${$('teamName').value}`:'',
-    team.filter(Boolean).length?'成員：'+team.filter(Boolean).map((s,i)=>`${i+1}.${s.Name}`).join(' / '):'',
+    fullTeam().length?'成員：'+fullTeam().map((s,i)=>`${i+1}.${s.Name}`).join(' / '):'',
     $('headerNote').value?`備註：${$('headerNote').value}`:'',
     '',
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.1',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,team:team.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.2',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
-  try{let d=JSON.parse($('jsonBox').value);if(d.bossId)$('boss').value=String(d.bossId);$('difficulty').value=d.difficulty||'Torment';updateBoss();$('terrain').value=d.terrain||'';$('teamName').value=d.teamName||'';$('headerNote').value=d.headerNote||'';team=(d.team||[]).slice(0,6).map(id=>students.find(s=>s.Id===id)||null);while(team.length<6)team.push(null);tl=Array.isArray(d.tl)?d.tl:[];renderTeam();renderTl();setStatus('JSON 載入完成','ok')}catch(e){setStatus('JSON 格式錯誤','err')}
+  try{
+    let d=JSON.parse($('jsonBox').value);
+    if(d.bossId)$('boss').value=String(d.bossId);
+    $('difficulty').value=d.difficulty||'Torment';
+    updateBoss();
+    $('terrain').value=d.terrain||'';
+    $('teamName').value=d.teamName||'';
+    $('headerNote').value=d.headerNote||'';
+
+    if(Array.isArray(d.strikers)||Array.isArray(d.specials)){
+      strikers=(d.strikers||[]).slice(0,4).map(id=>students.find(s=>s.Id===id)||null);
+      while(strikers.length<4)strikers.push(null);
+      specials=(d.specials||[]).slice(0,2).map(id=>students.find(s=>s.Id===id)||null);
+      while(specials.length<2)specials.push(null);
+    }else if(Array.isArray(d.team)){
+      // Backward compatibility with V4.1
+      const old=(d.team||[]).map(id=>students.find(s=>s.Id===id)||null).filter(Boolean);
+      strikers=old.filter(s=>s.SquadType!=='Support').slice(0,4);
+      while(strikers.length<4)strikers.push(null);
+      specials=old.filter(s=>s.SquadType==='Support').slice(0,2);
+      while(specials.length<2)specials.push(null);
+    }
+
+    tl=Array.isArray(d.tl)?d.tl:[];
+    renderTeam();renderStudents();renderTl();
+    setStatus('V4.2 JSON 載入完成','ok');
+  }catch(e){
+    setStatus('JSON 格式錯誤','err');
+  }
 }
 
 $('boss').onchange=updateBoss;$('studentSearch').oninput=renderStudents;$('squadFilter').onchange=renderStudents;
-$('clearTeam').onclick=()=>{team=Array(6).fill(null);activeSlot=0;renderTeam()};
+$('clearTeam').onclick=()=>{strikers=Array(4).fill(null);specials=Array(2).fill(null);renderTeam();renderStudents();renderText()};
 $('tlStudent').onchange=syncTlSkills;$('tlSkill').onchange=applySelectedSkill;
 $('addTl').onclick=()=>addTl(false);$('addWait').onclick=()=>addTl(true);
 $('sortTl').onclick=()=>{tl.sort((a,b)=>b.seconds-a.seconds);renderTl()};$('clearTl').onclick=()=>{tl=[];renderTl()};
@@ -436,7 +569,7 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
     renderTl();
 
     const sourceLabel=sRes.source.includes('raw.githubusercontent.com')?'GitHub Raw':'SchaleDB';
-    setStatus(`V4.1 載入完成：${students.length} 名學生、${raids.length} 個 Boss · ${sourceLabel}`,'ok');
+    setStatus(`V4.2 載入完成：${students.length} 名學生、${raids.length} 個 Boss · ${sourceLabel}`,'ok');
   }catch(e){
     console.error(e);
     setStatus(`V4.1 資料載入失敗：${e?.message||e}。請重新整理頁面；若仍失敗可把這行截圖給我。`,'err');

@@ -1,4 +1,4 @@
-const CACHE = 'ba-tl-v4-1';
+const CACHE = 'ba-tl-v4-2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', event => {
@@ -17,8 +17,6 @@ self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
   const url = new URL(event.request.url);
 
-  // Always try the network first for HTML/navigation and SchaleDB data,
-  // so updates do not get stuck behind an old iPhone cache.
   if (event.request.mode === 'navigate' || url.pathname.endsWith('.json') || url.hostname === 'raw.githubusercontent.com') {
     event.respondWith(
       fetch(event.request).then(res => {
