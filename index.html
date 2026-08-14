@@ -118,9 +118,9 @@ img.avatar.broken{opacity:0}
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.4.14 · 日服資料全校正版</div>
+    <div class="small">V4.4.14.1 · 啟動流程熱修版</div>
   </div>
-  <div id="status" class="status">V4.4.6 正在載入學生本地資料…</div>
+  <div id="status" class="status">V4.4.14.1 正在載入本地資料…</div>
   <div class="small">V4.4.14：所有戰鬥資料以 SchaleDB 日服為準；TW 僅負責繁中名稱。STRIKER/SPECIAL、戰術類別、技能與 COST 不再由 TW 覆蓋。</div>
 
   <section id="installHelp" class="panel grid">
@@ -838,7 +838,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.14',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.14.1',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
@@ -881,26 +881,51 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
 
 (async()=>{
   try{
+    // 1) Local data MUST load first so UI is never empty.
+    setStatus('V4.4.14.1 正在載入本地資料…');
+
     const local=await loadLocalCatalog();
-
     students=mergeStudentCatalog([],[],local.students);
-    raids=local.raids.length?local.raids:[];
-    renderBosses();renderTeam();renderStudents();renderTl();
-    setStatus(`V4.4.14 本地備援已載入：${students.length} 名；正在讀取 SchaleDB 日服…`,'ok');
+    raids=Array.isArray(local.raids)?local.raids:[];
 
-    const jpResult=await loadRegionJson('jp','students.json');
-    const jpStudents=extractArray(jpResult.data,['Student','Students','students']).filter(x=>x&&x.Name);
-    if(!jpStudents.length) throw new Error('SchaleDB JP 學生資料為 0');
+    renderBosses();
+    renderTeam();
+    renderStudents();
+    renderTl();
 
-    const twResult=await loadRegionJson('tw','students.json').catch(()=>({data:[]}));
-    const twStudents=extractArray(twResult.data,['Student','Students','students']).filter(x=>x&&x.Name);
+    setStatus(`V4.4.14.1 本地載入完成：${students.length} 名學生｜${raids.length} Boss｜正在同步 JP…`,'ok');
 
-    students=mergeStudentCatalog(twStudents,jpStudents,local.students);
-    renderTeam();renderStudents();renderTl();
-    setStatus(`V4.4.14 ${integrityText()}`,'ok');
+    // 2) JP data is authoritative, but failure must not break local UI.
+    let jpStudents=[];
+    try{
+      const jpResult=await loadRegionJson('jp','students.json');
+      jpStudents=extractArray(jpResult.data,['Student','Students','students']).filter(x=>x&&x.Name);
+    }catch(e){
+      console.warn('JP students load failed',e);
+    }
+
+    // 3) TW is localization only and completely optional.
+    let twStudents=[];
+    try{
+      const twResult=await loadRegionJson('tw','students.json');
+      twStudents=extractArray(twResult.data,['Student','Students','students']).filter(x=>x&&x.Name);
+    }catch(e){
+      console.warn('TW students load failed',e);
+    }
+
+    if(jpStudents.length){
+      students=mergeStudentCatalog(twStudents,jpStudents,local.students);
+      renderTeam();
+      renderStudents();
+      renderTl();
+      setStatus(`V4.4.14.1 ${integrityText()}`,'ok');
+    }else{
+      setStatus(`V4.4.14.1 日服同步失敗，已使用本地備援：${students.length} 名學生｜${raids.length} Boss`,'err');
+    }
+
   }catch(e){
-    console.error(e);
-    setStatus(`V4.4.14 日服同步失敗，使用本地備援：${e?.message||e}`,'err');
+    console.error('Fatal bootstrap error',e);
+    setStatus(`V4.4.14.1 本地啟動失敗：${e?.message||e}`,'err');
   }
 })();
 
