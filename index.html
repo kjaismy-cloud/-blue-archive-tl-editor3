@@ -193,9 +193,9 @@ border:1px dashed var(--line);border-radius:14px}
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.5.4 · 253學生強制內嵌版</div>
+    <div class="small">V4.5.5 · 啟動錯誤修正版</div>
   </div>
-  <div id="status" class="status">V4.5.4 正在載入內嵌 253 名學生…</div>
+  <div id="status" class="status">V4.5.5 正在載入內嵌 253 名學生…</div>
   <div class="small">V4.5 · Chrome 桌面三欄版 · iPhone 自動切換</div>
 
   <section id="installHelp" class="panel grid">
@@ -363,6 +363,8 @@ border:1px dashed var(--line);border-radius:14px}
 </nav>
 
 <script>
+const BOSS_INLINE_IMAGES = {};
+
 const REGION_BASES={
   tw:[
     'https://schaledb.com/data/tw',
@@ -892,7 +894,7 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
 
 (async()=>{
   try{
-    setStatus('V4.5.4 正在載入內嵌 253 名學生…');
+    setStatus('V4.5.5 正在載入內嵌 253 名學生…');
 
     students=EMBEDDED_STUDENTS.map(x=>({...x}));
     raids=EMBEDDED_RAIDS.map(x=>({...x}));
@@ -903,10 +905,10 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
     renderStudents();
     renderTl();
 
-    setStatus(`V4.5.4 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
+    setStatus(`V4.5.5 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
   }catch(e){
     console.error('V4.5.4 bootstrap failed',e);
-    setStatus(`V4.5.4 啟動失敗：${e?.message||e}`,'err');
+    setStatus(`V4.5.5 啟動失敗：${e?.message||e}`,'err');
   }
 })();
 
@@ -1039,7 +1041,7 @@ window.addEventListener('load',()=>{
       raids=EMBEDDED_RAIDS.map(x=>({...x}));
       try{
         renderBosses();renderTeam();renderStudents();renderTl();
-        setStatus(`V4.5.4 內嵌備援啟用：${students.length} 名學生`,'ok');
+        setStatus(`V4.5.5 內嵌備援啟用：${students.length} 名學生`,'ok');
       }catch(e){console.error(e);}
     }
   },100);
