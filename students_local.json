@@ -23,14 +23,15 @@
     ],
     "ImageId": 10000,
     "LocalChineseName": "亞瑠",
-    "CurrentSlug": "aru"
+    "CurrentSlug": "aru",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300001,
     "PathName": "eimi",
     "Name": "艾米",
     "EnglishName": "Eimi",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -49,14 +50,15 @@
     ],
     "ImageId": 10001,
     "LocalChineseName": "艾米",
-    "CurrentSlug": "eimi"
+    "CurrentSlug": "eimi",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300002,
     "PathName": "haruna",
     "Name": "晴奈",
     "EnglishName": "Haruna",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -75,14 +77,15 @@
     ],
     "ImageId": 10002,
     "LocalChineseName": "晴奈",
-    "CurrentSlug": "haruna"
+    "CurrentSlug": "haruna",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300003,
     "PathName": "hifumi",
     "Name": "日步美",
     "EnglishName": "Hifumi",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -101,7 +104,8 @@
     ],
     "ImageId": 10003,
     "LocalChineseName": "日步美",
-    "CurrentSlug": "hifumi"
+    "CurrentSlug": "hifumi",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300004,
@@ -127,7 +131,8 @@
     ],
     "ImageId": 10004,
     "LocalChineseName": "陽奈",
-    "CurrentSlug": "hina"
+    "CurrentSlug": "hina",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300005,
@@ -153,7 +158,8 @@
     ],
     "ImageId": 10005,
     "LocalChineseName": "星野",
-    "CurrentSlug": "hoshino"
+    "CurrentSlug": "hoshino",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300006,
@@ -179,14 +185,15 @@
     ],
     "ImageId": 10006,
     "LocalChineseName": "伊織",
-    "CurrentSlug": "iori"
+    "CurrentSlug": "iori",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300007,
     "PathName": "maki",
     "Name": "真紀",
     "EnglishName": "Maki",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -205,14 +212,15 @@
     ],
     "ImageId": 10007,
     "LocalChineseName": "真紀",
-    "CurrentSlug": "maki"
+    "CurrentSlug": "maki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300008,
     "PathName": "neru",
     "Name": "寧瑠",
     "EnglishName": "Neru",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -231,14 +239,15 @@
     ],
     "ImageId": 10008,
     "LocalChineseName": "寧瑠",
-    "CurrentSlug": "neru"
+    "CurrentSlug": "neru",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300009,
     "PathName": "izumi",
     "Name": "泉",
     "EnglishName": "Izumi",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -257,7 +266,8 @@
     ],
     "ImageId": 10009,
     "LocalChineseName": "泉",
-    "CurrentSlug": "izumi"
+    "CurrentSlug": "izumi",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300010,
@@ -283,14 +293,15 @@
     ],
     "ImageId": 10010,
     "LocalChineseName": "白子",
-    "CurrentSlug": "shiroko"
+    "CurrentSlug": "shiroko",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300011,
     "PathName": "shun",
     "Name": "瞬",
     "EnglishName": "Shun",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -309,14 +320,15 @@
     ],
     "ImageId": 10011,
     "LocalChineseName": "瞬",
-    "CurrentSlug": "shun"
+    "CurrentSlug": "shun",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300012,
     "PathName": "sumire",
     "Name": "菫",
     "EnglishName": "Sumire",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -335,14 +347,15 @@
     ],
     "ImageId": 10012,
     "LocalChineseName": "菫",
-    "CurrentSlug": "sumire"
+    "CurrentSlug": "sumire",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300013,
     "PathName": "tsurugi",
     "Name": "鶴城",
     "EnglishName": "Tsurugi",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -361,14 +374,15 @@
     ],
     "ImageId": 10013,
     "LocalChineseName": "鶴城",
-    "CurrentSlug": "tsurugi"
+    "CurrentSlug": "tsurugi",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300014,
     "PathName": "akane",
     "Name": "茜香",
     "EnglishName": "Akane",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -387,14 +401,15 @@
     ],
     "ImageId": 13000,
     "LocalChineseName": "茜香",
-    "CurrentSlug": "akane"
+    "CurrentSlug": "akane",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300015,
     "PathName": "chise",
     "Name": "千世",
     "EnglishName": "Chise",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -413,14 +428,15 @@
     ],
     "ImageId": 13001,
     "LocalChineseName": "千世",
-    "CurrentSlug": "chise"
+    "CurrentSlug": "chise",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300016,
     "PathName": "akari",
     "Name": "明里",
     "EnglishName": "Akari",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -439,14 +455,15 @@
     ],
     "ImageId": 13002,
     "LocalChineseName": "明里",
-    "CurrentSlug": "akari"
+    "CurrentSlug": "akari",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300017,
     "PathName": "hasumi",
     "Name": "蓮實",
     "EnglishName": "Hasumi",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -465,14 +482,15 @@
     ],
     "ImageId": 13003,
     "LocalChineseName": "蓮實",
-    "CurrentSlug": "hasumi"
+    "CurrentSlug": "hasumi",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300018,
     "PathName": "nonomi",
     "Name": "野乃美",
     "EnglishName": "Nonomi",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -491,7 +509,8 @@
     ],
     "ImageId": 13004,
     "LocalChineseName": "野乃美",
-    "CurrentSlug": "nonomi"
+    "CurrentSlug": "nonomi",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300019,
@@ -517,14 +536,15 @@
     ],
     "ImageId": 13005,
     "LocalChineseName": "佳世子",
-    "CurrentSlug": "kayoko"
+    "CurrentSlug": "kayoko",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300020,
     "PathName": "mutsuki",
     "Name": "睦月",
     "EnglishName": "Mutsuki",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -543,14 +563,15 @@
     ],
     "ImageId": 13006,
     "LocalChineseName": "睦月",
-    "CurrentSlug": "mutsuki"
+    "CurrentSlug": "mutsuki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300021,
     "PathName": "junko",
     "Name": "淳子",
     "EnglishName": "Junko",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -569,14 +590,15 @@
     ],
     "ImageId": 13007,
     "LocalChineseName": "淳子",
-    "CurrentSlug": "junko"
+    "CurrentSlug": "junko",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300022,
     "PathName": "serika",
     "Name": "芹香",
     "EnglishName": "Serika",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -595,14 +617,15 @@
     ],
     "ImageId": 13008,
     "LocalChineseName": "芹香",
-    "CurrentSlug": "serika"
+    "CurrentSlug": "serika",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300023,
     "PathName": "tsubaki",
     "Name": "椿",
     "EnglishName": "Tsubaki",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -621,14 +644,15 @@
     ],
     "ImageId": 13009,
     "LocalChineseName": "椿",
-    "CurrentSlug": "tsubaki"
+    "CurrentSlug": "tsubaki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300024,
     "PathName": "yuuka",
     "Name": "優香",
     "EnglishName": "Yuuka",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -647,14 +671,15 @@
     ],
     "ImageId": 13010,
     "LocalChineseName": "優香",
-    "CurrentSlug": "yuuka"
+    "CurrentSlug": "yuuka",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300025,
     "PathName": "haruka",
     "Name": "遙香",
     "EnglishName": "Haruka",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -673,14 +698,15 @@
     ],
     "ImageId": 16000,
     "LocalChineseName": "遙香",
-    "CurrentSlug": "haruka"
+    "CurrentSlug": "haruka",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300026,
     "PathName": "asuna",
     "Name": "明日奈",
     "EnglishName": "Asuna",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -699,14 +725,15 @@
     ],
     "ImageId": 16001,
     "LocalChineseName": "明日奈",
-    "CurrentSlug": "asuna"
+    "CurrentSlug": "asuna",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300027,
     "PathName": "kotori",
     "Name": "小鳥",
     "EnglishName": "Kotori",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -725,14 +752,15 @@
     ],
     "ImageId": 16002,
     "LocalChineseName": "小鳥",
-    "CurrentSlug": "kotori"
+    "CurrentSlug": "kotori",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300028,
     "PathName": "suzumi",
     "Name": "鈴美",
     "EnglishName": "Suzumi",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -751,14 +779,15 @@
     ],
     "ImageId": 16003,
     "LocalChineseName": "鈴美",
-    "CurrentSlug": "suzumi"
+    "CurrentSlug": "suzumi",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300029,
     "PathName": "pina",
     "Name": "菲娜",
     "EnglishName": "Pina",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -777,14 +806,15 @@
     ],
     "ImageId": 16004,
     "LocalChineseName": "菲娜",
-    "CurrentSlug": "pina"
+    "CurrentSlug": "pina",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300030,
     "PathName": "hibiki",
     "Name": "響",
     "EnglishName": "Hibiki",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -803,14 +833,15 @@
     ],
     "ImageId": 20000,
     "LocalChineseName": "響",
-    "CurrentSlug": "hibiki"
+    "CurrentSlug": "hibiki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300031,
     "PathName": "karin",
     "Name": "花凜",
     "EnglishName": "Karin",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -829,14 +860,15 @@
     ],
     "ImageId": 20001,
     "LocalChineseName": "花凜",
-    "CurrentSlug": "karin"
+    "CurrentSlug": "karin",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300032,
     "PathName": "saya",
     "Name": "沙耶",
     "EnglishName": "Saya",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -855,14 +887,15 @@
     ],
     "ImageId": 20002,
     "LocalChineseName": "沙耶",
-    "CurrentSlug": "saya"
+    "CurrentSlug": "saya",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300033,
     "PathName": "airi",
     "Name": "愛莉",
     "EnglishName": "Airi",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -880,14 +913,15 @@
       }
     ],
     "LocalChineseName": "愛莉",
-    "CurrentSlug": "airi"
+    "CurrentSlug": "airi",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300034,
     "PathName": "fuuka",
     "Name": "風華",
     "EnglishName": "Fuuka",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -905,14 +939,15 @@
       }
     ],
     "LocalChineseName": "風華",
-    "CurrentSlug": "fuuka"
+    "CurrentSlug": "fuuka",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300035,
     "PathName": "hanae",
     "Name": "花江",
     "EnglishName": "Hanae",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -930,14 +965,15 @@
       }
     ],
     "LocalChineseName": "花江",
-    "CurrentSlug": "hanae"
+    "CurrentSlug": "hanae",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300036,
     "PathName": "hare",
     "Name": "晴",
     "EnglishName": "Hare",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -955,14 +991,15 @@
       }
     ],
     "LocalChineseName": "晴",
-    "CurrentSlug": "hare"
+    "CurrentSlug": "hare",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300037,
     "PathName": "utaha",
     "Name": "歌原",
     "EnglishName": "Utaha",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -980,14 +1017,15 @@
       }
     ],
     "LocalChineseName": "歌原",
-    "CurrentSlug": "utaha"
+    "CurrentSlug": "utaha",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300038,
     "PathName": "ayane",
     "Name": "綾音",
     "EnglishName": "Ayane",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1005,14 +1043,15 @@
       }
     ],
     "LocalChineseName": "綾音",
-    "CurrentSlug": "ayane"
+    "CurrentSlug": "ayane",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300039,
     "PathName": "chinatsu",
     "Name": "千夏",
     "EnglishName": "Chinatsu",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1030,14 +1069,15 @@
       }
     ],
     "LocalChineseName": "千夏",
-    "CurrentSlug": "chinatsu"
+    "CurrentSlug": "chinatsu",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300040,
     "PathName": "kotama",
     "Name": "小玉",
     "EnglishName": "Kotama",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1055,14 +1095,15 @@
       }
     ],
     "LocalChineseName": "小玉",
-    "CurrentSlug": "kotama"
+    "CurrentSlug": "kotama",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300041,
     "PathName": "juri",
     "Name": "茱莉",
     "EnglishName": "Juri",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1080,14 +1121,15 @@
       }
     ],
     "LocalChineseName": "茱莉",
-    "CurrentSlug": "juri"
+    "CurrentSlug": "juri",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300042,
     "PathName": "serina",
     "Name": "芹奈",
     "EnglishName": "Serina",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1105,14 +1147,15 @@
       }
     ],
     "LocalChineseName": "芹奈",
-    "CurrentSlug": "serina"
+    "CurrentSlug": "serina",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300043,
     "PathName": "shimiko",
     "Name": "志美子",
     "EnglishName": "Shimiko",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1130,14 +1173,15 @@
       }
     ],
     "LocalChineseName": "志美子",
-    "CurrentSlug": "shimiko"
+    "CurrentSlug": "shimiko",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300044,
     "PathName": "yoshimi",
     "Name": "佳代子",
     "EnglishName": "Yoshimi",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1155,14 +1199,15 @@
       }
     ],
     "LocalChineseName": "佳代子",
-    "CurrentSlug": "yoshimi"
+    "CurrentSlug": "yoshimi",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300045,
     "PathName": "mashiro",
     "Name": "真白",
     "EnglishName": "Mashiro",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1181,14 +1226,15 @@
     ],
     "ImageId": 20003,
     "LocalChineseName": "真白",
-    "CurrentSlug": "mashiro"
+    "CurrentSlug": "mashiro",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300046,
     "PathName": "izuna",
     "Name": "伊樹菜",
     "EnglishName": "Izuna",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1207,14 +1253,15 @@
     ],
     "ImageId": 10014,
     "LocalChineseName": "伊樹菜",
-    "CurrentSlug": "izuna"
+    "CurrentSlug": "izuna",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300047,
     "PathName": "shizuko",
     "Name": "靜子",
     "EnglishName": "Shizuko",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1232,14 +1279,15 @@
       }
     ],
     "LocalChineseName": "靜子",
-    "CurrentSlug": "shizuko"
+    "CurrentSlug": "shizuko",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300048,
     "PathName": "aris",
     "Name": "愛麗絲",
     "EnglishName": "Aris",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1258,14 +1306,15 @@
     ],
     "ImageId": 10015,
     "LocalChineseName": "愛麗絲",
-    "CurrentSlug": "aris"
+    "CurrentSlug": "aris",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300049,
     "PathName": "midori",
     "Name": "綠",
     "EnglishName": "Midori",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1284,14 +1333,15 @@
     ],
     "ImageId": 10016,
     "LocalChineseName": "綠",
-    "CurrentSlug": "midori"
+    "CurrentSlug": "midori",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300050,
     "PathName": "momoi",
     "Name": "桃井",
     "EnglishName": "Momoi",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1310,14 +1360,15 @@
     ],
     "ImageId": 13011,
     "LocalChineseName": "桃井",
-    "CurrentSlug": "momoi"
+    "CurrentSlug": "momoi",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300051,
     "PathName": "cherino",
     "Name": "切里諾",
     "EnglishName": "Cherino",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1336,14 +1387,15 @@
     ],
     "ImageId": 10017,
     "LocalChineseName": "切里諾",
-    "CurrentSlug": "cherino"
+    "CurrentSlug": "cherino",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300052,
     "PathName": "nodoka",
     "Name": "和香",
     "EnglishName": "Nodoka",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1361,14 +1413,15 @@
       }
     ],
     "LocalChineseName": "和香",
-    "CurrentSlug": "nodoka"
+    "CurrentSlug": "nodoka",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300053,
     "PathName": "yuzu",
     "Name": "柚子",
     "EnglishName": "Yuzu",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1387,14 +1440,15 @@
     ],
     "ImageId": 10018,
     "LocalChineseName": "柚子",
-    "CurrentSlug": "yuzu"
+    "CurrentSlug": "yuzu",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300054,
     "PathName": "azusa",
     "Name": "梓",
     "EnglishName": "Azusa",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1413,14 +1467,15 @@
     ],
     "ImageId": 10019,
     "LocalChineseName": "梓",
-    "CurrentSlug": "azusa"
+    "CurrentSlug": "azusa",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300055,
     "PathName": "hanako",
     "Name": "花子",
     "EnglishName": "Hanako",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1438,14 +1493,15 @@
       }
     ],
     "LocalChineseName": "花子",
-    "CurrentSlug": "hanako"
+    "CurrentSlug": "hanako",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300056,
     "PathName": "koharu",
     "Name": "小春",
     "EnglishName": "Koharu",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1464,14 +1520,15 @@
     ],
     "ImageId": 10020,
     "LocalChineseName": "小春",
-    "CurrentSlug": "koharu"
+    "CurrentSlug": "koharu",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300057,
     "PathName": "azusa_swimsuit",
     "Name": "梓（泳裝）",
     "EnglishName": "Azusa (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1490,14 +1547,15 @@
     ],
     "ImageId": 10021,
     "LocalChineseName": "梓（泳裝）",
-    "CurrentSlug": "azusa_swimsuit"
+    "CurrentSlug": "azusa_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300058,
     "PathName": "mashiro_swimsuit",
     "Name": "真白（泳裝）",
     "EnglishName": "Mashiro (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1516,14 +1574,15 @@
     ],
     "ImageId": 20004,
     "LocalChineseName": "真白（泳裝）",
-    "CurrentSlug": "mashiro_swimsuit"
+    "CurrentSlug": "mashiro_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300059,
     "PathName": "tsurugi_swimsuit",
     "Name": "鶴城（泳裝）",
     "EnglishName": "Tsurugi (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1542,14 +1601,15 @@
     ],
     "ImageId": 16005,
     "LocalChineseName": "鶴城（泳裝）",
-    "CurrentSlug": "tsurugi_swimsuit"
+    "CurrentSlug": "tsurugi_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300060,
     "PathName": "hifumi_swimsuit",
     "Name": "日步美（泳裝）",
     "EnglishName": "Hifumi (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1568,14 +1628,15 @@
     ],
     "ImageId": 20005,
     "LocalChineseName": "日步美（泳裝）",
-    "CurrentSlug": "hifumi_swimsuit"
+    "CurrentSlug": "hifumi_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300061,
     "PathName": "hina_swimsuit",
     "Name": "陽奈（泳裝）",
     "EnglishName": "Hina (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1594,14 +1655,15 @@
     ],
     "ImageId": 10022,
     "LocalChineseName": "陽奈（泳裝）",
-    "CurrentSlug": "hina_swimsuit"
+    "CurrentSlug": "hina_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300062,
     "PathName": "iori_swimsuit",
     "Name": "伊織（泳裝）",
     "EnglishName": "Iori (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1620,14 +1682,15 @@
     ],
     "ImageId": 10023,
     "LocalChineseName": "伊織（泳裝）",
-    "CurrentSlug": "iori_swimsuit"
+    "CurrentSlug": "iori_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300063,
     "PathName": "izumi_swimsuit",
     "Name": "泉（泳裝）",
     "EnglishName": "Izumi (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1646,14 +1709,15 @@
     ],
     "ImageId": 16006,
     "LocalChineseName": "泉（泳裝）",
-    "CurrentSlug": "izumi_swimsuit"
+    "CurrentSlug": "izumi_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300064,
     "PathName": "shiroko_cycling",
     "Name": "白子（自行車）",
     "EnglishName": "Shiroko (Cycling)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1672,14 +1736,15 @@
     ],
     "ImageId": 10024,
     "LocalChineseName": "白子（自行車）",
-    "CurrentSlug": "shiroko_cycling"
+    "CurrentSlug": "shiroko_cycling",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300065,
     "PathName": "shun_small",
     "Name": "瞬（幼年）",
     "EnglishName": "Shun (Small)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1698,14 +1763,15 @@
     ],
     "ImageId": 10025,
     "LocalChineseName": "瞬（幼年）",
-    "CurrentSlug": "shun_small"
+    "CurrentSlug": "shun_small",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300066,
     "PathName": "kirino",
     "Name": "桐乃",
     "EnglishName": "Kirino",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1724,14 +1790,15 @@
     ],
     "ImageId": 13012,
     "LocalChineseName": "桐乃",
-    "CurrentSlug": "kirino"
+    "CurrentSlug": "kirino",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300067,
     "PathName": "saya_casual",
     "Name": "沙耶（私服）",
     "EnglishName": "Saya (Casual)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1750,14 +1817,15 @@
     ],
     "ImageId": 20006,
     "LocalChineseName": "沙耶（私服）",
-    "CurrentSlug": "saya_casual"
+    "CurrentSlug": "saya_casual",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300068,
     "PathName": "neru_bunny",
     "Name": "寧瑠（兔女郎）",
     "EnglishName": "Neru (Bunny)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1776,14 +1844,15 @@
     ],
     "ImageId": 10026,
     "LocalChineseName": "寧瑠（兔女郎）",
-    "CurrentSlug": "neru_bunny"
+    "CurrentSlug": "neru_bunny",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300069,
     "PathName": "karin_bunny",
     "Name": "花凜（兔女郎）",
     "EnglishName": "Karin (Bunny)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1802,14 +1871,15 @@
     ],
     "ImageId": 10027,
     "LocalChineseName": "花凜（兔女郎）",
-    "CurrentSlug": "karin_bunny"
+    "CurrentSlug": "karin_bunny",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300070,
     "PathName": "asuna_bunny",
     "Name": "明日奈（兔女郎）",
     "EnglishName": "Asuna (Bunny)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1828,14 +1898,15 @@
     ],
     "ImageId": 10028,
     "LocalChineseName": "明日奈（兔女郎）",
-    "CurrentSlug": "asuna_bunny"
+    "CurrentSlug": "asuna_bunny",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300071,
     "PathName": "natsu",
     "Name": "夏",
     "EnglishName": "Natsu",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1854,14 +1925,15 @@
     ],
     "ImageId": 10029,
     "LocalChineseName": "夏",
-    "CurrentSlug": "natsu"
+    "CurrentSlug": "natsu",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300072,
     "PathName": "mari",
     "Name": "瑪麗",
     "EnglishName": "Mari",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1879,14 +1951,15 @@
       }
     ],
     "LocalChineseName": "瑪麗",
-    "CurrentSlug": "mari"
+    "CurrentSlug": "mari",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300073,
     "PathName": "miku",
     "Name": "初音未來",
     "EnglishName": "Hatsune Miku",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1905,7 +1978,8 @@
     ],
     "ImageId": 20007,
     "LocalChineseName": "初音未來",
-    "CurrentSlug": "miku"
+    "CurrentSlug": "miku",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300074,
@@ -1931,14 +2005,15 @@
     ],
     "ImageId": 20008,
     "LocalChineseName": "亞子",
-    "CurrentSlug": "ako"
+    "CurrentSlug": "ako",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300075,
     "PathName": "cherino_hotspring",
     "Name": "切里諾（溫泉）",
     "EnglishName": "Cherino (Hot Spring)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1956,14 +2031,15 @@
       }
     ],
     "LocalChineseName": "切里諾（溫泉）",
-    "CurrentSlug": "cherino_onsen"
+    "CurrentSlug": "cherino_onsen",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300076,
     "PathName": "chinatsu_hotspring",
     "Name": "千夏（溫泉）",
     "EnglishName": "Chinatsu (Hot Spring)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -1982,14 +2058,15 @@
     ],
     "ImageId": 10030,
     "LocalChineseName": "千夏（溫泉）",
-    "CurrentSlug": "chinatsu_onsen"
+    "CurrentSlug": "chinatsu_onsen",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300077,
     "PathName": "tomoe",
     "Name": "巴",
     "EnglishName": "Tomoe",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2008,14 +2085,15 @@
     ],
     "ImageId": 16007,
     "LocalChineseName": "巴",
-    "CurrentSlug": "tomoe"
+    "CurrentSlug": "tomoe",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300078,
     "PathName": "nodoka_hotspring",
     "Name": "和香（溫泉）",
     "EnglishName": "Nodoka (Hot Spring)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2033,14 +2111,15 @@
       }
     ],
     "LocalChineseName": "和香（溫泉）",
-    "CurrentSlug": "nodoka_onsen"
+    "CurrentSlug": "nodoka_onsen",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300079,
     "PathName": "aru_newyear",
     "Name": "亞瑠（新年）",
     "EnglishName": "Aru (New Year)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2059,14 +2138,15 @@
     ],
     "ImageId": 10031,
     "LocalChineseName": "亞瑠（新年）",
-    "CurrentSlug": "aru_newyear"
+    "CurrentSlug": "aru_newyear",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300080,
     "PathName": "mutsuki_newyear",
     "Name": "睦月（新年）",
     "EnglishName": "Mutsuki (New Year)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2085,14 +2165,15 @@
     ],
     "ImageId": 10032,
     "LocalChineseName": "睦月（新年）",
-    "CurrentSlug": "mutsuki_newyear"
+    "CurrentSlug": "mutsuki_newyear",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300081,
     "PathName": "serika_newyear",
     "Name": "芹香（新年）",
     "EnglishName": "Serika (New Year)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2110,14 +2191,15 @@
       }
     ],
     "LocalChineseName": "芹香（新年）",
-    "CurrentSlug": "serika_newyear"
+    "CurrentSlug": "serika_newyear",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300082,
     "PathName": "wakamo",
     "Name": "若藻",
     "EnglishName": "Wakamo",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2136,14 +2218,15 @@
     ],
     "ImageId": 10033,
     "LocalChineseName": "若藻",
-    "CurrentSlug": "wakamo"
+    "CurrentSlug": "wakamo",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300083,
     "PathName": "fubuki",
     "Name": "吹雪",
     "EnglishName": "Fubuki",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2162,14 +2245,15 @@
     ],
     "ImageId": 16008,
     "LocalChineseName": "吹雪",
-    "CurrentSlug": "fubuki"
+    "CurrentSlug": "fubuki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300084,
     "PathName": "sena",
     "Name": "瀨名",
     "EnglishName": "Sena",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2187,14 +2271,15 @@
       }
     ],
     "LocalChineseName": "瀨名",
-    "CurrentSlug": "sena"
+    "CurrentSlug": "sena",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300085,
     "PathName": "chihiro",
     "Name": "千尋",
     "EnglishName": "Chihiro",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2212,14 +2297,15 @@
       }
     ],
     "LocalChineseName": "千尋",
-    "CurrentSlug": "chihiro"
+    "CurrentSlug": "chihiro",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300086,
     "PathName": "mimori",
     "Name": "三森",
     "EnglishName": "Mimori",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2238,14 +2324,15 @@
     ],
     "ImageId": 10034,
     "LocalChineseName": "三森",
-    "CurrentSlug": "mimori"
+    "CurrentSlug": "mimori",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300087,
     "PathName": "ui",
     "Name": "憂",
     "EnglishName": "Ui",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2264,14 +2351,15 @@
     ],
     "ImageId": 10035,
     "LocalChineseName": "憂",
-    "CurrentSlug": "ui"
+    "CurrentSlug": "ui",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300088,
     "PathName": "hinata",
     "Name": "日向",
     "EnglishName": "Hinata",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2290,14 +2378,15 @@
     ],
     "ImageId": 10036,
     "LocalChineseName": "日向",
-    "CurrentSlug": "hinata"
+    "CurrentSlug": "hinata",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300089,
     "PathName": "marina",
     "Name": "瑪麗娜",
     "EnglishName": "Marina",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2316,14 +2405,15 @@
     ],
     "ImageId": 10037,
     "LocalChineseName": "瑪麗娜",
-    "CurrentSlug": "marina"
+    "CurrentSlug": "marina",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300090,
     "PathName": "miyako",
     "Name": "宮子",
     "EnglishName": "Miyako",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2342,14 +2432,15 @@
     ],
     "ImageId": 10038,
     "LocalChineseName": "宮子",
-    "CurrentSlug": "miyako"
+    "CurrentSlug": "miyako",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300091,
     "PathName": "saki",
     "Name": "咲希",
     "EnglishName": "Saki",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2367,14 +2458,15 @@
       }
     ],
     "LocalChineseName": "咲希",
-    "CurrentSlug": "saki"
+    "CurrentSlug": "saki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300092,
     "PathName": "miyu",
     "Name": "美遊",
     "EnglishName": "Miyu",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2393,14 +2485,15 @@
     ],
     "ImageId": 10039,
     "LocalChineseName": "美遊",
-    "CurrentSlug": "miyu"
+    "CurrentSlug": "miyu",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300093,
     "PathName": "kaede",
     "Name": "楓",
     "EnglishName": "Kaede",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2418,7 +2511,8 @@
       }
     ],
     "LocalChineseName": "楓",
-    "CurrentSlug": "kaede"
+    "CurrentSlug": "kaede",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300094,
@@ -2443,14 +2537,15 @@
       }
     ],
     "LocalChineseName": "伊呂波",
-    "CurrentSlug": "iroha"
+    "CurrentSlug": "iroha",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300095,
     "PathName": "michiru",
     "Name": "美知留",
     "EnglishName": "Michiru",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2469,14 +2564,15 @@
     ],
     "ImageId": 16009,
     "LocalChineseName": "美知留",
-    "CurrentSlug": "michiru"
+    "CurrentSlug": "michiru",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300096,
     "PathName": "tsukuyo",
     "Name": "月詠",
     "EnglishName": "Tsukuyo",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2495,14 +2591,15 @@
     ],
     "ImageId": 10040,
     "LocalChineseName": "月詠",
-    "CurrentSlug": "tsukuyo"
+    "CurrentSlug": "tsukuyo",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300097,
     "PathName": "misaki",
     "Name": "美咲",
     "EnglishName": "Misaki",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2521,14 +2618,15 @@
     ],
     "ImageId": 10041,
     "LocalChineseName": "美咲",
-    "CurrentSlug": "misaki"
+    "CurrentSlug": "misaki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300098,
     "PathName": "hiyori",
     "Name": "日和",
     "EnglishName": "Hiyori",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2546,14 +2644,15 @@
       }
     ],
     "LocalChineseName": "日和",
-    "CurrentSlug": "hiyori"
+    "CurrentSlug": "hiyori",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300099,
     "PathName": "atsuko",
     "Name": "敦子",
     "EnglishName": "Atsuko",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2572,14 +2671,15 @@
     ],
     "ImageId": 10042,
     "LocalChineseName": "敦子",
-    "CurrentSlug": "atsuko"
+    "CurrentSlug": "atsuko",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300100,
     "PathName": "wakamo_swimsuit",
     "Name": "若藻（泳裝）",
     "EnglishName": "Wakamo (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2598,14 +2698,15 @@
     ],
     "ImageId": 10043,
     "LocalChineseName": "若藻（泳裝）",
-    "CurrentSlug": "wakamo_swimsuit"
+    "CurrentSlug": "wakamo_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300101,
     "PathName": "nonomi_swimsuit",
     "Name": "野乃美（泳裝）",
     "EnglishName": "Nonomi (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2624,14 +2725,15 @@
     ],
     "ImageId": 10044,
     "LocalChineseName": "野乃美（泳裝）",
-    "CurrentSlug": "nonomi_swimsuit"
+    "CurrentSlug": "nonomi_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300102,
     "PathName": "ayane_swimsuit",
     "Name": "綾音（泳裝）",
     "EnglishName": "Ayane (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2649,14 +2751,15 @@
       }
     ],
     "LocalChineseName": "綾音（泳裝）",
-    "CurrentSlug": "ayane_swimsuit"
+    "CurrentSlug": "ayane_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300103,
     "PathName": "hoshino_swimsuit",
     "Name": "星野（泳裝）",
     "EnglishName": "Hoshino (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2675,14 +2778,15 @@
     ],
     "ImageId": 10045,
     "LocalChineseName": "星野（泳裝）",
-    "CurrentSlug": "hoshino_swimsuit"
+    "CurrentSlug": "hoshino_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300104,
     "PathName": "shizuko_swimsuit",
     "Name": "靜子（泳裝）",
     "EnglishName": "Shizuko (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2700,14 +2804,15 @@
       }
     ],
     "LocalChineseName": "靜子（泳裝）",
-    "CurrentSlug": "shizuko_swimsuit"
+    "CurrentSlug": "shizuko_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300105,
     "PathName": "izuna_swimsuit",
     "Name": "伊樹菜（泳裝）",
     "EnglishName": "Izuna (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2726,14 +2831,15 @@
     ],
     "ImageId": 10046,
     "LocalChineseName": "伊樹菜（泳裝）",
-    "CurrentSlug": "izuna_swimsuit"
+    "CurrentSlug": "izuna_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300106,
     "PathName": "chise_swimsuit",
     "Name": "千世（泳裝）",
     "EnglishName": "Chise (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2752,14 +2858,15 @@
     ],
     "ImageId": 10047,
     "LocalChineseName": "千世（泳裝）",
-    "CurrentSlug": "chise_swimsuit"
+    "CurrentSlug": "chise_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300107,
     "PathName": "saori",
     "Name": "沙織",
     "EnglishName": "Saori",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2778,14 +2885,15 @@
     ],
     "ImageId": 10048,
     "LocalChineseName": "沙織",
-    "CurrentSlug": "saori"
+    "CurrentSlug": "saori",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300108,
     "PathName": "moe",
     "Name": "萌繪",
     "EnglishName": "Moe",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2803,14 +2911,15 @@
       }
     ],
     "LocalChineseName": "萌繪",
-    "CurrentSlug": "moe"
+    "CurrentSlug": "moe",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300109,
     "PathName": "kazusa",
     "Name": "和紗",
     "EnglishName": "Kazusa",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2829,14 +2938,15 @@
     ],
     "ImageId": 10049,
     "LocalChineseName": "和紗",
-    "CurrentSlug": "kazusa"
+    "CurrentSlug": "kazusa",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300110,
     "PathName": "kokona",
     "Name": "心奈",
     "EnglishName": "Kokona",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2855,14 +2965,15 @@
     ],
     "ImageId": 10050,
     "LocalChineseName": "心奈",
-    "CurrentSlug": "kokona"
+    "CurrentSlug": "kokona",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300111,
     "PathName": "utaha_cheer",
     "Name": "歌原（應援團）",
     "EnglishName": "Utaha (Cheer Squad)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2881,14 +2992,15 @@
     ],
     "ImageId": 10051,
     "LocalChineseName": "歌原（應援團）",
-    "CurrentSlug": "utaha_cheer"
+    "CurrentSlug": "utaha_cheer",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300112,
     "PathName": "noa",
     "Name": "乃愛",
     "EnglishName": "Noa",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2907,14 +3019,15 @@
     ],
     "ImageId": 10052,
     "LocalChineseName": "乃愛",
-    "CurrentSlug": "noa"
+    "CurrentSlug": "noa",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300113,
     "PathName": "hibiki_cheer",
     "Name": "響（應援團）",
     "EnglishName": "Hibiki (Cheer Squad)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2933,14 +3046,15 @@
     ],
     "ImageId": 16010,
     "LocalChineseName": "響（應援團）",
-    "CurrentSlug": "hibiki_cheer"
+    "CurrentSlug": "hibiki_cheer",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300114,
     "PathName": "akane_bunny",
     "Name": "茜香（兔女郎）",
     "EnglishName": "Akane (Bunny)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2958,14 +3072,15 @@
       }
     ],
     "LocalChineseName": "茜香（兔女郎）",
-    "CurrentSlug": "akane_bunny"
+    "CurrentSlug": "akane_bunny",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300115,
     "PathName": "yuuka_track",
     "Name": "優香（體育服）",
     "EnglishName": "Yuuka (Track)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -2984,14 +3099,15 @@
     ],
     "ImageId": 10053,
     "LocalChineseName": "優香（體育服）",
-    "CurrentSlug": "yuuka_track"
+    "CurrentSlug": "yuuka_track",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300116,
     "PathName": "mari_track",
     "Name": "瑪麗（體育服）",
     "EnglishName": "Mari (Track)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3010,14 +3126,15 @@
     ],
     "ImageId": 10054,
     "LocalChineseName": "瑪麗（體育服）",
-    "CurrentSlug": "mari_track"
+    "CurrentSlug": "mari_track",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300117,
     "PathName": "hasumi_track",
     "Name": "蓮實（體育服）",
     "EnglishName": "Hasumi (Track)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3036,14 +3153,15 @@
     ],
     "ImageId": 16011,
     "LocalChineseName": "蓮實（體育服）",
-    "CurrentSlug": "hasumi_track"
+    "CurrentSlug": "hasumi_track",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300118,
     "PathName": "himari",
     "Name": "日鞠",
     "EnglishName": "Himari",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3061,14 +3179,15 @@
       }
     ],
     "LocalChineseName": "日鞠",
-    "CurrentSlug": "himari"
+    "CurrentSlug": "himari",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300119,
     "PathName": "shigure",
     "Name": "時雨",
     "EnglishName": "Shigure",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3087,14 +3206,15 @@
     ],
     "ImageId": 10055,
     "LocalChineseName": "時雨",
-    "CurrentSlug": "shigure"
+    "CurrentSlug": "shigure",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300120,
     "PathName": "serina_christmas",
     "Name": "芹奈（聖誕）",
     "EnglishName": "Serina (Christmas)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3113,14 +3233,15 @@
     ],
     "ImageId": 10056,
     "LocalChineseName": "芹奈（聖誕）",
-    "CurrentSlug": "serina_christmas"
+    "CurrentSlug": "serina_christmas",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300121,
     "PathName": "hanae_christmas",
     "Name": "花江（聖誕）",
     "EnglishName": "Hanae (Christmas)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3138,14 +3259,15 @@
       }
     ],
     "LocalChineseName": "花江（聖誕）",
-    "CurrentSlug": "hanae_christmas"
+    "CurrentSlug": "hanae_christmas",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300122,
     "PathName": "haruna_newyear",
     "Name": "晴奈（新年）",
     "EnglishName": "Haruna (New Year)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3164,14 +3286,15 @@
     ],
     "ImageId": 10057,
     "LocalChineseName": "晴奈（新年）",
-    "CurrentSlug": "haruna_newyear"
+    "CurrentSlug": "haruna_newyear",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300123,
     "PathName": "fuuka_newyear",
     "Name": "風華（新年）",
     "EnglishName": "Fuuka (New Year)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3189,14 +3312,15 @@
       }
     ],
     "LocalChineseName": "風華（新年）",
-    "CurrentSlug": "fuuka_newyear"
+    "CurrentSlug": "fuuka_newyear",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300124,
     "PathName": "junko_newyear",
     "Name": "淳子（新年）",
     "EnglishName": "Junko (New Year)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3215,14 +3339,15 @@
     ],
     "ImageId": 16012,
     "LocalChineseName": "淳子（新年）",
-    "CurrentSlug": "junko_newyear"
+    "CurrentSlug": "junko_newyear",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300125,
     "PathName": "mine",
     "Name": "美禰",
     "EnglishName": "Mine",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3241,14 +3366,15 @@
     ],
     "ImageId": 10058,
     "LocalChineseName": "美禰",
-    "CurrentSlug": "mine"
+    "CurrentSlug": "mine",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300126,
     "PathName": "mika",
     "Name": "彌香",
     "EnglishName": "Mika",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3267,14 +3393,15 @@
     ],
     "ImageId": 10059,
     "LocalChineseName": "彌香",
-    "CurrentSlug": "mika"
+    "CurrentSlug": "mika",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300127,
     "PathName": "megu",
     "Name": "惠",
     "EnglishName": "Megu",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3293,14 +3420,15 @@
     ],
     "ImageId": 10060,
     "LocalChineseName": "惠",
-    "CurrentSlug": "megu"
+    "CurrentSlug": "megu",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300128,
     "PathName": "kanna",
     "Name": "環奈",
     "EnglishName": "Kanna",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3318,14 +3446,15 @@
       }
     ],
     "LocalChineseName": "環奈",
-    "CurrentSlug": "kanna"
+    "CurrentSlug": "kanna",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300129,
     "PathName": "sakurako",
     "Name": "櫻子",
     "EnglishName": "Sakurako",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3344,14 +3473,15 @@
     ],
     "ImageId": 10061,
     "LocalChineseName": "櫻子",
-    "CurrentSlug": "sakurako"
+    "CurrentSlug": "sakurako",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300130,
     "PathName": "toki",
     "Name": "時",
     "EnglishName": "Toki",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3370,14 +3500,15 @@
     ],
     "ImageId": 10062,
     "LocalChineseName": "時",
-    "CurrentSlug": "toki"
+    "CurrentSlug": "toki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300131,
     "PathName": "nagisa",
     "Name": "渚",
     "EnglishName": "Nagisa",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3395,14 +3526,15 @@
       }
     ],
     "LocalChineseName": "渚",
-    "CurrentSlug": "nagisa"
+    "CurrentSlug": "nagisa",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300132,
     "PathName": "koyuki",
     "Name": "小雪",
     "EnglishName": "Koyuki",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3421,14 +3553,15 @@
     ],
     "ImageId": 10063,
     "LocalChineseName": "小雪",
-    "CurrentSlug": "koyuki"
+    "CurrentSlug": "koyuki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300133,
     "PathName": "kayoko_newyear",
     "Name": "佳世子（新年）",
     "EnglishName": "Kayoko (New Year)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3447,14 +3580,15 @@
     ],
     "ImageId": 10064,
     "LocalChineseName": "佳世子（新年）",
-    "CurrentSlug": "kayoko_newyear"
+    "CurrentSlug": "kayoko_newyear",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300134,
     "PathName": "haruka_newyear",
     "Name": "遙香（新年）",
     "EnglishName": "Haruka (New Year)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3472,14 +3606,15 @@
       }
     ],
     "LocalChineseName": "遙香（新年）",
-    "CurrentSlug": "haruka_newyear"
+    "CurrentSlug": "haruka_newyear",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300135,
     "PathName": "kaho",
     "Name": "果穗",
     "EnglishName": "Kaho",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3498,14 +3633,15 @@
     ],
     "ImageId": 10065,
     "LocalChineseName": "果穗",
-    "CurrentSlug": "kaho"
+    "CurrentSlug": "kaho",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300136,
     "PathName": "aris_maid",
     "Name": "愛麗絲（女僕）",
     "EnglishName": "Aris (Maid)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3524,14 +3660,15 @@
     ],
     "ImageId": 10066,
     "LocalChineseName": "愛麗絲（女僕）",
-    "CurrentSlug": "aris_maid"
+    "CurrentSlug": "aris_maid",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300137,
     "PathName": "toki_bunny",
     "Name": "時（兔女郎）",
     "EnglishName": "Toki (Bunny)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3550,14 +3687,15 @@
     ],
     "ImageId": 10067,
     "LocalChineseName": "時（兔女郎）",
-    "CurrentSlug": "toki_bunny"
+    "CurrentSlug": "toki_bunny",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300138,
     "PathName": "yuzu_maid",
     "Name": "柚子（女僕）",
     "EnglishName": "Yuzu (Maid)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3575,14 +3713,15 @@
       }
     ],
     "LocalChineseName": "柚子（女僕）",
-    "CurrentSlug": "yuzu_maid"
+    "CurrentSlug": "yuzu_maid",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300139,
     "PathName": "reisa",
     "Name": "玲紗",
     "EnglishName": "Reisa",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3601,14 +3740,15 @@
     ],
     "ImageId": 10068,
     "LocalChineseName": "玲紗",
-    "CurrentSlug": "reisa"
+    "CurrentSlug": "reisa",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300140,
     "PathName": "rumi",
     "Name": "瑠美",
     "EnglishName": "Rumi",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3627,14 +3767,15 @@
     ],
     "ImageId": 10069,
     "LocalChineseName": "瑠美",
-    "CurrentSlug": "rumi"
+    "CurrentSlug": "rumi",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300141,
     "PathName": "mina",
     "Name": "美奈",
     "EnglishName": "Mina",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3653,14 +3794,15 @@
     ],
     "ImageId": 10070,
     "LocalChineseName": "美奈",
-    "CurrentSlug": "mina"
+    "CurrentSlug": "mina",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300142,
     "PathName": "minori",
     "Name": "實梨",
     "EnglishName": "Minori",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3678,14 +3820,15 @@
       }
     ],
     "LocalChineseName": "實梨",
-    "CurrentSlug": "minori"
+    "CurrentSlug": "minori",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300143,
     "PathName": "miyako_swimsuit",
     "Name": "宮子（泳裝）",
     "EnglishName": "Miyako (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3704,14 +3847,15 @@
     ],
     "ImageId": 10071,
     "LocalChineseName": "宮子（泳裝）",
-    "CurrentSlug": "miyako_swimsuit"
+    "CurrentSlug": "miyako_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300144,
     "PathName": "saki_swimsuit",
     "Name": "咲希（泳裝）",
     "EnglishName": "Saki (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3730,14 +3874,15 @@
     ],
     "ImageId": 10072,
     "LocalChineseName": "咲希（泳裝）",
-    "CurrentSlug": "saki_swimsuit"
+    "CurrentSlug": "saki_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300145,
     "PathName": "miyu_swimsuit",
     "Name": "美遊（泳裝）",
     "EnglishName": "Miyu (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3755,14 +3900,15 @@
       }
     ],
     "LocalChineseName": "美遊（泳裝）",
-    "CurrentSlug": "miyu_swimsuit"
+    "CurrentSlug": "miyu_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300146,
     "PathName": "shiroko_swimsuit",
     "Name": "白子（泳裝）",
     "EnglishName": "Shiroko (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3780,14 +3926,15 @@
       }
     ],
     "LocalChineseName": "白子（泳裝）",
-    "CurrentSlug": "shiroko_swimsuit"
+    "CurrentSlug": "shiroko_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300147,
     "PathName": "ui_swimsuit",
     "Name": "憂（泳裝）",
     "EnglishName": "Ui (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3806,14 +3953,15 @@
     ],
     "ImageId": 10073,
     "LocalChineseName": "憂（泳裝）",
-    "CurrentSlug": "ui_swimsuit"
+    "CurrentSlug": "ui_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300148,
     "PathName": "hinata_swimsuit",
     "Name": "日向（泳裝）",
     "EnglishName": "Hinata (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3831,14 +3979,15 @@
       }
     ],
     "LocalChineseName": "日向（泳裝）",
-    "CurrentSlug": "hinata_swimsuit"
+    "CurrentSlug": "hinata_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300149,
     "PathName": "koharu_swimsuit",
     "Name": "小春（泳裝）",
     "EnglishName": "Koharu (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3857,14 +4006,15 @@
     ],
     "ImageId": 16013,
     "LocalChineseName": "小春（泳裝）",
-    "CurrentSlug": "koharu_swimsuit"
+    "CurrentSlug": "koharu_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300150,
     "PathName": "hanako_swimsuit",
     "Name": "花子（泳裝）",
     "EnglishName": "Hanako (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3883,14 +4033,15 @@
     ],
     "ImageId": 10074,
     "LocalChineseName": "花子（泳裝）",
-    "CurrentSlug": "hanako_swimsuit"
+    "CurrentSlug": "hanako_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300151,
     "PathName": "mimori_swimsuit",
     "Name": "三森（泳裝）",
     "EnglishName": "Mimori (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3908,14 +4059,15 @@
       }
     ],
     "LocalChineseName": "三森（泳裝）",
-    "CurrentSlug": "mimori_swimsuit"
+    "CurrentSlug": "mimori_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300152,
     "PathName": "meru",
     "Name": "梅露",
     "EnglishName": "Meru",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3934,14 +4086,15 @@
     ],
     "ImageId": 10075,
     "LocalChineseName": "梅露",
-    "CurrentSlug": "meru"
+    "CurrentSlug": "meru",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300153,
     "PathName": "momiji",
     "Name": "紅葉",
     "EnglishName": "Momiji",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3960,14 +4113,15 @@
     ],
     "ImageId": 13013,
     "LocalChineseName": "紅葉",
-    "CurrentSlug": "momiji"
+    "CurrentSlug": "momiji",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300154,
     "PathName": "kotori_cheer",
     "Name": "小鳥（應援團）",
     "EnglishName": "Kotori (Cheer Squad)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -3986,14 +4140,15 @@
     ],
     "ImageId": 10076,
     "LocalChineseName": "小鳥（應援團）",
-    "CurrentSlug": "kotori_cheer"
+    "CurrentSlug": "kotori_cheer",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300155,
     "PathName": "haruna_track",
     "Name": "晴奈（體育服）",
     "EnglishName": "Haruna (Track)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4011,14 +4166,15 @@
       }
     ],
     "LocalChineseName": "晴奈（體育服）",
-    "CurrentSlug": "haruna_track"
+    "CurrentSlug": "haruna_track",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300156,
     "PathName": "ichika",
     "Name": "一花",
     "EnglishName": "Ichika",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4037,14 +4193,15 @@
     ],
     "ImageId": 10077,
     "LocalChineseName": "一花",
-    "CurrentSlug": "ichika"
+    "CurrentSlug": "ichika",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300157,
     "PathName": "kasumi",
     "Name": "霞",
     "EnglishName": "Kasumi",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4063,14 +4220,15 @@
     ],
     "ImageId": 10078,
     "LocalChineseName": "霞",
-    "CurrentSlug": "kasumi"
+    "CurrentSlug": "kasumi",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300158,
     "PathName": "shigure_hotspring",
     "Name": "時雨（溫泉）",
     "EnglishName": "Shigure (Hot Spring)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4088,14 +4246,15 @@
       }
     ],
     "LocalChineseName": "時雨（溫泉）",
-    "CurrentSlug": "shigure_onsen"
+    "CurrentSlug": "shigure_onsen",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300159,
     "PathName": "misaka_mikoto",
     "Name": "御坂美琴",
     "EnglishName": "Misaka Mikoto",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4114,14 +4273,15 @@
     ],
     "ImageId": 10079,
     "LocalChineseName": "御坂美琴",
-    "CurrentSlug": "misaka_mikoto"
+    "CurrentSlug": "misaka_mikoto",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300160,
     "PathName": "shokuhou_misaki",
     "Name": "食蜂操祈",
     "EnglishName": "Shokuhou Misaki",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4140,14 +4300,15 @@
     ],
     "ImageId": 10080,
     "LocalChineseName": "食蜂操祈",
-    "CurrentSlug": "shokuhou_misaki"
+    "CurrentSlug": "shokuhou_misaki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300161,
     "PathName": "saten_ruiko",
     "Name": "佐天淚子",
     "EnglishName": "Saten Ruiko",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4165,14 +4326,15 @@
       }
     ],
     "LocalChineseName": "佐天淚子",
-    "CurrentSlug": "saten_ruiko"
+    "CurrentSlug": "saten_ruiko",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300162,
     "PathName": "yukari",
     "Name": "紫",
     "EnglishName": "Yukari",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4191,14 +4353,15 @@
     ],
     "ImageId": 10081,
     "LocalChineseName": "紫",
-    "CurrentSlug": "yukari"
+    "CurrentSlug": "yukari",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300163,
     "PathName": "renge",
     "Name": "蓮華",
     "EnglishName": "Renge",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4217,14 +4380,15 @@
     ],
     "ImageId": 10082,
     "LocalChineseName": "蓮華",
-    "CurrentSlug": "renge"
+    "CurrentSlug": "renge",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300164,
     "PathName": "kikyou",
     "Name": "桔梗",
     "EnglishName": "Kikyou",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4243,14 +4407,15 @@
     ],
     "ImageId": 10083,
     "LocalChineseName": "桔梗",
-    "CurrentSlug": "kikyou"
+    "CurrentSlug": "kikyou",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300165,
     "PathName": "eimi_swimsuit",
     "Name": "艾米（泳裝）",
     "EnglishName": "Eimi (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4268,14 +4433,15 @@
       }
     ],
     "LocalChineseName": "艾米（泳裝）",
-    "CurrentSlug": "eimi_swimsuit"
+    "CurrentSlug": "eimi_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300166,
     "PathName": "kotama_camp",
     "Name": "小玉（露營）",
     "EnglishName": "Kotama (Camp)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4293,14 +4459,15 @@
       }
     ],
     "LocalChineseName": "小玉（露營）",
-    "CurrentSlug": "kotama_camp"
+    "CurrentSlug": "kotama_camp",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300167,
     "PathName": "hare_camp",
     "Name": "晴（露營）",
     "EnglishName": "Hare (Camp)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4319,14 +4486,15 @@
     ],
     "ImageId": 10085,
     "LocalChineseName": "晴（露營）",
-    "CurrentSlug": "hare_camp"
+    "CurrentSlug": "hare_camp",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300168,
     "PathName": "ako_dress",
     "Name": "亞子（禮服）",
     "EnglishName": "Ako (Dress)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4345,14 +4513,15 @@
     ],
     "ImageId": 10087,
     "LocalChineseName": "亞子（禮服）",
-    "CurrentSlug": "ako_dress"
+    "CurrentSlug": "ako_dress",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300169,
     "PathName": "ibuki",
     "Name": "伊吹",
     "EnglishName": "Ibuki",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4371,14 +4540,15 @@
     ],
     "ImageId": 16014,
     "LocalChineseName": "伊吹",
-    "CurrentSlug": "ibuki"
+    "CurrentSlug": "ibuki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300170,
     "PathName": "makoto",
     "Name": "真琴",
     "EnglishName": "Makoto",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4396,14 +4566,15 @@
       }
     ],
     "LocalChineseName": "真琴",
-    "CurrentSlug": "makoto"
+    "CurrentSlug": "makoto",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300171,
     "PathName": "hina_dress",
     "Name": "陽奈（禮服）",
     "EnglishName": "Hina (Dress)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4422,14 +4593,15 @@
     ],
     "ImageId": 10086,
     "LocalChineseName": "陽奈（禮服）",
-    "CurrentSlug": "hina_dress"
+    "CurrentSlug": "hina_dress",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300172,
     "PathName": "kayoko_dress",
     "Name": "佳世子（禮服）",
     "EnglishName": "Kayoko (Dress)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4448,14 +4620,15 @@
     ],
     "ImageId": 10088,
     "LocalChineseName": "佳世子（禮服）",
-    "CurrentSlug": "kayoko_dress"
+    "CurrentSlug": "kayoko_dress",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300173,
     "PathName": "aru_dress",
     "Name": "亞瑠（禮服）",
     "EnglishName": "Aru (Dress)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4474,14 +4647,15 @@
     ],
     "ImageId": 10089,
     "LocalChineseName": "亞瑠（禮服）",
-    "CurrentSlug": "aru_dress"
+    "CurrentSlug": "aru_dress",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300174,
     "PathName": "akari_newyear",
     "Name": "明里（新年）",
     "EnglishName": "Akari (New Year)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4499,14 +4673,15 @@
       }
     ],
     "LocalChineseName": "明里（新年）",
-    "CurrentSlug": "akari_newyear"
+    "CurrentSlug": "akari_newyear",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300175,
     "PathName": "umika",
     "Name": "海香",
     "EnglishName": "Umika",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4525,14 +4700,15 @@
     ],
     "ImageId": 10090,
     "LocalChineseName": "海香",
-    "CurrentSlug": "umika"
+    "CurrentSlug": "umika",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300176,
     "PathName": "tsubaki_guide",
     "Name": "椿（導覽）",
     "EnglishName": "Tsubaki (Guide)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4550,14 +4726,15 @@
       }
     ],
     "LocalChineseName": "椿（導覽）",
-    "CurrentSlug": "tsubaki_guide"
+    "CurrentSlug": "tsubaki_guide",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300177,
     "PathName": "kazusa_band",
     "Name": "和紗（樂團）",
     "EnglishName": "Kazusa (Band)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4576,14 +4753,15 @@
     ],
     "ImageId": 10091,
     "LocalChineseName": "和紗（樂團）",
-    "CurrentSlug": "kazusa_band"
+    "CurrentSlug": "kazusa_band",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300178,
     "PathName": "yoshimi_band",
     "Name": "佳代子（樂團）",
     "EnglishName": "Yoshimi (Band)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4602,14 +4780,15 @@
     ],
     "ImageId": 10092,
     "LocalChineseName": "佳代子（樂團）",
-    "CurrentSlug": "yoshimi_band"
+    "CurrentSlug": "yoshimi_band",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300179,
     "PathName": "airi_band",
     "Name": "愛莉（樂團）",
     "EnglishName": "Airi (Band)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4628,14 +4807,15 @@
     ],
     "ImageId": 16015,
     "LocalChineseName": "愛莉（樂團）",
-    "CurrentSlug": "airi_band"
+    "CurrentSlug": "airi_band",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300180,
     "PathName": "kirara",
     "Name": "綺羅羅",
     "EnglishName": "Kirara",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4653,14 +4833,15 @@
       }
     ],
     "LocalChineseName": "綺羅羅",
-    "CurrentSlug": "kirara"
+    "CurrentSlug": "kirara",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300181,
     "PathName": "momoi_maid",
     "Name": "桃井（女僕）",
     "EnglishName": "Momoi (Maid)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4678,14 +4859,15 @@
       }
     ],
     "LocalChineseName": "桃井（女僕）",
-    "CurrentSlug": "momoi_maid"
+    "CurrentSlug": "momoi_maid",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300182,
     "PathName": "midori_maid",
     "Name": "綠（女僕）",
     "EnglishName": "Midori (Maid)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4703,14 +4885,15 @@
       }
     ],
     "LocalChineseName": "綠（女僕）",
-    "CurrentSlug": "midori_maid"
+    "CurrentSlug": "midori_maid",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300183,
     "PathName": "serika_swimsuit",
     "Name": "芹香（泳裝）",
     "EnglishName": "Serika (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4728,14 +4911,15 @@
       }
     ],
     "LocalChineseName": "芹香（泳裝）",
-    "CurrentSlug": "serika_swimsuit"
+    "CurrentSlug": "serika_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300184,
     "PathName": "kanna_swimsuit",
     "Name": "環奈（泳裝）",
     "EnglishName": "Kanna (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4753,14 +4937,15 @@
       }
     ],
     "LocalChineseName": "環奈（泳裝）",
-    "CurrentSlug": "kanna_swimsuit"
+    "CurrentSlug": "kanna_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300185,
     "PathName": "fubuki_swimsuit",
     "Name": "吹雪（泳裝）",
     "EnglishName": "Fubuki (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4778,14 +4963,15 @@
       }
     ],
     "LocalChineseName": "吹雪（泳裝）",
-    "CurrentSlug": "fubuki_swimsuit"
+    "CurrentSlug": "fubuki_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300186,
     "PathName": "kirino_swimsuit",
     "Name": "桐乃（泳裝）",
     "EnglishName": "Kirino (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4803,14 +4989,15 @@
       }
     ],
     "LocalChineseName": "桐乃（泳裝）",
-    "CurrentSlug": "kirino_swimsuit"
+    "CurrentSlug": "kirino_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300187,
     "PathName": "moe_swimsuit",
     "Name": "萌繪（泳裝）",
     "EnglishName": "Moe (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4828,14 +5015,15 @@
       }
     ],
     "LocalChineseName": "萌繪（泳裝）",
-    "CurrentSlug": "moe_swimsuit"
+    "CurrentSlug": "moe_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300188,
     "PathName": "hoshino_armed",
     "Name": "星野（武裝）",
     "EnglishName": "Hoshino (Armed)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4853,14 +5041,15 @@
       }
     ],
     "LocalChineseName": "星野（武裝）",
-    "CurrentSlug": "hoshino_armed"
+    "CurrentSlug": "hoshino_armed",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300189,
     "PathName": "hoshino_armed_2",
     "Name": "星野（武裝）",
     "EnglishName": "Hoshino (Armed)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4878,14 +5067,15 @@
       }
     ],
     "LocalChineseName": "星野（武裝）",
-    "CurrentSlug": "hoshino_armed"
+    "CurrentSlug": "hoshino_armed",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300190,
     "PathName": "shiroko_terror",
     "Name": "白子＊TERROR",
     "EnglishName": "Shiroko*Terror",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4903,14 +5093,15 @@
       }
     ],
     "LocalChineseName": "白子＊TERROR",
-    "CurrentSlug": "shiroko_terror"
+    "CurrentSlug": "shiroko_terror",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300191,
     "PathName": "atsuko_swimsuit",
     "Name": "敦子（泳裝）",
     "EnglishName": "Atsuko (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4928,14 +5119,15 @@
       }
     ],
     "LocalChineseName": "敦子（泳裝）",
-    "CurrentSlug": "atsuko_swimsuit"
+    "CurrentSlug": "atsuko_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300192,
     "PathName": "saori_swimsuit",
     "Name": "沙織（泳裝）",
     "EnglishName": "Saori (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4953,14 +5145,15 @@
       }
     ],
     "LocalChineseName": "沙織（泳裝）",
-    "CurrentSlug": "saori_swimsuit"
+    "CurrentSlug": "saori_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300193,
     "PathName": "hiyori_swimsuit",
     "Name": "日和（泳裝）",
     "EnglishName": "Hiyori (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -4978,14 +5171,15 @@
       }
     ],
     "LocalChineseName": "日和（泳裝）",
-    "CurrentSlug": "hiyori_swimsuit"
+    "CurrentSlug": "hiyori_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300194,
     "PathName": "marina_qipao",
     "Name": "瑪麗娜（旗袍）",
     "EnglishName": "Marina (Qipao)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5003,14 +5197,15 @@
       }
     ],
     "LocalChineseName": "瑪麗娜（旗袍）",
-    "CurrentSlug": "marina_qipao"
+    "CurrentSlug": "marina_qipao",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300195,
     "PathName": "tomoe_qipao",
     "Name": "巴（旗袍）",
     "EnglishName": "Tomoe (Qipao)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5028,14 +5223,15 @@
       }
     ],
     "LocalChineseName": "巴（旗袍）",
-    "CurrentSlug": "tomoe_qipao"
+    "CurrentSlug": "tomoe_qipao",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300196,
     "PathName": "reijo",
     "Name": "麗情",
     "EnglishName": "Reijo",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5053,14 +5249,15 @@
       }
     ],
     "LocalChineseName": "麗情",
-    "CurrentSlug": "reijo"
+    "CurrentSlug": "reijo",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300197,
     "PathName": "kisaki",
     "Name": "妃咲",
     "EnglishName": "Kisaki",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5078,14 +5275,15 @@
       }
     ],
     "LocalChineseName": "妃咲",
-    "CurrentSlug": "kisaki"
+    "CurrentSlug": "kisaki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300198,
     "PathName": "mari_idol",
     "Name": "瑪麗（偶像）",
     "EnglishName": "Mari (Pop Idol)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5103,14 +5301,15 @@
       }
     ],
     "LocalChineseName": "瑪麗（偶像）",
-    "CurrentSlug": "mari_idol"
+    "CurrentSlug": "mari_idol",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300199,
     "PathName": "sakurako_idol",
     "Name": "櫻子（偶像）",
     "EnglishName": "Sakurako (Pop Idol)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5128,14 +5327,15 @@
       }
     ],
     "LocalChineseName": "櫻子（偶像）",
-    "CurrentSlug": "sakurako_idol"
+    "CurrentSlug": "sakurako_idol",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300200,
     "PathName": "mine_idol",
     "Name": "美禰（偶像）",
     "EnglishName": "Mine (Pop Idol)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5153,14 +5353,15 @@
       }
     ],
     "LocalChineseName": "美禰（偶像）",
-    "CurrentSlug": "mine_idol"
+    "CurrentSlug": "mine_idol",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300201,
     "PathName": "chiaki",
     "Name": "千秋",
     "EnglishName": "Chiaki",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5178,14 +5379,15 @@
       }
     ],
     "LocalChineseName": "千秋",
-    "CurrentSlug": "chiaki"
+    "CurrentSlug": "chiaki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300202,
     "PathName": "satsuki",
     "Name": "皐月",
     "EnglishName": "Satsuki",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5203,14 +5405,15 @@
       }
     ],
     "LocalChineseName": "皐月",
-    "CurrentSlug": "satsuki"
+    "CurrentSlug": "satsuki",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300203,
     "PathName": "yuuka_pajamas",
     "Name": "優香（睡衣）",
     "EnglishName": "Yuuka (Pajamas)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5228,14 +5431,15 @@
       }
     ],
     "LocalChineseName": "優香（睡衣）",
-    "CurrentSlug": "yuuka_pajamas"
+    "CurrentSlug": "yuuka_pajamas",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300204,
     "PathName": "noa_pajamas",
     "Name": "乃愛（睡衣）",
     "EnglishName": "Noa (Pajamas)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5253,7 +5457,8 @@
       }
     ],
     "LocalChineseName": "乃愛（睡衣）",
-    "CurrentSlug": "noa_pajamas"
+    "CurrentSlug": "noa_pajamas",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300205,
@@ -5278,14 +5483,15 @@
       }
     ],
     "LocalChineseName": "聖亞",
-    "CurrentSlug": "seia"
+    "CurrentSlug": "seia",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300206,
     "PathName": "asuna_school",
     "Name": "明日奈（校服）",
     "EnglishName": "Asuna (School)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5303,14 +5509,15 @@
       }
     ],
     "LocalChineseName": "明日奈（校服）",
-    "CurrentSlug": "asuna_school"
+    "CurrentSlug": "asuna_school",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300207,
     "PathName": "karin_school",
     "Name": "花凜（校服）",
     "EnglishName": "Karin (School)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5328,14 +5535,15 @@
       }
     ],
     "LocalChineseName": "花凜（校服）",
-    "CurrentSlug": "karin_school"
+    "CurrentSlug": "karin_school",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300208,
     "PathName": "neru_school",
     "Name": "寧瑠（校服）",
     "EnglishName": "Neru (School)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5353,14 +5561,15 @@
       }
     ],
     "LocalChineseName": "寧瑠（校服）",
-    "CurrentSlug": "neru_school"
+    "CurrentSlug": "neru_school",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300209,
     "PathName": "rio",
     "Name": "莉央",
     "EnglishName": "Rio",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5378,14 +5587,15 @@
       }
     ],
     "LocalChineseName": "莉央",
-    "CurrentSlug": "rio"
+    "CurrentSlug": "rio",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300210,
     "PathName": "maki_camp",
     "Name": "真紀（露營）",
     "EnglishName": "Maki (Camp)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5403,14 +5613,15 @@
       }
     ],
     "LocalChineseName": "真紀（露營）",
-    "CurrentSlug": "maki_camp"
+    "CurrentSlug": "maki_camp",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300211,
     "PathName": "sena_casual",
     "Name": "瀨名（私服）",
     "EnglishName": "Sena (Casual)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5428,14 +5639,15 @@
       }
     ],
     "LocalChineseName": "瀨名（私服）",
-    "CurrentSlug": "sena_casual"
+    "CurrentSlug": "sena_casual",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300212,
     "PathName": "juri_parttime",
     "Name": "茱莉（打工）",
     "EnglishName": "Juri (Part-Timer)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5453,14 +5665,15 @@
       }
     ],
     "LocalChineseName": "茱莉（打工）",
-    "CurrentSlug": "juri_parttime"
+    "CurrentSlug": "juri_parttime",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300213,
     "PathName": "izumi_newyear",
     "Name": "泉（新年）",
     "EnglishName": "Izumi (New Year)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5478,14 +5691,15 @@
       }
     ],
     "LocalChineseName": "泉（新年）",
-    "CurrentSlug": "izumi_newyear"
+    "CurrentSlug": "izumi_newyear",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300214,
     "PathName": "rei",
     "Name": "玲",
     "EnglishName": "Rei",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5503,14 +5717,15 @@
       }
     ],
     "LocalChineseName": "玲",
-    "CurrentSlug": "rei"
+    "CurrentSlug": "rei",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300215,
     "PathName": "sumire_parttime",
     "Name": "菫（打工）",
     "EnglishName": "Sumire (Part-Timer)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5528,14 +5743,15 @@
       }
     ],
     "LocalChineseName": "菫（打工）",
-    "CurrentSlug": "sumire_parttime"
+    "CurrentSlug": "sumire_parttime",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300216,
     "PathName": "saori_dress",
     "Name": "沙織（禮服）",
     "EnglishName": "Saori (Dress)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5553,14 +5769,15 @@
       }
     ],
     "LocalChineseName": "沙織（禮服）",
-    "CurrentSlug": "saori_dress"
+    "CurrentSlug": "saori_dress",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300217,
     "PathName": "hikari",
     "Name": "光",
     "EnglishName": "Hikari",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5578,14 +5795,15 @@
       }
     ],
     "LocalChineseName": "光",
-    "CurrentSlug": "hikari"
+    "CurrentSlug": "hikari",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300218,
     "PathName": "nozomi",
     "Name": "望",
     "EnglishName": "Nozomi",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5603,14 +5821,15 @@
       }
     ],
     "LocalChineseName": "望",
-    "CurrentSlug": "nozomi"
+    "CurrentSlug": "nozomi",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300219,
     "PathName": "aoba",
     "Name": "青葉",
     "EnglishName": "Aoba",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5628,14 +5847,15 @@
       }
     ],
     "LocalChineseName": "青葉",
-    "CurrentSlug": "aoba"
+    "CurrentSlug": "aoba",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300220,
     "PathName": "pina_guide",
     "Name": "菲娜（導覽）",
     "EnglishName": "Pina (Guide)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5653,14 +5873,15 @@
       }
     ],
     "LocalChineseName": "菲娜（導覽）",
-    "CurrentSlug": "pina_guide"
+    "CurrentSlug": "pina_guide",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300221,
     "PathName": "nagusa",
     "Name": "名草",
     "EnglishName": "Nagusa",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5678,14 +5899,15 @@
       }
     ],
     "LocalChineseName": "名草",
-    "CurrentSlug": "nagusa"
+    "CurrentSlug": "nagusa",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300222,
     "PathName": "niya",
     "Name": "妮婭",
     "EnglishName": "Niya",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5703,14 +5925,15 @@
       }
     ],
     "LocalChineseName": "妮婭",
-    "CurrentSlug": "niya"
+    "CurrentSlug": "niya",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300223,
     "PathName": "natsu_band",
     "Name": "夏（樂團）",
     "EnglishName": "Natsu (Band)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5728,14 +5951,15 @@
       }
     ],
     "LocalChineseName": "夏（樂團）",
-    "CurrentSlug": "natsu_band"
+    "CurrentSlug": "natsu_band",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300224,
     "PathName": "yukari_swimsuit",
     "Name": "紫（泳裝）",
     "EnglishName": "Yukari (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5753,14 +5977,15 @@
       }
     ],
     "LocalChineseName": "紫（泳裝）",
-    "CurrentSlug": "yukari_swimsuit"
+    "CurrentSlug": "yukari_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300225,
     "PathName": "renge_swimsuit",
     "Name": "蓮華（泳裝）",
     "EnglishName": "Renge (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5778,14 +6003,15 @@
       }
     ],
     "LocalChineseName": "蓮華（泳裝）",
-    "CurrentSlug": "renge_swimsuit"
+    "CurrentSlug": "renge_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300226,
     "PathName": "kikyou_swimsuit",
     "Name": "桔梗（泳裝）",
     "EnglishName": "Kikyou (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5803,7 +6029,8 @@
       }
     ],
     "LocalChineseName": "桔梗（泳裝）",
-    "CurrentSlug": "kikyou_swimsuit"
+    "CurrentSlug": "kikyou_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300227,
@@ -5828,14 +6055,15 @@
       }
     ],
     "LocalChineseName": "聖亞（泳裝）",
-    "CurrentSlug": "seia_swimsuit"
+    "CurrentSlug": "seia_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300228,
     "PathName": "hasumi_swimsuit",
     "Name": "蓮實（泳裝）",
     "EnglishName": "Hasumi (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5853,14 +6081,15 @@
       }
     ],
     "LocalChineseName": "蓮實（泳裝）",
-    "CurrentSlug": "hasumi_swimsuit"
+    "CurrentSlug": "hasumi_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300229,
     "PathName": "ichika_swimsuit",
     "Name": "一花（泳裝）",
     "EnglishName": "Ichika (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5878,14 +6107,15 @@
       }
     ],
     "LocalChineseName": "一花（泳裝）",
-    "CurrentSlug": "ichika_swimsuit"
+    "CurrentSlug": "ichika_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300230,
     "PathName": "nagisa_swimsuit",
     "Name": "渚（泳裝）",
     "EnglishName": "Nagisa (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5903,14 +6133,15 @@
       }
     ],
     "LocalChineseName": "渚（泳裝）",
-    "CurrentSlug": "nagisa_swimsuit"
+    "CurrentSlug": "nagisa_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300231,
     "PathName": "mika_swimsuit",
     "Name": "彌香（泳裝）",
     "EnglishName": "Mika (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5928,14 +6159,15 @@
       }
     ],
     "LocalChineseName": "彌香（泳裝）",
-    "CurrentSlug": "mika_swimsuit"
+    "CurrentSlug": "mika_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300232,
     "PathName": "eri",
     "Name": "繪梨",
     "EnglishName": "Eri",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5953,14 +6185,15 @@
       }
     ],
     "LocalChineseName": "繪梨",
-    "CurrentSlug": "eri"
+    "CurrentSlug": "eri",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300233,
     "PathName": "kanoe",
     "Name": "香耶",
     "EnglishName": "Kanoe",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -5978,14 +6211,15 @@
       }
     ],
     "LocalChineseName": "香耶",
-    "CurrentSlug": "kanoe"
+    "CurrentSlug": "kanoe",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300234,
     "PathName": "misaki_swimsuit",
     "Name": "美咲（泳裝）",
     "EnglishName": "Misaki (Swimsuit)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6003,14 +6237,15 @@
       }
     ],
     "LocalChineseName": "美咲（泳裝）",
-    "CurrentSlug": "misaki_swimsuit"
+    "CurrentSlug": "misaki_swimsuit",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300235,
     "PathName": "miyo",
     "Name": "美代",
     "EnglishName": "Miyo",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6028,14 +6263,15 @@
       }
     ],
     "LocalChineseName": "美代",
-    "CurrentSlug": "miyo"
+    "CurrentSlug": "miyo",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300236,
     "PathName": "fuyu",
     "Name": "冬",
     "EnglishName": "Fuyu",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6053,14 +6289,15 @@
       }
     ],
     "LocalChineseName": "冬",
-    "CurrentSlug": "fuyu"
+    "CurrentSlug": "fuyu",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300237,
     "PathName": "ritsu",
     "Name": "律",
     "EnglishName": "Ritsu",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6078,14 +6315,15 @@
       }
     ],
     "LocalChineseName": "律",
-    "CurrentSlug": "ritsu"
+    "CurrentSlug": "ritsu",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300238,
     "PathName": "reisa_magical",
     "Name": "玲紗（魔法少女）",
     "EnglishName": "Reisa (Magical)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6103,14 +6341,15 @@
       }
     ],
     "LocalChineseName": "玲紗（魔法少女）",
-    "CurrentSlug": "reisa_magical"
+    "CurrentSlug": "reisa_magical",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300239,
     "PathName": "suzumi_magical",
     "Name": "鈴美（魔法少女）",
     "EnglishName": "Suzumi (Magical)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6128,14 +6367,15 @@
       }
     ],
     "LocalChineseName": "鈴美（魔法少女）",
-    "CurrentSlug": "suzumi_magical"
+    "CurrentSlug": "suzumi_magical",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300240,
     "PathName": "rabu",
     "Name": "拉布",
     "EnglishName": "Rabu",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6153,14 +6393,15 @@
       }
     ],
     "LocalChineseName": "拉布",
-    "CurrentSlug": "rabu"
+    "CurrentSlug": "rabu",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300241,
     "PathName": "subaru",
     "Name": "昴",
     "EnglishName": "Subaru",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6178,14 +6419,15 @@
       }
     ],
     "LocalChineseName": "昴",
-    "CurrentSlug": "subaru"
+    "CurrentSlug": "subaru",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300242,
     "PathName": "takane",
     "Name": "高音",
     "EnglishName": "Takane",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6203,14 +6445,15 @@
       }
     ],
     "LocalChineseName": "高音",
-    "CurrentSlug": "takane"
+    "CurrentSlug": "takane",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300243,
     "PathName": "yakumo",
     "Name": "八雲",
     "EnglishName": "Yakumo",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6228,14 +6471,15 @@
       }
     ],
     "LocalChineseName": "八雲",
-    "CurrentSlug": "yakumo"
+    "CurrentSlug": "yakumo",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300244,
     "PathName": "tsukuyo_dress",
     "Name": "月詠（禮服）",
     "EnglishName": "Tsukuyo (Dress)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6253,14 +6497,15 @@
       }
     ],
     "LocalChineseName": "月詠（禮服）",
-    "CurrentSlug": "tsukuyo_dress"
+    "CurrentSlug": "tsukuyo_dress",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300245,
     "PathName": "michiru_dress",
     "Name": "美知留（禮服）",
     "EnglishName": "Michiru (Dress)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6278,14 +6523,15 @@
       }
     ],
     "LocalChineseName": "美知留（禮服）",
-    "CurrentSlug": "michiru_dress"
+    "CurrentSlug": "michiru_dress",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300246,
     "PathName": "rio_armed",
     "Name": "莉央（武裝）",
     "EnglishName": "Rio (Armed)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6303,14 +6549,15 @@
       }
     ],
     "LocalChineseName": "莉央（武裝）",
-    "CurrentSlug": "rio_armed"
+    "CurrentSlug": "rio_armed",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300247,
     "PathName": "toki_armed",
     "Name": "時（武裝）",
     "EnglishName": "Toki (Armed)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6328,14 +6575,15 @@
       }
     ],
     "LocalChineseName": "時（武裝）",
-    "CurrentSlug": "toki_armed"
+    "CurrentSlug": "toki_armed",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300248,
     "PathName": "himari_armed",
     "Name": "日鞠（武裝）",
     "EnglishName": "Himari (Armed)",
-    "SquadType": "Unknown",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6353,14 +6601,15 @@
       }
     ],
     "LocalChineseName": "日鞠（武裝）",
-    "CurrentSlug": "himari_armed"
+    "CurrentSlug": "himari_armed",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300249,
     "PathName": "aris_armed",
     "Name": "愛麗絲（武裝）",
     "EnglishName": "Aris (Armed)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6378,14 +6627,15 @@
       }
     ],
     "LocalChineseName": "愛麗絲（武裝）",
-    "CurrentSlug": "aris_armed"
+    "CurrentSlug": "aris_armed",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300250,
     "PathName": "kei",
     "Name": "凱伊",
     "EnglishName": "Kei",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6403,14 +6653,15 @@
       }
     ],
     "LocalChineseName": "凱伊",
-    "CurrentSlug": "kei"
+    "CurrentSlug": "kei",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300251,
     "PathName": "eimi_armed",
     "Name": "艾米（武裝）",
     "EnglishName": "Eimi (Armed)",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6428,14 +6679,15 @@
       }
     ],
     "LocalChineseName": "艾米（武裝）",
-    "CurrentSlug": "eimi_armed"
+    "CurrentSlug": "eimi_armed",
+    "SquadTypeSource": "local-v4.4.10"
   },
   {
     "Id": 300252,
     "PathName": "subaru_2",
     "Name": "昴",
     "EnglishName": "Subaru",
-    "SquadType": "Unknown",
+    "SquadType": "Main",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6453,6 +6705,7 @@
       }
     ],
     "LocalChineseName": "昴",
-    "CurrentSlug": "subaru"
+    "CurrentSlug": "subaru",
+    "SquadTypeSource": "local-v4.4.10"
   }
 ]
