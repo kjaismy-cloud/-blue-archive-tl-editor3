@@ -9161,40 +9161,6 @@
     ]
   },
   {
-    "Id": 300252,
-    "PathName": "subaru_2",
-    "Name": "昴",
-    "EnglishName": "Subaru",
-    "SquadType": "Main",
-    "Position": "",
-    "BulletType": "",
-    "ArmorType": "",
-    "_regions": [
-      "jp"
-    ],
-    "_sourceRegion": "jp-localized-zh-TW",
-    "_catalogIndex": 252,
-    "Skills": [
-      {
-        "SkillType": "ex",
-        "Name": "EX 技能",
-        "Cost": [],
-        "Icon": ""
-      }
-    ],
-    "LocalChineseName": "昴",
-    "CurrentSlug": "subaru",
-    "SquadTypeSource": "local-v4.4.10",
-    "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11",
-    "DataPolicy": "local fallback; runtime JP authoritative",
-    "LocalImage": "student-icons/300252.webp",
-    "Server": "jp",
-    "Locale": "zh-TW",
-    "SchaleDBSlug": "subaru",
-    "SchaleDBPage": "https://schaledb.com/student/subaru"
-  },
-  {
     "Id": 390001,
     "PathName": "nagusa_swimsuit",
     "Name": "名草（泳裝）",
@@ -9505,5 +9471,485 @@
     "Locale": "zh-TW",
     "SchaleDBSlug": "chiaki_swimsuit",
     "SchaleDBPage": "https://schaledb.com/student/chiaki_swimsuit"
+  },
+  {
+    "Id": 390009,
+    "PathName": "shunling_swimsuit",
+    "Name": "小旬（泳裝）",
+    "EnglishName": "Shun (Small) (Swimsuit)",
+    "SquadType": "Main",
+    "TacticRole": "DamageDealer",
+    "Position": "",
+    "BulletType": "Sonic",
+    "ArmorType": "Light",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-08-14",
+    "_catalogIndex": 260,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "小旬（泳裝）",
+    "CurrentSlug": "shunling_swimsuit",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.19",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.19",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390009.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "shunling_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/shunling_swimsuit",
+    "JPVerified": true,
+    "SearchAliases": [
+      "小旬（泳裝）",
+      "Shun (Small) (Swimsuit)",
+      "shunling_swimsuit"
+    ]
+  },
+  {
+    "Id": 390010,
+    "PathName": "mutsuki_dress",
+    "Name": "無月（禮服）",
+    "EnglishName": "Mutsuki (Dress)",
+    "SquadType": "Support",
+    "TacticRole": "DamageDealer",
+    "Position": "",
+    "BulletType": "Mystic",
+    "ArmorType": "Heavy",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-08-14",
+    "_catalogIndex": 261,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "無月（禮服）",
+    "CurrentSlug": "mutsuki_dress",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.19",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.19",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390010.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "mutsuki_dress",
+    "SchaleDBPage": "https://schaledb.com/student/mutsuki_dress",
+    "JPVerified": true,
+    "SearchAliases": [
+      "無月（禮服）",
+      "Mutsuki (Dress)",
+      "mutsuki_dress"
+    ]
+  },
+  {
+    "Id": 390011,
+    "PathName": "haruka_dress",
+    "Name": "遙香（禮服）",
+    "EnglishName": "Haruka (Dress)",
+    "SquadType": "Main",
+    "TacticRole": "DamageDealer",
+    "Position": "",
+    "BulletType": "Explosion",
+    "ArmorType": "Light",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-08-14",
+    "_catalogIndex": 262,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "遙香（禮服）",
+    "CurrentSlug": "haruka_dress",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.19",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.19",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390011.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "haruka_dress",
+    "SchaleDBPage": "https://schaledb.com/student/haruka_dress",
+    "JPVerified": true,
+    "SearchAliases": [
+      "遙香（禮服）",
+      "Haruka (Dress)",
+      "haruka_dress"
+    ]
+  },
+  {
+    "Id": 390012,
+    "PathName": "erika",
+    "Name": "繪里香",
+    "EnglishName": "Erika",
+    "SquadType": "Support",
+    "TacticRole": "Supporter",
+    "Position": "",
+    "BulletType": "Sonic",
+    "ArmorType": "Light",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-08-14",
+    "_catalogIndex": 263,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "繪里香",
+    "CurrentSlug": "erika",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.19",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.19",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390012.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "erika",
+    "SchaleDBPage": "https://schaledb.com/student/erika",
+    "JPVerified": true,
+    "SearchAliases": [
+      "繪里香",
+      "Erika",
+      "erika"
+    ]
+  },
+  {
+    "Id": 390013,
+    "PathName": "otogi",
+    "Name": "御伽",
+    "EnglishName": "Otogi",
+    "SquadType": "Main",
+    "TacticRole": "DamageDealer",
+    "Position": "",
+    "BulletType": "Explosion",
+    "ArmorType": "Special",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-08-14",
+    "_catalogIndex": 264,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "御伽",
+    "CurrentSlug": "otogi",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.19",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.19",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390013.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "otogi",
+    "SchaleDBPage": "https://schaledb.com/student/otogi",
+    "JPVerified": true,
+    "SearchAliases": [
+      "御伽",
+      "Otogi",
+      "otogi"
+    ]
+  },
+  {
+    "Id": 390014,
+    "PathName": "kurumi",
+    "Name": "胡桃",
+    "EnglishName": "Kurumi",
+    "SquadType": "Main",
+    "TacticRole": "Tanker",
+    "Position": "",
+    "BulletType": "Explosion",
+    "ArmorType": "Light",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-08-14",
+    "_catalogIndex": 265,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "胡桃",
+    "CurrentSlug": "kurumi",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.19",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.19",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390014.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kurumi",
+    "SchaleDBPage": "https://schaledb.com/student/kurumi",
+    "JPVerified": true,
+    "SearchAliases": [
+      "胡桃",
+      "Kurumi",
+      "kurumi"
+    ]
+  },
+  {
+    "Id": 390015,
+    "PathName": "niko",
+    "Name": "仁子",
+    "EnglishName": "Niko",
+    "SquadType": "Main",
+    "TacticRole": "Supporter",
+    "Position": "",
+    "BulletType": "Explosion",
+    "ArmorType": "Elastic",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-08-14",
+    "_catalogIndex": 266,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "仁子",
+    "CurrentSlug": "niko",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.19",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.19",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390015.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "niko",
+    "SchaleDBPage": "https://schaledb.com/student/niko",
+    "JPVerified": true,
+    "SearchAliases": [
+      "仁子",
+      "Niko",
+      "niko"
+    ]
+  },
+  {
+    "Id": 390016,
+    "PathName": "akane_uniform",
+    "Name": "朱音（制服）",
+    "EnglishName": "Akane (Uniform)",
+    "SquadType": "Support",
+    "TacticRole": "DamageDealer",
+    "Position": "",
+    "BulletType": "Explosion",
+    "ArmorType": "Light",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-08-14",
+    "_catalogIndex": 267,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "朱音（制服）",
+    "CurrentSlug": "akane_uniform",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.19",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.19",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390016.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "akane_uniform",
+    "SchaleDBPage": "https://schaledb.com/student/akane_uniform",
+    "JPVerified": true,
+    "SearchAliases": [
+      "朱音（制服）",
+      "Akane (Uniform)",
+      "akane_uniform"
+    ]
+  },
+  {
+    "Id": 390017,
+    "PathName": "rena",
+    "Name": "玲奈",
+    "EnglishName": "Rena",
+    "SquadType": "Main",
+    "TacticRole": "Supporter",
+    "Position": "",
+    "BulletType": "Explosion",
+    "ArmorType": "Light",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-08-14",
+    "_catalogIndex": 268,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "玲奈",
+    "CurrentSlug": "rena",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.19",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.19",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390017.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "rena",
+    "SchaleDBPage": "https://schaledb.com/student/rena",
+    "JPVerified": true,
+    "SearchAliases": [
+      "玲奈",
+      "Rena",
+      "rena"
+    ]
+  },
+  {
+    "Id": 390018,
+    "PathName": "konoka",
+    "Name": "木乃香",
+    "EnglishName": "Konoka",
+    "SquadType": "Main",
+    "TacticRole": "Tanker",
+    "Position": "",
+    "BulletType": "Mystic",
+    "ArmorType": "Light",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-08-14",
+    "_catalogIndex": 269,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "木乃香",
+    "CurrentSlug": "konoka",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.19",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.19",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390018.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "konoka",
+    "SchaleDBPage": "https://schaledb.com/student/konoka",
+    "JPVerified": true,
+    "SearchAliases": [
+      "木乃香",
+      "Konoka",
+      "konoka"
+    ]
+  },
+  {
+    "Id": 390019,
+    "PathName": "koyuki_pajama",
+    "Name": "小雪（睡衣）",
+    "EnglishName": "Koyuki (Pajamas)",
+    "SquadType": "Support",
+    "TacticRole": "Supporter",
+    "Position": "",
+    "BulletType": "Mystic",
+    "ArmorType": "Light",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-08-14",
+    "_catalogIndex": 270,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "小雪（睡衣）",
+    "CurrentSlug": "koyuki_pajama",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.19",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.19",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390019.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "koyuki_pajama",
+    "SchaleDBPage": "https://schaledb.com/student/koyuki_pajama",
+    "JPVerified": true,
+    "SearchAliases": [
+      "小雪（睡衣）",
+      "Koyuki (Pajamas)",
+      "koyuki_pajama"
+    ]
+  },
+  {
+    "Id": 390020,
+    "PathName": "yuzu_battle",
+    "Name": "柚子（武裝）",
+    "EnglishName": "Yuzu (Armed)",
+    "SquadType": "Support",
+    "TacticRole": "Supporter",
+    "Position": "",
+    "BulletType": "Mystic",
+    "ArmorType": "Special",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-08-14",
+    "_catalogIndex": 271,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "柚子（武裝）",
+    "CurrentSlug": "yuzu_battle",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.19",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.19",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390020.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "yuzu_battle",
+    "SchaleDBPage": "https://schaledb.com/student/yuzu_battle",
+    "JPVerified": true,
+    "SearchAliases": [
+      "柚子（武裝）",
+      "Yuzu (Armed)",
+      "yuzu_battle"
+    ]
   }
 ]
