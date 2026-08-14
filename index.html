@@ -204,7 +204,7 @@ font-weight:800;font-size:20px;color:#9edfff;background:#203241;border-radius:14
 border:1px dashed var(--line);border-radius:14px}
 
 
-/* V4.5.24: full-width, separate pages */
+/* V4.5.25: full-width, separate pages */
 .desktop-layout{display:none!important}
 #installHelp{display:none!important}
 .page-intro{padding:4px 2px 2px;color:var(--muted)}
@@ -242,7 +242,7 @@ border:1px dashed var(--line);border-radius:14px}
   .tl-tile-actions{grid-template-columns:1fr 1fr}
 }
 
-/* V4.5.24: time-or-cost TL input and compact visual timeline */
+/* V4.5.25: time-or-cost TL input and compact visual timeline */
 .time-cost-fields{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:end}
 .time-cost-fields label{margin:0}
 .time-cost-fields input{font-size:20px;font-weight:800;text-align:center;color:var(--accent2)}
@@ -263,7 +263,7 @@ border:1px dashed var(--line);border-radius:14px}
   .timeline-track{gap:5px!important}
 }
 
-/* V4.5.24: compact TL composer, student preview and micro controls */
+/* V4.5.25: compact TL composer, student preview and micro controls */
 .tl-add-panel{gap:8px!important;padding:12px 14px!important}
 .tl-add-panel h2{margin:0;font-size:18px}
 .tl-add-panel .space{min-height:26px}
@@ -289,7 +289,7 @@ border:1px dashed var(--line);border-radius:14px}
   .tl-tile-actions button{min-height:11px!important;height:11px!important;font-size:6px!important;line-height:9px!important}
 }
 
-/* V4.5.24: value and student share one row; edit removed */
+/* V4.5.25: value and student share one row; edit removed */
 .tl-tile{grid-template-rows:108px auto auto!important}
 .tl-tile-meta{display:flex;align-items:center;justify-content:center;gap:5px;min-width:0;padding:2px 4px;background:#f4f8fb;color:#102334;white-space:nowrap;overflow:hidden}
 .tl-tile-meta .tl-tile-value{font-size:15px!important;line-height:18px!important;padding:0!important;background:transparent!important;border:0!important;flex:0 0 auto}
@@ -304,7 +304,7 @@ border:1px dashed var(--line);border-radius:14px}
   .tl-tile-student{font-size:9px;line-height:16px}
 }
 
-/* V4.5.24: six team avatars above time / COST */
+/* V4.5.25: six team avatars above time / COST */
 .tl-avatar-picker-wrap{display:grid;gap:4px}
 .tl-avatar-picker-label{font-weight:800;color:var(--text)}
 .tl-avatar-choices{display:grid;grid-template-columns:repeat(6,minmax(0,58px));gap:7px;align-items:start}
@@ -321,7 +321,7 @@ border:1px dashed var(--line);border-radius:14px}
   .tl-avatar-choice span{font-size:8px;line-height:10px}
 }
 
-/* V4.5.24: Excel timeline export */
+/* V4.5.25: Excel timeline export */
 .timeline-export{display:flex;align-items:center;gap:7px;flex-wrap:wrap;justify-content:flex-end}
 .excel-btn{background:#1f6f43!important;color:#fff!important;border-color:#45a66f!important;font-weight:800}
 .excel-btn:hover{background:#288855!important}
@@ -332,10 +332,10 @@ border:1px dashed var(--line);border-radius:14px}
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.5.24 · 學生圖片本地化版</div>
+    <div class="small">V4.5.25 · 學生圖片本地化版</div>
   </div>
-  <div id="status" class="status">V4.5.24 正在載入 272 名學生與本地圖片…</div>
-  <div class="small">V4.5.24 · 日服 · 繁體中文 · 學生圖片本地化</div>
+  <div id="status" class="status">V4.5.25 正在載入 272 名學生與本地圖片…</div>
+  <div class="small">V4.5.25 · 日服 · 繁體中文 · 學生圖片本地化</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -498,6 +498,19 @@ border:1px dashed var(--line);border-radius:14px}
       <textarea id="textOutput" rows="14" readonly></textarea>
     </div>
     <div class="panel grid">
+      <div class="space cloud-save-panel">
+        <h2>雲端時間軸</h2>
+        <div class="cloud-save-grid">
+          <button id="cloudSave" class="primary">☁ 儲存到雲端</button>
+          <input id="cloudCode" maxlength="8" autocomplete="off" placeholder="輸入 8 碼短代碼">
+          <button id="cloudLoad">讀取時間軸</button>
+        </div>
+        <div class="cloud-share-row">
+          <input id="cloudShare" readonly placeholder="儲存後會產生分享網址">
+          <button id="copyCloudLink" disabled>複製網址</button>
+        </div>
+        <div id="cloudMessage" class="small">需要在 Cloudflare Pages 綁定名稱為 TL_STORE 的 KV namespace。</div>
+      </div>
       <div class="space"><h2>JSON 備份</h2></div>
       <div class="form2"><button id="exportJson">產生 JSON</button><button id="importJson">載入 JSON</button></div>
       <textarea id="jsonBox" rows="10" placeholder="可把整個隊伍與時間軸保存到這裡"></textarea>
@@ -1099,7 +1112,38 @@ async function exportTimelineExcel(){
   finally{button.disabled=false;button.textContent='匯出 Excel'}
 }
 
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.5.24',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+
+function timelineSnapshot(){return {version:'4.5.25',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl}}
+function normalizeCloudCode(value){return String(value||'').toUpperCase().replace(/[^A-Z0-9]/g,'').slice(0,8)}
+function cloudMessage(message,type=''){const el=$('cloudMessage');el.textContent=message;el.style.color=type==='err'?'#ff8796':type==='ok'?'#83efb0':''}
+async function saveTimelineCloud(){
+  const button=$('cloudSave');button.disabled=true;button.textContent='儲存中…';
+  try{
+    const response=await fetch('/api/timeline',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(timelineSnapshot())});
+    const result=await response.json().catch(()=>({}));
+    if(!response.ok)throw new Error(result.error||('伺服器錯誤 '+response.status));
+    const code=normalizeCloudCode(result.code);const share=new URL(location.href);share.searchParams.set('tl',code);share.hash='';
+    $('cloudCode').value=code;$('cloudShare').value=share.href;$('copyCloudLink').disabled=false;
+    history.replaceState(null,'',share.href);cloudMessage('已儲存，短代碼：'+code,'ok');setStatus('雲端時間軸已儲存：'+code,'ok');
+  }catch(error){cloudMessage('儲存失敗：'+(error?.message||error),'err');setStatus('雲端儲存失敗：'+(error?.message||error),'err')}
+  finally{button.disabled=false;button.textContent='☁ 儲存到雲端'}
+}
+async function loadTimelineCloud(inputCode){
+  const code=normalizeCloudCode(inputCode??$('cloudCode').value);$('cloudCode').value=code;
+  if(code.length!==8){cloudMessage('請輸入完整的 8 碼短代碼','err');return}
+  const button=$('cloudLoad');button.disabled=true;button.textContent='讀取中…';
+  try{
+    const response=await fetch('/api/timeline?code='+encodeURIComponent(code));const result=await response.json().catch(()=>({}));
+    if(!response.ok)throw new Error(result.error||('伺服器錯誤 '+response.status));
+    $('jsonBox').value=JSON.stringify(result.data,null,2);importJson();
+    const share=new URL(location.href);share.searchParams.set('tl',code);share.hash='';$('cloudShare').value=share.href;$('copyCloudLink').disabled=false;
+    cloudMessage('已載入短代碼：'+code,'ok');setStatus('雲端時間軸已載入：'+code,'ok');
+  }catch(error){cloudMessage('讀取失敗：'+(error?.message||error),'err');setStatus('雲端讀取失敗：'+(error?.message||error),'err')}
+  finally{button.disabled=false;button.textContent='讀取時間軸'}
+}
+async function copyCloudLink(){try{await navigator.clipboard.writeText($('cloudShare').value);cloudMessage('分享網址已複製','ok')}catch{cloudMessage('無法自動複製，請手動選取網址','err')}}
+
+function exportJson(){$('jsonBox').value=JSON.stringify(timelineSnapshot(),null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
@@ -1139,12 +1183,12 @@ $('time').oninput=()=>{if($('time').value.trim())$('cost').value=''};
 $('cost').oninput=()=>{if($('cost').value!=='')$('time').value=''};
 $('addTl').onclick=addTl;$('addLineBreak').onclick=addTlLineBreak;
 $('clearTl').onclick=()=>{tl=[];renderTl()};
-$('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel;$('exportJson').onclick=exportJson;$('importJson').onclick=importJson;
+$('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel;$('cloudSave').onclick=saveTimelineCloud;$('cloudLoad').onclick=()=>loadTimelineCloud();$('copyCloudLink').onclick=copyCloudLink;$('cloudCode').oninput=e=>e.target.value=normalizeCloudCode(e.target.value);$('exportJson').onclick=exportJson;$('importJson').onclick=importJson;
 ['difficulty','terrain','teamName','headerNote'].forEach(id=>$(id).addEventListener('input',renderText));
 
 (async()=>{
   try{
-    setStatus('V4.5.24 正在載入 272 名學生與本地圖片…');
+    setStatus('V4.5.25 正在載入 272 名學生與本地圖片…');
 
     students=applyV457JpCorrections(EMBEDDED_STUDENTS.map(x=>({...x})));
     raids=EMBEDDED_RAIDS.map(x=>({...x}));
@@ -1155,10 +1199,11 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
     renderStudents();
     renderTl();
 
-    setStatus(`V4.5.24 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
+    setStatus(`V4.5.25 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
+    const sharedCode=normalizeCloudCode(new URLSearchParams(location.search).get('tl'));if(sharedCode){$('cloudCode').value=sharedCode;await loadTimelineCloud(sharedCode)}
   }catch(e){
     console.error('V4.5.4 bootstrap failed',e);
-    setStatus(`V4.5.24 啟動失敗：${e?.message||e}`,'err');
+    setStatus(`V4.5.25 啟動失敗：${e?.message||e}`,'err');
   }
 })();
 

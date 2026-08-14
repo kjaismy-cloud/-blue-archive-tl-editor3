@@ -1,4 +1,8 @@
-蔚藍檔案總力戰 TL 編輯器 V4.5.24
+蔚藍檔案總力戰 TL 編輯器 V4.5.25
 
-修正 V4.5.23 匯出 Excel 時，已內嵌的 PNG data URL 被誤判為圖片檔名的問題。
-可直接部署至 Cloudflare Pages，272 名學生圖片均已包含於 excel-images-1.js 至 excel-images-4.js。
+新增 Cloudflare KV 雲端時間軸：
+- 儲存後產生 8 碼短代碼與分享網址。
+- 輸入短代碼或開啟分享網址即可載入。
+- Pages Functions 的 KV 綁定名稱必須設為 TL_STORE。
+
+Cloudflare 設定：Workers & Pages → 專案 → Settings → Bindings → Add → KV namespace，Variable name 輸入 TL_STORE，選擇建立好的 KV namespace，儲存後重新部署。
