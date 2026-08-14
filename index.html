@@ -112,16 +112,19 @@ button.danger{color:var(--danger)}
 .avatar-wrap{position:relative;display:inline-flex;align-items:center;justify-content:center}
 .avatar-fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;border-radius:12px;background:#22313d;color:var(--accent2);font-weight:700;font-size:12px}
 img.avatar.broken{opacity:0}
+
+.student-image-fallback{display:flex;align-items:center;justify-content:center;width:100%;height:100%;min-height:72px;
+font-weight:800;font-size:20px;color:#9edfff;background:#203241;border-radius:14px}
 </style>
 </head>
 <body>
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.4.14.2 · JavaScript 語法熱修版</div>
+    <div class="small">V4.4.16 · 學生圖片本地補全版</div>
   </div>
-  <div id="status" class="status">V4.4.14.2 正在載入本地資料…</div>
-  <div class="small">V4.4.14：所有戰鬥資料以 SchaleDB 日服為準；TW 僅負責繁中名稱。STRIKER/SPECIAL、戰術類別、技能與 COST 不再由 TW 覆蓋。</div>
+  <div id="status" class="status">V4.4.16 正在載入學生本地資料與圖片索引…</div>
+  <div class="small">V4.4.15：已核對的日服 STRIKER/SPECIAL 與戰術類別直接寫入本地 JSON；其餘資料保留來源標記，不再把 fallback 當成 JP 已驗證。</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -327,185 +330,16 @@ function squadIntegrity(){
 }
 function dataIntegrity(){
   const total=students.length;
-  const named=students.filter(s=>s.Name).length;
   const squad=students.filter(s=>s.SquadType==='Main'||s.SquadType==='Support').length;
   const tactic=students.filter(s=>['DamageDealer','Tanker','Supporter','Healer'].includes(s.TacticRole)).length;
-  const skills=students.filter(s=>Array.isArray(s.Skills)&&s.Skills.length>=4).length;
-  const jpSquad=students.filter(s=>s.SquadTypeSource==='schaledb-jp').length;
-  const jpTactic=students.filter(s=>s.TacticRoleSource==='schaledb-jp').length;
-  const jpSkills=students.filter(s=>s.SkillsSource==='schaledb-jp').length;
+  const jpVerified=students.filter(s=>s.JPVerified===true).length;
+  const localCorrected=students.filter(s=>String(s.SquadTypeSource||'').startsWith('local-corrected')).length;
   const kanoe=students.some(s=>s.Name==='鹿江'||s.EnglishName==='Kanoe');
-  return {total,named,squad,tactic,skills,jpSquad,jpTactic,jpSkills,kanoe};
+  return {total,squad,tactic,jpVerified,localCorrected,kanoe};
 }
 function integrityText(){
   const d=dataIntegrity();
-  return `學生 ${d.total}｜名稱 ${d.named}/${d.total}｜位置 ${d.squad}/${d.total}｜戰術 ${d.tactic}/${d.total}｜技能 ${d.skills}/${d.total}｜JP位置 ${d.jpSquad}｜JP戰術 ${d.jpTactic}｜JP技能 ${d.jpSkills}｜鹿江 ${d.kanoe?'✓':'✗'}`;
-}
-const BOSS_INLINE_IMAGES={"Binah":"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256%22%20height%3D%22256%22%20viewBox%3D%220%200%20128%20128%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2220%22%20fill%3D%22%230b1117%22%2F%3E%0A%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22118%22%20height%3D%22118%22%20rx%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%2332404c%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M28%2077%20C45%2035%2C82%2037%2C78%2066%20C74%2092%2C38%2091%2C32%2066%20C28%2051%2C47%2043%2C62%2049%22%20fill%3D%22none%22%20stroke%3D%22%23d9b66f%22%20stroke-width%3D%2210%22%20stroke-linecap%3D%22round%22%2F%3E%0A%3Crect%20x%3D%226%22%20y%3D%22101%22%20width%3D%22116%22%20height%3D%2221%22%20rx%3D%229%22%20fill%3D%22%23111a22%22%20opacity%3D%22.96%22%2F%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22115%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%228.2%22%20font-weight%3D%22700%22%20fill%3D%22%23eef6ff%22%3E%E8%96%87%E5%A8%9C%3C%2Ftext%3E%0A%3C%2Fsvg%3E","Chesed":"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256%22%20height%3D%22256%22%20viewBox%3D%220%200%20128%20128%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2220%22%20fill%3D%22%230b1117%22%2F%3E%0A%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22118%22%20height%3D%22118%22%20rx%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%2332404c%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%2264%22%20cy%3D%2261%22%20r%3D%2231%22%20fill%3D%22none%22%20stroke%3D%22%238fc0d9%22%20stroke-width%3D%229%22%2F%3E%3Ccircle%20cx%3D%2264%22%20cy%3D%2261%22%20r%3D%2212%22%20fill%3D%22%238fc0d9%22%2F%3E%3Cpath%20d%3D%22M64%2022V8M64%20114v-14M25%2061H10M118%2061h-15%22%20stroke%3D%22%238fc0d9%22%20stroke-width%3D%226%22%2F%3E%0A%3Crect%20x%3D%226%22%20y%3D%22101%22%20width%3D%22116%22%20height%3D%2221%22%20rx%3D%229%22%20fill%3D%22%23111a22%22%20opacity%3D%22.96%22%2F%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22115%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%228.2%22%20font-weight%3D%22700%22%20fill%3D%22%23eef6ff%22%3E%E8%B5%AB%E8%B3%BD%E5%BE%B7%3C%2Ftext%3E%0A%3C%2Fsvg%3E","ShiroKuro":"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256%22%20height%3D%22256%22%20viewBox%3D%220%200%20128%20128%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2220%22%20fill%3D%22%230b1117%22%2F%3E%0A%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22118%22%20height%3D%22118%22%20rx%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%2332404c%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%2245%22%20cy%3D%2261%22%20r%3D%2225%22%20fill%3D%22none%22%20stroke%3D%22%23d7dce5%22%20stroke-width%3D%228%22%2F%3E%3Ccircle%20cx%3D%2283%22%20cy%3D%2261%22%20r%3D%2225%22%20fill%3D%22none%22%20stroke%3D%22%23d7dce5%22%20stroke-width%3D%228%22%2F%3E%0A%3Crect%20x%3D%226%22%20y%3D%22101%22%20width%3D%22116%22%20height%3D%2221%22%20rx%3D%229%22%20fill%3D%22%23111a22%22%20opacity%3D%22.96%22%2F%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22115%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%228.2%22%20font-weight%3D%22700%22%20fill%3D%22%23eef6ff%22%3E%E7%99%BD%EF%BC%86%E9%BB%91%3C%2Ftext%3E%0A%3C%2Fsvg%3E","Hieronymus":"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256%22%20height%3D%22256%22%20viewBox%3D%220%200%20128%20128%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2220%22%20fill%3D%22%230b1117%22%2F%3E%0A%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22118%22%20height%3D%22118%22%20rx%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%2332404c%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M57%2023h14v28h28v14H71v30H57V65H29V51h28z%22%20fill%3D%22%23d3947c%22%2F%3E%3Ccircle%20cx%3D%2264%22%20cy%3D%2259%22%20r%3D%2243%22%20fill%3D%22none%22%20stroke%3D%22%23d3947c%22%20stroke-width%3D%225%22%20opacity%3D%22.55%22%2F%3E%0A%3Crect%20x%3D%226%22%20y%3D%22101%22%20width%3D%22116%22%20height%3D%2221%22%20rx%3D%229%22%20fill%3D%22%23111a22%22%20opacity%3D%22.96%22%2F%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22115%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%228.2%22%20font-weight%3D%22700%22%20fill%3D%22%23eef6ff%22%3E%E8%80%B6%E7%BE%85%E5%B0%BC%E5%A7%86%E6%96%AF%3C%2Ftext%3E%0A%3C%2Fsvg%3E","Kaiten":"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256%22%20height%3D%22256%22%20viewBox%3D%220%200%20128%20128%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2220%22%20fill%3D%22%230b1117%22%2F%3E%0A%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22118%22%20height%3D%22118%22%20rx%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%2332404c%22%20stroke-width%3D%223%22%2F%3E%0A%3Crect%20x%3D%2229%22%20y%3D%2237%22%20width%3D%2270%22%20height%3D%2250%22%20rx%3D%2213%22%20fill%3D%22none%22%20stroke%3D%22%23ef8e6f%22%20stroke-width%3D%228%22%2F%3E%3Ccircle%20cx%3D%2249%22%20cy%3D%2260%22%20r%3D%227%22%20fill%3D%22%23ef8e6f%22%2F%3E%3Ccircle%20cx%3D%2279%22%20cy%3D%2260%22%20r%3D%227%22%20fill%3D%22%23ef8e6f%22%2F%3E%3Cpath%20d%3D%22M42%2089v17M86%2089v17M64%2037V20%22%20stroke%3D%22%23ef8e6f%22%20stroke-width%3D%227%22%2F%3E%0A%3Crect%20x%3D%226%22%20y%3D%22101%22%20width%3D%22116%22%20height%3D%2221%22%20rx%3D%229%22%20fill%3D%22%23111a22%22%20opacity%3D%22.96%22%2F%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22115%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%228.2%22%20font-weight%3D%22700%22%20fill%3D%22%23eef6ff%22%3EKAITEN%3C%2Ftext%3E%0A%3C%2Fsvg%3E","Perorodzilla":"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256%22%20height%3D%22256%22%20viewBox%3D%220%200%20128%20128%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2220%22%20fill%3D%22%230b1117%22%2F%3E%0A%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22118%22%20height%3D%22118%22%20rx%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%2332404c%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M18%2061Q64%2022%20110%2061Q64%20100%2018%2061Z%22%20fill%3D%22none%22%20stroke%3D%22%239bc8a5%22%20stroke-width%3D%228%22%2F%3E%3Ccircle%20cx%3D%2264%22%20cy%3D%2261%22%20r%3D%2215%22%20fill%3D%22%239bc8a5%22%2F%3E%0A%3Crect%20x%3D%226%22%20y%3D%22101%22%20width%3D%22116%22%20height%3D%2221%22%20rx%3D%229%22%20fill%3D%22%23111a22%22%20opacity%3D%22.96%22%2F%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22115%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%228.2%22%20font-weight%3D%22700%22%20fill%3D%22%23eef6ff%22%3E%E4%BD%A9%E6%B4%9B%E6%B4%9B%E5%90%89%E6%8B%89%3C%2Ftext%3E%0A%3C%2Fsvg%3E","Hod":"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256%22%20height%3D%22256%22%20viewBox%3D%220%200%20128%20128%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2220%22%20fill%3D%22%230b1117%22%2F%3E%0A%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22118%22%20height%3D%22118%22%20rx%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%2332404c%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M43%2099h42L77%2034H51z%22%20fill%3D%22none%22%20stroke%3D%22%23c8b0e4%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M47%2034h34L73%2017H55z%22%20fill%3D%22%23c8b0e4%22%2F%3E%3Ccircle%20cx%3D%2264%22%20cy%3D%2257%22%20r%3D%228%22%20fill%3D%22%23c8b0e4%22%2F%3E%0A%3Crect%20x%3D%226%22%20y%3D%22101%22%20width%3D%22116%22%20height%3D%2221%22%20rx%3D%229%22%20fill%3D%22%23111a22%22%20opacity%3D%22.96%22%2F%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22115%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%228.2%22%20font-weight%3D%22700%22%20fill%3D%22%23eef6ff%22%3EHOD%3C%2Ftext%3E%0A%3C%2Fsvg%3E","Goz":"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256%22%20height%3D%22256%22%20viewBox%3D%220%200%20128%20128%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2220%22%20fill%3D%22%230b1117%22%2F%3E%0A%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22118%22%20height%3D%22118%22%20rx%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%2332404c%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M28%2035Q64%2015%20100%2035L92%2085Q64%20105%2036%2085Z%22%20fill%3D%22none%22%20stroke%3D%22%23e6a5c8%22%20stroke-width%3D%228%22%2F%3E%3Ccircle%20cx%3D%2249%22%20cy%3D%2257%22%20r%3D%227%22%20fill%3D%22%23e6a5c8%22%2F%3E%3Ccircle%20cx%3D%2279%22%20cy%3D%2257%22%20r%3D%227%22%20fill%3D%22%23e6a5c8%22%2F%3E%3Cpath%20d%3D%22M50%2080Q64%2089%2078%2080%22%20fill%3D%22none%22%20stroke%3D%22%23e6a5c8%22%20stroke-width%3D%226%22%2F%3E%0A%3Crect%20x%3D%226%22%20y%3D%22101%22%20width%3D%22116%22%20height%3D%2221%22%20rx%3D%229%22%20fill%3D%22%23111a22%22%20opacity%3D%22.96%22%2F%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22115%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%228.2%22%20font-weight%3D%22700%22%20fill%3D%22%23eef6ff%22%3EGOZ%3C%2Ftext%3E%0A%3C%2Fsvg%3E","Gregorius":"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256%22%20height%3D%22256%22%20viewBox%3D%220%200%20128%20128%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2220%22%20fill%3D%22%230b1117%22%2F%3E%0A%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22118%22%20height%3D%22118%22%20rx%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%2332404c%22%20stroke-width%3D%223%22%2F%3E%0A%3Crect%20x%3D%2228%22%20y%3D%2231%22%20width%3D%2272%22%20height%3D%2261%22%20rx%3D%229%22%20fill%3D%22none%22%20stroke%3D%22%23d49aa0%22%20stroke-width%3D%227%22%2F%3E%3Cpath%20d%3D%22M39%2044v34M51%2040v38M63%2045v33M75%2040v38M87%2044v34%22%20stroke%3D%22%23d49aa0%22%20stroke-width%3D%226%22%2F%3E%0A%3Crect%20x%3D%226%22%20y%3D%22101%22%20width%3D%22116%22%20height%3D%2221%22%20rx%3D%229%22%20fill%3D%22%23111a22%22%20opacity%3D%22.96%22%2F%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22115%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%228.2%22%20font-weight%3D%22700%22%20fill%3D%22%23eef6ff%22%3E%E6%A0%BC%E9%87%8C%E9%AB%98%E5%88%A9%3C%2Ftext%3E%0A%3C%2Fsvg%3E","HoverCraft":"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256%22%20height%3D%22256%22%20viewBox%3D%220%200%20128%20128%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2220%22%20fill%3D%22%230b1117%22%2F%3E%0A%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22118%22%20height%3D%22118%22%20rx%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%2332404c%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M20%2072h88L94%2092H34Z%22%20fill%3D%22none%22%20stroke%3D%22%2386b7ca%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M42%2072l10-28h30l12%2028%22%20fill%3D%22none%22%20stroke%3D%22%2386b7ca%22%20stroke-width%3D%227%22%2F%3E%3Cpath%20d%3D%22M64%2044V25%22%20stroke%3D%22%2386b7ca%22%20stroke-width%3D%227%22%2F%3E%0A%3Crect%20x%3D%226%22%20y%3D%22101%22%20width%3D%22116%22%20height%3D%2221%22%20rx%3D%229%22%20fill%3D%22%23111a22%22%20opacity%3D%22.96%22%2F%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22115%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%228.2%22%20font-weight%3D%22700%22%20fill%3D%22%23eef6ff%22%3E%E6%B0%A3%E5%A2%8A%E8%88%B9%3C%2Ftext%3E%0A%3C%2Fsvg%3E","Kurokage":"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256%22%20height%3D%22256%22%20viewBox%3D%220%200%20128%20128%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2220%22%20fill%3D%22%230b1117%22%2F%3E%0A%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22118%22%20height%3D%22118%22%20rx%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%2332404c%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M64%2018C92%2018%20107%2042%20101%2067C96%2091%2079%20104%2064%20108C49%20104%2032%2091%2027%2067C21%2042%2036%2018%2064%2018Z%22%20fill%3D%22%238e82b8%22%20opacity%3D%22.38%22%2F%3E%3Cpath%20d%3D%22M40%2058Q52%2044%2064%2058Q76%2044%2088%2058%22%20fill%3D%22none%22%20stroke%3D%22%238e82b8%22%20stroke-width%3D%228%22%2F%3E%0A%3Crect%20x%3D%226%22%20y%3D%22101%22%20width%3D%22116%22%20height%3D%2221%22%20rx%3D%229%22%20fill%3D%22%23111a22%22%20opacity%3D%22.96%22%2F%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22115%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%228.2%22%20font-weight%3D%22700%22%20fill%3D%22%23eef6ff%22%3E%E9%BB%91%E5%BD%B1%3C%2Ftext%3E%0A%3C%2Fsvg%3E","Geburah":"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256%22%20height%3D%22256%22%20viewBox%3D%220%200%20128%20128%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2220%22%20fill%3D%22%230b1117%22%2F%3E%0A%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22118%22%20height%3D%22118%22%20rx%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%2332404c%22%20stroke-width%3D%223%22%2F%3E%0A%3Cpath%20d%3D%22M72%2015L45%2070l15%205-15%2039%2040-53-17-6z%22%20fill%3D%22%23d57b72%22%2F%3E%0A%3Crect%20x%3D%226%22%20y%3D%22101%22%20width%3D%22116%22%20height%3D%2221%22%20rx%3D%229%22%20fill%3D%22%23111a22%22%20opacity%3D%22.96%22%2F%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22115%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%228.2%22%20font-weight%3D%22700%22%20fill%3D%22%23eef6ff%22%3EGeburah%3C%2Ftext%3E%0A%3C%2Fsvg%3E","Yesod":"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22256%22%20height%3D%22256%22%20viewBox%3D%220%200%20128%20128%22%3E%0A%3Crect%20width%3D%22128%22%20height%3D%22128%22%20rx%3D%2220%22%20fill%3D%22%230b1117%22%2F%3E%0A%3Crect%20x%3D%225%22%20y%3D%225%22%20width%3D%22118%22%20height%3D%22118%22%20rx%3D%2217%22%20fill%3D%22none%22%20stroke%3D%22%2332404c%22%20stroke-width%3D%223%22%2F%3E%0A%3Ccircle%20cx%3D%2264%22%20cy%3D%2261%22%20r%3D%2234%22%20fill%3D%22none%22%20stroke%3D%22%237cb7dc%22%20stroke-width%3D%229%22%2F%3E%3Ccircle%20cx%3D%2264%22%20cy%3D%2261%22%20r%3D%2211%22%20fill%3D%22%237cb7dc%22%2F%3E%0A%3Crect%20x%3D%226%22%20y%3D%22101%22%20width%3D%22116%22%20height%3D%2221%22%20rx%3D%229%22%20fill%3D%22%23111a22%22%20opacity%3D%22.96%22%2F%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22115%22%20text-anchor%3D%22middle%22%20font-family%3D%22-apple-system%2CBlinkMacSystemFont%2CSegoe%20UI%2Csans-serif%22%20font-size%3D%228.2%22%20font-weight%3D%22700%22%20fill%3D%22%23eef6ff%22%3EYesod%3C%2Ftext%3E%0A%3C%2Fsvg%3E"};
-
-let LOCAL_STUDENTS=[];
-
-
-function setStatus(msg,type=''){let s=$('status');s.textContent=msg;s.className='status '+type}
-
-async function loadLocalCatalog(){
-  const [sr,rr]=await Promise.all([
-    fetch('./students_local.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('students_local.json');return r.json()}),
-    fetch('./raids_local.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('raids_local.json');return r.json()})
-  ]);
-  LOCAL_STUDENTS=Array.isArray(sr)?sr:[];
-  LOCAL_RAIDS=Array.isArray(rr)?rr:[];
-  return {students:LOCAL_STUDENTS,raids:LOCAL_RAIDS};
-}
-async function loadRegionJson(region,name){
-  const bases=REGION_BASES[region]||[];
-  let lastErr;
-  for(const b of bases){
-    try{
-      const url=`${b}/${name}`;
-      const r=await fetch(url,{cache:'no-store',mode:'cors'});
-      if(!r.ok)throw new Error(`HTTP ${r.status}`);
-      const data=await r.json();
-      return {data,source:b,region};
-    }catch(e){
-      lastErr=e;
-      console.warn('SchaleDB region load failed',region,b,name,e);
-    }
-  }
-  throw lastErr||new Error(`無法載入 ${region}/${name}`);
-}
-function extractArray(payload, keys=[]){
-  if(Array.isArray(payload)) return payload;
-  if(!payload || typeof payload!=='object') return [];
-  for(const k of keys){
-    if(Array.isArray(payload[k])) return payload[k];
-  }
-  for(const v of Object.values(payload)){
-    if(Array.isArray(v) && v.length && typeof v[0]==='object') return v;
-  }
-  return [];
-}
-function releasedTW(x){
-  return !!(x && x.Id && x.Name);
-}
-
-function studentKey(s){
-  return String(s?.Id ?? s?.PathName ?? s?.DevName ?? s?.Name ?? '');
-}
-function normalizeStudent(s,region){
-  if(!s) return null;
-  const c={...s};
-  c._regions=[region];
-  c._sourceRegion=region;
-  return c;
-}
-function normalizeSkillType(t){
-  return String(t||'').toLowerCase();
-}
-
-function localizeSkills(jpSkills,twSkills){
-  const jp=Array.isArray(jpSkills)?jpSkills:[];
-  const tw=Array.isArray(twSkills)?twSkills:[];
-
-  return jp.map((skill,index)=>{
-    const type=normalizeSkillType(skill.SkillType);
-    const twMatch=tw.find(x=>normalizeSkillType(x.SkillType)===type) || tw[index];
-
-    return {
-      ...skill,
-      JPName:skill.Name||'',
-      Name:twMatch?.Name || skillTypeLabel(type),
-      LocalizedFrom:twMatch?'tw':'generic-zh'
-    };
-  });
-}
-
-function mergeStudentCatalog(twList,jpList,localList=LOCAL_STUDENTS){
-  const map=new Map();
-
-  for(const raw of localList||[]){
-    if(!raw)continue;
-    const key=(raw.EnglishName||raw.PathName||raw.DevName||raw.Name||'').toLowerCase();
-    if(!key)continue;
-    map.set(key,{...raw});
-  }
-
-  // JP is authoritative for gameplay data.
-  for(const raw of jpList||[]){
-    if(!raw)continue;
-    const candidates=[raw.PathName,raw.DevName,raw.Name].filter(Boolean).map(x=>String(x).toLowerCase());
-    const key=candidates.find(k=>map.has(k))||candidates[0];
-    if(!key)continue;
-
-    const old=map.get(key)||{};
-    map.set(key,{
-      ...old,
-      ...raw,
-      Name:old.LocalChineseName||old.Name||raw.Name,
-      EnglishName:old.EnglishName||raw.PathName||raw.Name,
-      LocalChineseName:old.LocalChineseName||old.Name||'',
-
-      SquadType:raw.SquadType||old.SquadType,
-      TacticRole:raw.TacticRole||old.TacticRole,
-      Skills:Array.isArray(raw.Skills)?raw.Skills:(old.Skills||[]),
-
-      SquadTypeSource:raw.SquadType?'schaledb-jp':'local',
-      TacticRoleSource:raw.TacticRole?'schaledb-jp':'local',
-      SkillsSource:Array.isArray(raw.Skills)?'schaledb-jp':'local',
-
-      CurrentSlug:old.CurrentSlug||raw.PathName||'',
-      ImageId:old.ImageId,
-
-      _regions:[...new Set([...(old._regions||[]),'jp'])],
-      _sourceRegion:'jp'
-    });
-  }
-
-  // TW is localization only; never override JP gameplay fields.
-  for(const raw of twList||[]){
-    if(!raw)continue;
-    const candidates=[raw.PathName,raw.DevName,raw.Name].filter(Boolean).map(x=>String(x).toLowerCase());
-    const key=candidates.find(k=>map.has(k))||candidates[0];
-    if(!key)continue;
-
-    const old=map.get(key)||{};
-    map.set(key,{
-      ...old,
-      Name:raw.Name||old.Name,
-      InternationalName:raw.Name||old.InternationalName||'',
-      SearchAliases:[...new Set([...(old.SearchAliases||[]),old.Name,old.EnglishName,raw.Name,raw.PathName].filter(Boolean))],
-      Skills:localizeSkills(old.Skills||[],raw.Skills||[]),
-      _regions:[...new Set([...(old._regions||[]),'tw'])],
-      _sourceRegion:'jp+tw-localized'
-    });
-  }
-
-  // JP-only students: preserve JP data, but don't display Japanese skill names as the primary label.
-  for(const [key,s] of map.entries()){
-    if((s._regions||[]).includes('jp') && !(s._regions||[]).includes('tw')){
-      map.set(key,{
-        ...s,
-        Skills:(s.Skills||[]).map(skill=>({
-          ...skill,
-          JPName:skill.JPName||skill.Name||'',
-          Name:skillTypeLabel(normalizeSkillType(skill.SkillType)),
-          LocalizedFrom:'generic-zh'
-        }))
-      });
-    }
-  }
-
-  return [...map.values()].filter(x=>x&&x.Name).sort((a,b)=>{
-    const ai=Number(a._catalogIndex)||Number(a.Id)||999999;
-    const bi=Number(b._catalogIndex)||Number(b.Id)||999999;
-    return ai-bi||String(a.Name).localeCompare(String(b.Name),'zh-Hant');
-  });
-}
-function regionLabel(s){
-  const r=s?._regions||[];
-  if(r.includes('jp')&&r.includes('tw')) return '日服資料／繁中';
-  if(r.includes('jp')) return '日服';
-  return '本地';
+  return `學生 ${d.total}｜位置 ${d.squad}/${d.total}｜戰術 ${d.tactic}/${d.total}｜JP已核對 ${d.jpVerified}｜本地校正 ${d.localCorrected}｜鹿江 ${d.kanoe?'✓':'✗'}`;
 }
 function parseTime(v){
   let s=String(v||'').trim();
@@ -835,7 +669,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.14.2',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.16',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
@@ -879,7 +713,7 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
 (async()=>{
   try{
     // 1) Local data MUST load first so UI is never empty.
-    setStatus('V4.4.14.2 正在載入本地資料…');
+    setStatus('V4.4.16 正在載入學生本地資料與圖片索引…');
 
     const local=await loadLocalCatalog();
     students=mergeStudentCatalog([],[],local.students);
@@ -890,7 +724,7 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
     renderStudents();
     renderTl();
 
-    setStatus(`V4.4.14.2 本地載入完成：${students.length} 名學生｜${raids.length} Boss｜正在同步 JP…`,'ok');
+    setStatus(`V4.4.16 本地載入完成：${students.length} 名學生｜${raids.length} Boss｜正在同步 JP…`,'ok');
 
     // 2) JP data is authoritative, but failure must not break local UI.
     let jpStudents=[];
@@ -915,14 +749,14 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
       renderTeam();
       renderStudents();
       renderTl();
-      setStatus(`V4.4.14.2 ${integrityText()}`,'ok');
+      setStatus(`V4.4.16 ${integrityText()}`,'ok');
     }else{
-      setStatus(`V4.4.14.2 日服同步失敗，已使用本地備援：${students.length} 名學生｜${raids.length} Boss`,'err');
+      setStatus(`V4.4.16 遠端同步失敗，使用本地校正版：${students.length} 名學生｜${raids.length} Boss`,'err');
     }
 
   }catch(e){
     console.error('Fatal bootstrap error',e);
-    setStatus(`V4.4.14.2 本地啟動失敗：${e?.message||e}`,'err');
+    setStatus(`V4.4.16 本地啟動失敗：${e?.message||e}`,'err');
   }
 })();
 
@@ -932,6 +766,25 @@ if ('serviceWorker' in navigator && location.protocol === 'https:') {
   });
 }
 
+
+const __oldRenderStudents = (typeof renderStudents==='function') ? renderStudents : null;
+if(__oldRenderStudents){
+  renderStudents = function(...args){
+    const r=__oldRenderStudents.apply(this,args);
+    requestAnimationFrame(()=>{
+      document.querySelectorAll('[data-student-id]').forEach(card=>{
+        const id=String(card.dataset.studentId||'');
+        const s=students.find(x=>String(x.Id||x.ID||x.id)===id);
+        const img=card.querySelector('img');
+        if(s && img && !img.dataset.v4416Fallback){
+          img.dataset.v4416Fallback='1';
+          attachStudentImageFallback(img,s);
+        }
+      });
+    });
+    return r;
+  };
+}
 </script>
 </body>
 </html>
