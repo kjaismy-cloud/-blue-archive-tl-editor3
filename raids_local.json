@@ -8,7 +8,8 @@
       "Outdoor",
       "Street"
     ],
-    "ImageSlug": "Binah"
+    "ImageSlug": "Binah",
+    "LocalImage": "./boss-icons/Binah.svg"
   },
   {
     "Id": "Chesed",
@@ -19,7 +20,8 @@
       "Outdoor",
       "Indoor"
     ],
-    "ImageSlug": "Chesed"
+    "ImageSlug": "Chesed",
+    "LocalImage": "./boss-icons/Chesed.svg"
   },
   {
     "Id": "ShiroKuro",
@@ -30,7 +32,8 @@
       "Street",
       "Indoor"
     ],
-    "ImageSlug": "ShiroKuro"
+    "ImageSlug": "ShiroKuro",
+    "LocalImage": "./boss-icons/ShiroKuro.svg"
   },
   {
     "Id": "Hieronymus",
@@ -41,7 +44,8 @@
       "Street",
       "Indoor"
     ],
-    "ImageSlug": "Hieronymus"
+    "ImageSlug": "Hieronymus",
+    "LocalImage": "./boss-icons/Hieronymus.svg"
   },
   {
     "Id": "Kaiten",
@@ -52,7 +56,8 @@
       "Street",
       "Outdoor"
     ],
-    "ImageSlug": "KaitenFxMk0"
+    "ImageSlug": "KaitenFxMk0",
+    "LocalImage": "./boss-icons/Kaiten.svg"
   },
   {
     "Id": "Perorodzilla",
@@ -63,7 +68,8 @@
       "Indoor",
       "Outdoor"
     ],
-    "ImageSlug": "Perorodzilla"
+    "ImageSlug": "Perorodzilla",
+    "LocalImage": "./boss-icons/Perorodzilla.svg"
   },
   {
     "Id": "Hod",
@@ -74,7 +80,8 @@
       "Street",
       "Indoor"
     ],
-    "ImageSlug": "Hod"
+    "ImageSlug": "Hod",
+    "LocalImage": "./boss-icons/Hod.svg"
   },
   {
     "Id": "Goz",
@@ -85,7 +92,8 @@
       "Indoor",
       "Street"
     ],
-    "ImageSlug": "Goz"
+    "ImageSlug": "Goz",
+    "LocalImage": "./boss-icons/Goz.svg"
   },
   {
     "Id": "Gregorius",
@@ -95,7 +103,8 @@
     "Terrain": [
       "Indoor"
     ],
-    "ImageSlug": "Gregorius"
+    "ImageSlug": "Gregorius",
+    "LocalImage": "./boss-icons/Gregorius.svg"
   },
   {
     "Id": "HoverCraft",
@@ -105,7 +114,8 @@
     "Terrain": [
       "Outdoor"
     ],
-    "ImageSlug": "HoverCraft"
+    "ImageSlug": "HoverCraft",
+    "LocalImage": "./boss-icons/HoverCraft.svg"
   },
   {
     "Id": "Kurokage",
@@ -115,7 +125,8 @@
     "Terrain": [
       "Indoor"
     ],
-    "ImageSlug": "Kurokage"
+    "ImageSlug": "Kurokage",
+    "LocalImage": "./boss-icons/Kurokage.svg"
   },
   {
     "Id": "Geburah",
@@ -123,7 +134,8 @@
     "Name": "Geburah",
     "ArmorType": "",
     "Terrain": [],
-    "ImageSlug": "Geburah"
+    "ImageSlug": "Geburah",
+    "LocalImage": "./boss-icons/Geburah.svg"
   },
   {
     "Id": "Yesod",
@@ -131,6 +143,7 @@
     "Name": "Yesod",
     "ArmorType": "",
     "Terrain": [],
-    "ImageSlug": "Yesod"
+    "ImageSlug": "Yesod",
+    "LocalImage": "./boss-icons/Yesod.svg"
   }
 ]
