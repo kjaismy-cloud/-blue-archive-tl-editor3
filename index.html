@@ -114,9 +114,9 @@ button.danger{color:var(--danger)}
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.2 · iPhone 手機版 · SchaleDB 繁中資料</div>
+    <div class="small">V4.3 · SchaleDB 全角色同步版</div>
   </div>
-  <div id="status" class="status">V4.2 正在載入 SchaleDB 資料…</div>
+  <div id="status" class="status">V4.3 正在同步 TW + JP 學生資料…</div>
   <div class="small">資料來源優先：SchaleDB GitHub Raw（繁中）；主站作為備援。</div>
 
   <section id="installHelp" class="panel grid">
@@ -157,7 +157,7 @@ button.danger{color:var(--danger)}
       <div class="space">
         <div>
           <h2>隊伍編成</h2>
-          <div class="small">STRIKER 4 人 + SPECIAL 2 人。點學生頭像即可自動加入對應區域。</div>
+          <div class="small">STRIKER 4 人 + SPECIAL 2 人。點學生頭像即可自動加入對應區域。</div><div class="small">角色資料：繁中優先；TW 沒有時由 JP 資料自動補齊。</div>
         </div>
         <button id="clearTeam">清空</button>
       </div>
@@ -185,11 +185,18 @@ button.danger{color:var(--danger)}
           <h2>選擇學生</h2>
           <div id="studentCount" class="small"></div>
         </div>
-        <select id="squadFilter" style="width:auto;margin:0">
-          <option value="">全部</option>
-          <option value="Main">STRIKER</option>
-          <option value="Support">SPECIAL</option>
-        </select>
+        <div class="row">
+          <select id="regionFilter" style="width:auto;margin:0">
+            <option value="">全部角色</option>
+            <option value="tw">國際服</option>
+            <option value="jp">日服</option>
+          </select>
+          <select id="squadFilter" style="width:auto;margin:0">
+            <option value="">全部</option>
+            <option value="Main">STRIKER</option>
+            <option value="Support">SPECIAL</option>
+          </select>
+        </div>
       </div>
       <input id="studentSearch" placeholder="搜尋學生，例如：伊織、Iori">
       <div id="studentGrid" class="student-picker-grid"></div>
@@ -244,38 +251,47 @@ button.danger{color:var(--danger)}
 </nav>
 
 <script>
-const DATA_BASES=[
-  'https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/data/tw',
-  'https://schaledb.com/data/tw'
-];
+const REGION_BASES={
+  tw:[
+    'https://schaledb.com/data/tw',
+    'https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/data/tw'
+  ],
+  jp:[
+    'https://schaledb.com/data/jp',
+    'https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/data/jp'
+  ]
+};
 const RAW_IMG='https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images';
 const SITE_IMG='https://schaledb.com/images';
 let students=[],raids=[],strikers=Array(4).fill(null),specials=Array(2).fill(null),selectedStudent=null,selectedSkill=null,tl=[];
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const studentImg=id=>`${RAW_IMG}/student/icon/${id}.webp`;
-const skillImg=icon=>icon?`${RAW_IMG}/skill/${icon}.webp`:'';
+const studentImg=id=>`${SITE_IMG}/student/icon/${id}.webp`;
+const studentImgFallback=id=>`${RAW_IMG}/student/icon/${id}.webp`;
+const skillImg=icon=>icon?`${SITE_IMG}/skill/${icon}.webp`:'';
+const skillImgFallback=icon=>icon?`${RAW_IMG}/skill/${icon}.webp`:'';
 const squadLabel=x=>x==='Main'?'STRIKER':x==='Support'?'SPECIAL':x||'';
 const bulletMap={Explosion:'爆發',Pierce:'貫通',Mystic:'神秘',Sonic:'振動',Normal:'一般'};
 const armorMap={LightArmor:'輕裝甲',HeavyArmor:'重裝甲',Unarmed:'特殊裝甲',ElasticArmor:'彈力裝甲'};
 const terrainMap={Street:'市街地',Outdoor:'野外',Indoor:'室內'};
 
 function setStatus(msg,type=''){let s=$('status');s.textContent=msg;s.className='status '+type}
-async function loadJson(name){
-  let err;
-  for(const b of DATA_BASES){
+async function loadRegionJson(region,name){
+  const bases=REGION_BASES[region]||[];
+  let lastErr;
+  for(const b of bases){
     try{
       const url=`${b}/${name}`;
       const r=await fetch(url,{cache:'no-store',mode:'cors'});
       if(!r.ok)throw new Error(`HTTP ${r.status}`);
       const data=await r.json();
-      return {data,source:b};
+      return {data,source:b,region};
     }catch(e){
-      err=e;
-      console.warn('SchaleDB load failed',b,name,e);
+      lastErr=e;
+      console.warn('SchaleDB region load failed',region,b,name,e);
     }
   }
-  throw err;
+  throw lastErr||new Error(`無法載入 ${region}/${name}`);
 }
 function extractArray(payload, keys=[]){
   if(Array.isArray(payload)) return payload;
@@ -289,10 +305,52 @@ function extractArray(payload, keys=[]){
   return [];
 }
 function releasedTW(x){
-  // V4.1: students.json in the TW data package is already localized.
-  // Do not discard the entire roster because release-array indexing may vary
-  // between SchaleDB dataset generations.
   return !!(x && x.Id && x.Name);
+}
+
+function studentKey(s){
+  return String(s?.Id ?? s?.PathName ?? s?.DevName ?? s?.Name ?? '');
+}
+function normalizeStudent(s,region){
+  if(!s) return null;
+  const c={...s};
+  c._regions=[region];
+  c._sourceRegion=region;
+  return c;
+}
+function mergeStudentCatalog(twList,jpList){
+  const map=new Map();
+
+  // JP first gives us the broadest catalog.
+  for(const raw of jpList){
+    const s=normalizeStudent(raw,'jp');
+    if(!s||!s.Id||!s.Name)continue;
+    map.set(studentKey(s),s);
+  }
+
+  // TW overwrites localized fields while retaining JP-only fields if needed.
+  for(const raw of twList){
+    const t=normalizeStudent(raw,'tw');
+    if(!t||!t.Id||!t.Name)continue;
+    const k=studentKey(t);
+    const old=map.get(k);
+    if(old){
+      map.set(k,{...old,...t,_regions:['tw','jp'],_sourceRegion:'tw'});
+    }else{
+      map.set(k,t);
+    }
+  }
+
+  return [...map.values()].sort((a,b)=>{
+    const ai=Number(a.Id)||999999, bi=Number(b.Id)||999999;
+    return ai-bi || String(a.Name).localeCompare(String(b.Name),'zh-Hant');
+  });
+}
+function regionLabel(s){
+  const r=s?._regions||[];
+  if(r.includes('tw')) return '國際服';
+  if(r.includes('jp')) return '日服';
+  return '';
 }
 function parseTime(v){
   let s=String(v||'').trim();
@@ -396,6 +454,7 @@ function renderTeam(){
     }else{
       b.innerHTML=`<div class="small">${type==='Main'?'STRIKER':'SPECIAL'} ${i+1}</div><div style="margin-top:20px">＋</div>`;
     }
+    const av=b.querySelector('img.avatar');if(av&&s)attachStudentFallback(av,s.Id);
     return b;
   }
 
@@ -426,8 +485,10 @@ function addToTeam(s){
   setStatus(`已加入 ${s.Name}`,'ok');
 }
 function renderStudents(){
-  let q=$('studentSearch').value.trim().toLowerCase(),sf=$('squadFilter').value;
+  let q=$('studentSearch').value.trim().toLowerCase(),sf=$('squadFilter').value,rf=$('regionFilter').value;
   let list=students.filter(releasedTW);
+  if(rf==='tw')list=list.filter(s=>(s._regions||[]).includes('tw'));
+  if(rf==='jp')list=list.filter(s=>(s._regions||[]).includes('jp'));
   if(sf)list=list.filter(s=>s.SquadType===sf);
   if(q)list=list.filter(s=>(s.Name||'').toLowerCase().includes(q)||(s.PathName||'').toLowerCase().includes(q)||(s.DevName||'').toLowerCase().includes(q));
 
@@ -440,7 +501,7 @@ function renderStudents(){
     b.className='student-pick card'+(teamHas(s.Id)?' in-team':'');
     b.innerHTML=`<img class="avatar" src="${studentImg(s.Id)}" alt="${esc(s.Name)}">
       <div class="student-name"><b>${esc(s.Name)}</b></div>
-      <div class="student-type">${squadLabel(s.SquadType)} · ${esc(bulletMap[s.BulletType]||s.BulletType||'')}</div>`;
+      <div class="student-type">${squadLabel(s.SquadType)} · ${esc(bulletMap[s.BulletType]||s.BulletType||'')} · ${regionLabel(s)}</div>`;
     b.onclick=()=>{
       if(teamHas(s.Id)){
         showStudent(s);
@@ -448,12 +509,14 @@ function renderStudents(){
       }
       addToTeam(s);
     };
+    const av=b.querySelector('img.avatar');
+    if(av)attachStudentFallback(av,s.Id);
     box.appendChild(b);
   });
 }
 function showStudent(s){
   selectedStudent=s;$('studentDetail').classList.remove('hidden');
-  $('detailAvatar').src=studentImg(s.Id);$('detailName').textContent=s.Name;
+  $('detailAvatar').src=studentImg(s.Id);attachStudentFallback($('detailAvatar'),s.Id);$('detailName').textContent=s.Name;
   $('detailMeta').innerHTML=`<span class="badge">${squadLabel(s.SquadType)}</span><span class="badge">${esc(bulletMap[s.BulletType]||s.BulletType||'')}</span><span class="badge">${esc(armorMap[s.ArmorType]||s.ArmorType||'')}</span>`;
   let skills=playableSkills(s);selectedSkill=skills.find(x=>x.SkillType==='ex')||skills[0]||null;
   let box=$('skillList');box.innerHTML='';
@@ -461,6 +524,7 @@ function showStudent(s){
     let b=document.createElement('button');b.type='button';b.className='skill-btn card'+(k===selectedSkill?' selected':'');
     let cost=Array.isArray(k.Cost)?k.Cost[0]:k.Cost;
     b.innerHTML=`${k.Icon?`<img class="skill-icon" src="${skillImg(k.Icon)}" alt="">`:''}<span><b>${skillTypeLabel(k.SkillType)} · ${esc(k.Name)}</b><br><span class="small">${cost!==undefined&&cost!==null?cost+' COST':'自動技能'}</span></span>`;
+    const si=b.querySelector('img.skill-icon');if(si&&k.Icon)attachSkillFallback(si,k.Icon);
     b.onclick=()=>{selectedSkill=k;syncTlStudents();$('tlStudent').value=String(s.Id);syncTlSkills();$('tlSkill').value=k.SkillType+'|'+k.Name;applySelectedSkill();go('Tl')};box.appendChild(b);
   });
 }
@@ -499,6 +563,7 @@ function renderTl(){
     d.querySelector('.down').onclick=()=>{if(i<tl.length-1){[tl[i+1],tl[i]]=[tl[i],tl[i+1]];renderTl()}};
     d.querySelector('.del').onclick=()=>{tl.splice(i,1);renderTl()};
     d.querySelector('.edit').onclick=()=>{let x=tl.splice(i,1)[0];$('time').value=formatTime(x.seconds);$('cost').value=x.cost;$('note').value=x.note;if(x.studentId){$('tlStudent').value=String(x.studentId);syncTlSkills();$('tlSkill').value=x.skillType+'|'+x.skillName;applySelectedSkill()}renderTl()};
+    const av=d.querySelector('img.avatar');if(av&&x.studentId)attachStudentFallback(av,x.studentId);
     box.appendChild(d);
   });renderText();
 }
@@ -513,7 +578,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.2',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.3',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
@@ -540,13 +605,13 @@ function importJson(){
 
     tl=Array.isArray(d.tl)?d.tl:[];
     renderTeam();renderStudents();renderTl();
-    setStatus('V4.2 JSON 載入完成','ok');
+    setStatus('V4.3 JSON 載入完成','ok');
   }catch(e){
     setStatus('JSON 格式錯誤','err');
   }
 }
 
-$('boss').onchange=updateBoss;$('studentSearch').oninput=renderStudents;$('squadFilter').onchange=renderStudents;
+$('boss').onchange=updateBoss;$('studentSearch').oninput=renderStudents;$('squadFilter').onchange=renderStudents;$('regionFilter').onchange=renderStudents;
 $('clearTeam').onclick=()=>{strikers=Array(4).fill(null);specials=Array(2).fill(null);renderTeam();renderStudents();renderText()};
 $('tlStudent').onchange=syncTlSkills;$('tlSkill').onchange=applySelectedSkill;
 $('addTl').onclick=()=>addTl(false);$('addWait').onclick=()=>addTl(true);
@@ -556,23 +621,33 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
 
 (async()=>{
   try{
-    const [sRes,rRes]=await Promise.all([loadJson('students.json'),loadJson('raids.json')]);
-    students=extractArray(sRes.data,['Student','Students','students']).filter(x=>x&&x.Id&&x.Name);
-    raids=extractArray(rRes.data,['Raid','Raids','raids']).filter(x=>x&&x.Id&&x.Name);
+    setStatus('V4.3：正在同步國際服與日服學生…');
 
-    if(!students.length) throw new Error('students.json 解析後為 0 筆');
-    if(!raids.length) throw new Error('raids.json 解析後為 0 筆');
+    const [twStudentsRes,jpStudentsRes,twRaidsRes]=await Promise.all([
+      loadRegionJson('tw','students.json').catch(e=>({data:[],source:'TW unavailable',region:'tw',error:e})),
+      loadRegionJson('jp','students.json'),
+      loadRegionJson('tw','raids.json').catch(()=>loadRegionJson('jp','raids.json'))
+    ]);
 
-    renderBosses();
-    renderTeam();
-    renderStudents();
-    renderTl();
+    const twStudents=extractArray(twStudentsRes.data,['Student','Students','students']).filter(x=>x&&x.Id&&x.Name);
+    const jpStudents=extractArray(jpStudentsRes.data,['Student','Students','students']).filter(x=>x&&x.Id&&x.Name);
+    students=mergeStudentCatalog(twStudents,jpStudents);
 
-    const sourceLabel=sRes.source.includes('raw.githubusercontent.com')?'GitHub Raw':'SchaleDB';
-    setStatus(`V4.2 載入完成：${students.length} 名學生、${raids.length} 個 Boss · ${sourceLabel}`,'ok');
+    raids=extractArray(twRaidsRes.data,['Raid','Raids','raids']).filter(x=>x&&x.Id&&x.Name);
+
+    if(!students.length) throw new Error('學生同步結果為 0');
+    if(!raids.length) throw new Error('Raid 資料為 0');
+
+    renderBosses();renderTeam();renderStudents();renderTl();
+
+    const twCount=students.filter(s=>(s._regions||[]).includes('tw')).length;
+    const jpOnly=students.filter(s=>!(s._regions||[]).includes('tw')&&(s._regions||[]).includes('jp')).length;
+    const hasSeia=students.some(s=>(s.PathName||'').toLowerCase()==='seia'||String(s.Name).includes('聖亞')||String(s.Name).toLowerCase()==='seia');
+
+    setStatus(`V4.3 同步完成：${students.length} 名學生｜國際服 ${twCount}｜JP 補充 ${jpOnly}｜${raids.length} Boss${hasSeia?'｜聖亞 ✓':''}`,'ok');
   }catch(e){
     console.error(e);
-    setStatus(`V4.1 資料載入失敗：${e?.message||e}。請重新整理頁面；若仍失敗可把這行截圖給我。`,'err');
+    setStatus(`V4.3 同步失敗：${e?.message||e}。請重新整理；仍失敗請把這行截圖給我。`,'err');
   }
 })();
 
