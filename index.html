@@ -152,15 +152,46 @@ font-weight:800;font-size:20px;color:#9edfff;background:#203241;border-radius:14
   .desktop-layout{grid-template-columns:340px minmax(560px,1fr) 470px}
 }
 
+
+/* V4.5.2 mobile student list hotfix */
+@media (max-width:979px){
+  #viewTeam.active{display:block!important}
+  #viewTeam #studentGrid{
+    display:grid!important;
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    gap:10px!important;
+    width:100%!important;
+    min-height:120px!important;
+  }
+  #viewTeam .student-pick{
+    display:flex!important;
+    flex-direction:column!important;
+    align-items:center!important;
+    justify-content:flex-start!important;
+    min-height:150px!important;
+  }
+  #viewTeam .student-pick .avatar{
+    display:block;
+    width:74px!important;
+    height:74px!important;
+    object-fit:cover;
+  }
+}
+@media (max-width:430px){
+  #viewTeam #studentGrid{
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  }
+}
+
 </style>
 </head>
 <body>
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.5.1 · Chrome 桌面熱修版</div>
+    <div class="small">V4.5.2 · 手機學生清單熱修版</div>
   </div>
-  <div id="status" class="status">V4.5.1 正在載入桌面版資料…</div>
+  <div id="status" class="status">V4.5.2 正在載入資料…</div>
   <div class="small">V4.5 · Chrome 桌面三欄版 · iPhone 自動切換</div>
 
   <section id="installHelp" class="panel grid">
@@ -645,7 +676,7 @@ function renderStudents(){
   if(q)list=list.filter(s=>(s.Name||'').toLowerCase().includes(q)||(s.EnglishName||'').toLowerCase().includes(q)||(s.PathName||'').toLowerCase().includes(q)||(s.DevName||'').toLowerCase().includes(q));
 
   $('studentCount').textContent=`顯示 ${list.length} / ${students.length} 名學生`;
-  const box=$('studentGrid');box.innerHTML='';
+  const box=$('studentGrid'); if(!box) return;box.innerHTML='';
 
   list.forEach(s=>{
     const b=document.createElement('button');
@@ -732,7 +763,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.5.1',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.5.2',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
@@ -776,7 +807,7 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
 (async()=>{
   try{
     // 1) Local data MUST load first so UI is never empty.
-    setStatus('V4.5.1 正在載入桌面版資料…');
+    setStatus('V4.5.2 正在載入資料…');
 
     const local=await loadLocalCatalog();
     students=mergeStudentCatalog([],[],local.students);
@@ -904,6 +935,44 @@ window.addEventListener('resize',()=>{
   const next=window.innerWidth>=980;
   if(next!==__desktopMode) location.reload();
 });
+
+
+function ensureMobileStudentList(){
+  if(window.innerWidth>=980) return;
+
+  const teamView=document.getElementById('viewTeam');
+  const studentGrid=document.getElementById('studentGrid');
+  if(!teamView || !studentGrid) return;
+
+  // If desktop logic previously moved student panels, restore them to viewTeam.
+  const desktopStudents=document.getElementById('desktopStudentsMount');
+  if(desktopStudents && desktopStudents.children.length){
+    [...desktopStudents.children].forEach(node=>teamView.appendChild(node));
+  }
+
+  try{
+    if(typeof renderTeam==='function') renderTeam();
+    if(typeof renderStudents==='function') renderStudents();
+  }catch(e){
+    console.error('V4.5.2 mobile renderStudents failed',e);
+  }
+
+  // Safety retry after async local/JP data load.
+  setTimeout(()=>{
+    try{
+      if(typeof renderStudents==='function') renderStudents();
+    }catch(e){}
+  },250);
+
+  setTimeout(()=>{
+    try{
+      if(typeof renderStudents==='function') renderStudents();
+    }catch(e){}
+  },1000);
+}
+
+window.addEventListener('DOMContentLoaded',ensureMobileStudentList);
+window.addEventListener('load',ensureMobileStudentList);
 
 </script>
 </body>
