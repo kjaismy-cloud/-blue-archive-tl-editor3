@@ -1,0 +1,5821 @@
+[
+  {
+    "Id": 300000,
+    "PathName": "aru",
+    "Name": "亞瑠",
+    "EnglishName": "Aru",
+    "SquadType": "Main",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 1,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300001,
+    "PathName": "eimi",
+    "Name": "Eimi",
+    "EnglishName": "Eimi",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 2,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300002,
+    "PathName": "haruna",
+    "Name": "Haruna",
+    "EnglishName": "Haruna",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 3,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300003,
+    "PathName": "hifumi",
+    "Name": "Hifumi",
+    "EnglishName": "Hifumi",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 4,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300004,
+    "PathName": "hina",
+    "Name": "陽奈",
+    "EnglishName": "Hina",
+    "SquadType": "Main",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 5,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300005,
+    "PathName": "hoshino",
+    "Name": "星野",
+    "EnglishName": "Hoshino",
+    "SquadType": "Main",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 6,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300006,
+    "PathName": "iori",
+    "Name": "伊織",
+    "EnglishName": "Iori",
+    "SquadType": "Main",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 7,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300007,
+    "PathName": "maki",
+    "Name": "Maki",
+    "EnglishName": "Maki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 8,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300008,
+    "PathName": "neru",
+    "Name": "Neru",
+    "EnglishName": "Neru",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 9,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300009,
+    "PathName": "izumi",
+    "Name": "Izumi",
+    "EnglishName": "Izumi",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 10,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300010,
+    "PathName": "shiroko",
+    "Name": "白子",
+    "EnglishName": "Shiroko",
+    "SquadType": "Main",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 11,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300011,
+    "PathName": "shun",
+    "Name": "Shun",
+    "EnglishName": "Shun",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 12,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300012,
+    "PathName": "sumire",
+    "Name": "Sumire",
+    "EnglishName": "Sumire",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 13,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300013,
+    "PathName": "tsurugi",
+    "Name": "Tsurugi",
+    "EnglishName": "Tsurugi",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 14,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300014,
+    "PathName": "akane",
+    "Name": "Akane",
+    "EnglishName": "Akane",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 15,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300015,
+    "PathName": "chise",
+    "Name": "Chise",
+    "EnglishName": "Chise",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 16,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300016,
+    "PathName": "akari",
+    "Name": "Akari",
+    "EnglishName": "Akari",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 17,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300017,
+    "PathName": "hasumi",
+    "Name": "Hasumi",
+    "EnglishName": "Hasumi",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 18,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300018,
+    "PathName": "nonomi",
+    "Name": "Nonomi",
+    "EnglishName": "Nonomi",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 19,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300019,
+    "PathName": "kayoko",
+    "Name": "佳世子",
+    "EnglishName": "Kayoko",
+    "SquadType": "Main",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 20,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300020,
+    "PathName": "mutsuki",
+    "Name": "Mutsuki",
+    "EnglishName": "Mutsuki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 21,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300021,
+    "PathName": "junko",
+    "Name": "Junko",
+    "EnglishName": "Junko",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 22,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300022,
+    "PathName": "serika",
+    "Name": "Serika",
+    "EnglishName": "Serika",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 23,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300023,
+    "PathName": "tsubaki",
+    "Name": "Tsubaki",
+    "EnglishName": "Tsubaki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 24,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300024,
+    "PathName": "yuuka",
+    "Name": "Yuuka",
+    "EnglishName": "Yuuka",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 25,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300025,
+    "PathName": "haruka",
+    "Name": "Haruka",
+    "EnglishName": "Haruka",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 26,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300026,
+    "PathName": "asuna",
+    "Name": "Asuna",
+    "EnglishName": "Asuna",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 27,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300027,
+    "PathName": "kotori",
+    "Name": "Kotori",
+    "EnglishName": "Kotori",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 28,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300028,
+    "PathName": "suzumi",
+    "Name": "Suzumi",
+    "EnglishName": "Suzumi",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 29,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300029,
+    "PathName": "pina",
+    "Name": "Pina",
+    "EnglishName": "Pina",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 30,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300030,
+    "PathName": "hibiki",
+    "Name": "Hibiki",
+    "EnglishName": "Hibiki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 31,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300031,
+    "PathName": "karin",
+    "Name": "Karin",
+    "EnglishName": "Karin",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 32,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300032,
+    "PathName": "saya",
+    "Name": "Saya",
+    "EnglishName": "Saya",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 33,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300033,
+    "PathName": "airi",
+    "Name": "Airi",
+    "EnglishName": "Airi",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 34,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300034,
+    "PathName": "fuuka",
+    "Name": "Fuuka",
+    "EnglishName": "Fuuka",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 35,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300035,
+    "PathName": "hanae",
+    "Name": "Hanae",
+    "EnglishName": "Hanae",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 36,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300036,
+    "PathName": "hare",
+    "Name": "Hare",
+    "EnglishName": "Hare",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 37,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300037,
+    "PathName": "utaha",
+    "Name": "Utaha",
+    "EnglishName": "Utaha",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 38,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300038,
+    "PathName": "ayane",
+    "Name": "Ayane",
+    "EnglishName": "Ayane",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 39,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300039,
+    "PathName": "chinatsu",
+    "Name": "Chinatsu",
+    "EnglishName": "Chinatsu",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 40,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300040,
+    "PathName": "kotama",
+    "Name": "Kotama",
+    "EnglishName": "Kotama",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 41,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300041,
+    "PathName": "juri",
+    "Name": "Juri",
+    "EnglishName": "Juri",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 42,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300042,
+    "PathName": "serina",
+    "Name": "Serina",
+    "EnglishName": "Serina",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 43,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300043,
+    "PathName": "shimiko",
+    "Name": "Shimiko",
+    "EnglishName": "Shimiko",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 44,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300044,
+    "PathName": "yoshimi",
+    "Name": "Yoshimi",
+    "EnglishName": "Yoshimi",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 45,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300045,
+    "PathName": "mashiro",
+    "Name": "Mashiro",
+    "EnglishName": "Mashiro",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 46,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300046,
+    "PathName": "izuna",
+    "Name": "Izuna",
+    "EnglishName": "Izuna",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 47,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300047,
+    "PathName": "shizuko",
+    "Name": "Shizuko",
+    "EnglishName": "Shizuko",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 48,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300048,
+    "PathName": "aris",
+    "Name": "Aris",
+    "EnglishName": "Aris",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 49,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300049,
+    "PathName": "midori",
+    "Name": "Midori",
+    "EnglishName": "Midori",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 50,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300050,
+    "PathName": "momoi",
+    "Name": "Momoi",
+    "EnglishName": "Momoi",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 51,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300051,
+    "PathName": "cherino",
+    "Name": "Cherino",
+    "EnglishName": "Cherino",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 52,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300052,
+    "PathName": "nodoka",
+    "Name": "Nodoka",
+    "EnglishName": "Nodoka",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 53,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300053,
+    "PathName": "yuzu",
+    "Name": "Yuzu",
+    "EnglishName": "Yuzu",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 54,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300054,
+    "PathName": "azusa",
+    "Name": "Azusa",
+    "EnglishName": "Azusa",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 55,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300055,
+    "PathName": "hanako",
+    "Name": "Hanako",
+    "EnglishName": "Hanako",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 56,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300056,
+    "PathName": "koharu",
+    "Name": "Koharu",
+    "EnglishName": "Koharu",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 57,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300057,
+    "PathName": "azusa_swimsuit",
+    "Name": "Azusa (Swimsuit)",
+    "EnglishName": "Azusa (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 58,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300058,
+    "PathName": "mashiro_swimsuit",
+    "Name": "Mashiro (Swimsuit)",
+    "EnglishName": "Mashiro (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 59,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300059,
+    "PathName": "tsurugi_swimsuit",
+    "Name": "Tsurugi (Swimsuit)",
+    "EnglishName": "Tsurugi (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 60,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300060,
+    "PathName": "hifumi_swimsuit",
+    "Name": "Hifumi (Swimsuit)",
+    "EnglishName": "Hifumi (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 61,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300061,
+    "PathName": "hina_swimsuit",
+    "Name": "Hina (Swimsuit)",
+    "EnglishName": "Hina (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 62,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300062,
+    "PathName": "iori_swimsuit",
+    "Name": "Iori (Swimsuit)",
+    "EnglishName": "Iori (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 63,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300063,
+    "PathName": "izumi_swimsuit",
+    "Name": "Izumi (Swimsuit)",
+    "EnglishName": "Izumi (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 64,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300064,
+    "PathName": "shiroko_cycling",
+    "Name": "Shiroko (Cycling)",
+    "EnglishName": "Shiroko (Cycling)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 65,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300065,
+    "PathName": "shun_small",
+    "Name": "Shun (Small)",
+    "EnglishName": "Shun (Small)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 66,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300066,
+    "PathName": "kirino",
+    "Name": "Kirino",
+    "EnglishName": "Kirino",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 67,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300067,
+    "PathName": "saya_casual",
+    "Name": "Saya (Casual)",
+    "EnglishName": "Saya (Casual)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 68,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300068,
+    "PathName": "neru_bunny",
+    "Name": "Neru (Bunny)",
+    "EnglishName": "Neru (Bunny)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 69,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300069,
+    "PathName": "karin_bunny",
+    "Name": "Karin (Bunny)",
+    "EnglishName": "Karin (Bunny)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 70,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300070,
+    "PathName": "asuna_bunny",
+    "Name": "Asuna (Bunny)",
+    "EnglishName": "Asuna (Bunny)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 71,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300071,
+    "PathName": "natsu",
+    "Name": "Natsu",
+    "EnglishName": "Natsu",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 72,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300072,
+    "PathName": "mari",
+    "Name": "Mari",
+    "EnglishName": "Mari",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 73,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300073,
+    "PathName": "miku",
+    "Name": "Hatsune Miku",
+    "EnglishName": "Hatsune Miku",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 74,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300074,
+    "PathName": "ako",
+    "Name": "亞子",
+    "EnglishName": "Ako",
+    "SquadType": "Support",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 75,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300075,
+    "PathName": "cherino_hotspring",
+    "Name": "Cherino (Hot Spring)",
+    "EnglishName": "Cherino (Hot Spring)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 76,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300076,
+    "PathName": "chinatsu_hotspring",
+    "Name": "Chinatsu (Hot Spring)",
+    "EnglishName": "Chinatsu (Hot Spring)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 77,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300077,
+    "PathName": "tomoe",
+    "Name": "Tomoe",
+    "EnglishName": "Tomoe",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 78,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300078,
+    "PathName": "nodoka_hotspring",
+    "Name": "Nodoka (Hot Spring)",
+    "EnglishName": "Nodoka (Hot Spring)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 79,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300079,
+    "PathName": "aru_newyear",
+    "Name": "Aru (New Year)",
+    "EnglishName": "Aru (New Year)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 80,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300080,
+    "PathName": "mutsuki_newyear",
+    "Name": "Mutsuki (New Year)",
+    "EnglishName": "Mutsuki (New Year)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 81,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300081,
+    "PathName": "serika_newyear",
+    "Name": "Serika (New Year)",
+    "EnglishName": "Serika (New Year)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 82,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300082,
+    "PathName": "wakamo",
+    "Name": "Wakamo",
+    "EnglishName": "Wakamo",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 83,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300083,
+    "PathName": "fubuki",
+    "Name": "Fubuki",
+    "EnglishName": "Fubuki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 84,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300084,
+    "PathName": "sena",
+    "Name": "Sena",
+    "EnglishName": "Sena",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 85,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300085,
+    "PathName": "chihiro",
+    "Name": "Chihiro",
+    "EnglishName": "Chihiro",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 86,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300086,
+    "PathName": "mimori",
+    "Name": "Mimori",
+    "EnglishName": "Mimori",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 87,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300087,
+    "PathName": "ui",
+    "Name": "Ui",
+    "EnglishName": "Ui",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 88,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300088,
+    "PathName": "hinata",
+    "Name": "Hinata",
+    "EnglishName": "Hinata",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 89,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300089,
+    "PathName": "marina",
+    "Name": "Marina",
+    "EnglishName": "Marina",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 90,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300090,
+    "PathName": "miyako",
+    "Name": "Miyako",
+    "EnglishName": "Miyako",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 91,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300091,
+    "PathName": "saki",
+    "Name": "Saki",
+    "EnglishName": "Saki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 92,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300092,
+    "PathName": "miyu",
+    "Name": "Miyu",
+    "EnglishName": "Miyu",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 93,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300093,
+    "PathName": "kaede",
+    "Name": "Kaede",
+    "EnglishName": "Kaede",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 94,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300094,
+    "PathName": "iroha",
+    "Name": "伊呂波",
+    "EnglishName": "Iroha",
+    "SquadType": "Support",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 95,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300095,
+    "PathName": "michiru",
+    "Name": "Michiru",
+    "EnglishName": "Michiru",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 96,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300096,
+    "PathName": "tsukuyo",
+    "Name": "Tsukuyo",
+    "EnglishName": "Tsukuyo",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 97,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300097,
+    "PathName": "misaki",
+    "Name": "Misaki",
+    "EnglishName": "Misaki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 98,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300098,
+    "PathName": "hiyori",
+    "Name": "Hiyori",
+    "EnglishName": "Hiyori",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 99,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300099,
+    "PathName": "atsuko",
+    "Name": "Atsuko",
+    "EnglishName": "Atsuko",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 100,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300100,
+    "PathName": "wakamo_swimsuit",
+    "Name": "Wakamo (Swimsuit)",
+    "EnglishName": "Wakamo (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 101,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300101,
+    "PathName": "nonomi_swimsuit",
+    "Name": "Nonomi (Swimsuit)",
+    "EnglishName": "Nonomi (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 102,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300102,
+    "PathName": "ayane_swimsuit",
+    "Name": "Ayane (Swimsuit)",
+    "EnglishName": "Ayane (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 103,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300103,
+    "PathName": "hoshino_swimsuit",
+    "Name": "Hoshino (Swimsuit)",
+    "EnglishName": "Hoshino (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 104,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300104,
+    "PathName": "shizuko_swimsuit",
+    "Name": "Shizuko (Swimsuit)",
+    "EnglishName": "Shizuko (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 105,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300105,
+    "PathName": "izuna_swimsuit",
+    "Name": "Izuna (Swimsuit)",
+    "EnglishName": "Izuna (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 106,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300106,
+    "PathName": "chise_swimsuit",
+    "Name": "Chise (Swimsuit)",
+    "EnglishName": "Chise (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 107,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300107,
+    "PathName": "saori",
+    "Name": "Saori",
+    "EnglishName": "Saori",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 108,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300108,
+    "PathName": "moe",
+    "Name": "Moe",
+    "EnglishName": "Moe",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 109,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300109,
+    "PathName": "kazusa",
+    "Name": "Kazusa",
+    "EnglishName": "Kazusa",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 110,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300110,
+    "PathName": "kokona",
+    "Name": "Kokona",
+    "EnglishName": "Kokona",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 111,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300111,
+    "PathName": "utaha_cheer",
+    "Name": "Utaha (Cheer Squad)",
+    "EnglishName": "Utaha (Cheer Squad)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 112,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300112,
+    "PathName": "noa",
+    "Name": "Noa",
+    "EnglishName": "Noa",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 113,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300113,
+    "PathName": "hibiki_cheer",
+    "Name": "Hibiki (Cheer Squad)",
+    "EnglishName": "Hibiki (Cheer Squad)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 114,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300114,
+    "PathName": "akane_bunny",
+    "Name": "Akane (Bunny)",
+    "EnglishName": "Akane (Bunny)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 115,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300115,
+    "PathName": "yuuka_track",
+    "Name": "Yuuka (Track)",
+    "EnglishName": "Yuuka (Track)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 116,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300116,
+    "PathName": "mari_track",
+    "Name": "Mari (Track)",
+    "EnglishName": "Mari (Track)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 117,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300117,
+    "PathName": "hasumi_track",
+    "Name": "Hasumi (Track)",
+    "EnglishName": "Hasumi (Track)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 118,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300118,
+    "PathName": "himari",
+    "Name": "Himari",
+    "EnglishName": "Himari",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 119,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300119,
+    "PathName": "shigure",
+    "Name": "Shigure",
+    "EnglishName": "Shigure",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 120,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300120,
+    "PathName": "serina_christmas",
+    "Name": "Serina (Christmas)",
+    "EnglishName": "Serina (Christmas)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 121,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300121,
+    "PathName": "hanae_christmas",
+    "Name": "Hanae (Christmas)",
+    "EnglishName": "Hanae (Christmas)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 122,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300122,
+    "PathName": "haruna_newyear",
+    "Name": "Haruna (New Year)",
+    "EnglishName": "Haruna (New Year)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 123,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300123,
+    "PathName": "fuuka_newyear",
+    "Name": "Fuuka (New Year)",
+    "EnglishName": "Fuuka (New Year)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 124,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300124,
+    "PathName": "junko_newyear",
+    "Name": "Junko (New Year)",
+    "EnglishName": "Junko (New Year)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 125,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300125,
+    "PathName": "mine",
+    "Name": "Mine",
+    "EnglishName": "Mine",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 126,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300126,
+    "PathName": "mika",
+    "Name": "Mika",
+    "EnglishName": "Mika",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 127,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300127,
+    "PathName": "megu",
+    "Name": "Megu",
+    "EnglishName": "Megu",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 128,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300128,
+    "PathName": "kanna",
+    "Name": "Kanna",
+    "EnglishName": "Kanna",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 129,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300129,
+    "PathName": "sakurako",
+    "Name": "Sakurako",
+    "EnglishName": "Sakurako",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 130,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300130,
+    "PathName": "toki",
+    "Name": "Toki",
+    "EnglishName": "Toki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 131,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300131,
+    "PathName": "nagisa",
+    "Name": "Nagisa",
+    "EnglishName": "Nagisa",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 132,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300132,
+    "PathName": "koyuki",
+    "Name": "Koyuki",
+    "EnglishName": "Koyuki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 133,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300133,
+    "PathName": "kayoko_newyear",
+    "Name": "Kayoko (New Year)",
+    "EnglishName": "Kayoko (New Year)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 134,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300134,
+    "PathName": "haruka_newyear",
+    "Name": "Haruka (New Year)",
+    "EnglishName": "Haruka (New Year)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 135,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300135,
+    "PathName": "kaho",
+    "Name": "Kaho",
+    "EnglishName": "Kaho",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 136,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300136,
+    "PathName": "aris_maid",
+    "Name": "Aris (Maid)",
+    "EnglishName": "Aris (Maid)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 137,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300137,
+    "PathName": "toki_bunny",
+    "Name": "Toki (Bunny)",
+    "EnglishName": "Toki (Bunny)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 138,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300138,
+    "PathName": "yuzu_maid",
+    "Name": "Yuzu (Maid)",
+    "EnglishName": "Yuzu (Maid)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 139,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300139,
+    "PathName": "reisa",
+    "Name": "Reisa",
+    "EnglishName": "Reisa",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 140,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300140,
+    "PathName": "rumi",
+    "Name": "Rumi",
+    "EnglishName": "Rumi",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 141,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300141,
+    "PathName": "mina",
+    "Name": "Mina",
+    "EnglishName": "Mina",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 142,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300142,
+    "PathName": "minori",
+    "Name": "Minori",
+    "EnglishName": "Minori",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 143,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300143,
+    "PathName": "miyako_swimsuit",
+    "Name": "Miyako (Swimsuit)",
+    "EnglishName": "Miyako (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 144,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300144,
+    "PathName": "saki_swimsuit",
+    "Name": "Saki (Swimsuit)",
+    "EnglishName": "Saki (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 145,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300145,
+    "PathName": "miyu_swimsuit",
+    "Name": "Miyu (Swimsuit)",
+    "EnglishName": "Miyu (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 146,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300146,
+    "PathName": "shiroko_swimsuit",
+    "Name": "Shiroko (Swimsuit)",
+    "EnglishName": "Shiroko (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 147,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300147,
+    "PathName": "ui_swimsuit",
+    "Name": "Ui (Swimsuit)",
+    "EnglishName": "Ui (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 148,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300148,
+    "PathName": "hinata_swimsuit",
+    "Name": "Hinata (Swimsuit)",
+    "EnglishName": "Hinata (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 149,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300149,
+    "PathName": "koharu_swimsuit",
+    "Name": "Koharu (Swimsuit)",
+    "EnglishName": "Koharu (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 150,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300150,
+    "PathName": "hanako_swimsuit",
+    "Name": "Hanako (Swimsuit)",
+    "EnglishName": "Hanako (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 151,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300151,
+    "PathName": "mimori_swimsuit",
+    "Name": "Mimori (Swimsuit)",
+    "EnglishName": "Mimori (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 152,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300152,
+    "PathName": "meru",
+    "Name": "Meru",
+    "EnglishName": "Meru",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 153,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300153,
+    "PathName": "momiji",
+    "Name": "Momiji",
+    "EnglishName": "Momiji",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 154,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300154,
+    "PathName": "kotori_cheer",
+    "Name": "Kotori (Cheer Squad)",
+    "EnglishName": "Kotori (Cheer Squad)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 155,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300155,
+    "PathName": "haruna_track",
+    "Name": "Haruna (Track)",
+    "EnglishName": "Haruna (Track)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 156,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300156,
+    "PathName": "ichika",
+    "Name": "Ichika",
+    "EnglishName": "Ichika",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 157,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300157,
+    "PathName": "kasumi",
+    "Name": "Kasumi",
+    "EnglishName": "Kasumi",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 158,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300158,
+    "PathName": "shigure_hotspring",
+    "Name": "Shigure (Hot Spring)",
+    "EnglishName": "Shigure (Hot Spring)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 159,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300159,
+    "PathName": "misaka_mikoto",
+    "Name": "Misaka Mikoto",
+    "EnglishName": "Misaka Mikoto",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 160,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300160,
+    "PathName": "shokuhou_misaki",
+    "Name": "Shokuhou Misaki",
+    "EnglishName": "Shokuhou Misaki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 161,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300161,
+    "PathName": "saten_ruiko",
+    "Name": "Saten Ruiko",
+    "EnglishName": "Saten Ruiko",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 162,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300162,
+    "PathName": "yukari",
+    "Name": "Yukari",
+    "EnglishName": "Yukari",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 163,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300163,
+    "PathName": "renge",
+    "Name": "Renge",
+    "EnglishName": "Renge",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 164,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300164,
+    "PathName": "kikyou",
+    "Name": "Kikyou",
+    "EnglishName": "Kikyou",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 165,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300165,
+    "PathName": "eimi_swimsuit",
+    "Name": "Eimi (Swimsuit)",
+    "EnglishName": "Eimi (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 166,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300166,
+    "PathName": "kotama_camp",
+    "Name": "Kotama (Camp)",
+    "EnglishName": "Kotama (Camp)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 167,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300167,
+    "PathName": "hare_camp",
+    "Name": "Hare (Camp)",
+    "EnglishName": "Hare (Camp)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 168,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300168,
+    "PathName": "ako_dress",
+    "Name": "Ako (Dress)",
+    "EnglishName": "Ako (Dress)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 169,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300169,
+    "PathName": "ibuki",
+    "Name": "Ibuki",
+    "EnglishName": "Ibuki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 170,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300170,
+    "PathName": "makoto",
+    "Name": "Makoto",
+    "EnglishName": "Makoto",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 171,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300171,
+    "PathName": "hina_dress",
+    "Name": "Hina (Dress)",
+    "EnglishName": "Hina (Dress)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 172,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300172,
+    "PathName": "kayoko_dress",
+    "Name": "Kayoko (Dress)",
+    "EnglishName": "Kayoko (Dress)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 173,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300173,
+    "PathName": "aru_dress",
+    "Name": "Aru (Dress)",
+    "EnglishName": "Aru (Dress)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 174,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300174,
+    "PathName": "akari_newyear",
+    "Name": "Akari (New Year)",
+    "EnglishName": "Akari (New Year)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 175,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300175,
+    "PathName": "umika",
+    "Name": "Umika",
+    "EnglishName": "Umika",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 176,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300176,
+    "PathName": "tsubaki_guide",
+    "Name": "Tsubaki (Guide)",
+    "EnglishName": "Tsubaki (Guide)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 177,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300177,
+    "PathName": "kazusa_band",
+    "Name": "Kazusa (Band)",
+    "EnglishName": "Kazusa (Band)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 178,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300178,
+    "PathName": "yoshimi_band",
+    "Name": "Yoshimi (Band)",
+    "EnglishName": "Yoshimi (Band)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 179,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300179,
+    "PathName": "airi_band",
+    "Name": "Airi (Band)",
+    "EnglishName": "Airi (Band)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 180,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300180,
+    "PathName": "kirara",
+    "Name": "Kirara",
+    "EnglishName": "Kirara",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 181,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300181,
+    "PathName": "momoi_maid",
+    "Name": "Momoi (Maid)",
+    "EnglishName": "Momoi (Maid)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 182,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300182,
+    "PathName": "midori_maid",
+    "Name": "Midori (Maid)",
+    "EnglishName": "Midori (Maid)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 183,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300183,
+    "PathName": "serika_swimsuit",
+    "Name": "Serika (Swimsuit)",
+    "EnglishName": "Serika (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 184,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300184,
+    "PathName": "kanna_swimsuit",
+    "Name": "Kanna (Swimsuit)",
+    "EnglishName": "Kanna (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 185,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300185,
+    "PathName": "fubuki_swimsuit",
+    "Name": "Fubuki (Swimsuit)",
+    "EnglishName": "Fubuki (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 186,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300186,
+    "PathName": "kirino_swimsuit",
+    "Name": "Kirino (Swimsuit)",
+    "EnglishName": "Kirino (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 187,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300187,
+    "PathName": "moe_swimsuit",
+    "Name": "Moe (Swimsuit)",
+    "EnglishName": "Moe (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 188,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300188,
+    "PathName": "hoshino_armed",
+    "Name": "Hoshino (Armed)",
+    "EnglishName": "Hoshino (Armed)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 189,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300189,
+    "PathName": "hoshino_armed_2",
+    "Name": "Hoshino (Armed)",
+    "EnglishName": "Hoshino (Armed)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 190,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300190,
+    "PathName": "shiroko_terror",
+    "Name": "Shiroko*Terror",
+    "EnglishName": "Shiroko*Terror",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 191,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300191,
+    "PathName": "atsuko_swimsuit",
+    "Name": "Atsuko (Swimsuit)",
+    "EnglishName": "Atsuko (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 192,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300192,
+    "PathName": "saori_swimsuit",
+    "Name": "Saori (Swimsuit)",
+    "EnglishName": "Saori (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 193,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300193,
+    "PathName": "hiyori_swimsuit",
+    "Name": "Hiyori (Swimsuit)",
+    "EnglishName": "Hiyori (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 194,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300194,
+    "PathName": "marina_qipao",
+    "Name": "Marina (Qipao)",
+    "EnglishName": "Marina (Qipao)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 195,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300195,
+    "PathName": "tomoe_qipao",
+    "Name": "Tomoe (Qipao)",
+    "EnglishName": "Tomoe (Qipao)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 196,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300196,
+    "PathName": "reijo",
+    "Name": "Reijo",
+    "EnglishName": "Reijo",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 197,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300197,
+    "PathName": "kisaki",
+    "Name": "Kisaki",
+    "EnglishName": "Kisaki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 198,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300198,
+    "PathName": "mari_idol",
+    "Name": "Mari (Pop Idol)",
+    "EnglishName": "Mari (Pop Idol)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 199,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300199,
+    "PathName": "sakurako_idol",
+    "Name": "Sakurako (Pop Idol)",
+    "EnglishName": "Sakurako (Pop Idol)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 200,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300200,
+    "PathName": "mine_idol",
+    "Name": "Mine (Pop Idol)",
+    "EnglishName": "Mine (Pop Idol)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 201,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300201,
+    "PathName": "chiaki",
+    "Name": "Chiaki",
+    "EnglishName": "Chiaki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 202,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300202,
+    "PathName": "satsuki",
+    "Name": "Satsuki",
+    "EnglishName": "Satsuki",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 203,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300203,
+    "PathName": "yuuka_pajamas",
+    "Name": "Yuuka (Pajamas)",
+    "EnglishName": "Yuuka (Pajamas)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 204,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300204,
+    "PathName": "noa_pajamas",
+    "Name": "Noa (Pajamas)",
+    "EnglishName": "Noa (Pajamas)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 205,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300205,
+    "PathName": "seia",
+    "Name": "聖亞",
+    "EnglishName": "Seia",
+    "SquadType": "Main",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 206,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300206,
+    "PathName": "asuna_school",
+    "Name": "Asuna (School)",
+    "EnglishName": "Asuna (School)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 207,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300207,
+    "PathName": "karin_school",
+    "Name": "Karin (School)",
+    "EnglishName": "Karin (School)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 208,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300208,
+    "PathName": "neru_school",
+    "Name": "Neru (School)",
+    "EnglishName": "Neru (School)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 209,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300209,
+    "PathName": "rio",
+    "Name": "Rio",
+    "EnglishName": "Rio",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 210,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300210,
+    "PathName": "maki_camp",
+    "Name": "Maki (Camp)",
+    "EnglishName": "Maki (Camp)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 211,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300211,
+    "PathName": "sena_casual",
+    "Name": "Sena (Casual)",
+    "EnglishName": "Sena (Casual)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 212,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300212,
+    "PathName": "juri_parttime",
+    "Name": "Juri (Part-Timer)",
+    "EnglishName": "Juri (Part-Timer)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 213,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300213,
+    "PathName": "izumi_newyear",
+    "Name": "Izumi (New Year)",
+    "EnglishName": "Izumi (New Year)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 214,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300214,
+    "PathName": "rei",
+    "Name": "Rei",
+    "EnglishName": "Rei",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 215,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300215,
+    "PathName": "sumire_parttime",
+    "Name": "Sumire (Part-Timer)",
+    "EnglishName": "Sumire (Part-Timer)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 216,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300216,
+    "PathName": "saori_dress",
+    "Name": "Saori (Dress)",
+    "EnglishName": "Saori (Dress)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 217,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300217,
+    "PathName": "hikari",
+    "Name": "Hikari",
+    "EnglishName": "Hikari",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 218,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300218,
+    "PathName": "nozomi",
+    "Name": "Nozomi",
+    "EnglishName": "Nozomi",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 219,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300219,
+    "PathName": "aoba",
+    "Name": "Aoba",
+    "EnglishName": "Aoba",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 220,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300220,
+    "PathName": "pina_guide",
+    "Name": "Pina (Guide)",
+    "EnglishName": "Pina (Guide)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 221,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300221,
+    "PathName": "nagusa",
+    "Name": "Nagusa",
+    "EnglishName": "Nagusa",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 222,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300222,
+    "PathName": "niya",
+    "Name": "Niya",
+    "EnglishName": "Niya",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 223,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300223,
+    "PathName": "natsu_band",
+    "Name": "Natsu (Band)",
+    "EnglishName": "Natsu (Band)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 224,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300224,
+    "PathName": "yukari_swimsuit",
+    "Name": "Yukari (Swimsuit)",
+    "EnglishName": "Yukari (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 225,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300225,
+    "PathName": "renge_swimsuit",
+    "Name": "Renge (Swimsuit)",
+    "EnglishName": "Renge (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 226,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300226,
+    "PathName": "kikyou_swimsuit",
+    "Name": "Kikyou (Swimsuit)",
+    "EnglishName": "Kikyou (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 227,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300227,
+    "PathName": "seia_swimsuit",
+    "Name": "聖亞（泳裝）",
+    "EnglishName": "Seia (Swimsuit)",
+    "SquadType": "Main",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 228,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300228,
+    "PathName": "hasumi_swimsuit",
+    "Name": "Hasumi (Swimsuit)",
+    "EnglishName": "Hasumi (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 229,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300229,
+    "PathName": "ichika_swimsuit",
+    "Name": "Ichika (Swimsuit)",
+    "EnglishName": "Ichika (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 230,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300230,
+    "PathName": "nagisa_swimsuit",
+    "Name": "Nagisa (Swimsuit)",
+    "EnglishName": "Nagisa (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 231,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300231,
+    "PathName": "mika_swimsuit",
+    "Name": "Mika (Swimsuit)",
+    "EnglishName": "Mika (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 232,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300232,
+    "PathName": "eri",
+    "Name": "Eri",
+    "EnglishName": "Eri",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 233,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300233,
+    "PathName": "kanoe",
+    "Name": "Kanoe",
+    "EnglishName": "Kanoe",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 234,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300234,
+    "PathName": "misaki_swimsuit",
+    "Name": "Misaki (Swimsuit)",
+    "EnglishName": "Misaki (Swimsuit)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 235,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300235,
+    "PathName": "miyo",
+    "Name": "Miyo",
+    "EnglishName": "Miyo",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 236,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300236,
+    "PathName": "fuyu",
+    "Name": "Fuyu",
+    "EnglishName": "Fuyu",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 237,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300237,
+    "PathName": "ritsu",
+    "Name": "Ritsu",
+    "EnglishName": "Ritsu",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 238,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300238,
+    "PathName": "reisa_magical",
+    "Name": "Reisa (Magical)",
+    "EnglishName": "Reisa (Magical)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 239,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300239,
+    "PathName": "suzumi_magical",
+    "Name": "Suzumi (Magical)",
+    "EnglishName": "Suzumi (Magical)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 240,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300240,
+    "PathName": "rabu",
+    "Name": "Rabu",
+    "EnglishName": "Rabu",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 241,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300241,
+    "PathName": "subaru",
+    "Name": "Subaru",
+    "EnglishName": "Subaru",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 242,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300242,
+    "PathName": "takane",
+    "Name": "Takane",
+    "EnglishName": "Takane",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 243,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300243,
+    "PathName": "yakumo",
+    "Name": "Yakumo",
+    "EnglishName": "Yakumo",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 244,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300244,
+    "PathName": "tsukuyo_dress",
+    "Name": "Tsukuyo (Dress)",
+    "EnglishName": "Tsukuyo (Dress)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 245,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300245,
+    "PathName": "michiru_dress",
+    "Name": "Michiru (Dress)",
+    "EnglishName": "Michiru (Dress)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 246,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300246,
+    "PathName": "rio_armed",
+    "Name": "Rio (Armed)",
+    "EnglishName": "Rio (Armed)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 247,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300247,
+    "PathName": "toki_armed",
+    "Name": "Toki (Armed)",
+    "EnglishName": "Toki (Armed)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 248,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300248,
+    "PathName": "himari_armed",
+    "Name": "Himari (Armed)",
+    "EnglishName": "Himari (Armed)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 249,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300249,
+    "PathName": "aris_armed",
+    "Name": "Aris (Armed)",
+    "EnglishName": "Aris (Armed)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 250,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300250,
+    "PathName": "kei",
+    "Name": "Kei",
+    "EnglishName": "Kei",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 251,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300251,
+    "PathName": "eimi_armed",
+    "Name": "Eimi (Armed)",
+    "EnglishName": "Eimi (Armed)",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 252,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  },
+  {
+    "Id": 300252,
+    "PathName": "subaru_2",
+    "Name": "Subaru",
+    "EnglishName": "Subaru",
+    "SquadType": "Unknown",
+    "Position": "",
+    "BulletType": "",
+    "ArmorType": "",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "local-v4.4",
+    "_catalogIndex": 253,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ]
+  }
+]

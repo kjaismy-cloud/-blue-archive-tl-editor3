@@ -1,0 +1,123 @@
+[
+  {
+    "Id": "Binah",
+    "PathName": "Binah",
+    "Name": "薇娜",
+    "ArmorType": "HeavyArmor",
+    "Terrain": [
+      "Outdoor",
+      "Street"
+    ]
+  },
+  {
+    "Id": "Chesed",
+    "PathName": "Chesed",
+    "Name": "赫賽德",
+    "ArmorType": "HeavyArmor",
+    "Terrain": [
+      "Outdoor",
+      "Indoor"
+    ]
+  },
+  {
+    "Id": "ShiroKuro",
+    "PathName": "ShiroKuro",
+    "Name": "白＆黑",
+    "ArmorType": "Unarmed",
+    "Terrain": [
+      "Street",
+      "Indoor"
+    ]
+  },
+  {
+    "Id": "Hieronymus",
+    "PathName": "Hieronymus",
+    "Name": "耶羅尼姆斯",
+    "ArmorType": "LightArmor",
+    "Terrain": [
+      "Street",
+      "Indoor"
+    ]
+  },
+  {
+    "Id": "Kaiten",
+    "PathName": "Kaiten",
+    "Name": "KAITEN FX Mk.0",
+    "ArmorType": "LightArmor",
+    "Terrain": [
+      "Street",
+      "Outdoor"
+    ]
+  },
+  {
+    "Id": "Perorodzilla",
+    "PathName": "Perorodzilla",
+    "Name": "佩洛洛吉拉",
+    "ArmorType": "Unarmed",
+    "Terrain": [
+      "Indoor",
+      "Outdoor"
+    ]
+  },
+  {
+    "Id": "Hod",
+    "PathName": "Hod",
+    "Name": "HOD",
+    "ArmorType": "HeavyArmor",
+    "Terrain": [
+      "Street",
+      "Indoor"
+    ]
+  },
+  {
+    "Id": "Goz",
+    "PathName": "Goz",
+    "Name": "GOZ",
+    "ArmorType": "Unarmed",
+    "Terrain": [
+      "Indoor",
+      "Street"
+    ]
+  },
+  {
+    "Id": "Gregorius",
+    "PathName": "Gregorius",
+    "Name": "格里高利",
+    "ArmorType": "LightArmor",
+    "Terrain": [
+      "Indoor"
+    ]
+  },
+  {
+    "Id": "HoverCraft",
+    "PathName": "HoverCraft",
+    "Name": "氣墊船",
+    "ArmorType": "HeavyArmor",
+    "Terrain": [
+      "Outdoor"
+    ]
+  },
+  {
+    "Id": "Kurokage",
+    "PathName": "Kurokage",
+    "Name": "黑影",
+    "ArmorType": "ElasticArmor",
+    "Terrain": [
+      "Indoor"
+    ]
+  },
+  {
+    "Id": "Geburah",
+    "PathName": "Geburah",
+    "Name": "Geburah",
+    "ArmorType": "",
+    "Terrain": []
+  },
+  {
+    "Id": "Yesod",
+    "PathName": "Yesod",
+    "Name": "Yesod",
+    "ArmorType": "",
+    "Terrain": []
+  }
+]

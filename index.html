@@ -108,16 +108,20 @@ button.danger{color:var(--danger)}
   .team-slot .avatar{width:50px;height:50px}
 }
 
+
+.avatar-wrap{position:relative;display:inline-flex;align-items:center;justify-content:center}
+.avatar-fallback{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;border-radius:12px;background:#22313d;color:var(--accent2);font-weight:700;font-size:12px}
+img.avatar.broken{opacity:0}
 </style>
 </head>
 <body>
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.3.1 · 本地保底同步版</div>
+    <div class="small">V4.4 · 253 名全角色本地版</div>
   </div>
-  <div id="status" class="status">V4.3.1 正在載入本地資料…</div>
-  <div class="small">V4.3.1：本地保底資料先載入；SchaleDB 線上資料只做增量更新，線上失敗也不會再顯示 0 名學生。</div>
+  <div id="status" class="status">V4.4 正在載入 253 名本地學生資料…</div>
+  <div class="small">V4.4：253 名學生與 13 個 Boss 直接存在 GitHub Pages；完全離線仍可搜尋與編隊。線上 SchaleDB 僅補充技能、角色類型與翻譯。</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -157,7 +161,7 @@ button.danger{color:var(--danger)}
       <div class="space">
         <div>
           <h2>隊伍編成</h2>
-          <div class="small">STRIKER 4 人 + SPECIAL 2 人。點學生頭像即可自動加入對應區域。</div><div class="small">角色資料：本地保底先顯示；TW／JP 線上資料成功時再自動擴充。</div>
+          <div class="small">STRIKER 4 人 + SPECIAL 2 人。點學生頭像即可自動加入對應區域。</div><div class="small">角色資料：253 名學生清單已本地化；未取得 STRIKER/SPECIAL 資料的角色可手動指定前後排。</div>
         </div>
         <button id="clearTeam">清空</button>
       </div>
@@ -264,19 +268,7 @@ const REGION_BASES={
 const RAW_IMG='https://raw.githubusercontent.com/SchaleDB/SchaleDB/main/images';
 const SITE_IMG='https://schaledb.com/images';
 let students=[],raids=[],strikers=Array(4).fill(null),specials=Array(2).fill(null),selectedStudent=null,selectedSkill=null,tl=[];
-const LOCAL_RAIDS=[
-  {Id:'Binah',PathName:'Binah',Name:'薇娜',ArmorType:'HeavyArmor',Terrain:['Outdoor','Street']},
-  {Id:'Chesed',PathName:'Chesed',Name:'赫賽德',ArmorType:'HeavyArmor',Terrain:['Outdoor','Indoor']},
-  {Id:'ShiroKuro',PathName:'ShiroKuro',Name:'白＆黑',ArmorType:'Unarmed',Terrain:['Street','Indoor']},
-  {Id:'Hieronymus',PathName:'Hieronymus',Name:'耶羅尼姆斯',ArmorType:'LightArmor',Terrain:['Street','Indoor']},
-  {Id:'Kaiten',PathName:'Kaiten',Name:'KAITEN FX Mk.0',ArmorType:'LightArmor',Terrain:['Street','Outdoor']},
-  {Id:'Perorodzilla',PathName:'Perorodzilla',Name:'佩洛洛吉拉',ArmorType:'Unarmed',Terrain:['Indoor','Outdoor']},
-  {Id:'Hod',PathName:'Hod',Name:'HOD',ArmorType:'HeavyArmor',Terrain:['Street','Indoor']},
-  {Id:'Goz',PathName:'Goz',Name:'GOZ',ArmorType:'Unarmed',Terrain:['Indoor','Street']},
-  {Id:'Gregorius',PathName:'Gregorius',Name:'格里高利',ArmorType:'LightArmor',Terrain:['Indoor']},
-  {Id:'Kurokage',PathName:'Kurokage',Name:'黑影',ArmorType:'ElasticArmor',Terrain:['Indoor']},
-  {Id:'HoverCraft',PathName:'HoverCraft',Name:'氣墊船',ArmorType:'HeavyArmor',Terrain:['Outdoor']}
-];
+let LOCAL_RAIDS=[];
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function studentImg(id){
@@ -295,10 +287,20 @@ const squadLabel=x=>x==='Main'?'STRIKER':x==='Support'?'SPECIAL':x||'';
 const bulletMap={Explosion:'爆發',Pierce:'貫通',Mystic:'神秘',Sonic:'振動',Normal:'一般'};
 const armorMap={LightArmor:'輕裝甲',HeavyArmor:'重裝甲',Unarmed:'特殊裝甲',ElasticArmor:'彈力裝甲'};
 const terrainMap={Street:'市街地',Outdoor:'野外',Indoor:'室內'};
-const LOCAL_STUDENTS=[{"Id":990001,"PathName":"Seia","DevName":"Seia","Name":"聖亞","School":"Trinity","Club":"TeaParty","SquadType":"Main","TacticRole":"Supporter","Position":"Middle","BulletType":"Pierce","ArmorType":"ElasticArmor","_regions":["jp"],"_sourceRegion":"local-current","Skills":[{"SkillType":"ex","Name":"The Garden's Embrace","Cost":[3,3,3,3,3],"Icon":"COMMON_SKILLICON_WEAPONBUFF"},{"SkillType":"normal","Name":"Sharp Advice","Icon":"COMMON_SKILLICON_WEAPONBUFF"},{"SkillType":"passive","Name":"Calm Mind","Icon":"COMMON_SKILLICON_HEAL"},{"SkillType":"sub","Name":"Enveloping Intuition","Icon":"COMMON_SKILLICON_SHIELD"}],"_imageSlug":"seia"},{"Id":990002,"PathName":"Seia_Swimsuit","DevName":"Seia_Swimsuit","Name":"聖亞（泳裝）","School":"Trinity","Club":"TeaParty","SquadType":"Main","TacticRole":"Supporter","Position":"Middle","BulletType":"Pierce","ArmorType":"Unarmed","_regions":["jp"],"_sourceRegion":"local-current","Skills":[{"SkillType":"ex","Name":"Romantic Beach","Cost":[3,3,3,3,3],"Icon":"COMMON_SKILLICON_WEAPONBUFF"},{"SkillType":"normal","Name":"Decisive Moment","Icon":"COMMON_SKILLICON_HEAL"},{"SkillType":"passive","Name":"Resort Atmosphere","Icon":"COMMON_SKILLICON_HEAL"},{"SkillType":"sub","Name":"City Pop Star","Icon":"COMMON_SKILLICON_WEAPONBUFF"}],"_imageSlug":"seia_swimsuit"},{"Id":10000,"PathName":"Aru","Name":"亞瑠","SquadType":"Main","Position":"Back","BulletType":"Explosion","ArmorType":"LightArmor","_regions":["tw"],"Skills":[{"SkillType":"ex","Name":"EX 技能","Cost":[4],"Icon":"COMMON_SKILLICON_CIRCLE"}]},{"Id":10004,"PathName":"Hina","Name":"陽奈","SquadType":"Main","Position":"Back","BulletType":"Explosion","ArmorType":"HeavyArmor","_regions":["tw"],"Skills":[{"SkillType":"ex","Name":"EX 技能","Cost":[7],"Icon":"COMMON_SKILLICON_FAN"}]},{"Id":10005,"PathName":"Hoshino","Name":"星野","SquadType":"Main","Position":"Front","BulletType":"Explosion","ArmorType":"HeavyArmor","_regions":["tw"],"Skills":[{"SkillType":"ex","Name":"EX 技能","Cost":[4],"Icon":"COMMON_SKILLICON_SHIELD"}]},{"Id":10007,"PathName":"Iori","Name":"伊織","SquadType":"Main","Position":"Back","BulletType":"Pierce","ArmorType":"HeavyArmor","_regions":["tw"],"Skills":[{"SkillType":"ex","Name":"EX 技能","Cost":[3],"Icon":"COMMON_SKILLICON_TARGET"}]},{"Id":10010,"PathName":"Shiroko","Name":"白子","SquadType":"Main","Position":"Middle","BulletType":"Explosion","ArmorType":"LightArmor","_regions":["tw"],"Skills":[{"SkillType":"ex","Name":"EX 技能","Cost":[2],"Icon":"COMMON_SKILLICON_TARGET"}]},{"Id":10059,"PathName":"Ako","Name":"亞子","SquadType":"Support","Position":"Back","BulletType":"Mystic","ArmorType":"HeavyArmor","_regions":["tw"],"Skills":[{"SkillType":"ex","Name":"EX 技能","Cost":[3],"Icon":"COMMON_SKILLICON_WEAPONBUFF"}]},{"Id":10069,"PathName":"Iroha","Name":"伊呂波","SquadType":"Support","Position":"Back","BulletType":"Mystic","ArmorType":"HeavyArmor","_regions":["tw"],"Skills":[{"SkillType":"ex","Name":"EX 技能","Cost":[6],"Icon":"COMMON_SKILLICON_VEHICLE"}]},{"Id":10029,"PathName":"Kayoko","Name":"佳世子","SquadType":"Main","Position":"Middle","BulletType":"Explosion","ArmorType":"HeavyArmor","_regions":["tw"],"Skills":[{"SkillType":"ex","Name":"EX 技能","Cost":[6],"Icon":"COMMON_SKILLICON_CIRCLE"}]}];
+let LOCAL_STUDENTS=[];
 
 
 function setStatus(msg,type=''){let s=$('status');s.textContent=msg;s.className='status '+type}
+
+async function loadLocalCatalog(){
+  const [sr,rr]=await Promise.all([
+    fetch('./students_local.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('students_local.json');return r.json()}),
+    fetch('./raids_local.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('raids_local.json');return r.json()})
+  ]);
+  LOCAL_STUDENTS=Array.isArray(sr)?sr:[];
+  LOCAL_RAIDS=Array.isArray(rr)?rr:[];
+  return {students:LOCAL_STUDENTS,raids:LOCAL_RAIDS};
+}
 async function loadRegionJson(region,name){
   const bases=REGION_BASES[region]||[];
   let lastErr;
@@ -467,7 +469,7 @@ function renderTeam(){
     b.className='team-slot card';
     if(s){
       b.innerHTML=`<button type="button" class="remove-mini" aria-label="移除">×</button>
-        <img class="avatar" src="${studentImg(s.Id)}" alt="${esc(s.Name)}">
+        <span class="avatar-wrap"><img class="avatar" src="${studentImg(s.Id)}" alt="${esc(s.Name)}"></span>
         <div><b>${esc(s.Name)}</b></div>
         <div class="small">${type==='Main'?'STRIKER':'SPECIAL'}</div>`;
       b.querySelector('.remove-mini').onclick=()=>{
@@ -493,15 +495,27 @@ function renderTeam(){
 
   syncTlStudents();
 }
-function addToTeam(s){
-  const target=s.SquadType==='Support'?specials:strikers;
+function addToTeam(s,forcedType=''){
+  const resolved=forcedType||s.SquadType;
+  if(resolved!=='Main'&&resolved!=='Support'){
+    showStudent(s);
+    const box=$('skillList');
+    const chooser=document.createElement('div');
+    chooser.className='card grid';
+    chooser.innerHTML='<b>此本地角色尚未取得前後排資料</b><div class="small">完全離線時可手動指定；線上同步成功後會自動補正。</div><div class="form2"><button type="button" class="pick-main primary">加入 STRIKER</button><button type="button" class="pick-support">加入 SPECIAL</button></div>';
+    chooser.querySelector('.pick-main').onclick=()=>addToTeam(s,'Main');
+    chooser.querySelector('.pick-support').onclick=()=>addToTeam(s,'Support');
+    box.prepend(chooser);
+    return;
+  }
+  const target=resolved==='Support'?specials:strikers;
   if(teamHas(s.Id)){
     setStatus(`${s.Name} 已在隊伍中`,'ok');
     return;
   }
   const idx=firstEmptySlot(target);
   if(idx===-1){
-    setStatus(`${s.SquadType==='Support'?'SPECIAL':'STRIKER'} 已滿，請先移除一名學生`,'err');
+    setStatus(`${resolved==='Support'?'SPECIAL':'STRIKER'} 已滿，請先移除一名學生`,'err');
     return;
   }
   target[idx]=s;
@@ -517,7 +531,7 @@ function renderStudents(){
   if(rf==='tw')list=list.filter(s=>(s._regions||[]).includes('tw'));
   if(rf==='jp')list=list.filter(s=>(s._regions||[]).includes('jp'));
   if(sf)list=list.filter(s=>s.SquadType===sf);
-  if(q)list=list.filter(s=>(s.Name||'').toLowerCase().includes(q)||(s.PathName||'').toLowerCase().includes(q)||(s.DevName||'').toLowerCase().includes(q));
+  if(q)list=list.filter(s=>(s.Name||'').toLowerCase().includes(q)||(s.EnglishName||'').toLowerCase().includes(q)||(s.PathName||'').toLowerCase().includes(q)||(s.DevName||'').toLowerCase().includes(q));
 
   $('studentCount').textContent=`顯示 ${list.length} / ${students.length} 名學生`;
   const box=$('studentGrid');box.innerHTML='';
@@ -526,9 +540,9 @@ function renderStudents(){
     const b=document.createElement('button');
     b.type='button';
     b.className='student-pick card'+(teamHas(s.Id)?' in-team':'');
-    b.innerHTML=`<img class="avatar" src="${studentImg(s.Id)}" alt="${esc(s.Name)}">
+    b.innerHTML=`<span class="avatar-wrap"><img class="avatar" src="${studentImg(s.Id)}" alt="${esc(s.Name)}"></span>
       <div class="student-name"><b>${esc(s.Name)}</b></div>
-      <div class="student-type">${squadLabel(s.SquadType)} · ${esc(bulletMap[s.BulletType]||s.BulletType||'')} · ${regionLabel(s)}</div>`;
+      <div class="student-type">${s.SquadType==='Unknown'?'未分類':squadLabel(s.SquadType)} · ${esc(bulletMap[s.BulletType]||s.BulletType||'')} · ${regionLabel(s)}</div>`;
     b.onclick=()=>{
       if(teamHas(s.Id)){
         showStudent(s);
@@ -605,7 +619,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.3.1',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
@@ -648,53 +662,36 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
 
 (async()=>{
   try{
-    // 1) Render local fallback immediately so the app never opens with 0 students.
-    students=mergeStudentCatalog([],[],LOCAL_STUDENTS);
-    raids=[...LOCAL_RAIDS];
+    const local=await loadLocalCatalog();
+    students=mergeStudentCatalog([],[],local.students);
+    raids=local.raids.length?local.raids:[];
     renderBosses();renderTeam();renderStudents();renderTl();
 
-    const localSeia=students.some(s=>(s.PathName||'').toLowerCase()==='seia');
-    setStatus(`V4.3.1 本地資料已載入：${students.length} 名保底學生｜${raids.length} Boss${localSeia?'｜聖亞 ✓':''}；背景同步中…`,'ok');
+    const hasSeia=students.some(s=>(s.EnglishName||'').toLowerCase()==='seia'||String(s.Name).includes('聖亞'));
+    setStatus(`V4.4 本地資料完成：${students.length} 名學生｜${raids.length} Boss${hasSeia?'｜聖亞 ✓':''}；遠端資料補充中…`,'ok');
 
-    // 2) Best-effort online enrichment.
+    // Optional enrichment only. Local 253 catalog remains authoritative fallback.
     const results=await Promise.allSettled([
       loadRegionJson('tw','students.json'),
       loadRegionJson('jp','students.json'),
       loadRegionJson('tw','raids.json')
     ]);
+    let tw=[],jp=[],rr=[];
+    if(results[0].status==='fulfilled')tw=extractArray(results[0].value.data,['Student','Students','students']).filter(x=>x&&x.Name);
+    if(results[1].status==='fulfilled')jp=extractArray(results[1].value.data,['Student','Students','students']).filter(x=>x&&x.Name);
+    if(results[2].status==='fulfilled')rr=extractArray(results[2].value.data,['Raid','Raids','raids']).filter(x=>x&&x.Name);
 
-    let twStudents=[],jpStudents=[],remoteRaids=[];
-    if(results[0].status==='fulfilled'){
-      twStudents=extractArray(results[0].value.data,['Student','Students','students']).filter(x=>x&&x.Name);
-    }
-    if(results[1].status==='fulfilled'){
-      jpStudents=extractArray(results[1].value.data,['Student','Students','students']).filter(x=>x&&x.Name);
-    }
-    if(results[2].status==='fulfilled'){
-      remoteRaids=extractArray(results[2].value.data,['Raid','Raids','raids']).filter(x=>x&&x.Name);
-    }
-
-    if(twStudents.length||jpStudents.length){
-      students=mergeStudentCatalog(twStudents,jpStudents,LOCAL_STUDENTS);
+    if(tw.length||jp.length){
+      students=mergeStudentCatalog(tw,jp,local.students);
       renderTeam();renderStudents();renderTl();
     }
-    if(remoteRaids.length){
-      raids=remoteRaids;
-      renderBosses();
-    }
+    if(rr.length){raids=rr;renderBosses();}
 
-    const twCount=students.filter(s=>(s._regions||[]).includes('tw')).length;
-    const jpCount=students.filter(s=>(s._regions||[]).includes('jp')).length;
-    const hasSeia=students.some(s=>(s.PathName||'').toLowerCase()==='seia'||String(s.Name).includes('聖亞'));
-
-    setStatus(`V4.3.1 載入完成：${students.length} 名學生｜TW ${twCount}｜JP ${jpCount}｜${raids.length} Boss${hasSeia?'｜聖亞 ✓':''}`,'ok');
+    const remoteEnriched=students.filter(s=>s._sourceRegion==='tw'||s._sourceRegion==='jp').length;
+    setStatus(`V4.4 載入完成：${students.length} 名學生｜${raids.length} Boss｜遠端補充 ${remoteEnriched}${hasSeia?'｜聖亞 ✓':''}`,'ok');
   }catch(e){
     console.error(e);
-    // Even if enrichment crashes, preserve local data.
-    if(!students.length) students=mergeStudentCatalog([],[],LOCAL_STUDENTS);
-    if(!raids.length) raids=[...LOCAL_RAIDS];
-    renderBosses();renderTeam();renderStudents();renderTl();
-    setStatus(`V4.3.1 已切換本地保底模式：${students.length} 名學生｜${raids.length} Boss｜聖亞 ✓`,'ok');
+    setStatus(`V4.4 本地資料檔載入失敗：${e?.message||e}。請確認 students_local.json 與 raids_local.json 已上傳。`,'err');
   }
 })();
 
