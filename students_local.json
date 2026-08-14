@@ -26,7 +26,8 @@
     "CurrentSlug": "aru",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300001,
@@ -55,7 +56,8 @@
     "CurrentSlug": "eimi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300002,
@@ -84,7 +86,8 @@
     "CurrentSlug": "haruna",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300003,
@@ -113,7 +116,8 @@
     "CurrentSlug": "hifumi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300004,
@@ -142,7 +146,8 @@
     "CurrentSlug": "hina",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300005,
@@ -171,7 +176,8 @@
     "CurrentSlug": "hoshino",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300006,
@@ -200,7 +206,8 @@
     "CurrentSlug": "iori",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300007,
@@ -229,7 +236,8 @@
     "CurrentSlug": "maki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300008,
@@ -258,7 +266,8 @@
     "CurrentSlug": "neru",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300009,
@@ -287,7 +296,8 @@
     "CurrentSlug": "izumi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300010,
@@ -316,7 +326,8 @@
     "CurrentSlug": "shiroko",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300011,
@@ -345,7 +356,8 @@
     "CurrentSlug": "shun",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300012,
@@ -374,7 +386,8 @@
     "CurrentSlug": "sumire",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300013,
@@ -403,7 +416,8 @@
     "CurrentSlug": "tsurugi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300014,
@@ -432,7 +446,8 @@
     "CurrentSlug": "akane",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300015,
@@ -461,7 +476,8 @@
     "CurrentSlug": "chise",
     "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "verified-schaledb-v4.4.12"
+    "TacticRoleSource": "verified-schaledb-v4.4.12",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300016,
@@ -490,7 +506,8 @@
     "CurrentSlug": "akari",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300017,
@@ -519,7 +536,8 @@
     "CurrentSlug": "hasumi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300018,
@@ -548,7 +566,8 @@
     "CurrentSlug": "nonomi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300019,
@@ -577,7 +596,8 @@
     "CurrentSlug": "kayoko",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300020,
@@ -606,7 +626,8 @@
     "CurrentSlug": "mutsuki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300021,
@@ -635,7 +656,8 @@
     "CurrentSlug": "junko",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300022,
@@ -664,7 +686,8 @@
     "CurrentSlug": "serika",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300023,
@@ -693,7 +716,8 @@
     "CurrentSlug": "tsubaki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300024,
@@ -722,7 +746,8 @@
     "CurrentSlug": "yuuka",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300025,
@@ -751,7 +776,8 @@
     "CurrentSlug": "haruka",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300026,
@@ -780,7 +806,8 @@
     "CurrentSlug": "asuna",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300027,
@@ -809,7 +836,8 @@
     "CurrentSlug": "kotori",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300028,
@@ -838,7 +866,8 @@
     "CurrentSlug": "suzumi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300029,
@@ -867,7 +896,8 @@
     "CurrentSlug": "pina",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300030,
@@ -896,7 +926,8 @@
     "CurrentSlug": "hibiki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300031,
@@ -925,7 +956,8 @@
     "CurrentSlug": "karin",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300032,
@@ -954,7 +986,8 @@
     "CurrentSlug": "saya",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300033,
@@ -982,7 +1015,8 @@
     "CurrentSlug": "airi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300034,
@@ -1010,7 +1044,8 @@
     "CurrentSlug": "fuuka",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300035,
@@ -1038,7 +1073,8 @@
     "CurrentSlug": "hanae",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300036,
@@ -1066,7 +1102,8 @@
     "CurrentSlug": "hare",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300037,
@@ -1094,7 +1131,8 @@
     "CurrentSlug": "utaha",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300038,
@@ -1122,7 +1160,8 @@
     "CurrentSlug": "ayane",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300039,
@@ -1150,7 +1189,8 @@
     "CurrentSlug": "chinatsu",
     "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "Healer",
-    "TacticRoleSource": "verified-schaledb-v4.4.12"
+    "TacticRoleSource": "verified-schaledb-v4.4.12",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300040,
@@ -1178,7 +1218,8 @@
     "CurrentSlug": "kotama",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300041,
@@ -1206,7 +1247,8 @@
     "CurrentSlug": "juri",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300042,
@@ -1234,7 +1276,8 @@
     "CurrentSlug": "serina",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300043,
@@ -1262,7 +1305,8 @@
     "CurrentSlug": "shimiko",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300044,
@@ -1290,7 +1334,8 @@
     "CurrentSlug": "yoshimi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300045,
@@ -1319,7 +1364,8 @@
     "CurrentSlug": "mashiro",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300046,
@@ -1348,7 +1394,8 @@
     "CurrentSlug": "izuna",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300047,
@@ -1376,7 +1423,8 @@
     "CurrentSlug": "shizuko",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300048,
@@ -1405,7 +1453,8 @@
     "CurrentSlug": "aris",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300049,
@@ -1434,7 +1483,8 @@
     "CurrentSlug": "midori",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300050,
@@ -1463,7 +1513,8 @@
     "CurrentSlug": "momoi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300051,
@@ -1492,7 +1543,8 @@
     "CurrentSlug": "cherino",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300052,
@@ -1520,7 +1572,8 @@
     "CurrentSlug": "nodoka",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300053,
@@ -1549,7 +1602,8 @@
     "CurrentSlug": "yuzu",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300054,
@@ -1578,7 +1632,8 @@
     "CurrentSlug": "azusa",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300055,
@@ -1606,7 +1661,8 @@
     "CurrentSlug": "hanako",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300056,
@@ -1635,7 +1691,8 @@
     "CurrentSlug": "koharu",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300057,
@@ -1664,7 +1721,8 @@
     "CurrentSlug": "azusa_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300058,
@@ -1693,7 +1751,8 @@
     "CurrentSlug": "mashiro_swimsuit",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300059,
@@ -1722,7 +1781,8 @@
     "CurrentSlug": "tsurugi_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300060,
@@ -1751,7 +1811,8 @@
     "CurrentSlug": "hifumi_swimsuit",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300061,
@@ -1780,7 +1841,8 @@
     "CurrentSlug": "hina_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300062,
@@ -1809,7 +1871,8 @@
     "CurrentSlug": "iori_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300063,
@@ -1838,7 +1901,8 @@
     "CurrentSlug": "izumi_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300064,
@@ -1867,7 +1931,8 @@
     "CurrentSlug": "shiroko_cycling",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300065,
@@ -1896,7 +1961,8 @@
     "CurrentSlug": "shun_small",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300066,
@@ -1925,7 +1991,8 @@
     "CurrentSlug": "kirino",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300067,
@@ -1954,7 +2021,8 @@
     "CurrentSlug": "saya_casual",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300068,
@@ -1983,7 +2051,8 @@
     "CurrentSlug": "neru_bunny",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300069,
@@ -2012,7 +2081,8 @@
     "CurrentSlug": "karin_bunny",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300070,
@@ -2041,7 +2111,8 @@
     "CurrentSlug": "asuna_bunny",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300071,
@@ -2070,7 +2141,8 @@
     "CurrentSlug": "natsu",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300072,
@@ -2098,7 +2170,8 @@
     "CurrentSlug": "mari",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300073,
@@ -2127,7 +2200,8 @@
     "CurrentSlug": "miku",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300074,
@@ -2156,7 +2230,8 @@
     "CurrentSlug": "ako",
     "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "verified-schaledb-v4.4.12"
+    "TacticRoleSource": "verified-schaledb-v4.4.12",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300075,
@@ -2184,7 +2259,8 @@
     "CurrentSlug": "cherino_onsen",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300076,
@@ -2213,7 +2289,8 @@
     "CurrentSlug": "chinatsu_onsen",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300077,
@@ -2242,7 +2319,8 @@
     "CurrentSlug": "tomoe",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300078,
@@ -2270,7 +2348,8 @@
     "CurrentSlug": "nodoka_onsen",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300079,
@@ -2299,7 +2378,8 @@
     "CurrentSlug": "aru_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300080,
@@ -2328,7 +2408,8 @@
     "CurrentSlug": "mutsuki_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300081,
@@ -2356,7 +2437,8 @@
     "CurrentSlug": "serika_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300082,
@@ -2385,7 +2467,8 @@
     "CurrentSlug": "wakamo",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300083,
@@ -2414,7 +2497,8 @@
     "CurrentSlug": "fubuki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300084,
@@ -2442,7 +2526,8 @@
     "CurrentSlug": "sena",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300085,
@@ -2470,7 +2555,8 @@
     "CurrentSlug": "chihiro",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300086,
@@ -2499,7 +2585,8 @@
     "CurrentSlug": "mimori",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300087,
@@ -2528,7 +2615,8 @@
     "CurrentSlug": "ui",
     "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "verified-schaledb-v4.4.12"
+    "TacticRoleSource": "verified-schaledb-v4.4.12",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300088,
@@ -2557,7 +2645,8 @@
     "CurrentSlug": "hinata",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300089,
@@ -2586,7 +2675,8 @@
     "CurrentSlug": "marina",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300090,
@@ -2615,7 +2705,8 @@
     "CurrentSlug": "miyako",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300091,
@@ -2643,7 +2734,8 @@
     "CurrentSlug": "saki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300092,
@@ -2672,7 +2764,8 @@
     "CurrentSlug": "miyu",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300093,
@@ -2700,7 +2793,8 @@
     "CurrentSlug": "kaede",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300094,
@@ -2728,7 +2822,8 @@
     "CurrentSlug": "iroha",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300095,
@@ -2757,7 +2852,8 @@
     "CurrentSlug": "michiru",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300096,
@@ -2786,7 +2882,8 @@
     "CurrentSlug": "tsukuyo",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300097,
@@ -2815,7 +2912,8 @@
     "CurrentSlug": "misaki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300098,
@@ -2843,7 +2941,8 @@
     "CurrentSlug": "hiyori",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300099,
@@ -2872,7 +2971,8 @@
     "CurrentSlug": "atsuko",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300100,
@@ -2901,7 +3001,8 @@
     "CurrentSlug": "wakamo_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300101,
@@ -2930,7 +3031,8 @@
     "CurrentSlug": "nonomi_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300102,
@@ -2958,7 +3060,8 @@
     "CurrentSlug": "ayane_swimsuit",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300103,
@@ -2987,7 +3090,8 @@
     "CurrentSlug": "hoshino_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300104,
@@ -3015,7 +3119,8 @@
     "CurrentSlug": "shizuko_swimsuit",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300105,
@@ -3044,7 +3149,8 @@
     "CurrentSlug": "izuna_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300106,
@@ -3073,7 +3179,8 @@
     "CurrentSlug": "chise_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300107,
@@ -3102,7 +3209,8 @@
     "CurrentSlug": "saori",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300108,
@@ -3130,7 +3238,8 @@
     "CurrentSlug": "moe",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300109,
@@ -3159,7 +3268,8 @@
     "CurrentSlug": "kazusa",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300110,
@@ -3188,7 +3298,8 @@
     "CurrentSlug": "kokona",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300111,
@@ -3217,7 +3328,8 @@
     "CurrentSlug": "utaha_cheer",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300112,
@@ -3246,7 +3358,8 @@
     "CurrentSlug": "noa",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300113,
@@ -3275,7 +3388,8 @@
     "CurrentSlug": "hibiki_cheer",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300114,
@@ -3303,7 +3417,8 @@
     "CurrentSlug": "akane_bunny",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300115,
@@ -3332,7 +3447,8 @@
     "CurrentSlug": "yuuka_track",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300116,
@@ -3361,7 +3477,8 @@
     "CurrentSlug": "mari_track",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300117,
@@ -3390,7 +3507,8 @@
     "CurrentSlug": "hasumi_track",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300118,
@@ -3418,7 +3536,8 @@
     "CurrentSlug": "himari",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300119,
@@ -3447,7 +3566,8 @@
     "CurrentSlug": "shigure",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300120,
@@ -3476,7 +3596,8 @@
     "CurrentSlug": "serina_christmas",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300121,
@@ -3504,7 +3625,8 @@
     "CurrentSlug": "hanae_christmas",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300122,
@@ -3533,7 +3655,8 @@
     "CurrentSlug": "haruna_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300123,
@@ -3561,7 +3684,8 @@
     "CurrentSlug": "fuuka_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300124,
@@ -3590,7 +3714,8 @@
     "CurrentSlug": "junko_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300125,
@@ -3619,7 +3744,8 @@
     "CurrentSlug": "mine",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300126,
@@ -3648,7 +3774,8 @@
     "CurrentSlug": "mika",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300127,
@@ -3677,7 +3804,8 @@
     "CurrentSlug": "megu",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300128,
@@ -3705,7 +3833,8 @@
     "CurrentSlug": "kanna",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300129,
@@ -3734,7 +3863,8 @@
     "CurrentSlug": "sakurako",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300130,
@@ -3763,7 +3893,8 @@
     "CurrentSlug": "toki",
     "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "verified-schaledb-v4.4.12"
+    "TacticRoleSource": "verified-schaledb-v4.4.12",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300131,
@@ -3791,7 +3922,8 @@
     "CurrentSlug": "nagisa",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300132,
@@ -3820,7 +3952,8 @@
     "CurrentSlug": "koyuki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300133,
@@ -3849,7 +3982,8 @@
     "CurrentSlug": "kayoko_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300134,
@@ -3877,7 +4011,8 @@
     "CurrentSlug": "haruka_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300135,
@@ -3906,7 +4041,8 @@
     "CurrentSlug": "kaho",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300136,
@@ -3935,7 +4071,8 @@
     "CurrentSlug": "aris_maid",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300137,
@@ -3964,7 +4101,8 @@
     "CurrentSlug": "toki_bunny",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300138,
@@ -3992,7 +4130,8 @@
     "CurrentSlug": "yuzu_maid",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300139,
@@ -4021,7 +4160,8 @@
     "CurrentSlug": "reisa",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300140,
@@ -4050,7 +4190,8 @@
     "CurrentSlug": "rumi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300141,
@@ -4079,7 +4220,8 @@
     "CurrentSlug": "mina",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300142,
@@ -4107,7 +4249,8 @@
     "CurrentSlug": "minori",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300143,
@@ -4136,7 +4279,8 @@
     "CurrentSlug": "miyako_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300144,
@@ -4165,7 +4309,8 @@
     "CurrentSlug": "saki_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300145,
@@ -4193,7 +4338,8 @@
     "CurrentSlug": "miyu_swimsuit",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300146,
@@ -4221,7 +4367,8 @@
     "CurrentSlug": "shiroko_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300147,
@@ -4250,7 +4397,8 @@
     "CurrentSlug": "ui_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300148,
@@ -4278,7 +4426,8 @@
     "CurrentSlug": "hinata_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300149,
@@ -4307,7 +4456,8 @@
     "CurrentSlug": "koharu_swimsuit",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300150,
@@ -4336,7 +4486,8 @@
     "CurrentSlug": "hanako_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300151,
@@ -4364,7 +4515,8 @@
     "CurrentSlug": "mimori_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300152,
@@ -4393,7 +4545,8 @@
     "CurrentSlug": "meru",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300153,
@@ -4422,7 +4575,8 @@
     "CurrentSlug": "momiji",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300154,
@@ -4451,7 +4605,8 @@
     "CurrentSlug": "kotori_cheer",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300155,
@@ -4479,7 +4634,8 @@
     "CurrentSlug": "haruna_track",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300156,
@@ -4508,7 +4664,8 @@
     "CurrentSlug": "ichika",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300157,
@@ -4537,7 +4694,8 @@
     "CurrentSlug": "kasumi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300158,
@@ -4565,7 +4723,8 @@
     "CurrentSlug": "shigure_onsen",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300159,
@@ -4594,7 +4753,8 @@
     "CurrentSlug": "misaka_mikoto",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300160,
@@ -4623,7 +4783,8 @@
     "CurrentSlug": "shokuhou_misaki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300161,
@@ -4651,7 +4812,8 @@
     "CurrentSlug": "saten_ruiko",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300162,
@@ -4680,7 +4842,8 @@
     "CurrentSlug": "yukari",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300163,
@@ -4709,7 +4872,8 @@
     "CurrentSlug": "renge",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300164,
@@ -4738,7 +4902,8 @@
     "CurrentSlug": "kikyou",
     "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "verified-schaledb-v4.4.12"
+    "TacticRoleSource": "verified-schaledb-v4.4.12",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300165,
@@ -4766,7 +4931,8 @@
     "CurrentSlug": "eimi_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300166,
@@ -4794,7 +4960,8 @@
     "CurrentSlug": "kotama_camp",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300167,
@@ -4823,7 +4990,8 @@
     "CurrentSlug": "hare_camp",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300168,
@@ -4852,7 +5020,8 @@
     "CurrentSlug": "ako_dress",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300169,
@@ -4881,7 +5050,8 @@
     "CurrentSlug": "ibuki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300170,
@@ -4909,7 +5079,8 @@
     "CurrentSlug": "makoto",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300171,
@@ -4938,7 +5109,8 @@
     "CurrentSlug": "hina_dress",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300172,
@@ -4967,7 +5139,8 @@
     "CurrentSlug": "kayoko_dress",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300173,
@@ -4996,7 +5169,8 @@
     "CurrentSlug": "aru_dress",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300174,
@@ -5024,7 +5198,8 @@
     "CurrentSlug": "akari_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300175,
@@ -5053,7 +5228,8 @@
     "CurrentSlug": "umika",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300176,
@@ -5081,7 +5257,8 @@
     "CurrentSlug": "tsubaki_guide",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300177,
@@ -5110,7 +5287,8 @@
     "CurrentSlug": "kazusa_band",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300178,
@@ -5139,7 +5317,8 @@
     "CurrentSlug": "yoshimi_band",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300179,
@@ -5168,7 +5347,8 @@
     "CurrentSlug": "airi_band",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300180,
@@ -5196,7 +5376,8 @@
     "CurrentSlug": "kirara",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300181,
@@ -5224,7 +5405,8 @@
     "CurrentSlug": "momoi_maid",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300182,
@@ -5252,7 +5434,8 @@
     "CurrentSlug": "midori_maid",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300183,
@@ -5280,7 +5463,8 @@
     "CurrentSlug": "serika_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300184,
@@ -5308,7 +5492,8 @@
     "CurrentSlug": "kanna_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300185,
@@ -5336,7 +5521,8 @@
     "CurrentSlug": "fubuki_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300186,
@@ -5364,7 +5550,8 @@
     "CurrentSlug": "kirino_swimsuit",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300187,
@@ -5392,7 +5579,8 @@
     "CurrentSlug": "moe_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300188,
@@ -5420,7 +5608,8 @@
     "CurrentSlug": "hoshino_armed",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300189,
@@ -5448,7 +5637,8 @@
     "CurrentSlug": "hoshino_armed",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300190,
@@ -5476,7 +5666,8 @@
     "CurrentSlug": "shiroko_terror",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300191,
@@ -5504,7 +5695,8 @@
     "CurrentSlug": "atsuko_swimsuit",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300192,
@@ -5532,7 +5724,8 @@
     "CurrentSlug": "saori_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300193,
@@ -5560,7 +5753,8 @@
     "CurrentSlug": "hiyori_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300194,
@@ -5588,7 +5782,8 @@
     "CurrentSlug": "marina_qipao",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300195,
@@ -5616,7 +5811,8 @@
     "CurrentSlug": "tomoe_qipao",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300196,
@@ -5644,7 +5840,8 @@
     "CurrentSlug": "reijo",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300197,
@@ -5672,7 +5869,8 @@
     "CurrentSlug": "kisaki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300198,
@@ -5700,7 +5898,8 @@
     "CurrentSlug": "mari_idol",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300199,
@@ -5728,7 +5927,8 @@
     "CurrentSlug": "sakurako_idol",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300200,
@@ -5756,7 +5956,8 @@
     "CurrentSlug": "mine_idol",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300201,
@@ -5784,7 +5985,8 @@
     "CurrentSlug": "chiaki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300202,
@@ -5812,7 +6014,8 @@
     "CurrentSlug": "satsuki",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300203,
@@ -5840,7 +6043,8 @@
     "CurrentSlug": "yuuka_pajamas",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300204,
@@ -5868,7 +6072,8 @@
     "CurrentSlug": "noa_pajamas",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300205,
@@ -5896,7 +6101,8 @@
     "CurrentSlug": "seia",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "verified-schaledb-v4.4.12"
+    "TacticRoleSource": "verified-schaledb-v4.4.12",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300206,
@@ -5924,7 +6130,8 @@
     "CurrentSlug": "asuna_school",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300207,
@@ -5952,7 +6159,8 @@
     "CurrentSlug": "karin_school",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300208,
@@ -5980,7 +6188,8 @@
     "CurrentSlug": "neru_school",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300209,
@@ -6008,7 +6217,8 @@
     "CurrentSlug": "rio",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300210,
@@ -6036,7 +6246,8 @@
     "CurrentSlug": "maki_camp",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300211,
@@ -6064,7 +6275,8 @@
     "CurrentSlug": "sena_casual",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300212,
@@ -6092,7 +6304,8 @@
     "CurrentSlug": "juri_parttime",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300213,
@@ -6120,7 +6333,8 @@
     "CurrentSlug": "izumi_newyear",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300214,
@@ -6148,7 +6362,8 @@
     "CurrentSlug": "rei",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300215,
@@ -6176,7 +6391,8 @@
     "CurrentSlug": "sumire_parttime",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300216,
@@ -6204,7 +6420,8 @@
     "CurrentSlug": "saori_dress",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300217,
@@ -6232,7 +6449,8 @@
     "CurrentSlug": "hikari",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "verified-schaledb-v4.4.12"
+    "TacticRoleSource": "verified-schaledb-v4.4.12",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300218,
@@ -6260,7 +6478,8 @@
     "CurrentSlug": "nozomi",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300219,
@@ -6288,7 +6507,8 @@
     "CurrentSlug": "aoba",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300220,
@@ -6316,7 +6536,8 @@
     "CurrentSlug": "pina_guide",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300221,
@@ -6344,7 +6565,8 @@
     "CurrentSlug": "nagusa",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300222,
@@ -6372,7 +6594,8 @@
     "CurrentSlug": "niya",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "verified-schaledb-v4.4.12"
+    "TacticRoleSource": "verified-schaledb-v4.4.12",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300223,
@@ -6400,7 +6623,8 @@
     "CurrentSlug": "natsu_band",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300224,
@@ -6428,7 +6652,8 @@
     "CurrentSlug": "yukari_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300225,
@@ -6456,7 +6681,8 @@
     "CurrentSlug": "renge_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300226,
@@ -6484,7 +6710,8 @@
     "CurrentSlug": "kikyou_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300227,
@@ -6512,7 +6739,8 @@
     "CurrentSlug": "seia_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300228,
@@ -6540,7 +6768,8 @@
     "CurrentSlug": "hasumi_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300229,
@@ -6568,7 +6797,8 @@
     "CurrentSlug": "ichika_swimsuit",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300230,
@@ -6596,7 +6826,8 @@
     "CurrentSlug": "nagisa_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300231,
@@ -6624,7 +6855,8 @@
     "CurrentSlug": "mika_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300232,
@@ -6652,7 +6884,8 @@
     "CurrentSlug": "eri",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300233,
@@ -6686,7 +6919,8 @@
       "板垣鹿江",
       "Kanoe",
       "Itagaki Kanoe"
-    ]
+    ],
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300234,
@@ -6714,7 +6948,8 @@
     "CurrentSlug": "misaki_swimsuit",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300235,
@@ -6742,7 +6977,8 @@
     "CurrentSlug": "miyo",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300236,
@@ -6770,7 +7006,8 @@
     "CurrentSlug": "fuyu",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300237,
@@ -6798,7 +7035,8 @@
     "CurrentSlug": "ritsu",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300238,
@@ -6826,7 +7064,8 @@
     "CurrentSlug": "reisa_magical",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300239,
@@ -6854,7 +7093,8 @@
     "CurrentSlug": "suzumi_magical",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300240,
@@ -6882,7 +7122,8 @@
     "CurrentSlug": "rabu",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300241,
@@ -6910,7 +7151,8 @@
     "CurrentSlug": "subaru",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300242,
@@ -6938,7 +7180,8 @@
     "CurrentSlug": "takane",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300243,
@@ -6966,7 +7209,8 @@
     "CurrentSlug": "yakumo",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300244,
@@ -6994,7 +7238,8 @@
     "CurrentSlug": "tsukuyo_dress",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300245,
@@ -7022,7 +7267,8 @@
     "CurrentSlug": "michiru_dress",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300246,
@@ -7050,7 +7296,8 @@
     "CurrentSlug": "rio_armed",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300247,
@@ -7078,7 +7325,8 @@
     "CurrentSlug": "toki_armed",
     "SquadTypeSource": "verified-schaledb-v4.4.13",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300248,
@@ -7106,7 +7354,8 @@
     "CurrentSlug": "himari_armed",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300249,
@@ -7134,7 +7383,8 @@
     "CurrentSlug": "aris_armed",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300250,
@@ -7162,7 +7412,8 @@
     "CurrentSlug": "kei",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300251,
@@ -7190,7 +7441,8 @@
     "CurrentSlug": "eimi_armed",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "Tanker",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   },
   {
     "Id": 300252,
@@ -7218,6 +7470,7 @@
     "CurrentSlug": "subaru",
     "SquadTypeSource": "local-v4.4.10",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "local-fallback-v4.4.11",
+    "DataPolicy": "local fallback; runtime JP authoritative"
   }
 ]

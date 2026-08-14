@@ -118,10 +118,10 @@ img.avatar.broken{opacity:0}
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.4.13 · STRIKER / SPECIAL 校正版</div>
+    <div class="small">V4.4.14 · 日服資料全校正版</div>
   </div>
   <div id="status" class="status">V4.4.6 正在載入學生本地資料…</div>
-  <div class="small">V4.4.13：STRIKER / SPECIAL 改為角色版本級資料；不同服裝版本不再繼承本體分類。SchaleDB TW 資料成功時仍以資料庫 SquadType 為準。</div>
+  <div class="small">V4.4.14：所有戰鬥資料以 SchaleDB 日服為準；TW 僅負責繁中名稱。STRIKER/SPECIAL、戰術類別、技能與 COST 不再由 TW 覆蓋。</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -330,12 +330,17 @@ function dataIntegrity(){
   const named=students.filter(s=>s.Name).length;
   const squad=students.filter(s=>s.SquadType==='Main'||s.SquadType==='Support').length;
   const tactic=students.filter(s=>['DamageDealer','Tanker','Supporter','Healer'].includes(s.TacticRole)).length;
+  const skills=students.filter(s=>Array.isArray(s.Skills)&&s.Skills.length>=4).length;
+  const jpSquad=students.filter(s=>s.SquadTypeSource==='schaledb-jp').length;
+  const jpTactic=students.filter(s=>s.TacticRoleSource==='schaledb-jp').length;
+  const jpSkills=students.filter(s=>s.SkillsSource==='schaledb-jp').length;
   const kanoe=students.some(s=>s.Name==='鹿江'||s.EnglishName==='Kanoe');
-  return {total,named,squad,tactic,kanoe};
+  return {total,named,squad,tactic,skills,jpSquad,jpTactic,jpSkills,kanoe};
 }
 function integrityText(){
   const d=dataIntegrity();
-  return `學生 ${d.total}｜名稱 ${d.named}/${d.total}｜位置 ${d.squad}/${d.total}｜戰術 ${d.tactic}/${d.total}｜鹿江 ${d.kanoe?'✓':'✗'}`;
+  return `學生 ${d.total}｜名稱 ${d.named}/${d.total}｜位置 ${d.squad}/${d.total}｜戰術 ${d.tactic}/${d.total}｜技能 ${d.skills}/${d.total}｜JP位置 ${d.jpSquad}｜JP戰術 ${d.jpTactic}｜JP技能 ${d.jpSkills}｜鹿江 ${d.kanoe?'✓':'✗'}`;
+}｜名稱 ${d.named}/${d.total}｜位置 ${d.squad}/${d.total}｜戰術 ${d.tactic}/${d.total}｜鹿江 ${d.kanoe?'✓':'✗'}`;
 }
 
 
@@ -397,78 +402,98 @@ function normalizeStudent(s,region){
   c._sourceRegion=region;
   return c;
 }
+function normalizeSkillType(t){
+  return String(t||'').toLowerCase();
+}
+
+function localizeSkills(jpSkills,twSkills){
+  const jp=Array.isArray(jpSkills)?jpSkills:[];
+  const tw=Array.isArray(twSkills)?twSkills:[];
+
+  return jp.map((skill,index)=>{
+    const type=normalizeSkillType(skill.SkillType);
+    const twMatch=tw.find(x=>normalizeSkillType(x.SkillType)===type) || tw[index];
+
+    return {
+      ...skill,
+      JPName:skill.Name||'',
+      Name:twMatch?.Name || skillTypeLabel(type),
+      LocalizedFrom:twMatch?'tw':'generic-zh'
+    };
+  });
+}
+
 function mergeStudentCatalog(twList,jpList,localList=LOCAL_STUDENTS){
   const map=new Map();
 
   for(const raw of localList||[]){
-    if(!raw||!raw.Name)continue;
-    const key=(raw.EnglishName||raw.PathName||raw.DevName||raw.Name).toLowerCase();
+    if(!raw)continue;
+    const key=(raw.EnglishName||raw.PathName||raw.DevName||raw.Name||'').toLowerCase();
+    if(!key)continue;
     map.set(key,{...raw});
   }
 
-  // JP data enriches local fallback, but does not replace our display translation.
+  // JP is authoritative for gameplay data.
   for(const raw of jpList||[]){
-    if(!raw||!raw.Name)continue;
+    if(!raw)continue;
     const candidates=[raw.PathName,raw.DevName,raw.Name].filter(Boolean).map(x=>String(x).toLowerCase());
     const key=candidates.find(k=>map.has(k))||candidates[0];
-    const old=map.get(key);
-    if(old){
-      map.set(key,{
-        ...old,
-        ...raw,
-        Name:old.Name,
-        EnglishName:old.EnglishName||raw.Name,
-        LocalChineseName:old.LocalChineseName||old.Name,
-        CurrentSlug:old.CurrentSlug||raw.PathName||'',
-        ImageId:old.ImageId,
-        SquadType:(raw.SquadType==='Main'||raw.SquadType==='Support')?raw.SquadType:old.SquadType,
-        TacticRole:raw.TacticRole||old.TacticRole,
-        SquadTypeSource:raw.SquadType?'schaledb-tw':'local',
-        TacticRoleSource:raw.TacticRole?'schaledb-tw':'local',
-        SearchAliases:[...new Set([...(old.SearchAliases||[]),old.Name,old.EnglishName,raw.Name,raw.PathName].filter(Boolean))],
-        _regions:[...new Set([...(old._regions||[]),'jp'])],
-        _sourceRegion:'jp'
-      });
-    }else{
-      map.set(key,{...raw,EnglishName:raw.Name,_regions:['jp'],_sourceRegion:'jp'});
-    }
+    if(!key)continue;
+
+    const old=map.get(key)||{};
+    map.set(key,{
+      ...old,
+      ...raw,
+      Name:old.LocalChineseName||old.Name||raw.Name,
+      EnglishName:old.EnglishName||raw.PathName||raw.Name,
+      LocalChineseName:old.LocalChineseName||old.Name||'',
+
+      SquadType:raw.SquadType||old.SquadType,
+      TacticRole:raw.TacticRole||old.TacticRole,
+      Skills:Array.isArray(raw.Skills)?raw.Skills:(old.Skills||[]),
+
+      SquadTypeSource:raw.SquadType?'schaledb-jp':'local',
+      TacticRoleSource:raw.TacticRole?'schaledb-jp':'local',
+      SkillsSource:Array.isArray(raw.Skills)?'schaledb-jp':'local',
+
+      CurrentSlug:old.CurrentSlug||raw.PathName||'',
+      ImageId:old.ImageId,
+
+      _regions:[...new Set([...(old._regions||[]),'jp'])],
+      _sourceRegion:'jp'
+    });
   }
 
-  // TW/Global data has naming priority ONLY when released on international server.
+  // TW is localization only; never override JP gameplay fields.
   for(const raw of twList||[]){
-    if(!raw||!raw.Name)continue;
+    if(!raw)continue;
     const candidates=[raw.PathName,raw.DevName,raw.Name].filter(Boolean).map(x=>String(x).toLowerCase());
     const key=candidates.find(k=>map.has(k))||candidates[0];
-    const old=map.get(key);
-    const internationalReleased=!Array.isArray(raw.IsReleased)||raw.IsReleased[1]===true;
+    if(!key)continue;
 
-    if(old){
+    const old=map.get(key)||{};
+    map.set(key,{
+      ...old,
+      Name:raw.Name||old.Name,
+      InternationalName:raw.Name||old.InternationalName||'',
+      SearchAliases:[...new Set([...(old.SearchAliases||[]),old.Name,old.EnglishName,raw.Name,raw.PathName].filter(Boolean))],
+      Skills:localizeSkills(old.Skills||[],raw.Skills||[]),
+      _regions:[...new Set([...(old._regions||[]),'tw'])],
+      _sourceRegion:'jp+tw-localized'
+    });
+  }
+
+  // JP-only students: preserve JP data, but don't display Japanese skill names as the primary label.
+  for(const [key,s] of map.entries()){
+    if((s._regions||[]).includes('jp') && !(s._regions||[]).includes('tw')){
       map.set(key,{
-        ...old,
-        ...raw,
-        Name:raw.Name||old.Name,
-        InternationalName:raw.Name||old.InternationalName||'',
-        InternationalReleased:internationalReleased,
-        EnglishName:old.EnglishName||raw.PathName||raw.Name,
-        LocalChineseName:old.LocalChineseName||old.Name,
-        CurrentSlug:old.CurrentSlug||raw.PathName||'',
-        ImageId:old.ImageId,
-        SquadType:(raw.SquadType==='Main'||raw.SquadType==='Support')?raw.SquadType:old.SquadType,
-        TacticRole:raw.TacticRole||old.TacticRole,
-        SquadTypeSource:raw.SquadType?'schaledb-tw':'local',
-        TacticRoleSource:raw.TacticRole?'schaledb-tw':'local',
-        SearchAliases:[...new Set([...(old.SearchAliases||[]),old.Name,old.EnglishName,raw.Name,raw.PathName].filter(Boolean))],
-        _regions:[...new Set([...(old._regions||[]),'tw'])],
-        _sourceRegion:'tw'
-      });
-    }else{
-      map.set(key,{
-        ...raw,
-        EnglishName:raw.PathName||raw.Name,
-        InternationalName:internationalReleased?raw.Name:'',
-        InternationalReleased:internationalReleased,
-        _regions:['tw'],
-        _sourceRegion:'tw'
+        ...s,
+        Skills:(s.Skills||[]).map(skill=>({
+          ...skill,
+          JPName:skill.JPName||skill.Name||'',
+          Name:skillTypeLabel(normalizeSkillType(skill.SkillType)),
+          LocalizedFrom:'generic-zh'
+        }))
       });
     }
   }
@@ -480,11 +505,10 @@ function mergeStudentCatalog(twList,jpList,localList=LOCAL_STUDENTS){
   });
 }
 function regionLabel(s){
-  if(s?.InternationalReleased) return '國際服';
   const r=s?._regions||[];
-  if(r.includes('tw') && s?.InternationalName) return '國際服';
-  if(r.includes('jp')) return 'JP';
-  return '';
+  if(r.includes('jp')&&r.includes('tw')) return '日服資料／繁中';
+  if(r.includes('jp')) return '日服';
+  return '本地';
 }
 function parseTime(v){
   let s=String(v||'').trim();
@@ -498,7 +522,16 @@ function formatTime(n){
   return `${m}:${String(w).padStart(2,'0')}${ms?'.'+String(ms).padStart(3,'0').replace(/0+$/,''):''}`;
 }
 function playableSkills(s){return (s?.Skills||[]).filter(k=>['ex','normal','passive','sub','gearnormal','weaponpassive'].includes(k.SkillType)&&k.Name)}
-function skillTypeLabel(t){return ({ex:'EX',normal:'NS',passive:'PS',sub:'SS',gearnormal:'NS+',weaponpassive:'PS+'})[t]||t}
+function skillTypeLabel(t){
+  return ({
+    ex:'EX技能',
+    normal:'基本技能',
+    passive:'強化技能',
+    sub:'子技能',
+    gearnormal:'基本技能+',
+    weaponpassive:'強化技能+'
+  })[String(t||'').toLowerCase()]||t;
+})[t]||t}
 function go(view){
   document.querySelectorAll('.view').forEach(x=>x.classList.remove('active'));
   document.querySelectorAll('.bottom-nav button').forEach(x=>x.classList.remove('active'));
@@ -743,13 +776,13 @@ function renderStudents(){
 function showStudent(s){
   selectedStudent=s;$('studentDetail').classList.remove('hidden');
   $('detailAvatar').src=studentImg(s.Id);setupStudentImageFallback($('detailAvatar'),s.Id);$('detailName').textContent=s.Name;
-  $('detailMeta').innerHTML=`<span class="badge">${squadLabel(s.SquadType)}</span><span class="badge">${tacticRoleLabel(s.TacticRole)}</span><span class="badge">${esc(bulletMap[s.BulletType]||s.BulletType||'')}</span><span class="badge">${esc(armorMap[s.ArmorType]||s.ArmorType||'')}</span><span class="badge">分類來源 ${s.SquadTypeSource==='schaledb-tw'?'SchaleDB TW':(s.SquadTypeSource?.startsWith('verified-schaledb')?'SchaleDB 校正':'本地')}</span><span class="badge">圖片候選 ${studentImageCandidates(s.Id).length}</span>`;
+  $('detailMeta').innerHTML=`<span class="badge">${squadLabel(s.SquadType)}</span><span class="badge">${tacticRoleLabel(s.TacticRole)}</span><span class="badge">${esc(bulletMap[s.BulletType]||s.BulletType||'')}</span><span class="badge">${esc(armorMap[s.ArmorType]||s.ArmorType||'')}</span><span class="badge">位置來源 ${s.SquadTypeSource==='schaledb-jp'?'SchaleDB JP':'本地'}</span><span class="badge">圖片候選 ${studentImageCandidates(s.Id).length}</span>`;
   let skills=playableSkills(s);selectedSkill=skills.find(x=>x.SkillType==='ex')||skills[0]||null;
   let box=$('skillList');box.innerHTML='';
   skills.forEach(k=>{
     let b=document.createElement('button');b.type='button';b.className='skill-btn card'+(k===selectedSkill?' selected':'');
     let cost=Array.isArray(k.Cost)?k.Cost[0]:k.Cost;
-    b.innerHTML=`${k.Icon?`<img class="skill-icon" src="${skillImg(k.Icon)}" alt="">`:''}<span><b>${skillTypeLabel(k.SkillType)} · ${esc(k.Name)}</b><br><span class="small">${cost!==undefined&&cost!==null?cost+' COST':'自動技能'}</span></span>`;
+    b.innerHTML=`${k.Icon?`<img class="skill-icon" src="${skillImg(k.Icon)}" alt="">`:''}<span><b>${skillTypeLabel(k.SkillType)} · ${esc(k.Name||skillTypeLabel(k.SkillType))}</b><br><span class="small">${cost!==undefined&&cost!==null?cost+' COST':'自動技能'} · ${k.LocalizedFrom==='tw'?'繁中名稱／JP數值':'JP資料'}</span></span>`;
     const si=b.querySelector('img.skill-icon');if(si&&k.Icon)attachSkillFallback(si,k.Icon);
     b.onclick=()=>{selectedSkill=k;syncTlStudents();$('tlStudent').value=String(s.Id);syncTlSkills();$('tlSkill').value=k.SkillType+'|'+k.Name;applySelectedSkill();go('Tl')};box.appendChild(b);
   });
@@ -805,7 +838,7 @@ function renderText(){
     ...tl.map(x=>`${formatTime(x.seconds)}${x.cost?' ['+x.cost+'C]':''} ${x.wait?'等待':x.studentName+' '+skillTypeLabel(x.skillType)+' '+x.skillName}${x.note?' — '+x.note:''}`)
   ].join('\n').trim();
 }
-function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.13',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
+function exportJson(){$('jsonBox').value=JSON.stringify({version:'4.4.14',bossId:$('boss').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl},null,2)}
 function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
@@ -849,35 +882,25 @@ $('refreshText').onclick=renderText;$('exportJson').onclick=exportJson;$('import
 (async()=>{
   try{
     const local=await loadLocalCatalog();
+
     students=mergeStudentCatalog([],[],local.students);
     raids=local.raids.length?local.raids:[];
     renderBosses();renderTeam();renderStudents();renderTl();
+    setStatus(`V4.4.14 本地備援已載入：${students.length} 名；正在讀取 SchaleDB 日服…`,'ok');
 
-    const hasSeia=students.some(s=>(s.EnglishName||'').toLowerCase()==='seia'||String(s.Name).includes('聖亞'));
-    setStatus(`V4.4.12 ${integrityText()}`,'ok');
+    const jpResult=await loadRegionJson('jp','students.json');
+    const jpStudents=extractArray(jpResult.data,['Student','Students','students']).filter(x=>x&&x.Name);
+    if(!jpStudents.length) throw new Error('SchaleDB JP 學生資料為 0');
 
-    // Optional enrichment only. Local 253 catalog remains authoritative fallback.
-    const results=await Promise.allSettled([
-      loadRegionJson('tw','students.json'),
-      loadRegionJson('jp','students.json'),
-      loadRegionJson('tw','raids.json')
-    ]);
-    let tw=[],jp=[],rr=[];
-    if(results[0].status==='fulfilled')tw=extractArray(results[0].value.data,['Student','Students','students']).filter(x=>x&&x.Name);
-    if(results[1].status==='fulfilled')jp=extractArray(results[1].value.data,['Student','Students','students']).filter(x=>x&&x.Name);
-    if(results[2].status==='fulfilled')rr=extractArray(results[2].value.data,['Raid','Raids','raids']).filter(x=>x&&x.Name);
+    const twResult=await loadRegionJson('tw','students.json').catch(()=>({data:[]}));
+    const twStudents=extractArray(twResult.data,['Student','Students','students']).filter(x=>x&&x.Name);
 
-    if(tw.length||jp.length){
-      students=mergeStudentCatalog(tw,jp,local.students);
-      renderTeam();renderStudents();renderTl();
-    }
-    if(rr.length){raids=rr;renderBosses();}
-
-    const remoteEnriched=students.filter(s=>s._sourceRegion==='tw'||s._sourceRegion==='jp').length;
-    setStatus(`V4.4.12 ${integrityText()}`,'ok');
+    students=mergeStudentCatalog(twStudents,jpStudents,local.students);
+    renderTeam();renderStudents();renderTl();
+    setStatus(`V4.4.14 ${integrityText()}`,'ok');
   }catch(e){
     console.error(e);
-    setStatus(`V4.4.8 本地資料載入失敗：${e?.message||e}。請確認 students_local.json 與 raids_local.json 已上傳。`,'err');
+    setStatus(`V4.4.14 日服同步失敗，使用本地備援：${e?.message||e}`,'err');
   }
 })();
 
