@@ -459,9 +459,9 @@
     "ImageId": 13001,
     "LocalChineseName": "千世",
     "CurrentSlug": "chise",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "verified-schaledb-v4.4.12"
   },
   {
     "Id": 300016,
@@ -1148,9 +1148,9 @@
     ],
     "LocalChineseName": "千夏",
     "CurrentSlug": "chinatsu",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "Healer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "verified-schaledb-v4.4.12"
   },
   {
     "Id": 300040,
@@ -2154,9 +2154,9 @@
     "ImageId": 20008,
     "LocalChineseName": "亞子",
     "CurrentSlug": "ako",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "verified-schaledb-v4.4.12"
   },
   {
     "Id": 300075,
@@ -2526,9 +2526,9 @@
     "ImageId": 10035,
     "LocalChineseName": "憂",
     "CurrentSlug": "ui",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "verified-schaledb-v4.4.12"
   },
   {
     "Id": 300088,
@@ -3761,9 +3761,9 @@
     "ImageId": 10062,
     "LocalChineseName": "時",
     "CurrentSlug": "toki",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "verified-schaledb-v4.4.12"
   },
   {
     "Id": 300131,
@@ -4736,9 +4736,9 @@
     "ImageId": 10083,
     "LocalChineseName": "桔梗",
     "CurrentSlug": "kikyou",
-    "SquadTypeSource": "local-v4.4.10",
-    "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "SquadTypeSource": "verified-schaledb-v4.4.12",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "verified-schaledb-v4.4.12"
   },
   {
     "Id": 300165,
@@ -5894,9 +5894,9 @@
     ],
     "LocalChineseName": "聖亞",
     "CurrentSlug": "seia",
-    "SquadTypeSource": "local-v4.4.10",
+    "SquadTypeSource": "verified-schaledb-v4.4.12",
     "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "TacticRoleSource": "verified-schaledb-v4.4.12"
   },
   {
     "Id": 300206,
@@ -6230,9 +6230,9 @@
     ],
     "LocalChineseName": "光",
     "CurrentSlug": "hikari",
-    "SquadTypeSource": "local-v4.4.10",
-    "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "SquadTypeSource": "verified-schaledb-v4.4.12",
+    "TacticRole": "Supporter",
+    "TacticRoleSource": "verified-schaledb-v4.4.12"
   },
   {
     "Id": 300218,
@@ -6351,7 +6351,7 @@
     "PathName": "niya",
     "Name": "妮婭",
     "EnglishName": "Niya",
-    "SquadType": "Main",
+    "SquadType": "Support",
     "Position": "",
     "BulletType": "",
     "ArmorType": "",
@@ -6370,9 +6370,9 @@
     ],
     "LocalChineseName": "妮婭",
     "CurrentSlug": "niya",
-    "SquadTypeSource": "local-v4.4.10",
-    "TacticRole": "Supporter",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "SquadTypeSource": "verified-schaledb-v4.4.12",
+    "TacticRole": "DamageDealer",
+    "TacticRoleSource": "verified-schaledb-v4.4.12"
   },
   {
     "Id": 300223,
@@ -6657,7 +6657,7 @@
   {
     "Id": 300233,
     "PathName": "kanoe",
-    "Name": "香耶",
+    "Name": "鹿江",
     "EnglishName": "Kanoe",
     "SquadType": "Main",
     "Position": "",
@@ -6676,11 +6676,17 @@
         "Icon": ""
       }
     ],
-    "LocalChineseName": "香耶",
+    "LocalChineseName": "鹿江",
     "CurrentSlug": "kanoe",
-    "SquadTypeSource": "local-v4.4.10",
-    "TacticRole": "DamageDealer",
-    "TacticRoleSource": "local-fallback-v4.4.11"
+    "SquadTypeSource": "verified-schaledb-v4.4.12",
+    "TacticRole": "Tanker",
+    "TacticRoleSource": "verified-schaledb-v4.4.12",
+    "SearchAliases": [
+      "鹿江",
+      "板垣鹿江",
+      "Kanoe",
+      "Itagaki Kanoe"
+    ]
   },
   {
     "Id": 300234,
