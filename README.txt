@@ -1,5 +1,5 @@
-V4.5.36 線上 TL 路由修正版
-- 修正 Boss／護甲線上庫 404
-- 線上庫整合至既有 /api/timeline
-- 上傳時只需保留 functions/api/timeline.js
-- 必須在 Cloudflare Pages 綁定 TL_STORE KV
+V4.5.37 護甲色線上 TL 欄位版
+- TL 名稱移至上方
+- 10 個保存欄位改為按鈕選擇
+- 輕裝甲紅、特殊裝甲藍、重裝甲黃、彈力裝甲紫
+- 沿用 /api/timeline 與 TL_STORE KV
