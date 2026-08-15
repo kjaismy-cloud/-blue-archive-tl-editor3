@@ -4,6 +4,7 @@ const clean=(value,max=50)=>String(value||'').replace(/[^A-Za-z0-9_-]/g,'').slic
 const validSlot=slot=>Number.isInteger(slot)&&slot>=0&&slot<10;
 const indexKey=(bossId,armorType)=>'boss-tl:index:'+bossId+':'+armorType;
 const itemKey=(bossId,armorType,slot)=>'boss-tl:item:'+bossId+':'+armorType+':'+slot;
+const isAdmin=(request,env)=>Boolean(env.TL_ADMIN_KEY)&&request.headers.get('x-tl-admin-key')===String(env.TL_ADMIN_KEY);
 const makeCode=()=>{const bytes=new Uint8Array(8);crypto.getRandomValues(bytes);return Array.from(bytes,b=>ALPHABET[b%ALPHABET.length]).join('')};
 
 async function getBossLibrary(request,env){
@@ -25,12 +26,14 @@ async function updateBossLibrary(body,env){
 }
 export async function onRequestGet({request,env}){
   if(!env.TL_STORE)return json({error:'尚未設定 TL_STORE KV 綁定'},503);
-  const url=new URL(request.url);if(url.searchParams.get('mode')==='boss')return getBossLibrary(request,env);
+  const url=new URL(request.url);if(url.searchParams.get('mode')==='admin-check')return isAdmin(request,env)?json({admin:true}):json({error:env.TL_ADMIN_KEY?'管理密碼錯誤':'尚未設定 TL_ADMIN_KEY Secret'},env.TL_ADMIN_KEY?403:503);if(url.searchParams.get('mode')==='boss')return getBossLibrary(request,env);
   const code=clean(url.searchParams.get('code'),8).toUpperCase();if(code.length!==8)return json({error:'短代碼格式不正確'},400);
   const data=await env.TL_STORE.get('tl:'+code,{type:'json'});return data?json({code,data}):json({error:'找不到這個時間軸'},404);
 }
 export async function onRequestPost({request,env}){
   if(!env.TL_STORE)return json({error:'尚未設定 TL_STORE KV 綁定'},503);
+  if(!env.TL_ADMIN_KEY)return json({error:'尚未設定 TL_ADMIN_KEY Secret'},503);
+  if(!isAdmin(request,env))return json({error:'只有管理員可以保存、覆蓋或刪除 TL'},403);
   const length=Number(request.headers.get('content-length')||0);if(length>150000)return json({error:'TL 資料太大'},413);
   let body;try{body=await request.json()}catch{return json({error:'JSON 格式錯誤'},400)}
   if(body?.action==='save'||body?.action==='delete')return updateBossLibrary(body,env);
