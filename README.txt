@@ -1,5 +1,5 @@
-V4.5.35 Boss／護甲 TL 線上庫版
-- 修正 renderBossMeta 啟動錯誤
-- 按 Boss 與護甲類型分類線上保存 TL
-- 每個分類提供 10 個線上欄位，可保存、讀取、刪除
+V4.5.36 線上 TL 路由修正版
+- 修正 Boss／護甲線上庫 404
+- 線上庫整合至既有 /api/timeline
+- 上傳時只需保留 functions/api/timeline.js
 - 必須在 Cloudflare Pages 綁定 TL_STORE KV
