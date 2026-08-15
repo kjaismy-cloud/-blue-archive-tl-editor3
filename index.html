@@ -204,7 +204,7 @@ font-weight:800;font-size:20px;color:#9edfff;background:#203241;border-radius:14
 border:1px dashed var(--line);border-radius:14px}
 
 
-/* V4.5.34: full-width, separate pages */
+/* V4.5.35: full-width, separate pages */
 .desktop-layout{display:none!important}
 #installHelp{display:none!important}
 .page-intro{padding:4px 2px 2px;color:var(--muted)}
@@ -242,7 +242,7 @@ border:1px dashed var(--line);border-radius:14px}
   .tl-tile-actions{grid-template-columns:1fr 1fr}
 }
 
-/* V4.5.34: time-or-cost TL input and compact visual timeline */
+/* V4.5.35: time-or-cost TL input and compact visual timeline */
 .time-cost-fields{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:end}
 .time-cost-fields label{margin:0}
 .time-cost-fields input{font-size:20px;font-weight:800;text-align:center;color:var(--accent2)}
@@ -263,7 +263,7 @@ border:1px dashed var(--line);border-radius:14px}
   .timeline-track{gap:5px!important}
 }
 
-/* V4.5.34: compact TL composer, student preview and micro controls */
+/* V4.5.35: compact TL composer, student preview and micro controls */
 .tl-add-panel{gap:8px!important;padding:12px 14px!important}
 .tl-add-panel h2{margin:0;font-size:18px}
 .tl-add-panel .space{min-height:26px}
@@ -289,7 +289,7 @@ border:1px dashed var(--line);border-radius:14px}
   .tl-tile-actions button{min-height:11px!important;height:11px!important;font-size:6px!important;line-height:9px!important}
 }
 
-/* V4.5.34: value and student share one row; edit removed */
+/* V4.5.35: value and student share one row; edit removed */
 .tl-tile{grid-template-rows:108px auto auto!important}
 .tl-tile-meta{display:flex;align-items:center;justify-content:center;gap:5px;min-width:0;padding:2px 4px;background:#f4f8fb;color:#102334;white-space:nowrap;overflow:hidden}
 .tl-tile-meta .tl-tile-value{font-size:15px!important;line-height:18px!important;padding:0!important;background:transparent!important;border:0!important;flex:0 0 auto}
@@ -304,7 +304,7 @@ border:1px dashed var(--line);border-radius:14px}
   .tl-tile-student{font-size:9px;line-height:16px}
 }
 
-/* V4.5.34: six team avatars above time / COST */
+/* V4.5.35: six team avatars above time / COST */
 .tl-avatar-picker-wrap{display:grid;gap:4px}
 .tl-avatar-picker-label{font-weight:800;color:var(--text)}
 .tl-avatar-choices{display:grid;grid-template-columns:repeat(6,minmax(0,58px));gap:7px;align-items:start}
@@ -321,13 +321,13 @@ border:1px dashed var(--line);border-radius:14px}
   .tl-avatar-choice span{font-size:8px;line-height:10px}
 }
 
-/* V4.5.34: Excel timeline export */
+/* V4.5.35: Excel timeline export */
 .timeline-export{display:flex;align-items:center;gap:7px;flex-wrap:wrap;justify-content:flex-end}
 .excel-btn{background:#1f6f43!important;color:#fff!important;border-color:#45a66f!important;font-weight:800}
 .excel-btn:hover{background:#288855!important}
 @media(max-width:600px){.timeline-export{gap:4px}.excel-btn{min-height:28px!important;padding:4px 7px!important;font-size:11px!important}}
 
-/* V4.5.34: align student picker and time/COST fields; 4:1 input ratio */
+/* V4.5.35: align student picker and time/COST fields; 4:1 input ratio */
 .tl-add-panel{--tl-entry-width:540px}
 .tl-add-panel .tl-avatar-picker-wrap,
 .tl-add-panel .time-cost-fields{width:min(100%,var(--tl-entry-width))}
@@ -342,7 +342,7 @@ border:1px dashed var(--line);border-radius:14px}
 }
 
 
-/* V4.5.34: multiple students in one TL card */
+/* V4.5.35: multiple students in one TL card */
 .tl-avatar-choice.selected{position:relative}
 .tl-avatar-choice.selected::after{content:'✓';position:absolute;right:3px;top:3px;display:grid;place-items:center;width:16px;height:16px;border-radius:50%;background:#55c6ff;color:#07131c;font-size:11px;font-weight:900}
 .tl-tile-image-wrap{display:grid!important;grid-template-columns:1fr;grid-template-rows:1fr;overflow:hidden}
@@ -351,7 +351,7 @@ border:1px dashed var(--line);border-radius:14px}
 .tl-tile-image-wrap .tl-tile-image{width:100%!important;height:100%!important;min-width:0;min-height:0;object-fit:cover;border-radius:0!important}
 
 
-/* V4.5.34: ordered selection badges and horizontally expanding multi-student cards */
+/* V4.5.35: ordered selection badges and horizontally expanding multi-student cards */
 .tl-avatar-choice.selected::before{content:attr(data-order);position:absolute;left:3px;top:3px;z-index:3;display:grid;place-items:center;width:18px;height:18px;border-radius:50%;background:#ffdc73;color:#18212a;font-size:11px;font-weight:900;box-shadow:0 1px 4px rgba(0,0,0,.45)}
 .tl-avatar-choice.selected::after{display:none!important}
 .tl-tile{--tl-unit:108px;--tl-student-count:1}
@@ -363,7 +363,7 @@ border:1px dashed var(--line);border-radius:14px}
 @media(max-width:600px){.tl-tile{--tl-unit:90px}}
 
 
-/* V4.5.34: timeline cards at 75% of the previous size */
+/* V4.5.35: timeline cards at 75% of the previous size */
 .tl-tile{--tl-unit:81px!important;flex-basis:81px!important;grid-template-rows:81px auto auto!important}
 .tl-tile-image,.tl-tile-image-wrap{width:81px!important;height:81px!important}
 .tl-tile-meta{width:81px;min-height:15px;padding:1px 3px}
@@ -381,7 +381,7 @@ border:1px dashed var(--line);border-radius:14px}
 }
 
 
-/* V4.5.34: left-aligned position buttons and tactic filter */
+/* V4.5.35: left-aligned position buttons and tactic filter */
 #viewTeam .panel>.space{align-items:flex-start}
 .student-filter-layout{display:flex;justify-content:flex-start;align-items:flex-start;gap:14px;flex-wrap:wrap;width:100%;margin-top:6px}
 .student-filter-block{display:grid;justify-items:start;align-content:start;gap:5px;margin:0!important}
@@ -396,7 +396,7 @@ border:1px dashed var(--line);border-radius:14px}
 @media(max-width:520px){.student-filter-layout{gap:10px}.squad-filter-buttons{grid-template-columns:minmax(102px,1fr)}.tactic-filter-block select{width:135px}}
 
 
-/* V4.5.34: student selection left, team composition right, 1:4 ratio */
+/* V4.5.35: student selection left, team composition right, 1:4 ratio */
 @media(min-width:901px){
   #viewTeam.active{display:grid!important;grid-template-columns:minmax(230px,1fr) minmax(0,4fr)!important;grid-template-areas:'students team' 'detail detail';gap:16px;align-items:start}
   #viewTeam .student-selection-panel{grid-area:students;min-width:0}
@@ -416,7 +416,7 @@ border:1px dashed var(--line);border-radius:14px}
 }
 
 
-/* V4.5.34: team composition merged into the upper-right of student selection */
+/* V4.5.35: team composition merged into the upper-right of student selection */
 #viewTeam.active{display:grid!important;grid-template-columns:minmax(0,1fr)!important;grid-template-areas:'combined' 'detail'!important;gap:16px}
 #viewTeam .team-combined-panel{grid-area:combined;min-width:0}
 #viewTeam .student-detail-panel{grid-area:detail;min-width:0}
@@ -435,7 +435,7 @@ border:1px dashed var(--line);border-radius:14px}
 }
 
 
-/* V4.5.34: Boss armor and ten local TL slots per Boss */
+/* V4.5.35: Boss armor and ten local TL slots per Boss */
 .boss-tl-manager{margin-top:4px;padding:12px;border:1px solid var(--line);border-radius:14px;background:rgba(12,27,39,.62)}
 .boss-tl-manager h2{margin:0;font-size:17px}
 .boss-tl-controls{display:grid;grid-template-columns:minmax(110px,.7fr) minmax(180px,1.6fr) auto auto auto;gap:8px;align-items:end;margin-top:9px}
@@ -450,10 +450,10 @@ border:1px dashed var(--line);border-radius:14px}
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.5.34 · 學生圖片本地化版</div>
+    <div class="small">V4.5.35 · 學生圖片本地化版</div>
   </div>
-  <div id="status" class="status">V4.5.34 正在載入 272 名學生與本地圖片…</div>
-  <div class="small">V4.5.34 · 日服 · 繁體中文 · 學生圖片本地化</div>
+  <div id="status" class="status">V4.5.35 正在載入 272 名學生與本地圖片…</div>
+  <div class="small">V4.5.35 · 日服 · 繁體中文 · 學生圖片本地化</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -521,16 +521,16 @@ border:1px dashed var(--line);border-radius:14px}
       <label>開場備註<input id="headerNote" placeholder="例如：開局凹下面出車"></label>
 
       <div class="boss-tl-manager">
-        <div class="space"><h2>Boss TL 保存</h2><span class="badge">每個 Boss 最多 10 組</span></div>
+        <div class="space"><h2>Boss／護甲 TL 線上庫</h2><span id="bossTlCategory" class="badge">讀取分類中</span></div>
         <div class="boss-tl-controls">
           <label>保存欄位<select id="bossTlSlot"></select></label>
           <label>TL 名稱<input id="bossTlName" maxlength="30" placeholder="例如：一刀軸、第二隊"></label>
-          <button id="saveBossTl" class="primary">保存目前 TL</button>
+          <button id="saveBossTl" class="primary">線上保存目前 TL</button>
           <button id="loadBossTl">讀取</button>
           <button id="deleteBossTl" class="danger">刪除</button>
         </div>
         <div id="bossTlSlotList" class="boss-tl-slot-list"></div>
-        <div id="bossTlMessage" class="small">TL 會保存在目前瀏覽器中。</div>
+        <div id="bossTlMessage" class="small">依目前選擇的 Boss 與護甲分類，線上保存最多 10 組 TL。</div>
       </div>
     </div>
   </section>
@@ -901,13 +901,19 @@ function renderBosses(){
   raids.filter(releasedTW).forEach(r=>{let o=document.createElement('option');o.value=r.Id;o.textContent=r.Name||r.PathName;sel.appendChild(o)});
   updateBoss();
 }
+function renderBossMeta(r){
+  const selectedArmor=$('bossArmor')?.value||r?.ArmorType||'';
+  $('bossMeta').innerHTML=`<span class="badge">${esc(armorMap[selectedArmor]||selectedArmor||'')}</span>`+(r?.Terrain||[]).map(x=>`<span class="badge">${esc(terrainMap[x]||x)}</span>`).join('');
+}
 function updateBoss(){
   let r=raids.find(x=>String(x.Id)===$('boss').value);if(!r)return;
   setImageWithFallback($('bossImg'),bossImageCandidates(r));
+  if($('bossArmor'))$('bossArmor').value=r.ArmorType||'HeavyArmor';
   renderBossMeta(r);
   let t=$('terrain');t.innerHTML='<option value="">自動</option>';
   (r.Terrain||[]).forEach(x=>{let o=document.createElement('option');o.value=x;o.textContent=terrainMap[x]||x;t.appendChild(o)});
   renderText();
+  updateBossTlManager();
 }
 function fullTeam(){
   return [...strikers.filter(Boolean), ...specials.filter(Boolean)];
@@ -1262,54 +1268,65 @@ async function exportTimelineExcel(){
 
 
 
-const BOSS_TL_STORAGE_KEY='baBossTlSlotsV4534';
-function readBossTlStore(){
-  try{const data=JSON.parse(localStorage.getItem(BOSS_TL_STORAGE_KEY)||'{}');return data&&typeof data==='object'?data:{}}catch{return {}}
-}
-function writeBossTlStore(store){localStorage.setItem(BOSS_TL_STORAGE_KEY,JSON.stringify(store))}
-function currentBossTlRecords(){
-  const store=readBossTlStore(),bossId=String($('boss').value||'');
-  const records=Array.isArray(store[bossId])?store[bossId].slice(0,10):[];
-  while(records.length<10)records.push(null);
-  return {store,bossId,records};
-}
+let bossTlOnlineRecords=Array(10).fill(null),bossTlRequestSerial=0;
+function currentBossTlCategory(){return {bossId:String($('boss').value||''),armorType:String($('bossArmor').value||'')}}
 function bossTlMessage(message,type=''){
   const el=$('bossTlMessage');if(!el)return;el.textContent=message;el.style.color=type==='err'?'#ff8796':type==='ok'?'#83efb0':'';
 }
-function updateBossTlManager(){
+function renderBossTlSlots(records=bossTlOnlineRecords){
   const select=$('bossTlSlot'),list=$('bossTlSlotList');if(!select||!list)return;
-  const current=select.value||'0',records=currentBossTlRecords().records;
-  select.innerHTML='';list.innerHTML='';
+  const current=select.value||'0';select.innerHTML='';list.innerHTML='';
   records.forEach((record,index)=>{
     const label=(index+1)+'. '+(record?.name||'空白');
     const option=document.createElement('option');option.value=String(index);option.textContent=label;select.appendChild(option);
     const chip=document.createElement('span');chip.className='boss-tl-slot-chip'+(record?' saved':'');chip.textContent=label;list.appendChild(chip);
   });
   select.value=[...select.options].some(o=>o.value===current)?current:'0';
-  const record=records[Number(select.value)];$('bossTlName').value=record?.name||'';
+  $('bossTlName').value=records[Number(select.value)]?.name||'';
 }
-function saveBossTlSlot(){
+async function updateBossTlManager(){
+  if(!$('bossTlSlot'))return;
+  const {bossId,armorType}=currentBossTlCategory(),r=raids.find(x=>String(x.Id)===bossId),serial=++bossTlRequestSerial;
+  $('bossTlCategory').textContent=(r?.Name||bossId)+'／'+(armorMap[armorType]||armorType);
+  bossTlOnlineRecords=Array(10).fill(null);renderBossTlSlots();bossTlMessage('正在讀取線上 TL…');
+  try{
+    const response=await fetch('/api/boss-timelines?boss='+encodeURIComponent(bossId)+'&armor='+encodeURIComponent(armorType));
+    const result=await response.json().catch(()=>({}));if(serial!==bossTlRequestSerial)return;
+    if(!response.ok)throw new Error(result.error||('讀取失敗 '+response.status));
+    bossTlOnlineRecords=Array(10).fill(null);(result.slots||[]).forEach(x=>{if(Number.isInteger(x.slot)&&x.slot>=0&&x.slot<10)bossTlOnlineRecords[x.slot]=x});
+    renderBossTlSlots();bossTlMessage('已載入此 Boss／護甲分類的線上 TL。','ok');
+  }catch(error){if(serial!==bossTlRequestSerial)return;renderBossTlSlots();bossTlMessage('線上讀取失敗：'+(error?.message||error),'err')}
+}
+async function saveBossTlSlot(){
   if(!tl.some(x=>!x.lineBreak)){bossTlMessage('目前沒有可保存的 TL。','err');return}
-  const {store,bossId,records}=currentBossTlRecords(),index=Number($('bossTlSlot').value||0);
-  const name=$('bossTlName').value.trim()||('TL '+(index+1));
-  records[index]={name,savedAt:new Date().toISOString(),data:timelineSnapshot()};store[bossId]=records;writeBossTlStore(store);
-  updateBossTlManager();$('bossTlSlot').value=String(index);$('bossTlName').value=name;
-  bossTlMessage('已保存「'+name+'」。','ok');setStatus('Boss TL 已保存','ok');
+  const {bossId,armorType}=currentBossTlCategory(),slot=Number($('bossTlSlot').value||0),name=$('bossTlName').value.trim()||('TL '+(slot+1)),button=$('saveBossTl');
+  button.disabled=true;button.textContent='線上保存中…';
+  try{
+    const response=await fetch('/api/boss-timelines',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({action:'save',bossId,armorType,slot,name,data:timelineSnapshot()})});
+    const result=await response.json().catch(()=>({}));if(!response.ok)throw new Error(result.error||('保存失敗 '+response.status));
+    await updateBossTlManager();$('bossTlSlot').value=String(slot);$('bossTlName').value=name;bossTlMessage('已線上保存「'+name+'」。','ok');setStatus('Boss TL 已線上保存','ok');
+  }catch(error){bossTlMessage('線上保存失敗：'+(error?.message||error),'err')}
+  finally{button.disabled=false;button.textContent='線上保存目前 TL'}
 }
-function loadBossTlSlot(){
-  const {records}=currentBossTlRecords(),index=Number($('bossTlSlot').value||0),record=records[index];
-  if(!record){bossTlMessage('這個欄位尚未保存 TL。','err');return}
-  $('jsonBox').value=JSON.stringify(record.data);importJson();$('bossTlSlot').value=String(index);$('bossTlName').value=record.name||'';
-  bossTlMessage('已讀取「'+(record.name||('TL '+(index+1)))+'」。','ok');
+async function loadBossTlSlot(){
+  const {bossId,armorType}=currentBossTlCategory(),slot=Number($('bossTlSlot').value||0),record=bossTlOnlineRecords[slot];
+  if(!record){bossTlMessage('這個線上欄位尚未保存 TL。','err');return}
+  try{
+    const response=await fetch('/api/boss-timelines?boss='+encodeURIComponent(bossId)+'&armor='+encodeURIComponent(armorType)+'&slot='+slot);
+    const result=await response.json().catch(()=>({}));if(!response.ok)throw new Error(result.error||('讀取失敗 '+response.status));
+    $('jsonBox').value=JSON.stringify(result.record.data);importJson();$('bossTlSlot').value=String(slot);$('bossTlName').value=result.record.name||'';bossTlMessage('已讀取「'+(result.record.name||('TL '+(slot+1)))+'」。','ok');
+  }catch(error){bossTlMessage('線上讀取失敗：'+(error?.message||error),'err')}
 }
-function deleteBossTlSlot(){
-  const {store,bossId,records}=currentBossTlRecords(),index=Number($('bossTlSlot').value||0);
-  if(!records[index]){bossTlMessage('這個欄位原本就是空白。','err');return}
-  records[index]=null;store[bossId]=records;writeBossTlStore(store);updateBossTlManager();$('bossTlSlot').value=String(index);$('bossTlName').value='';
-  bossTlMessage('已刪除第 '+(index+1)+' 組 TL。','ok');
+async function deleteBossTlSlot(){
+  const {bossId,armorType}=currentBossTlCategory(),slot=Number($('bossTlSlot').value||0);if(!bossTlOnlineRecords[slot]){bossTlMessage('這個線上欄位原本就是空白。','err');return}
+  try{
+    const response=await fetch('/api/boss-timelines',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({action:'delete',bossId,armorType,slot})});
+    const result=await response.json().catch(()=>({}));if(!response.ok)throw new Error(result.error||('刪除失敗 '+response.status));
+    await updateBossTlManager();$('bossTlSlot').value=String(slot);$('bossTlName').value='';bossTlMessage('已刪除第 '+(slot+1)+' 組線上 TL。','ok');
+  }catch(error){bossTlMessage('線上刪除失敗：'+(error?.message||error),'err')}
 }
 
-function timelineSnapshot(){return {version:'4.5.34',bossId:$('boss').value,bossArmor:$('bossArmor').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl}}
+function timelineSnapshot(){return {version:'4.5.35',bossId:$('boss').value,bossArmor:$('bossArmor').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl}}
 function normalizeCloudCode(value){return String(value||'').toUpperCase().replace(/[^A-Z0-9]/g,'').slice(0,8)}
 function cloudMessage(message,type=''){const el=$('cloudMessage');el.textContent=message;el.style.color=type==='err'?'#ff8796':type==='ok'?'#83efb0':''}
 async function saveTimelineCloud(){
@@ -1373,20 +1390,20 @@ function importJson(){
 }
 
 function setSquadFilter(value){$('squadFilter').value=value;document.querySelectorAll('.squad-filter-btn').forEach(button=>{const active=button.dataset.squad===value;button.classList.toggle('active',active);button.setAttribute('aria-pressed',active?'true':'false')});renderStudents()}
-$('boss').onchange=updateBoss;$('bossArmor').onchange=()=>{const r=raids.find(x=>String(x.Id)===$('boss').value);if(r)renderBossMeta(r);renderText()};$('studentSearch').oninput=renderStudents;document.querySelectorAll('.squad-filter-btn').forEach(button=>button.onclick=()=>setSquadFilter(button.dataset.squad));$('tacticFilter').onchange=renderStudents;
+$('boss').onchange=updateBoss;$('bossArmor').onchange=()=>{const r=raids.find(x=>String(x.Id)===$('boss').value);if(r)renderBossMeta(r);renderText();updateBossTlManager()};$('studentSearch').oninput=renderStudents;document.querySelectorAll('.squad-filter-btn').forEach(button=>button.onclick=()=>setSquadFilter(button.dataset.squad));$('tacticFilter').onchange=renderStudents;
 $('clearTeam').onclick=()=>{strikers=Array(4).fill(null);specials=Array(2).fill(null);renderTeam();renderStudents();renderText();setStatus('隊伍已清空','ok')};
 $('tlStudent').onchange=syncTlSkills;$('tlSkill').onchange=applySelectedSkill;
 $('time').oninput=()=>{if($('time').value.trim())$('cost').value=''};
 $('cost').oninput=()=>{if($('cost').value!=='')$('time').value=''};
 $('addTl').onclick=addTl;$('addLineBreak').onclick=addTlLineBreak;
 $('clearTl').onclick=()=>{tl=[];renderTl()};
-$('bossTlSlot').onchange=()=>{const record=currentBossTlRecords().records[Number($('bossTlSlot').value||0)];$('bossTlName').value=record?.name||''};$('saveBossTl').onclick=saveBossTlSlot;$('loadBossTl').onclick=loadBossTlSlot;$('deleteBossTl').onclick=deleteBossTlSlot;
+$('bossTlSlot').onchange=()=>{$('bossTlName').value=bossTlOnlineRecords[Number($('bossTlSlot').value||0)]?.name||''};$('saveBossTl').onclick=saveBossTlSlot;$('loadBossTl').onclick=loadBossTlSlot;$('deleteBossTl').onclick=deleteBossTlSlot;
 $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel;$('cloudSave').onclick=saveTimelineCloud;$('cloudLoad').onclick=()=>loadTimelineCloud();$('copyCloudLink').onclick=copyCloudLink;$('cloudCode').oninput=e=>e.target.value=normalizeCloudCode(e.target.value);$('exportJson').onclick=exportJson;$('importJson').onclick=importJson;
 ['difficulty','bossArmor','terrain','teamName','headerNote'].forEach(id=>$(id).addEventListener('input',renderText));
 
 (async()=>{
   try{
-    setStatus('V4.5.34 正在載入 272 名學生與本地圖片…');
+    setStatus('V4.5.35 正在載入 272 名學生與本地圖片…');
 
     students=applyV457JpCorrections(EMBEDDED_STUDENTS.map(x=>({...x})));
     raids=EMBEDDED_RAIDS.map(x=>({...x}));
@@ -1397,11 +1414,11 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
     renderStudents();
     renderTl();
 
-    setStatus(`V4.5.34 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
+    setStatus(`V4.5.35 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
     const sharedCode=normalizeCloudCode(new URLSearchParams(location.search).get('tl'));if(sharedCode){$('cloudCode').value=sharedCode;await loadTimelineCloud(sharedCode)}
   }catch(e){
     console.error('V4.5.4 bootstrap failed',e);
-    setStatus(`V4.5.34 啟動失敗：${e?.message||e}`,'err');
+    setStatus(`V4.5.35 啟動失敗：${e?.message||e}`,'err');
   }
 })();
 
