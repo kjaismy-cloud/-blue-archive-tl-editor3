@@ -1,5 +1,5 @@
-const CACHE='ba-tl-v4-5-33-boss-images';
-const SHELL=["./", "./index.html", "./students_local.json", "./raids_local.json", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png", "./exceljs.min.js", "./excel-images-1.js", "./excel-images-2.js", "./excel-images-3.js", "./excel-images-4.js", "./boss-icons/Binah.webp", "./boss-icons/Chesed.webp", "./boss-icons/ShiroKuro.webp", "./boss-icons/Hieronymus.webp", "./boss-icons/Kaiten.webp", "./boss-icons/Perorodzilla.webp", "./boss-icons/Hod.webp", "./boss-icons/Goz.webp", "./boss-icons/Gregorius.webp", "./boss-icons/HoverCraft.webp", "./boss-icons/Kurokage.webp", "./boss-icons/Geburah.webp", "./boss-icons/Yesod.webp"];
+const CACHE='ba-tl-v4-5-10';
+const SHELL=["./", "./index.html", "./students_local.json", "./raids_local.json", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 
 self.addEventListener('install',event=>{
   event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)));
@@ -17,6 +17,9 @@ self.addEventListener('fetch',event=>{
   if(event.request.method!=='GET') return;
 
   const url=new URL(event.request.url);
+
+  // Cloudflare Pages Functions API must always go to network.
+  if(url.origin===location.origin && url.pathname.startsWith('/api/')) return;
 
   if(url.origin===location.origin){
     event.respondWith(
