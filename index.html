@@ -757,6 +757,16 @@ body.integrated-pages .student-pick img,
 body.integrated-pages .tl-avatar-choice img{
   content-visibility:auto;
 }
+
+/* V4.5.64: show the complete background panorama without edge cropping. */
+body.integrated-pages{
+  background-size:100% auto!important;
+  background-position:center top!important;
+  background-repeat:no-repeat!important;
+}
+@media(max-width:979px){
+  body.integrated-pages{background-size:contain!important;background-position:center top!important}
+}
 @media (max-width: 979px) {
   body.integrated-pages #status,
   body.integrated-pages #viewBoss > .panel {
@@ -769,10 +779,10 @@ body.integrated-pages .tl-avatar-choice img{
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.5.63 · 效能優化版</div>
+    <div class="small">V4.5.64 · 全景背景版</div>
   </div>
-  <div id="status" class="status">V4.5.63 正在載入 272 名學生與本地圖片…</div>
-  <div class="small">V4.5.63 · 日服 · 繁體中文 · 效能優化</div>
+  <div id="status" class="status">V4.5.64 正在載入 272 名學生與本地圖片…</div>
+  <div class="small">V4.5.64 · 日服 · 繁體中文 · 全景背景</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -1833,7 +1843,7 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
 
 (async()=>{
   try{
-    setStatus('V4.5.63 正在載入 272 名學生與本地圖片…');
+    setStatus('V4.5.64 正在載入 272 名學生與本地圖片…');
 
     students=applyV457JpCorrections(EMBEDDED_STUDENTS.map(x=>({...x})));
     raids=EMBEDDED_RAIDS.map(x=>({...x}));
@@ -1844,11 +1854,11 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
     renderStudents();
     renderTl();
 
-    setStatus(`V4.5.63 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
+    setStatus(`V4.5.64 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
     const sharedCode=normalizeCloudCode(new URLSearchParams(location.search).get('tl'));if(sharedCode){$('cloudCode').value=sharedCode;await loadTimelineCloud(sharedCode)}
   }catch(e){
     console.error('V4.5.4 bootstrap failed',e);
-    setStatus(`V4.5.63 啟動失敗：${e?.message||e}`,'err');
+    setStatus(`V4.5.64 啟動失敗：${e?.message||e}`,'err');
   }
 })();
 
@@ -1995,6 +2005,8 @@ function applyV457JpCorrections(list){
   };
   fix('Kisaki','Support','Supporter');
   fix('Kisaki (Swimsuit)','Main','Supporter');
+  const shun=list.find(x=>x.EnglishName==='Shun'&&x.PathName==='shun');
+  if(shun){shun.Name='旬';shun.LocalChineseName='旬';shun.SearchAliases=[...new Set([...(shun.SearchAliases||[]),'旬','瞬'])];}
   return list;
 }
 
