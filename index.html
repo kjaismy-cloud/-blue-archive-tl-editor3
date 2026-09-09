@@ -767,6 +767,28 @@ body.integrated-pages{
 @media(max-width:979px){
   body.integrated-pages{background-size:contain!important;background-position:center top!important}
 }
+
+/* V4.5.65: use a real document layer so the panorama scrolls with content.
+   Body backgrounds may be promoted to the viewport canvas by browsers. */
+body.integrated-pages{
+  position:relative;
+  isolation:isolate;
+  background-image:none!important;
+  background-color:#080d17!important;
+}
+body.integrated-pages::before{
+  content:"";
+  position:absolute;
+  inset:0 0 auto 0;
+  width:100%;
+  aspect-ratio:16/9;
+  z-index:-1;
+  pointer-events:none;
+  background-image:linear-gradient(rgba(5,10,20,.34),rgba(7,13,23,.48)),url('./site-background.png');
+  background-size:100% 100%;
+  background-position:center top;
+  background-repeat:no-repeat;
+}
 @media (max-width: 979px) {
   body.integrated-pages #status,
   body.integrated-pages #viewBoss > .panel {
@@ -779,10 +801,10 @@ body.integrated-pages{
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.5.64 · 全景背景版</div>
+    <div class="small">V4.5.65 · 捲動全景背景版</div>
   </div>
-  <div id="status" class="status">V4.5.64 正在載入 272 名學生與本地圖片…</div>
-  <div class="small">V4.5.64 · 日服 · 繁體中文 · 全景背景</div>
+  <div id="status" class="status">V4.5.65 正在載入 272 名學生與本地圖片…</div>
+  <div class="small">V4.5.65 · 日服 · 繁體中文 · 捲動全景背景</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -1843,7 +1865,7 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
 
 (async()=>{
   try{
-    setStatus('V4.5.64 正在載入 272 名學生與本地圖片…');
+    setStatus('V4.5.65 正在載入 272 名學生與本地圖片…');
 
     students=applyV457JpCorrections(EMBEDDED_STUDENTS.map(x=>({...x})));
     raids=EMBEDDED_RAIDS.map(x=>({...x}));
@@ -1854,11 +1876,11 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
     renderStudents();
     renderTl();
 
-    setStatus(`V4.5.64 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
+    setStatus(`V4.5.65 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
     const sharedCode=normalizeCloudCode(new URLSearchParams(location.search).get('tl'));if(sharedCode){$('cloudCode').value=sharedCode;await loadTimelineCloud(sharedCode)}
   }catch(e){
     console.error('V4.5.4 bootstrap failed',e);
-    setStatus(`V4.5.64 啟動失敗：${e?.message||e}`,'err');
+    setStatus(`V4.5.65 啟動失敗：${e?.message||e}`,'err');
   }
 })();
 
