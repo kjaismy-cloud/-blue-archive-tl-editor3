@@ -800,6 +800,19 @@ body.integrated-pages::before{
   background-size:100% auto;
   background-repeat:repeat-y;
 }
+
+/* V4.5.67: one viewport background only; never tile or duplicate the image. */
+body.integrated-pages::before{
+  position:fixed;
+  inset:0;
+  width:100vw;
+  height:100vh;
+  min-height:0;
+  aspect-ratio:auto;
+  background-size:cover;
+  background-position:center center;
+  background-repeat:no-repeat;
+}
 @media (max-width: 979px) {
   body.integrated-pages #status,
   body.integrated-pages #viewBoss > .panel {
@@ -812,10 +825,10 @@ body.integrated-pages::before{
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.5.66 · 全頁捲動背景版</div>
+    <div class="small">V4.5.67 · 單張跟隨背景版</div>
   </div>
-  <div id="status" class="status">V4.5.66 正在載入 272 名學生與本地圖片…</div>
-  <div class="small">V4.5.66 · 日服 · 繁體中文 · 全頁捲動背景</div>
+  <div id="status" class="status">V4.5.67 正在載入 272 名學生與本地圖片…</div>
+  <div class="small">V4.5.67 · 日服 · 繁體中文 · 單張跟隨背景</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -1876,7 +1889,7 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
 
 (async()=>{
   try{
-    setStatus('V4.5.66 正在載入 272 名學生與本地圖片…');
+    setStatus('V4.5.67 正在載入 272 名學生與本地圖片…');
 
     students=applyV457JpCorrections(EMBEDDED_STUDENTS.map(x=>({...x})));
     raids=EMBEDDED_RAIDS.map(x=>({...x}));
@@ -1887,11 +1900,11 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
     renderStudents();
     renderTl();
 
-    setStatus(`V4.5.66 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
+    setStatus(`V4.5.67 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
     const sharedCode=normalizeCloudCode(new URLSearchParams(location.search).get('tl'));if(sharedCode){$('cloudCode').value=sharedCode;await loadTimelineCloud(sharedCode)}
   }catch(e){
     console.error('V4.5.4 bootstrap failed',e);
-    setStatus(`V4.5.66 啟動失敗：${e?.message||e}`,'err');
+    setStatus(`V4.5.67 啟動失敗：${e?.message||e}`,'err');
   }
 })();
 
