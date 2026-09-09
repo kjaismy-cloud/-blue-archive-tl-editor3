@@ -734,6 +734,29 @@ body.integrated-pages .timeline-board {
     grid-template-columns:repeat(2,minmax(150px,1fr));
   }
 }
+
+/* V4.5.63: performance mode. Keep the transparent appearance without costly
+   fixed-background and per-control blur compositing. */
+body.integrated-pages{
+  background-attachment:scroll!important;
+}
+body.integrated-pages .bottom-nav,
+body.integrated-pages input,
+body.integrated-pages select,
+body.integrated-pages textarea{
+  backdrop-filter:none!important;
+  -webkit-backdrop-filter:none!important;
+}
+body.integrated-pages #viewBoss,
+body.integrated-pages #viewTeam,
+body.integrated-pages #viewTl{
+  content-visibility:auto;
+  contain-intrinsic-size:auto 900px;
+}
+body.integrated-pages .student-pick img,
+body.integrated-pages .tl-avatar-choice img{
+  content-visibility:auto;
+}
 @media (max-width: 979px) {
   body.integrated-pages #status,
   body.integrated-pages #viewBoss > .panel {
@@ -746,10 +769,10 @@ body.integrated-pages .timeline-board {
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.5.62 · 學生圖片本地化版</div>
+    <div class="small">V4.5.63 · 效能優化版</div>
   </div>
-  <div id="status" class="status">V4.5.62 正在載入 272 名學生與本地圖片…</div>
-  <div class="small">V4.5.62 · 日服 · 繁體中文 · 學生圖片本地化</div>
+  <div id="status" class="status">V4.5.63 正在載入 272 名學生與本地圖片…</div>
+  <div class="small">V4.5.63 · 日服 · 繁體中文 · 效能優化</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -1436,6 +1459,12 @@ function renderStudents(){
   if(!box) return;
   box.innerHTML='';
 
+  // A collapsed list should not keep 272 image cards alive in the DOM.
+  // The filtered count above remains available, while cards are built only
+  // when the user opens the avatar panel.
+  const avatarPanel=$('studentAvatarPanel');
+  if(avatarPanel?.hidden) return;
+
   if(!list.length){
     const empty=document.createElement('div');
     empty.className='student-empty-state';
@@ -1449,7 +1478,7 @@ function renderStudents(){
     b.type='button';
     b.className='student-pick card'+(teamHas(s.Id)?' in-team':'');
     b.dataset.studentId=String(s.Id);
-    b.innerHTML=`<span class="avatar-wrap"><img class="avatar" src="${studentImg(s.Id)}" alt="${esc(s.Name)}"></span>
+    b.innerHTML=`<span class="avatar-wrap"><img class="avatar" loading="lazy" decoding="async" src="${studentImg(s.Id)}" alt="${esc(s.Name)}"></span>
       <div class="student-name"><b>${esc(s.Name)}</b></div>
       <div class="student-type">${squadLabel(s.SquadType)} · ${tacticRoleLabel(s.TacticRole)} · ${esc(bulletMap[s.BulletType]||s.BulletType||'')} · ${regionLabel(s)}</div>`;
 
@@ -1785,11 +1814,13 @@ function importJson(){
 function setStudentListCollapsed(collapsed){
   const panel=$('studentAvatarPanel'),button=$('toggleStudentList');if(!panel||!button)return;
   panel.hidden=Boolean(collapsed);button.textContent=collapsed?'展開學生頭像':'收起學生頭像';button.setAttribute('aria-expanded',collapsed?'false':'true');
+  if(collapsed){const grid=$('studentGrid');if(grid)grid.replaceChildren()}
+  else if(Array.isArray(students)&&students.length)renderStudents();
   try{localStorage.setItem('baStudentListCollapsed',collapsed?'1':'0')}catch{}
 }
 function setSquadFilter(value){$('squadFilter').value=value;document.querySelectorAll('.squad-filter-btn').forEach(button=>{const active=button.dataset.squad===value;button.classList.toggle('active',active);button.setAttribute('aria-pressed',active?'true':'false')});renderStudents()}
 $('toggleStudentList').onclick=()=>setStudentListCollapsed(!$('studentAvatarPanel').hidden);try{setStudentListCollapsed(localStorage.getItem('baStudentListCollapsed')==='1')}catch{setStudentListCollapsed(false)};
-$('boss').onchange=updateBoss;$('bossArmor').onchange=()=>{const r=raids.find(x=>String(x.Id)===$('boss').value);if(r)renderBossMeta(r);renderText();updateBossTlManager()};$('studentSearch').oninput=renderStudents;document.querySelectorAll('.squad-filter-btn').forEach(button=>button.onclick=()=>setSquadFilter(button.dataset.squad));['tacticFilter','bulletFilter','studentArmorFilter'].forEach(id=>$(id).onchange=renderStudents);
+$('boss').onchange=updateBoss;$('bossArmor').onchange=()=>{const r=raids.find(x=>String(x.Id)===$('boss').value);if(r)renderBossMeta(r);renderText();updateBossTlManager()};let studentSearchTimer=0;$('studentSearch').oninput=()=>{clearTimeout(studentSearchTimer);studentSearchTimer=setTimeout(renderStudents,120)};document.querySelectorAll('.squad-filter-btn').forEach(button=>button.onclick=()=>setSquadFilter(button.dataset.squad));['tacticFilter','bulletFilter','studentArmorFilter'].forEach(id=>$(id).onchange=renderStudents);
 $('clearTeam').onclick=()=>{strikers=Array(4).fill(null);specials=Array(2).fill(null);renderTeam();renderStudents();renderText();setStatus('隊伍已清空','ok')};
 $('tlStudent').onchange=syncTlSkills;$('tlSkill').onchange=applySelectedSkill;
 $('time').oninput=()=>{if($('time').value.trim())$('cost').value=''};
@@ -1802,7 +1833,7 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
 
 (async()=>{
   try{
-    setStatus('V4.5.62 正在載入 272 名學生與本地圖片…');
+    setStatus('V4.5.63 正在載入 272 名學生與本地圖片…');
 
     students=applyV457JpCorrections(EMBEDDED_STUDENTS.map(x=>({...x})));
     raids=EMBEDDED_RAIDS.map(x=>({...x}));
@@ -1813,11 +1844,11 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
     renderStudents();
     renderTl();
 
-    setStatus(`V4.5.62 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
+    setStatus(`V4.5.63 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
     const sharedCode=normalizeCloudCode(new URLSearchParams(location.search).get('tl'));if(sharedCode){$('cloudCode').value=sharedCode;await loadTimelineCloud(sharedCode)}
   }catch(e){
     console.error('V4.5.4 bootstrap failed',e);
-    setStatus(`V4.5.62 啟動失敗：${e?.message||e}`,'err');
+    setStatus(`V4.5.63 啟動失敗：${e?.message||e}`,'err');
   }
 })();
 
