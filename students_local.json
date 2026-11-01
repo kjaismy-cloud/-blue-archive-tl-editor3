@@ -9951,5 +9951,383 @@
       "Yuzu (Armed)",
       "yuzu_battle"
     ]
+  },
+  {
+    "Id": 390021,
+    "ImageId": 10149,
+    "PathName": "kokoro",
+    "Name": "心",
+    "EnglishName": "Kokoro",
+    "SquadType": "Main",
+    "TacticRole": "Supporter",
+    "Position": "MIDDLE",
+    "BulletType": "Mystic",
+    "ArmorType": "Special",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-11-01",
+    "_catalogIndex": 272,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "心",
+    "CurrentSlug": "kokoro",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.68",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.68",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390021.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kokoro",
+    "SchaleDBPage": "https://schaledb.com/student/kokoro",
+    "JPVerified": true,
+    "SearchAliases": [
+      "心",
+      "ココロ",
+      "Kokoro",
+      "kokoro"
+    ]
+  },
+  {
+    "Id": 390022,
+    "ImageId": 10150,
+    "PathName": "kotone",
+    "Name": "琴音",
+    "EnglishName": "Kotone",
+    "SquadType": "Main",
+    "TacticRole": "Tanker",
+    "Position": "FRONT",
+    "BulletType": "Explosion",
+    "ArmorType": "Special",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-11-01",
+    "_catalogIndex": 273,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "琴音",
+    "CurrentSlug": "kotone",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.68",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.68",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390022.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kotone",
+    "SchaleDBPage": "https://schaledb.com/student/kotone",
+    "JPVerified": true,
+    "SearchAliases": [
+      "琴音",
+      "コトネ",
+      "Kotone",
+      "kotone"
+    ]
+  },
+  {
+    "Id": 390023,
+    "ImageId": 10151,
+    "PathName": "anna",
+    "Name": "安娜",
+    "EnglishName": "Anna",
+    "SquadType": "Main",
+    "TacticRole": "DamageDealer",
+    "Position": "MIDDLE",
+    "BulletType": "Pierce",
+    "ArmorType": "Light",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-11-01",
+    "_catalogIndex": 274,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "安娜",
+    "CurrentSlug": "anna",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.68",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.68",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390023.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "anna",
+    "SchaleDBPage": "https://schaledb.com/student/anna",
+    "JPVerified": true,
+    "SearchAliases": [
+      "安娜",
+      "アンナ",
+      "Anna",
+      "anna"
+    ]
+  },
+  {
+    "Id": 390024,
+    "ImageId": 10152,
+    "PathName": "tsumugi",
+    "Name": "紬",
+    "EnglishName": "Tsumugi",
+    "SquadType": "Main",
+    "TacticRole": "Tanker",
+    "Position": "FRONT",
+    "BulletType": "Pierce",
+    "ArmorType": "Special",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-11-01",
+    "_catalogIndex": 275,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "紬",
+    "CurrentSlug": "tsumugi",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.68",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.68",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390024.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "tsumugi",
+    "SchaleDBPage": "https://schaledb.com/student/tsumugi",
+    "JPVerified": true,
+    "SearchAliases": [
+      "紬",
+      "ツムギ",
+      "Tsumugi",
+      "tsumugi"
+    ]
+  },
+  {
+    "Id": 390025,
+    "ImageId": 10153,
+    "PathName": "hifumi_racing",
+    "Name": "日富美（賽車）",
+    "EnglishName": "Hifumi (Racing)",
+    "SquadType": "Main",
+    "TacticRole": "DamageDealer",
+    "Position": "MIDDLE",
+    "BulletType": "Explosion",
+    "ArmorType": "Special",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-11-01",
+    "_catalogIndex": 276,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "日富美（賽車）",
+    "CurrentSlug": "hifumi_racing",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.68",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.68",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390025.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "hifumi_racing",
+    "SchaleDBPage": "https://schaledb.com/student/hifumi_racing",
+    "JPVerified": true,
+    "SearchAliases": [
+      "日富美（賽車）",
+      "ヒフミ（レーシング）",
+      "Hifumi (Racing)",
+      "hifumi_racing"
+    ]
+  },
+  {
+    "Id": 390026,
+    "ImageId": 20061,
+    "PathName": "kasumi_swimsuit",
+    "Name": "佳澄（泳裝）",
+    "EnglishName": "Kasumi (Swimsuit)",
+    "SquadType": "Support",
+    "TacticRole": "Supporter",
+    "Position": "BACK",
+    "BulletType": "Pierce",
+    "ArmorType": "Special",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-11-01",
+    "_catalogIndex": 277,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "佳澄（泳裝）",
+    "CurrentSlug": "kasumi_swimsuit",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.68",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.68",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390026.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "kasumi_swimsuit",
+    "SchaleDBPage": "https://schaledb.com/student/kasumi_swimsuit",
+    "JPVerified": true,
+    "SearchAliases": [
+      "佳澄（泳裝）",
+      "カスミ（水着）",
+      "Kasumi (Swimsuit)",
+      "kasumi_swimsuit"
+    ]
+  },
+  {
+    "Id": 390027,
+    "ImageId": 20062,
+    "PathName": "erina",
+    "Name": "艾莉娜",
+    "EnglishName": "Erina",
+    "SquadType": "Support",
+    "TacticRole": "Supporter",
+    "Position": "BACK",
+    "BulletType": "Sonic",
+    "ArmorType": "Light",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-11-01",
+    "_catalogIndex": 278,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "艾莉娜",
+    "CurrentSlug": "erina",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.68",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.68",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390027.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "erina",
+    "SchaleDBPage": "https://schaledb.com/student/erina",
+    "JPVerified": true,
+    "SearchAliases": [
+      "艾莉娜",
+      "エリナ",
+      "Erina",
+      "erina"
+    ]
+  },
+  {
+    "Id": 390028,
+    "ImageId": 20063,
+    "PathName": "azusa_racing",
+    "Name": "梓（賽車）",
+    "EnglishName": "Azusa (Racing)",
+    "SquadType": "Support",
+    "TacticRole": "Supporter",
+    "Position": "BACK",
+    "BulletType": "Explosion",
+    "ArmorType": "Special",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-11-01",
+    "_catalogIndex": 279,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "梓（賽車）",
+    "CurrentSlug": "azusa_racing",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.68",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.68",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390028.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "azusa_racing",
+    "SchaleDBPage": "https://schaledb.com/student/azusa_racing",
+    "JPVerified": true,
+    "SearchAliases": [
+      "梓（賽車）",
+      "アズサ（レーシング）",
+      "Azusa (Racing)",
+      "azusa_racing"
+    ]
+  },
+  {
+    "Id": 390029,
+    "ImageId": 26017,
+    "PathName": "rana",
+    "Name": "拉娜",
+    "EnglishName": "Rana",
+    "SquadType": "Support",
+    "TacticRole": "Vehicle",
+    "Position": "BACK",
+    "BulletType": "Explosion",
+    "ArmorType": "Special",
+    "_regions": [
+      "jp"
+    ],
+    "_sourceRegion": "schaledb-jp-current-2026-11-01",
+    "_catalogIndex": 280,
+    "Skills": [
+      {
+        "SkillType": "ex",
+        "Name": "EX 技能",
+        "Cost": [],
+        "Icon": ""
+      }
+    ],
+    "LocalChineseName": "拉娜",
+    "CurrentSlug": "rana",
+    "SquadTypeSource": "schaledb-jp-verified-v4.5.68",
+    "TacticRoleSource": "schaledb-jp-verified-v4.5.68",
+    "DataPolicy": "Schale DB JP current verified",
+    "LocalImage": "student-icons/390029.webp",
+    "Server": "jp",
+    "Locale": "zh-TW",
+    "SchaleDBSlug": "rana",
+    "SchaleDBPage": "https://schaledb.com/student/rana",
+    "JPVerified": true,
+    "SearchAliases": [
+      "拉娜",
+      "ラナ",
+      "Rana",
+      "rana"
+    ]
   }
 ]
