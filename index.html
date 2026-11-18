@@ -922,16 +922,64 @@ body.integrated-pages .boss-tl-actions #deleteBossTl{
   }
 }
 
+/* V4.5.72: direct difficulty and armor tile selectors. */
+body.integrated-pages .boss-option-grid{
+  display:grid;
+  grid-template-columns:auto auto minmax(120px,1fr);
+  gap:12px;
+  align-items:end;
+  min-width:0;
+}
+body.integrated-pages .boss-option-field{display:grid;gap:6px;min-width:0}
+body.integrated-pages .boss-option-label{font-weight:700;color:var(--text)}
+body.integrated-pages .boss-square-options{display:flex;gap:6px;flex-wrap:wrap}
+body.integrated-pages .boss-square-options .boss-option-btn{
+  width:54px!important;
+  height:54px!important;
+  min-width:54px!important;
+  min-height:54px!important;
+  padding:3px!important;
+  border:2px solid currentColor!important;
+  border-radius:10px!important;
+  background:rgba(7,18,29,.72)!important;
+  font-size:13px!important;
+  font-weight:800!important;
+  line-height:1.15!important;
+  color:var(--tile-color)!important;
+  transition:transform .14s ease,box-shadow .14s ease,background .14s ease!important;
+}
+body.integrated-pages .boss-square-options .boss-option-btn:hover{transform:translateY(-1px)}
+body.integrated-pages .boss-square-options .boss-option-btn.active{
+  color:#10202d!important;
+  background:var(--tile-color)!important;
+  box-shadow:0 0 0 2px rgba(255,255,255,.75),0 0 16px var(--tile-glow)!important;
+}
+body.integrated-pages .difficulty-lu{--tile-color:#f39a3d;--tile-glow:rgba(243,154,61,.48)}
+body.integrated-pages .difficulty-tm{--tile-color:#c9a7ff;--tile-glow:rgba(201,167,255,.48)}
+body.integrated-pages .difficulty-ins{--tile-color:#7dcfff;--tile-glow:rgba(125,207,255,.48)}
+body.integrated-pages .armor-light{--tile-color:#ff6175;--tile-glow:rgba(255,97,117,.48)}
+body.integrated-pages .armor-heavy{--tile-color:#f5c451;--tile-glow:rgba(245,196,81,.48)}
+body.integrated-pages .armor-special{--tile-color:#55b9ff;--tile-glow:rgba(85,185,255,.48)}
+body.integrated-pages .armor-elastic{--tile-color:#b98cff;--tile-glow:rgba(185,140,255,.48)}
+@media(max-width:760px){
+  body.integrated-pages .boss-option-grid{grid-template-columns:1fr 1fr}
+  body.integrated-pages .boss-option-grid>label{grid-column:1/-1}
+}
+@media(max-width:480px){
+  body.integrated-pages .boss-option-grid{grid-template-columns:1fr}
+  body.integrated-pages .boss-option-grid>label{grid-column:auto}
+}
+
 </style>
 </head>
 <body class="integrated-pages">
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.5.71 · 單張跟隨背景版</div>
+    <div class="small">V4.5.72 · Boss 方塊選擇版</div>
   </div>
-  <div id="status" class="status">V4.5.71 正在載入 281 名學生與本地圖片…</div>
-  <div class="small">V4.5.71 · 日服 · 繁體中文 · 單張跟隨背景</div>
+  <div id="status" class="status">V4.5.72 正在載入 281 名學生與本地圖片…</div>
+  <div class="small">V4.5.72 · 日服 · 繁體中文 · Boss 方塊選擇</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -978,25 +1026,37 @@ body.integrated-pages .boss-tl-actions #deleteBossTl{
           <div id="bossMeta" class="small"></div>
         </div>
       </div>
-      <div class="form2">
-        <label>難度
-          <select id="difficulty">
-            <option>LUNATIC</option><option>Torment</option><option>Insane</option><option>Extreme</option>
-            <option>Hardcore</option><option>Very Hard</option><option>Hard</option><option>Normal</option>
+      <div class="boss-option-grid">
+        <div class="boss-option-field">
+          <div class="boss-option-label">難度</div>
+          <select id="difficulty" hidden aria-hidden="true" tabindex="-1">
+            <option value="LUNATIC">LU</option><option value="Torment">TM</option><option value="Insane">INS</option>
           </select>
-        </label>
-        <label>Boss 護甲類型
-          <select id="bossArmor">
+          <div class="boss-square-options" role="group" aria-label="難度">
+            <button type="button" class="boss-option-btn difficulty-lu active" data-difficulty="LUNATIC" aria-pressed="true">LU</button>
+            <button type="button" class="boss-option-btn difficulty-tm" data-difficulty="Torment" aria-pressed="false">TM</button>
+            <button type="button" class="boss-option-btn difficulty-ins" data-difficulty="Insane" aria-pressed="false">INS</button>
+          </div>
+        </div>
+        <div class="boss-option-field">
+          <div class="boss-option-label">Boss 護甲類型</div>
+          <select id="bossArmor" hidden aria-hidden="true" tabindex="-1">
             <option value="LightArmor">輕裝甲</option>
             <option value="HeavyArmor">重裝甲</option>
             <option value="Unarmed">特殊裝甲</option>
             <option value="ElasticArmor">彈力裝甲</option>
           </select>
-        </label>
+          <div class="boss-square-options" role="group" aria-label="Boss 護甲類型">
+            <button type="button" class="boss-option-btn armor-light" data-armor="LightArmor" aria-pressed="false">輕裝甲</button>
+            <button type="button" class="boss-option-btn armor-heavy" data-armor="HeavyArmor" aria-pressed="false">重裝甲</button>
+            <button type="button" class="boss-option-btn armor-special" data-armor="Unarmed" aria-pressed="false">特殊裝甲</button>
+            <button type="button" class="boss-option-btn armor-elastic" data-armor="ElasticArmor" aria-pressed="false">彈力裝甲</button>
+          </div>
+        </div>
         <label>地形<select id="terrain"><option value="">自動</option></select></label>
       </div>
-      <label>隊伍名稱<input id="teamName" placeholder="例如：第一刀 黑子隊"></label>
-      <label>開場備註<input id="headerNote" placeholder="例如：開局凹下面出車"></label>
+      <input id="teamName" type="hidden" value="">
+      <input id="headerNote" type="hidden" value="">
 
       <div class="boss-tl-manager">
         <div class="space"><h2>Boss／護甲 TL 線上庫</h2><span id="bossTlCategory" class="badge">讀取分類中</span></div>
@@ -1431,11 +1491,27 @@ function renderBossMeta(r){
   const selectedArmor=$('bossArmor')?.value||r?.ArmorType||'';
   $('bossMeta').innerHTML=`<span class="badge">${esc(armorMap[selectedArmor]||selectedArmor||'')}</span>`+(r?.Terrain||[]).map(x=>`<span class="badge">${esc(terrainMap[x]||x)}</span>`).join('');
 }
+function syncBossOptionButtons(){
+  const difficulty=$('difficulty')?.value||'LUNATIC';
+  document.querySelectorAll('[data-difficulty]').forEach(button=>{const active=button.dataset.difficulty===difficulty;button.classList.toggle('active',active);button.setAttribute('aria-pressed',active?'true':'false')});
+  const armor=$('bossArmor')?.value||'';
+  document.querySelectorAll('[data-armor]').forEach(button=>{const active=button.dataset.armor===armor;button.classList.toggle('active',active);button.setAttribute('aria-pressed',active?'true':'false')});
+}
+function setBossDifficulty(value){
+  $('difficulty').value=['LUNATIC','Torment','Insane'].includes(value)?value:'LUNATIC';
+  syncBossOptionButtons();renderText();
+}
+function setBossArmor(value){
+  $('bossArmor').value=value;syncBossOptionButtons();
+  const r=raids.find(x=>String(x.Id)===$('boss').value);if(r)renderBossMeta(r);
+  renderText();updateBossTlManager();
+}
 function updateBoss(armorOverride=''){
   let r=raids.find(x=>String(x.Id)===$('boss').value);if(!r)return;
   setImageWithFallback($('bossImg'),bossImageCandidates(r));
   const requestedArmor=typeof armorOverride==='string'?armorOverride:'';
   if($('bossArmor'))$('bossArmor').value=requestedArmor||r.ArmorType||'HeavyArmor';
+  syncBossOptionButtons();
   renderBossMeta(r);
   let t=$('terrain');t.innerHTML='<option value="">自動</option>';
   (r.Terrain||[]).forEach(x=>{let o=document.createElement('option');o.value=x;o.textContent=terrainMap[x]||x;t.appendChild(o)});
@@ -1906,7 +1982,7 @@ async function deleteBossTlSlot(){
   }catch(error){bossTlMessage('線上刪除失敗：'+(error?.message||error),'err')}
 }
 
-function timelineSnapshot(){return {version:'4.5.71',bossId:$('boss').value,bossArmor:$('bossArmor').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl}}
+function timelineSnapshot(){return {version:'4.5.72',bossId:$('boss').value,bossArmor:$('bossArmor').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:'',headerNote:'',strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl}}
 function normalizeCloudCode(value){return String(value||'').toUpperCase().replace(/[^A-Z0-9]/g,'').slice(0,8)}
 function cloudMessage(message,type=''){const el=$('cloudMessage');el.textContent=message;el.style.color=type==='err'?'#ff8796':type==='ok'?'#83efb0':''}
 async function saveTimelineCloud(){
@@ -1941,7 +2017,7 @@ function importJson(){
   try{
     let d=JSON.parse($('jsonBox').value);
     if(d.bossId)$('boss').value=String(d.bossId);
-    $('difficulty').value=d.difficulty||'Torment';
+    $('difficulty').value=['LUNATIC','Torment','Insane'].includes(d.difficulty)?d.difficulty:'LUNATIC';
     // Apply the saved armor while refreshing the Boss. This prevents a custom
     // Perorodzilla Heavy Armor TL from being reset to the Boss default armor.
     updateBoss(typeof d.bossArmor==='string'?d.bossArmor:'');
@@ -1980,7 +2056,7 @@ function setStudentListCollapsed(collapsed){
 }
 function setSquadFilter(value){$('squadFilter').value=value;document.querySelectorAll('.squad-filter-btn').forEach(button=>{const active=button.dataset.squad===value;button.classList.toggle('active',active);button.setAttribute('aria-pressed',active?'true':'false')});renderStudents()}
 $('toggleStudentList').onclick=()=>setStudentListCollapsed(!$('studentAvatarPanel').hidden);try{setStudentListCollapsed(localStorage.getItem('baStudentListCollapsed')==='1')}catch{setStudentListCollapsed(false)};
-$('boss').onchange=updateBoss;$('bossArmor').onchange=()=>{const r=raids.find(x=>String(x.Id)===$('boss').value);if(r)renderBossMeta(r);renderText();updateBossTlManager()};let studentSearchTimer=0;$('studentSearch').oninput=()=>{clearTimeout(studentSearchTimer);studentSearchTimer=setTimeout(renderStudents,120)};document.querySelectorAll('.squad-filter-btn').forEach(button=>button.onclick=()=>setSquadFilter(button.dataset.squad));['tacticFilter','bulletFilter','studentArmorFilter'].forEach(id=>$(id).onchange=renderStudents);
+$('boss').onchange=updateBoss;$('bossArmor').onchange=()=>setBossArmor($('bossArmor').value);document.querySelectorAll('[data-difficulty]').forEach(button=>button.onclick=()=>setBossDifficulty(button.dataset.difficulty));document.querySelectorAll('[data-armor]').forEach(button=>button.onclick=()=>setBossArmor(button.dataset.armor));let studentSearchTimer=0;$('studentSearch').oninput=()=>{clearTimeout(studentSearchTimer);studentSearchTimer=setTimeout(renderStudents,120)};document.querySelectorAll('.squad-filter-btn').forEach(button=>button.onclick=()=>setSquadFilter(button.dataset.squad));['tacticFilter','bulletFilter','studentArmorFilter'].forEach(id=>$(id).onchange=renderStudents);
 $('clearTeam').onclick=()=>{strikers=Array(4).fill(null);specials=Array(2).fill(null);renderTeam();renderStudents();renderText();setStatus('隊伍已清空','ok')};
 $('tlStudent').onchange=syncTlSkills;$('tlSkill').onchange=applySelectedSkill;
 $('time').oninput=()=>{if($('time').value.trim())$('cost').value=''};
@@ -1993,7 +2069,7 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
 
 (async()=>{
   try{
-    setStatus('V4.5.71 正在載入 281 名學生與本地圖片…');
+    setStatus('V4.5.72 正在載入 281 名學生與本地圖片…');
 
     students=applyV457JpCorrections(EMBEDDED_STUDENTS.map(x=>({...x})));
     raids=EMBEDDED_RAIDS.map(x=>({...x}));
@@ -2004,11 +2080,11 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
     renderStudents();
     renderTl();
 
-    setStatus(`V4.5.71 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
+    setStatus(`V4.5.72 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
     const sharedCode=normalizeCloudCode(new URLSearchParams(location.search).get('tl'));if(sharedCode){$('cloudCode').value=sharedCode;await loadTimelineCloud(sharedCode)}
   }catch(e){
     console.error('V4.5.4 bootstrap failed',e);
-    setStatus(`V4.5.71 啟動失敗：${e?.message||e}`,'err');
+    setStatus(`V4.5.72 啟動失敗：${e?.message||e}`,'err');
   }
 })();
 
