@@ -801,7 +801,7 @@ body.integrated-pages::before{
   background-repeat:repeat-y;
 }
 
-/* V4.5.69: one viewport background only; never tile or duplicate the image. */
+/* V4.5.70: one viewport background only; never tile or duplicate the image. */
 body.integrated-pages::before{
   position:fixed;
   inset:0;
@@ -820,7 +820,7 @@ body.integrated-pages::before{
   }
 }
 
-/* V4.5.69: keep read/save together and move compact delete to far right */
+/* V4.5.70: keep read/save together and move compact delete to far right */
 body.integrated-pages .boss-tl-actions{
   display:flex!important;
   width:100%!important;
@@ -846,16 +846,58 @@ body.integrated-pages .boss-tl-actions #deleteBossTl{
   body.integrated-pages .boss-tl-actions #deleteBossTl{margin-left:auto!important}
 }
 
+
+/* V4.5.70: keep every desktop Boss field inside the half-width panel border */
+@media(min-width:980px){
+  body.integrated-pages #viewBoss > .panel{
+    min-width:0!important;
+  }
+  body.integrated-pages #viewBoss > .panel > *,
+  body.integrated-pages #viewBoss .bossbox,
+  body.integrated-pages #viewBoss .bossbox > .grid,
+  body.integrated-pages #viewBoss .bossbox label,
+  body.integrated-pages #viewBoss .boss-tl-manager{
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+  }
+  body.integrated-pages #viewBoss .bossbox{
+    grid-template-columns:86px minmax(0,1fr)!important;
+  }
+  body.integrated-pages #viewBoss input,
+  body.integrated-pages #viewBoss select,
+  body.integrated-pages #viewBoss textarea{
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+  }
+  body.integrated-pages #viewBoss > .panel > .form2{
+    width:100%!important;
+    max-width:100%!important;
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+  }
+  body.integrated-pages #viewBoss .boss-tl-slot-list{
+    grid-template-columns:repeat(5,minmax(0,1fr))!important;
+  }
+  body.integrated-pages #viewBoss .boss-tl-name-row,
+  body.integrated-pages #viewBoss .boss-tl-admin-row,
+  body.integrated-pages #viewBoss .boss-tl-actions{
+    width:100%!important;
+    min-width:0!important;
+    max-width:100%!important;
+  }
+}
+
 </style>
 </head>
 <body class="integrated-pages">
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.5.69 · 單張跟隨背景版</div>
+    <div class="small">V4.5.70 · 單張跟隨背景版</div>
   </div>
-  <div id="status" class="status">V4.5.69 正在載入 281 名學生與本地圖片…</div>
-  <div class="small">V4.5.69 · 日服 · 繁體中文 · 單張跟隨背景</div>
+  <div id="status" class="status">V4.5.70 正在載入 281 名學生與本地圖片…</div>
+  <div class="small">V4.5.70 · 日服 · 繁體中文 · 單張跟隨背景</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -1830,7 +1872,7 @@ async function deleteBossTlSlot(){
   }catch(error){bossTlMessage('線上刪除失敗：'+(error?.message||error),'err')}
 }
 
-function timelineSnapshot(){return {version:'4.5.69',bossId:$('boss').value,bossArmor:$('bossArmor').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl}}
+function timelineSnapshot(){return {version:'4.5.70',bossId:$('boss').value,bossArmor:$('bossArmor').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl}}
 function normalizeCloudCode(value){return String(value||'').toUpperCase().replace(/[^A-Z0-9]/g,'').slice(0,8)}
 function cloudMessage(message,type=''){const el=$('cloudMessage');el.textContent=message;el.style.color=type==='err'?'#ff8796':type==='ok'?'#83efb0':''}
 async function saveTimelineCloud(){
@@ -1917,7 +1959,7 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
 
 (async()=>{
   try{
-    setStatus('V4.5.69 正在載入 281 名學生與本地圖片…');
+    setStatus('V4.5.70 正在載入 281 名學生與本地圖片…');
 
     students=applyV457JpCorrections(EMBEDDED_STUDENTS.map(x=>({...x})));
     raids=EMBEDDED_RAIDS.map(x=>({...x}));
@@ -1928,11 +1970,11 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
     renderStudents();
     renderTl();
 
-    setStatus(`V4.5.69 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
+    setStatus(`V4.5.70 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
     const sharedCode=normalizeCloudCode(new URLSearchParams(location.search).get('tl'));if(sharedCode){$('cloudCode').value=sharedCode;await loadTimelineCloud(sharedCode)}
   }catch(e){
     console.error('V4.5.4 bootstrap failed',e);
-    setStatus(`V4.5.69 啟動失敗：${e?.message||e}`,'err');
+    setStatus(`V4.5.70 啟動失敗：${e?.message||e}`,'err');
   }
 })();
 
