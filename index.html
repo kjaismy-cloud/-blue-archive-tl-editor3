@@ -801,7 +801,7 @@ body.integrated-pages::before{
   background-repeat:repeat-y;
 }
 
-/* V4.5.68: one viewport background only; never tile or duplicate the image. */
+/* V4.5.69: one viewport background only; never tile or duplicate the image. */
 body.integrated-pages::before{
   position:fixed;
   inset:0;
@@ -819,16 +819,43 @@ body.integrated-pages::before{
     width: 100%;
   }
 }
+
+/* V4.5.69: keep read/save together and move compact delete to far right */
+body.integrated-pages .boss-tl-actions{
+  display:flex!important;
+  width:100%!important;
+  max-width:760px!important;
+  align-items:center!important;
+  gap:8px!important;
+}
+body.integrated-pages .boss-tl-actions button{
+  width:max-content!important;
+  min-width:0!important;
+  padding-left:14px!important;
+  padding-right:14px!important;
+  border-width:1px!important;
+  flex:0 0 auto!important;
+}
+body.integrated-pages .boss-tl-actions #deleteBossTl{
+  margin-left:auto!important;
+}
+@media(max-width:520px){
+  body.integrated-pages .boss-tl-actions{display:flex!important;grid-template-columns:none!important;gap:6px!important}
+  body.integrated-pages .boss-tl-actions .primary{grid-column:auto!important}
+  body.integrated-pages .boss-tl-actions button{width:max-content!important;min-width:0!important;padding-left:11px!important;padding-right:11px!important}
+  body.integrated-pages .boss-tl-actions #deleteBossTl{margin-left:auto!important}
+}
+
 </style>
 </head>
 <body class="integrated-pages">
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.5.68 · 單張跟隨背景版</div>
+    <div class="small">V4.5.69 · 單張跟隨背景版</div>
   </div>
-  <div id="status" class="status">V4.5.68 正在載入 281 名學生與本地圖片…</div>
-  <div class="small">V4.5.68 · 日服 · 繁體中文 · 單張跟隨背景</div>
+  <div id="status" class="status">V4.5.69 正在載入 281 名學生與本地圖片…</div>
+  <div class="small">V4.5.69 · 日服 · 繁體中文 · 單張跟隨背景</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -912,8 +939,8 @@ body.integrated-pages::before{
         </div>
         <div class="boss-tl-actions">
           <button id="loadBossTl">讀取</button>
-          <button id="deleteBossTl" class="danger" disabled>刪除</button>
           <button id="saveBossTl" class="primary" disabled>保存</button>
+          <button id="deleteBossTl" class="danger" disabled>刪除</button>
         </div>
         <div id="bossTlMessage" class="small">依目前選擇的 Boss 與護甲分類，線上保存最多 10 組 TL。</div>
       </div>
@@ -1803,7 +1830,7 @@ async function deleteBossTlSlot(){
   }catch(error){bossTlMessage('線上刪除失敗：'+(error?.message||error),'err')}
 }
 
-function timelineSnapshot(){return {version:'4.5.68',bossId:$('boss').value,bossArmor:$('bossArmor').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl}}
+function timelineSnapshot(){return {version:'4.5.69',bossId:$('boss').value,bossArmor:$('bossArmor').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:$('teamName').value,headerNote:$('headerNote').value,strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl}}
 function normalizeCloudCode(value){return String(value||'').toUpperCase().replace(/[^A-Z0-9]/g,'').slice(0,8)}
 function cloudMessage(message,type=''){const el=$('cloudMessage');el.textContent=message;el.style.color=type==='err'?'#ff8796':type==='ok'?'#83efb0':''}
 async function saveTimelineCloud(){
@@ -1890,7 +1917,7 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
 
 (async()=>{
   try{
-    setStatus('V4.5.68 正在載入 281 名學生與本地圖片…');
+    setStatus('V4.5.69 正在載入 281 名學生與本地圖片…');
 
     students=applyV457JpCorrections(EMBEDDED_STUDENTS.map(x=>({...x})));
     raids=EMBEDDED_RAIDS.map(x=>({...x}));
@@ -1901,11 +1928,11 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
     renderStudents();
     renderTl();
 
-    setStatus(`V4.5.68 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
+    setStatus(`V4.5.69 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
     const sharedCode=normalizeCloudCode(new URLSearchParams(location.search).get('tl'));if(sharedCode){$('cloudCode').value=sharedCode;await loadTimelineCloud(sharedCode)}
   }catch(e){
     console.error('V4.5.4 bootstrap failed',e);
-    setStatus(`V4.5.68 啟動失敗：${e?.message||e}`,'err');
+    setStatus(`V4.5.69 啟動失敗：${e?.message||e}`,'err');
   }
 })();
 
