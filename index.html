@@ -988,10 +988,10 @@ body.integrated-pages .armor-elastic{--tile-color:#b98cff;--tile-glow:rgba(185,1
 <div class="app grid">
   <div>
     <h1>蔚藍檔案總力戰 TL 編輯器</h1>
-    <div class="small">V4.5.75 · 夕陽海灘背景版</div>
+    <div class="small">V4.5.76 · 明亮海灘背景版</div>
   </div>
-  <div id="status" class="status">V4.5.75 正在載入 281 名學生與本地圖片…</div>
-  <div class="small">V4.5.75 · 日服 · 繁體中文 · 夕陽海灘背景</div>
+  <div id="status" class="status">V4.5.76 正在載入 281 名學生與本地圖片…</div>
+  <div class="small">V4.5.76 · 日服 · 繁體中文 · 明亮海灘背景</div>
 
   <section id="installHelp" class="panel grid">
     <div class="space">
@@ -1994,7 +1994,7 @@ async function deleteBossTlSlot(){
   }catch(error){bossTlMessage('線上刪除失敗：'+(error?.message||error),'err')}
 }
 
-function timelineSnapshot(){return {version:'4.5.75',bossId:$('boss').value,bossArmor:$('bossArmor').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:'',headerNote:'',strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl}}
+function timelineSnapshot(){return {version:'4.5.76',bossId:$('boss').value,bossArmor:$('bossArmor').value,difficulty:$('difficulty').value,terrain:$('terrain').value,teamName:'',headerNote:'',strikers:strikers.map(x=>x?.Id||null),specials:specials.map(x=>x?.Id||null),tl}}
 function normalizeCloudCode(value){return String(value||'').toUpperCase().replace(/[^A-Z0-9]/g,'').slice(0,8)}
 function cloudMessage(message,type=''){const el=$('cloudMessage');el.textContent=message;el.style.color=type==='err'?'#ff8796':type==='ok'?'#83efb0':''}
 async function saveTimelineCloud(){
@@ -2081,7 +2081,7 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
 
 (async()=>{
   try{
-    setStatus('V4.5.75 正在載入 281 名學生與本地圖片…');
+    setStatus('V4.5.76 正在載入 281 名學生與本地圖片…');
 
     students=applyV457JpCorrections(EMBEDDED_STUDENTS.map(x=>({...x})));
     raids=EMBEDDED_RAIDS.map(x=>({...x}));
@@ -2092,11 +2092,11 @@ $('refreshText').onclick=renderText;$('exportExcel').onclick=exportTimelineExcel
     renderStudents();
     renderTl();
 
-    setStatus(`V4.5.75 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
+    setStatus(`V4.5.76 載入完成：${students.length} 名學生｜${raids.length} Boss`,'ok');
     const sharedCode=normalizeCloudCode(new URLSearchParams(location.search).get('tl'));if(sharedCode){$('cloudCode').value=sharedCode;await loadTimelineCloud(sharedCode)}
   }catch(e){
     console.error('V4.5.4 bootstrap failed',e);
-    setStatus(`V4.5.75 啟動失敗：${e?.message||e}`,'err');
+    setStatus(`V4.5.76 啟動失敗：${e?.message||e}`,'err');
   }
 })();
 
